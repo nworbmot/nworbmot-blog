@@ -1,0 +1,11 @@
+
+
+*.pdf
+
+graphics/
+
+old/
+
+*~
+
+*.html

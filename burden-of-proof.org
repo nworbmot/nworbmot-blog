@@ -1,0 +1,847 @@
+#+TITLE: Burden of proof: renewables and nuclear power
+#+OPTIONS: tex:t
+
+First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31 Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+
+* About this document
+
+This blog post is a personal viewpoint by Tom Brown. It does not represent the viewpoint of my employer, KIT. It does not necessarily represent the viewpoint of the co-authors of [[https://doi.org/10.1016/j.rser.2018.04.113][our recent paper]], but I have asked them for feedback. It is not a consensus viewpoint of those who support renewable energy.
+
+It was written quickly, so it may contain mistakes and faulty arguments. I don't have a synoptic view of the literature, so it may not contain the best arguments. For this reason, I'll be updating the document over time. You can see the changes between versions in the [[https://github.com/nworbmot/nworbmot-blog][github repository]].
+
+It is intended for a lay audience, so please don't complain that I'm over-explaining everything.
+
+It is copyright Tom Brown, 2018, and released und a [[https://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International Licence]].
+
+* Background
+
+In April 2017 an article [[https://doi.org/10.1016/j.rser.2017.03.114][Burden of proof: A comprehensive review of
+the feasibility of 100% renewable-electricity systems]] (henceforth just
+"Burden") appeared that claimed 100% renewable energy studies don't
+demonstrate sufficient feasibility. My co-authors and I answered the
+points raised in May 2018 in a [[https://doi.org/10.1016/j.rser.2018.04.113][response article]]. Since then various
+counter-arguments appeared online, on Twitter and in blogs. Here I
+intend to collect responses to all these points, as well as developing
+a few other themes. Initially I'll focus on the points raised by Ben
+Heard, the lead author of Burden, but also address other points. Ben
+has kindly given me permission to quote his tweets and has checked
+that my representation of his points is correct.
+
+** How to read our response article and this blog post
+
+To understand the case for 100% renewable energy systems, our [[https://doi.org/10.1016/j.rser.2018.04.113][response
+article]] has to be read with the accompanying references. First of all,
+it relies on the many existing 100% studies already in the literature
+that were listed in the article. These studies propose investments in
+the energy system (generators, power lines, storage, etc.) that
+guarantee that energy demand can be met at all times and in all places
+under many different weather and demand conditions. The Burden paper
+questioned the assumptions and methodology behind these studies, and
+it was to these points we replied, using examples and references from
+the engineering and modelling literature.
+
+This blog post can be read as a companion to our response article,
+fleshing out some points with more explanation.
+
+* Generalities
+
+** Where we agree and disagree
+
+Here's where I think the different sides of this argument agree and disagree, although obviously I can't claim to speak for anyone but myself:
+
+We all agree global warming is an urgent issue.
+
+We all agree that man-made carbon dioxide emissions are contributing to global warming and should be reduced as soon as possible.
+
+Most of us agree that it is possible to reduce man-made carbon dioxide emissions in time to avoid the worst effects of global warming, if we act fast enough.
+
+We are disagreeing about the technologies that should be used to reduce carbon dioxide emissions.
+
+It's possible to disagree because technologies are always in a state
+of flux, some getting cheaper, some getting more expensive, and new
+technologies are also coming onto the market. Different people
+have different views on which technologies will prevail. There are
+also social, political and environmental risks that
+are subject to interpretation and judgement. There are also
+engineering judgements: Is a technology safe? Is a problem a
+roadblock or just a bread-and-butter engineering challenge?
+
+** Why it's important
+
+You might take the attitude that we should just put a high price on carbon dioxide and let the free market decide. Pricing carbon dioxide and other GHG is an essential prerequisite to effective action on global warming, but it's not the end of the story: there is a miriad of other government policies that play a role (setting market conditions, regulation, taxes, subsidies, R&D spending, strike prices, state loans, implicit state guarantees etc.). These are determined by our view of the technology landscape.
+
+
+** Where renewables are similar to nuclear
+
+I'll focus for most of the post on renewables and nuclear power; I'll
+get back to fossil+CCS another time.
+
+Besides both having low carbon dioxide emissions, renewables and
+nuclear are similar from an economic point of view: they both have
+high capital costs and low-to-vanishing variable costs. This makes the
+levelised cost of energy of both very sensitive to the cost of
+capital. So if, for example, you're going to [[http://energypost.eu/putting-nuclear-energy-on-the-critical-path/][argue for lower financing costs for
+nuclear]], then for a fair comparison you have to extend the same
+benefits to renewables.
+
+Both renewables and nuclear will also require similar solutions
+for meeting demand in energy sectors other than electricity.
+
+** Electrification of transport, thermal and industrial demand
+
+France covers 75% of its electricity with nuclear power. Many
+countries cover their electricity with hydro power. Denmark has
+reached 60% renewable electricity mostly with wind (50% of
+electricity) and biomass.
+
+But electricity is just a small fraction of the story. Here are the
+carbon dioxide emission in the European Union in 2015:
+
+#+CAPTION: Carbon dioxide emissions in the European Union in 2015 (Source: Tom Brown, based on statistics from [[https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-13][EEA]])
+#+NAME: fig:eu_co2
+#+ATTR_HTML: :width 700px
+[[./graphics/EU28-emissions_pie-2015-CO2.png]]
+
+No country is yet making big inroads into defossilising transport,
+heating and non-electric industrial demand. [One exception is Norway,
+which uses electricity from hydro for 75% of its residential space
+heating, and is rapidly expanding its use of electric vehicles.] We
+need to stop modelling electricity on its own and ignoring the other
+sectors, not just because they represent the majority of emissions,
+but also because the dynamics of the energy system are totally
+different when we consider them.
+
+
+Whether renewables or nuclear or both, many of the solutions will look
+similar. They will all involve some amount of electrification and some
+amount of storage, be it electrical, thermal or chemical, with
+fossil-free electricity as the proximate energy source.  If you like:
+electricity is the new primary energy.
+
+
+Take transport: We need dense energy carriers for vehicles that don't
+lead to GHG emissions. Current options include direct electrification
+(think train pantograph), battery electric vehicles, or electrofuels
+produced with fossil-free electricity (i.e. electrolysed hydrogen,
+methane produced from hydrogen and carbon oxides, methanol, DME,
+ammonia, diesel or kerosene from Fischer-Tropsch). Electric vehicles
+use electricity more efficiently than electrofuels, and will be fine
+on land (even perhaps for heavy-duty vehicles), but aviation and
+long-distance shipping are almost certainly going to need
+electrofuels.
+
+Take heating: Compare the yearly profile for electricity consumption
+in Europe:
+
+#+CAPTION: Electricity demand in Europe in 2011 (Source: Tom Brown, based on statistics from ENTSO-E)
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/elec_demand.png]]
+
+
+with the yearly profile for space and water heating:
+
+#+CAPTION: Space and water heating demand in Europe in 2011, based on degree-day approximation (Source: Tom Brown)
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/heat_demand.png]]
+
+
+The heating peak is massively more peaked than the electricity
+demand. Similar peaks can be seen in other parts of the world with
+seasonal heating and/or cooling demand.  How are you going to meet
+that peak with a baseload plant?
+
+With electricity as source, the options for heating are: resistive
+heating (horribly inefficient), heat pumps (more efficient, with
+coefficients of performance (COP) of up to 4-5 for ground-sourced heat
+pumps, but they still cause an electricity peak), seasonal thermal
+energy storage (e.g. large water tanks in district heating networks,
+charged in the summer), or using synthetic electrofuels, also produced
+during the summer. (Non-electric sources include solar thermal
+collectors and sustainable biomass; you could also use your nuclear
+plant as a CHP, but they're located far from population centres, so
+there would be big heat losses.) You can also reduce the heating peak
+relative to the electricity peak by a massive program of building
+insulation. But I don't see any economic ways of meeting that peak
+without thermal storage, electrofuels or biofuels.
+
+My point: outside of electricity demand, there is no good way around
+the use of electrical storage (e.g. for cars), thermal storage and/or
+chemical storage in electrofuels. Biofuels from waste/agricultural
+residues will also play a role.
+
+These solutions will be common, regardless of where the fossil-free
+electricity comes from.
+
+Two of the authors of Burden (Brook and Wigley) co-authored another
+paper [[https://doi.org/10.3390/su10020302][Silver Buckshot or Bullet: Is a Future “Energy Mix” Necessary?]]
+where they argue that all energy demand should be met by the nuclear
+[[https://en.wikipedia.org/wiki/Integral_fast_reactor][Integral Fast Reactor (IFR)]], and their solution is similar to that
+described above: "Given that peak demand is typically two to three
+times greater than average demand ... IFR technology can produce what
+is essentially “free” excess energy, which could be used to produce
+hydrogen" and then further used for other synthetic fuels (page
+6). Except for some reason they deny this possibility to renewables,
+arguing on page 4 that their excess energy has to be "dumped" - a
+strange double standard.
+
+Either way, the huge potential variability on the demand side from
+shiftable battery electric vehicle charging and hydrogen electrolysis
+means that it matters less whether you have dispatchable nuclear or
+variable renewables on the supply side. It will increasingly come down
+to the cost of energy. I'll return to this point in future posts.
+
+
+** Scaleability, mass production and substitution
+
+One of the chief advantages of renewable generators has been their
+small unit size (solar panels in kW's, wind turbines in single-digit
+MW's), which has enabled fast deployment, mass production and learning
+effects that have brought down costs dramatically.  Similar effects
+are now driving down the cost of lithium-ion batteries.  These effects
+have not yet been leveraged by nuclear technologies (smaller
+modular reactors could be commercialised, but [[http://energypost.eu/small-modular-reactors-for-nuclear-power-hope-or-mirage/][some are sceptical]]).
+
+Substitution: Renewables and the flexibility options required to
+integrate them are not a single technology; there are many different
+technology combinations that can be substituted if one is not
+viable. There are system concepts with more transmission and wind
+(i.e. more centralised); concepts with more solar and storage
+(i.e. more localised); and everything inbetween (see for example [[https://doi.org/10.1016/j.energy.2017.06.004][our
+recent paper]] on this point). Concentrated solar power with thermal
+storage in regions with high direct irradation performs similarly in
+the system to solar PV and battery systems. For any given storage
+technology, there are substitutes with similar power and energy
+characteristics (see below). Battery electric vehicles can be
+substituted with fuel cell vehicles, vehicles combusting hydrogen
+directly, or, less efficiently, vehicles running on liquid
+electrofuels. Whatever the most cost-effective technology is, there
+are plenty of feasible alternatives.
+
+
+* Storage technologies
+
+A few people complained that the storage section in our review paper
+was too brief and relied too much on references (perhaps they should
+just read the references?), so here's a slightly expanded version.
+
+
+** Electricity storage
+
+Three points here:
+
+i) If you just focus on electricity provision, ignoring other sectors,
+there is no strict necessity for stationary electricity storage in
+highly renewable scenarios.
+
+One of the first decent 100% renewable electricity scenarios was
+presented in 2005 by Gregor Czisch in his [[https://kobra.bibliothek.uni-kassel.de/bitstream/urn:nbn:de:hebis:34-200604119596/1/DissVersion0502.pdf][doctoral thesis]] (in German). He showed a combination of wind, existing hydro and 20%
+biomass (within the range of sustainable waste and residue biomass),
+along with substantial transmission expansion, could cover all
+electricity demand in Europe, the Middle East and North Africa. Neither
+storage was built nor any photovoltaics. [Archaeological note: he had
+assumed a capital cost of 5500 EUR/kW for PV in 2050; the current
+price is less than a sixth of that and hurtling towards a tenth soon.]
+
+In a [[https://arxiv.org/abs/1803.09711][preprint]] (not yet through peer review) we showed recently it is
+possible to get to 99.9% renewable electricity in Europe without
+biomass or storage, i.e. with only transmission and existing hydro for
+flexibility, although this pushes up the cost substantially. The
+availability of storage makes the system cheaper.
+
+At the moment, solar and battery systems are looking very attractive,
+but if lithium has to be prioritised in electric vehicles, there are
+many other alternatives to lithium batteries.
+
+ii) There is more to stationary electricity storage than lithium batteries. Here is a chart of different technologies from the 2014 paper [[https://doi.org/10.1016/j.apenergy.2014.09.081][Overview of current development in electrical energy storage technologies and the application potential in power system operation]] we cited in our review:
+
+#+CAPTION: Comparison of power rating and rated energy capacity with discharge time duration at power rating (Source: https://doi.org/10.1016/j.apenergy.2014.09.081)
+#+NAME: fig:storage
+#+ATTR_HTML: :width 700px
+[[./graphics/storage.jpg]]
+
+Not all the technologies are mature. Here is a list with commentary on
+maturity from that paper:
+
+Of the short-term storage technologies useful for balancing solar
+there is: pumped hydro ("mature", but viability depends on geography
+and environmental impact analysis); lithium ion (li-ion,
+"demonstration" as of 2014, but now commercialised); compressed air
+energy storage (CAES, "commercialised"); adiabatic CAES
+("developing"); lead-acid ("mature"); sodium-sulphur batteries (NaS,
+"commercialised"); vanadium redox flow battery (VRB, "demo/early
+commercialised"); polysulfide bromine flow battery (PSB,
+"developing"); zinc bromide flow battery (ZnBr, "demonstration");
+nickel–cadmium (NiCd, "commercialised").
+
+Of the longer-term storage technologies useful for balancing wind there is:
+compressed air energy storage (CAES, "commercialised"); adiabatic CAES
+("developing"); thermal energy storage (TES, "demo/early
+commercialised", although I would classify it as
+"commercialised" for 2018); hydrogen storage ("developing/demonstration");
+other synthetic electrofuel storage.
+
+Storing thermal energy is as simple as taking a large tank of hot
+water and insulating it; this is already done at scale in district
+heating networks. Converting it back to electricity is inefficient and
+the thermal energy is better used directly in the heating sector. TES
+can also be done with other mediums, like hot rocks or ceramics.
+
+Using electricity to electrolyse water will be discussed in more
+detail in the following section on electrofuels.
+
+
+iii) In sector-coupled scenarios, many studies don't see any need for
+stationary electricity storage at all. To quote from our paper, "in a
+holistic, cross-sectoral energy systems approach that goes beyond
+electricity to integrate all thermal, transport and industrial demand,
+it is possible to identify renewable energy systems in which all
+storage is based on low-cost well-proven technologies, such as
+thermal, gas and liquid storage, all of which are cheaper than
+electricity storage ([[https://doi.org/10.5278/ijsepm.2016.11.2][190]])". This connects to point i) above and the
+discussion on sector-coupling. A lack of stationary electricity
+storage is not a deal-breaker for 100% renewables systems.
+
+** On lithium and rare earth restrictions
+
+On the resources front, concerns about renewables scenarios are most
+often raised for lithium and rare earth metals.
+
+Lithium and rare earth restrictions are, however, primarily a problem
+for battery electric vehicles, not for renewables; therefore this
+problem affects all fossil-free scenarios.
+
+As far as rare earth requirements for wind turbines go, several
+major manufacturers (e.g. Enercon, Siemens) build wind turbines with
+electromagnets (copper and steel) rather than permanent magnets, which
+do not need rare earths, see for example the 2017 paper
+[[https://www.sciencedirect.com/science/article/pii/S0301420717300077][Substitution
+strategies for reducing the use of rare earths in wind turbines]].
+
+As explained above, stationary lithium batteries are not a strict
+requirement for renewables systems, but currently they look
+economically attractive combined with PV and may compete in the future
+for lithium with BEVs.
+
+For electric vehicle motors there are alternative concepts that use
+less rare earth metals, see the 2017 paper [[https://doi.org/10.1016/j.susmat.2017.01.003][Role of substitution in
+mitigating the supply pressure of rare earths in electric road
+transport applications]]. There is no clear winner and it seems R&D is
+still required in this area.
+
+Lithium is less problematic. According to the [[https://minerals.usgs.gov/minerals/pubs/commodity/lithium/][United States Geological
+Survey]] in 2018 total worldwide lithium reserves were 16 million tLi,
+and identified resources (the same category we use for uranium below)
+were 53 million tLi. These figures are "metric tons of lithium
+content"; lithium resources are also often quoted in mass of Lithium
+Carbonate Equivalent (LCE); lithium carbonate (Li2CO3) contains around
+18.8% lithium, see also this [[http://rocktechlithium.com/lithium-conversion-table/][lithium conversion table]]. Mine production
+was 43,000 tLi in 2017 according to the USGS, or 230,000 tLCE.
+
+A common assumption is that 1 kWh of battery capacity requires 1
+kgLCE, so if a typical car has a 50 kWh battery, that's around 10 kgLi.
+
+So the identified resources are enough to cover 5.3 billion cars.
+
+Today there are around 1 billion cars, so there is enough to cover a
+significant growth in demand; if no new resources are identified, or
+new resources are too expensive, recycling of lithium is also possible.
+
+There's also all sorts of [[http://pubs.acs.org/doi/10.1021/acsnano.7b05874][interesting ways]] to increase the energy
+density of lithium ion batteries without using more lithium.
+
+Cobalt scarcity could be a problem for BEV batteries, given that
+much of it is mined in the Republic of Congo. It would be interesting
+to understand the alternatives here.
+
+As mentioned above under "substitution", there are several
+alternatives to BEVs for fossil-free transport, in the unlikely event
+that resource restrictions make BEVs unviable.
+
+
+
+** Synthetic electrofuels
+
+Here we use "electrofuels" to refer to chemicals produced with
+electricity. Whether in gaseous or liquid form, these chemicals can be
+stored cheaply for long periods of time; many can use existing
+distribution and storage infrastructure currently used for fossil
+fuels.  The downside of their use is energy conversion losses that
+have to be offset against their versatility.
+
+The first step in their production is typically the electrolysis of
+hydrogen. Hydrogen can be used as-is, or combined with a carbon source
+to make methane, other hydrocarbons (e.g. diesel, kerosene), DME,
+methanol, etc., or combined with nitrogen to make ammonia. Hydrogen
+can also be produced thermochemically, using either solar or nuclear
+energy.
+
+As far as the production of hydrocarbons from hydrogen and carbon
+oxides goes, many of the chemical processes are already done today on
+an industrial scale, such as methanation, used on syngas from the
+gasification of coal to create [[https://en.wikipedia.org/wiki/Substitute_natural_gas][synthetic natural gas]] (SNG), or the
+[[https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process][Fischer-Tropsch process]] to create liquid hydrocarbons from
+syngas. These are mature technologies and there are no resource
+restrictions here.
+
+What is currently not done on a large scale is the first step, the
+electrolysis of hydrogen. This is for economic reasons: steam
+reformation of natural methane is cheaper and is used for 95% of the
+world's hydrogen production, even though it results in direct carbon
+dioxide emissions.
+
+There are three technologies for electrolysis: Alkaline, Proton
+Exchange Membrane (PEM) and Solid Oxide Electrolysis Cell (SOEC); the
+different advantages and disadvantages are discussed for example in
+[[https://doi.org/10.1016/j.renene.2015.07.066][this paper]] and [[https://www.di-verlag.de/media/content/GFE/issue_2_14/gfe2_14_fb_Grond.pdf][this report]]. Both Alkaline and PEM are commercialised
+(Siemens is already selling its [[https://www.siemens.com/global/de/home/produkte/energie/erneuerbare-energien/hydrogen-solutions.html][SILYZER]] range of PEM electrolysers in
+the megawatt range); SOEC has a [[https://en.wikipedia.org/wiki/Technology_readiness_level][Technology Readiness Level]] (TRL) 6-7
+according to [[https://dechema.de/dechema_media/Technology_study_Low_carbon_energy_and_feedstock_for_the_European_chemical_industry-p-20002750.pdf][this report]] (TRL goes from 1 ("basic principles observed
+and reported") up to 9 ("proven through successful mission
+operations")). Alkaline is the current state-of-the-art for
+electrolytic hydrogen production, but PEM and SOEC show the greatest
+promise for cost reduction. PEM is reliant on scarce platinum;
+technology developments will lower platinum usage, and platinum can be
+recycled, but this restriction may favour SOEC in the long
+run. Whichever way it goes, there are several options for
+electrolysis, it is just not clear which will win the cost reduction
+battle.
+
+
+
+
+* Renewables
+
+** Grid costs with renewables
+
+Ben [[https://twitter.com/BNW_Ben/status/999464491761848321][questioned]] how we could be so sanguine in our review about
+additional grid costs corresponding to 10-15% of total system costs.
+
+The point here is simple: additional grid expansion enables cost
+savings elsewhere on generation and storage. If you can use the grid
+to integrate wind and solar generators at sites with the best
+resources, or if you can use grids to smooth out renewable feed-in
+over a large area and reduce the need for balancing services, you'll
+end up saving more than you spend on the grid. This is, after all, the
+criterion for efficient grid investment: you keep building until
+the marginal benefit of new capacity is zero.
+
+Here's a concrete example from the [[https://tyndp.entsoe.eu/][Ten Year Network Development Plan]]
+(TYNDP) of the European Transmission System Operators (ENTSO-E) which
+we quoted in our paper: they foresee 150 billion EUR investment needs
+in the European transmission system in total, of which 70-80 billion
+EUR by 2030, resulting in 1 to 2 EUR/MWh grid costs, but enabling 1.5
+to 5 EUR/MWh reduction in wholesale prices through the integration of
+cheaper generation sources (renewables *and* nuclear). Grid expansion
+costs pay off elsewhere in the system.
+
+In another report by ENTSO-E on the [[https://tyndp.entsoe.eu/tyndp2018/power-system-2040/][European Power System in 2040]] they
+calculate that the extra costs to consumers of *not* extending the grid
+would run to 43 billion EUR per year. Extending the grid leads to
+cheaper overall system costs; grid costs increase, but costs elsewhere
+in the system go down by more.
+
+This is part of a general theme: with the costs of renewable energy
+production already below conventional sources and sinking every year,
+a greater fraction of system costs is going to energy integration.
+
+As we explained in Chapter 4.4 of our paper, overhead power lines can
+be controversial; there are other options (cables, storage) if public
+acceptance is lacking, but they are more expensive.
+
+
+** Renewable fluctuations balancing out
+
+Ben [[https://twitter.com/BNW_Ben/status/999462190955425793][quoted]] from our paper "However, the time resolution depends on the
+area under consideration, since short-term weather fluctuations are
+not correlated over large distances and therefore balance out" and
+he doubted this was true: "Can show 2 weeks of Australia getting ~0
+supply from wind/solar".
+
+This is a misunderstanding, which can be resolved by reading further
+in the paper. We're saying that the variations in production values over
+short time scales are not correlated over large distances, but the
+production values themselves are definitely correlated (see references
+in footnote 3).
+
+Perhaps it's easier to say this in mathematics: suppose we have
+production $p_{n,t}$ at location $n$ and time $t$. The production time
+series for different $n$ will be correlated over hundreds of
+kilometres for both solar and wind. However, the differences
+$\Delta_{n,t} = p_{n,t} - p_{n,t-1}$ will not be correlated for short
+time steps beyond 100 km (see Figure 2 in our paper).
+
+So what we said is consistent with wind/solar dropping to zero for 2
+weeks in Australia.
+
+
+** Temporal scales at fine spatial resolution
+
+Christopher Clack [[https://twitter.com/clacky007/status/999479315602460672][raised the point]] that sub-hourly variations, which
+we said were less important at national level, play a bigger role at
+smaller spatial scales.
+
+This is true; after all Burden's source (123) for the sub-hourly
+variations of PV was based on a single solar power plant.
+
+Our argument was that over larger distances, sub-hourly variations are
+not correlated and therefore smooth out.
+
+However, even if there is no problem over the larger area, there may
+be local variations that locally stress the grid. For example, there
+could be correlated variations between substations in the grid that
+cause power fluctuations within the transmission grid in each country.
+
+The answer to this is quite simple: if this is a problem, it is
+already being managed successfully today. Variable renewable feed-in
+already approaches 100% instantaneous penetration in Germany, and
+exceeds 100% in Denmark. If this were a show-stopper, we'd know
+already. Still, I'd be curious to learn from TSOs whether this is
+something they have to actively manage, and whether they see
+e.g. 5-minute fluctuations due to renewables in their grids, and
+whether these fluctuations on short time scales are any worse than
+those from the load.
+
+
+
+
+
+** Energy use for manufacturing energy converters
+
+The issue was raised in a private email that in Section 3.1 on energy
+consumption we took account of switching fuels (Figure 1) and
+mining/refining upstream costs of fossil fuels and uranium, but not of
+the energy used to manufacture generators, vehicles and heating units.
+
+For the energy used to manufacture generators, consider this
+graph from [[https://doi.org/10.1038/s41560-017-0032-9][this 2017 paper]] in Nature Energy, which considers indirect
+"embodied energy use" (EEU), defined as the energy required for the
+construction of power plants and the production and transportation of
+fuels and other inputs:
+
+
+#+CAPTION: Embodied energy use of electricity generation technologies as a percentage of lifetime electricity generation (Source: https://doi.org/10.1038/s41560-017-0032-9)
+#+NAME: fig:embodied
+#+ATTR_HTML: :width 700px
+[[./graphics/embodied_energy.png]]
+
+The embodied energy use of wind, CSP and PV (primarily in
+construction) is much smaller than fossil, hydro or bioenergy
+sources. Nuclear is also much lower (due to the energy density of
+uranium, which requires less mining and refining than fossil fuels per
+MWh).
+
+Just as important as the energy use is the CO2 impact, i.e. how much of this energy use can be done without CO2 emissions. Electricity can be
+defossilised; liquid energy carriers are presumably in transport and
+can also be electrified or substituted for electrofuels; gas can also
+be synthesised; process heat from solid fuels must also be substituted.
+
+For battery electric vehicles, the energy used in construction,
+particularly of the batteries, can be up to double internal combustion
+engine vehicles doi:10.1111/j.1530-9290.2012.00532.x, so this does
+compensate somewhat for the primary energy saved in switching
+fuels. It would be interesting to understand which parts of the
+production process can be easily substituted with fossil-free electricity.
+
+For heat pumps I'm still looking for a reference.
+
+
+
+** All 100% is hydro
+
+Ben [[https://twitter.com/BNW_Ben/status/999467691122438144][tweeted]] "Brown et al's list of places that are 'close to' 100 % RE
+is basically hydro, hydro, hydro. And many studies in Burden of Proof
+needed +++ hydro. We discussed why this is and can be a serious
+sustainability problem."
+
+We acknowledged that the examples were mostly hydro in the following
+paragraph. We were also not advocating the expansion of hydro. Most
+studies rely on the expansion of wind and solar generators.
+
+* Nuclear
+
+** Existing plants
+
+The concern was [[https://twitter.com/jmkorhonen/status/997348827265892353][raised]] that the arguments in our article might be used
+to advocate shutting existing nuclear plants. I share this
+concern. While I respect the public consensus on this issue in some
+countries, I think it's a mistake to prematurely close existing plants
+as long as they can be safely operated (which includes an ongoing
+assessment of the terrorism threat), and as long as any subsidy they
+require to stay open cannot be more cost-effectively spent on
+renewable generation. This has to be assessed on a case-by-case basis.
+
+** Uranium resources
+
+For uranium resources we took in our response article the biggest
+number we consider reliable from the NEA and IAEA's report [[https://www.oecd-nea.org/ndd/pubs/2016/7301-uranium-2016.pdf][Uranium
+2016: Resources, Production and Demand]] (the 'Red Book'), which is the
+total identified resources in the highest cost category (<USD
+260/kgU), amounting to 7.6 million tU. This includes both 'reasonable
+assured resources' and 'inferred resources'. We pointed out that in a
+scenario fully relying on nuclear power from once-through light-water
+reactors, these resources could cover the world's current electricity
+demand for only around 13 years, and the world's full energy demand
+for just 6 years. Our point was that a fully nuclear world based on
+light-water reactors would soon be relying on 'undiscovered resources'
+(divided into 'prognosticated' and 'speculative' according to the Red
+Book) or 'unconventional resources', or would have to trade up to
+reactors that use uranium (and other actinides) more efficiently, like
+fast reactors.  At much lower usage rates of uranium, like today's,
+there's clearly no problem for many decades. In a mixed
+renewables-nuclear scenario with a significant share of nuclear much
+higher than today's, the problem is just deferred.
+
+The [[https://twitter.com/BNW_Ben/status/999470345890353152][counter-point]] was made by Ben: "Both what is identified and what
+is recoverable is totally price dependent, and the price of the ore
+has near-zero impact on the price of the electricity", i.e. if uranium
+becomes scarce, the price will go up and stimulate new exploration.
+
+The Red Book estimates undiscovered resources to be 7.4 million tU
+(although reporting is incomplete, excluding possible "significant
+resource potential in as yet sparsely explored areas" in
+Australia). It notes that "Both prognosticated and speculative
+resources require significant amounts of exploration before their
+existence can be confirmed and grades and tonnages can be defined". So
+both the price and volume is uncertain.
+
+On "unconventional resources", the Red Book has this to say: "Most of
+the unconventional uranium resources reported to date are associated
+with uranium in phosphate rocks, but other potential sources exist
+(e.g. black shale and seawater)." On uranium from phosphates "22
+million tU...is probably a very conservative estimate of total
+resources but is likely to be a reasonably accurate reflection of
+commercially exploitable resources". Seawater resources are "over 4
+billion tU" but due to low concentrations "developing a cost-effective
+method of extraction remains a challenge". A possible development (not
+tested at scale) that brings the price of extraction down to 660
+USD/kgU is mentioned.
+
+Let's take that last price. At today's uranium prices (around 50
+USD/kgU), the fuel cost is pretty trivial. But at 660 USD/kgU,
+assuming that's a reliable figure, it's contributing 16.5 USD/MWh
+(assuming 40 MWh/kgU), which will have a non-trivial impact on
+economic viability (see section below).
+
+As for the rest, there seems to be a high level of uncertainty, both
+on volume and price. Even taking the best of reported 'undiscovered
+resources' and unconventional commercially exploitable uranium for
+phosphates, we get an extra 29 million tU, which buys the total energy
+system with once-through light-water reactors another 24 years.
+
+We need an energy source that can provide energy for hundreds of
+years. Renewables fulfil that condition (material constraints for
+renewables and storage are discussed above). Fast reactors fulfil that
+condition.
+
+Consider the section on uranium resources on pages 327-8 in [[https://www.goodreads.com/book/show/13393683-plentiful-energy][Plentiful
+Energy]], the story of the [[https://en.wikipedia.org/wiki/Integral_fast_reactor][Integral Fast Reactor (IFR)]] as told by
+Charles Till and Yoon Chang. Charles Till was the lead of the IFR
+project and Yoon Chang was his deputy. They show that "IFR deployment
+can cap the cumulative uranium requirements just above the 'Identified
+Resources' [for them about 7 million tU] and 'Undiscovered Resources'
+[for them about 10 million tU] combined". They go on to say
+"Undiscovered Resources refers to uranium that is thought to exist on
+the basis of indirect evidence and geological extrapolation. The
+existence, size, and recovery cost of such resources are
+speculative. In fact, it is reasonable to suggest that amounts only up
+to the limits of Identified Resources category should be taken as the
+limit of uranium resources at any given time, because commitments to
+build nuclear capacity must be made on the basis of confidence in the
+availability of uranium resources over their entire
+lifetimes". Agreed. [NB: Plentiful Energy
+has a Foreword by Barry Brook, a co-author of Burden.]
+
+
+For me the two consistent positions you can take on this are:
+
+i) We have the resources for a moderate use of light-water reactors for many decades
+
+ii) For a full switch to nuclear, light-water reactors can only be a bridge of a few decades before fast nuclear reactors become desirable
+
+Position i) is fine, but I'd question the economics, see below; it
+will still require relying on renewables for the rest of the
+fossil-free energy.
+
+Position ii) is put by Plentiful Energy (and without so much bridge by
+Silver Bullet), also for other reasons like waste management, lower
+proliferation risk and safety, but I'd question both the risk of
+relying on unproven technology and the economics (estimates put the
+cost of fast reactors at 25% more than light-water reactors, but they haven't
+been tested commercially).
+
+
+** Fast reactors
+
+We were careful not to foreclose on either fast reactors or fusion; we
+just don't think they're mature enough to rely on for future planning.
+I appreciate some of the arguments for the IFR and it sounds like it
+was a mistake to cancel the project before it was fully
+demonstrated. If the technology is further developed, I'll be watching
+with interest, but remain sceptical on cost.
+
+** Mixing nuclear and renewables
+
+In response to the assertion in our paper that renewables and nuclear
+don't mix well, Ben [[https://twitter.com/BNW_Ben/status/999470779417804801][tweeted]] "Well that's just wrong, see recent paper
+from @JesseJenkins . my own upcoming modelling of the NEM finds great
+combinations of wind, solar, hydro, nuclear + open cycle gas.".
+
+Everything that needs to be said on this topic was already said in
+[[https://twitter.com/nworbmot/status/997810157735366657][this thread]]. Jesse Jenkins and colleagues' [[https://doi.org/10.1016/j.apenergy.2018.03.002][paper]] assumes fixed
+capacities of renewables and nuclear, and then examines how they can
+be operated together in an efficient way (i.e. it's a short-run
+dispatch model). This is a different question to what the optimal
+capacities are.
+
+In our paper we were making a point about long-run investment,
+i.e. that when deciding how much capacity to build, the case for mixed
+renewable-nuclear systems is weak. If nuclear plants are not
+cost-effective today running as baseload, they are even less likely to
+be cost-effective when running at part-load to balance renewables. This is
+the same argument why no country is 100% nuclear today: a baseload
+profile does not fit the varying demand profile, so e.g. in France
+there is only 75% nuclear coverage, with the majority of nuclear plant
+as baseload, some doing some load-following, and flexible generation
+and storage providing the rest of electricity generation.
+
+The one potential hole in this argument is that high market prices
+during times of variable renewable scarcity might provide enough
+revenue for nuclear operators to cover their fixed costs. However,
+nuclear is then in competition with existing hydro, imports,
+sustainable biomass, DSM and storage during these hours.  This
+question can only be resolved by simulation (I might provide some toy
+examples in [[https://github.com/PyPSA/PyPSA][PyPSA]] later) and the question essentially boils down to
+what your cost assumptions are for renewables, storage and nuclear
+(see next subsection).
+
+Since most 100% renewable electricity simulations already show total
+system costs (including balancing by transmission and storage) in the
+range 50-60 EUR/MWh, this is the cost with which nuclear has to
+compete. Unless nuclear is in this range, it will be excluded from
+investment simulations.
+
+
+** The cost of electricity from light-water reactors
+
+Let's talk about the new nuclear power plant under construction at
+Hinkley Point in Britain. Not because it's very expensive, but because
+it is being financed under similar conditions to new renewable power
+plants. (I accept that restarting a nuclear programme with a new type
+of reactor design is going to be more expensive than large-scale
+deployment of an established design.)
+
+In the UK, new renewable plant as well as new nuclear receive a strike
+price, which is a guaranteed price for their energy, up to which money
+is topped if the market price is below the strike price. This gives
+investors some degree of certainty.
+
+Hinkley Point C is (I think) the first case where a nuclear power
+plant has been financed under such an arrangement.  It means that the
+project developer has to bear all the risk in case of budget
+overruns. They also have to set aside 7.3 billion pounds (GBP) in 2016
+prices for decommissioning and waste management. If the costs go above
+this level, as with the costs of dealing with any major accident, the
+state still has to foot the bill. You can read more about the Hinkley
+Point deal, along with a breakdown of costs (see Figure 2) and the
+burden to consumers in the UK National Audit Office's [[https://www.nao.org.uk/wp-content/uploads/2017/06/Hinkley-Point-C.pdf][report on
+Hinkley Point C]].
+
+The strike price for Hinkley Point C was fixed at 92.5 GBP/MWh at 2012
+prices, index linked after that. That means it's hit over 100 GBP/MWh
+at today's prices, or around 120 EUR/MWh. The Department for Business,
+Energy and Industrial Strategy (BEIS) [[https://www.carbonbrief.org/analysis-uk-auction-offshore-wind-cheaper-than-new-gas][expects]] wholesale power prices
+to average 53 GBP/MWh in the period from 2023 to 2035.  Compare this
+to other recent auction results: 57.5 GBP/MWh for offshore wind in GB
+in 2017 (including the grid connection), 29 USD/MWh for solar PV in
+Chile and 30 USD/MWh for onshore wind in Morocco, see the following
+graphic:
+
+#+CAPTION: A selection of recent (as of 2017) global auction results for solar and onshore wind (Source: Copyright Baringa Partners LLP 2017, [[https://www.baringa.com/getmedia/99d7aa0f-5333-47ef-b7a8-1ca3b3c10644/Baringa_Scottish-Renewables_UK-Pot-1-CfD-scenario_April-2017_Report_FINA/][original link]])
+#+NAME: fig:baringa
+#+ATTR_HTML: :width 1000px
+[[./graphics/baringa-auctions.png]]
+
+Lazard's 2017 [[https://www.lazard.com/perspective/levelized-cost-of-energy-2017/][Levelized cost of energy (LCOE) analysis]] puts utility PV
+(43-52 USD/MWh) and onshore wind (30-60 USD/MWh) well under half the
+cost of nuclear (112-183 USD/MWh).
+
+
+These auction and LCOE results are just for the energy generated by
+renewables and do not include the integration costs for both nuclear
+and renewables (e.g. balancing services, flexibility, storage and
+networks). That's why researchers do system integration studies to
+work out the full cost of all technologies playing together to meet
+energy demand in all weather and load situations.  But even factoring
+in these integration costs, average global electricity costs are
+simulated to drop from 70 EUR/MWh in 2015 to as low as 52 EUR/MWh for
+100% renewable energy in 2050 according to [[http://dx.doi.org/10.1002/pip.2950][this paper]]. The many other
+studies we cited in our paper show similar results.
+
+New nuclear will have to compete with these total system costs, and
+[[http://energypost.eu/putting-nuclear-energy-on-the-critical-path/][currently it doesn't]] in many countries. Some of the costs reported in
+South Korea and China for nuclear approach these levels, but there are
+reasons to treat these numbers with scepticism. The suspicion has been
+raised in a [[https://www.greenpeace.de/sites/www.greenpeace.de/files/publications/20170705_greenpeace_studie_comparing_electricity_costs_engl.pdf][report for Greenpeace]] (page 53), based on the prices of
+the same power plants built for the export market, that in China and
+South Korea "a high level of domestic subsidy [is] possibly
+incorporated in the reported overnight costs that are commonly used in
+international publications". [[https://doi.org/10.1016/j.enpol.2016.03.052][Other]] [[http://sro.sussex.ac.uk/66334/][concerns]] have been raised in the
+academic literature that analysis of nuclear overnight costs does not
+reflect the substantial effects of construction delays and cost
+overruns.
+
+According to the [[http://www.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter7.pdf][IPCC 5th Assessment Report on Mitigating Climate
+Change in Energy]] "Potential project and financial risks are
+illustrated by the significant time and cost over-runs of the two
+novel European Pressurized Reactors (EPR) in Finland and France
+(Kessides, 2012). Without support from governments, investments in new
+nuclear power plants are currently generally not economically
+attractive within liberalized markets".
+
+
+So, to be convincing on cost, let's see nuclear competing with
+renewables in auctions under similar conditions, i.e. project
+developers bearing construction risks, financing done at market rates,
+and a transparent, sufficient contribution made to decommissioning and
+waste management.
+
+
+** Concerns about nuclear generation beyond cost
+
+As the [[http://www.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter7.pdf][IPCC 5th Assessment Report on Mitigating Climate Change in
+Energy]] summarises it: "Barriers to and risks associated with an increasing
+use of nuclear energy include operational risks and the associated
+safety concerns, uranium mining risks, financial and regulatory risks,
+unresolved waste management issues, nuclear weapon proliferation
+concerns, and adverse public opinion (robust evidence, high
+agreement)."
+
+Another issue, discussed above in the section on scaleability, is the
+speed with which plants can be built. We need to reduce emissions
+urgently throughout the 2020s to comply with the Paris accords. Given
+the size and complexity of nuclear plants, there is a long lead time
+between planning and operation (10-19 years), whereas smaller, simpler
+wind and solar plants can be put up in 2-5 years. As they put it in
+[[https://doi.org/10.1016/j.erss.2018.01.005][this paper]] which dissects different metrics used to assess the
+relative deployment rates of renewables and nuclear: "Contrary to
+persistent myths based on erroneous methods, global data show that
+renewable electricity adds output and saves carbon faster than nuclear
+power does or ever has."
+
+
+* Funding
+
+Ben [[https://twitter.com/BNW_Ben/status/999469708179947521][brought up]] that some of our funding was from "Renewable Energy
+Investment Strategy of Denmark". This is in fact just the name of a
+project which is funded by [[https://innovationsfonden.dk/en][Innovation Fund Denmark]], run by the Danish
+government. So if anything, this reflects a bias of the Danish
+government for renewables. Nuclear is such a non-issue in Denmark that
+fighting climate change is synonymous with renewables. My current
+funding comes from Helmholtz, which has a huge [[https://www.helmholtz.de/en/research/energy/][funding programme]] for
+nuclear (mostly waste management and fusion); I was told it is one
+billion euro a year, but I haven't been able to verify that (or check
+whether it is total German spending on nuclear research or just
+Helmholtz's spending).
