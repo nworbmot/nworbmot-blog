@@ -176,7 +176,7 @@ These solutions will be common, regardless of where the fossil-free
 electricity comes from.
 
 Two of the authors of Burden (Brook and Wigley) co-authored another
-paper [[https://doi.org/10.3390/su10020302][Silver Buckshot or Bullet: Is a Future “Energy Mix” Necessary?]]
+paper [[https://doi.org/10.3390/su10020302][Silver Buckshot or Bullet: Is a Future "Energy Mix" Necessary?]]
 where they argue that all energy demand should be met by the nuclear
 [[https://en.wikipedia.org/wiki/Integral_fast_reactor][Integral Fast Reactor (IFR)]], and their solution is similar to that
 described above: "Given that peak demand is typically two to three
