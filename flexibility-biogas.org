@@ -1,0 +1,139 @@
+#+TITLE: What flexibility do we need from biogas?
+#+OPTIONS: tex:t
+
+First Posted: 2024.08.30, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.08.30 Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1829517518727188665][Original Twitter post]]
+
+What flexibility do we need from biogas?🌱
+
+Shifting baseload generation by a few hours with small storage helps,
+but what we really need is seasonal flex by upgrading to biomethane/ol
+(and using most of it in other sectors).
+
+A few thoughts on scaling, grids, liquids. 
+
+
+#+CAPTION: Biogas utilisation options
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/biomethane.jpg]]
+
+"Flexibility from biogas" often means switching from baseload to only feeding in at peak hours of the day, which requires a larger generator and biogas storage of 12-24 hours, like this oft-cited example in the Schwarzwald
+
+https://zdf.de/nachrichten/wirtschaft/biogas-kraftwerk-gruener-wasserstoff-100.html
+
+https://fnr.de/presse/pressemitteilungen/archiv/archiv-nachricht/speicherkraftwerk-im-hochschwarzwald-versorgt-250-haushalte-mit-waerme
+
+
+But in the medium-term most of this inter-day flexibility should be met by batteries and demand flexibility.
+
+If biogas is to live up to its potential it needs to be stored seasonally, like hydrogen in the German Long-Term Scenarios
+
+https://langfristszenarien.de
+
+
+
+
+#+CAPTION: Seasonal generation from hydrogen power plants
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/h2_seasonal.png]]
+
+
+
+It cannot be stored at small plants seasonally. One obvious option is to upgrade it to bio-methane (i.e. remove the CO2, ~30-50% by volume, and other impurities), and feed it into the gas grid where it can be stored seasonally and used in regular gas turbines.
+
+#+CAPTION: Biomethane upgrading
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/biomethane.jpg]]
+
+
+This is done in Denmark and to a limited extent in Germany, but there are hurdles to expanding upgrading in Germany. Upgrading plants are typically larger than the many small biogas units, so you have to pool many smaller biogas units with a local biogas pipeline network.
+
+
+
+#+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/pooling.png]]
+
+Upgrading plants need to be close to the main gas network at the right pressure level. In a 2020 paper IZES/@UFZ_de
+ authors found that only 22% of today's biogas plants by kW output would be eligible for upgrading, even before further economic analysis.
+
+https://doi.org/10.1186/s13705
+
+
+
+#+CAPTION: 22% biogas
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/22pc_biogas.png]]
+
+
+
+
+
+
+#+CAPTION: Paper quote
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/pressure.png]]
+
+
+One alternative would be to transport the biomethane alway as LNG. For an idea what this might look like, check out this Swedish paper by Marcus Gustafsson (Sweden has a limited gas grid; upgrading can be done cryogenically to match LNG temp)
+
+https://doi.org/10.1080/17597269.2024.2318515
+
+
+
+
+#+CAPTION: Swedish example: decentral/central setup.
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/sweden_setup.png]]
+
+
+#+CAPTION: Swedish example: cost implications.
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/sweden_cost.png]]
+
+
+An alternative is to upgrade to bio-methanol, which can be transported away as a liquid.
+
+This secures against the uncertain future of the gas grid (not needed in many 2045+ scenarios); there is large demand from industry and e.g. shipping for methanol
+
+[[https://twitter.com/nworbmot/status/1709224110117519779][Twitter thread: All your carbon shall be methanol]]
+
+
+These options have all been investigated and explored in pilot projects, but more work is needed. The excess CO2 in the biogas can either be sequestered as a form of carbon dioxide removal (CDR) or upgraded if there is electrolytic H2 available nearby.
+
+And we also need to be switching in parallel to feedstocks that don't compete with food (wastes, residues, cover crops, marginal land) if we want to avoid large indirect climate impacts, while providing a bridge for plants falling out of the EEG & other support schemes.
+
+
+Costs in these pathways is high, but there is a clear need for carbonaceous molecules in many 2045+ scenarios, whether for longhaul aviation, industry feedstocks or seasonal storage.
+
+Biogas can play a big role so let's do it right!
+
+
+
+#+CAPTION: Biogas utilisation
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/biogas_plant.jpg]]
+
+
+
+
+
+
+
+#+CAPTION: Biogas utilisation
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/biogas_flex/schwarzwald.png]]
+
+
+
