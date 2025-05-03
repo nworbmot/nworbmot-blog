@@ -169,8 +169,8 @@ without thermal storage, electrofuels or biofuels.
 
 My point: outside of electricity demand, there is no good way around
 the use of electrical storage (e.g. for cars), thermal storage and/or
-chemical storage in electrofuels. Biofuels from waste/agricultural
-residues will also play a role.
+chemical storage in electrofuels. Second generation biofuels from
+waste/agricultural residues will also play a role.
 
 These solutions will be common, regardless of where the fossil-free
 electricity comes from.
@@ -181,7 +181,7 @@ where they argue that all energy demand should be met by the nuclear
 [[https://en.wikipedia.org/wiki/Integral_fast_reactor][Integral Fast Reactor (IFR)]], and their solution is similar to that
 described above: "Given that peak demand is typically two to three
 times greater than average demand ... IFR technology can produce what
-is essentially “free” excess energy, which could be used to produce
+is essentially 'free' excess energy, which could be used to produce
 hydrogen" and then further used for other synthetic fuels (page
 6). Except for some reason they deny this possibility to renewables,
 arguing on page 4 that their excess energy has to be "dumped" - a
@@ -448,8 +448,8 @@ production already below conventional sources and sinking every year,
 a greater fraction of system costs is going to energy integration.
 
 As we explained in Chapter 4.4 of our paper, overhead power lines can
-be controversial; there are other options (cables, storage) if public
-acceptance is lacking, but they are more expensive.
+be controversial; there are other options (underground cables,
+storage) if public acceptance is lacking, but they are more expensive.
 
 
 ** Renewable fluctuations balancing out
