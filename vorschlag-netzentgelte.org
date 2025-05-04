@@ -1,0 +1,59 @@
+#+TITLE: Vorschlag für die Senkung der Netzengelte
+#+OPTIONS: tex:t
+
+First Posted: 2025.03.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.03.10 Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3ljz5ojzwxs2p][Original Bluesky post]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_vorschlag-anstatt-die-%C3%BCbertragungsnetze-activity-7304783842911879168-36-n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+
+Vorschlag: Anstatt die Übertragungsnetze dauerhaft zu subventionieren, lieber kosteneffizienter bauen und ein Teil der Kosten mit einem Amortisationskonto um ein paar Jahre verschieben
+
+Nach unserer Berechnung kann man mit kluger Planung etwa 92 Mrd. EUR (einen ,,Wumms'') sparen
+
+#+CAPTION: Einsparungen bei den Investitionen ins Übertragungsnetz
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/ariadne-wasserfall.jpg]]
+
+
+
+Dies zeigen wir im neuen @ariadneprojekt.bsky.social-Szenarienreport ,,Die Energiewende kosteneffizient gestalten – Szenarien zur Klimaneutralität 2045''
+
+https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/
+
+Das Übertragungsnetz muss zügig und stark ausgebaut, aber durch eine integrierte Planung von Erzeugung, Speichern und anderen Flexibilitätsmaßnahmen lässt sich der Netzausbaubedarf im Übertragungsnetz um etwa ein Drittel reduzieren (Senkung um 92 Mrd. EUR von 283 Mrd. EUR2020 auf 191 Mrd. EUR).
+
+#+CAPTION: Ausbau des Übertragungsnetzes im PyPSA-Szenario
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/ariadne-netzkarte.jpg]]
+
+
+Wichtige Maßnahmen hierfür sind:
+
+✅ Platzierung von Elektrolyseuren in der Nähe von Offshore-Windanlagen, um das Netz im Norden zu entlasten
+
+✅ Weniger Offshore-Windkapazität (64 statt 70 GW)
+
+✅ Freileitungen statt Erdkabeln ab 2030 für die großen Gleichstromtrassen
+
+✅ Regionale Preissignale
+
+Warum ist das Amortisationskonto notwendig? Weil die Netzentgelte einen Höhenpunkt in den Jahren 2025 bis 2030 erreichen, und dann durch die steigende Stromnachfrage wieder sinken. Mit einem Amortisationskonto werden die Kosten besser über die Jahre verteilt.
+
+#+CAPTION: Netzengelte
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/ariadne-netzentgelte.jpg]]
+
+Die Aufnahmen der Webinare zum Szenarienreport sind jetzt online verfügbar:
+
+https://ariadneprojekt.de/events-de/webinare-zum-ariadne-szenarienreport-2025/
+
+Hier geht's direkt zu den Folien zu Energiewirtschaft und Infrastruktur los: 
+
+https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf
+
+Mit ein paar Easter Eggs am Ende, die ich im Webinar nicht zeigen konnte 😀
