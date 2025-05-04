@@ -59,10 +59,10 @@ This is done in Denmark and to a limited extent in Germany, but there are hurdle
 #+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/pooling.png]]
 
-Upgrading plants need to be close to the main gas network at the right pressure level. In a 2020 paper IZES/@UFZ_de
- authors found that only 22% of today's biogas plants by kW output would be eligible for upgrading, even before further economic analysis.
+Upgrading plants need to be close to the main gas network at the right pressure level. In a 2020 paper IZES and UFZ
+authors found that only 22% of today's biogas plants by kW output would be eligible for upgrading, even before further economic analysis.
 
-https://doi.org/10.1186/s13705
+https://doi.org/10.1186/s13705-020-00276-z
 
 
 
@@ -105,7 +105,7 @@ An alternative is to upgrade to bio-methanol, which can be transported away as a
 
 This secures against the uncertain future of the gas grid (not needed in many 2045+ scenarios); there is large demand from industry and e.g. shipping for methanol
 
-[[https://twitter.com/nworbmot/status/1709224110117519779][Twitter thread: All your carbon shall be methanol]]
+[[./carbon-be-methanol.html][Blog post: All your carbon shall be methanol]]
 
 
 These options have all been investigated and explored in pilot projects, but more work is needed. The excess CO2 in the biogas can either be sequestered as a form of carbon dioxide removal (CDR) or upgraded if there is electrolytic H2 available nearby.

@@ -10,7 +10,7 @@ It also stores a record of Twitter and LinkedIn posts.
 
 Date: 2024.08.30
 
-What flexibility do we need from biogas?🌱
+What flexibility do we need from biogas?
 
 Shifting baseload generation by a few hours with small storage helps,
 but what we really need is seasonal flex by upgrading to biomethane/ol
@@ -18,17 +18,27 @@ but what we really need is seasonal flex by upgrading to biomethane/ol
 
 A few thoughts on scaling, grids, liquids. 
 
-[Original Twitter post](https://x.com/nworbmot/status/1829517518727188665)
-
 [full post](flexibility-biogas.html)
+
+
+# All your carbon shall be methanol
+
+Date: 2023.10.03
+
+Arguments for mopping up all carbon in wastes and residues into methanol; use it to supply sectors that can't be electrified
+
+TL,DR: methanol is liquid; easier to transport/store than CH4/H2/CO2; costs scale down nicely to multi-MW size
+
+[full post](carbon-be-methanol.html)
+
 
 # Burden of proof
 
 Date: 2018.05.31
 
 In this post we provide some commentary on our recent paper
-[**Response to 'Burden of proof: A comprehensive review of the
+"Response to 'Burden of proof: A comprehensive review of the
 feasibility of 100% renewable-electricity
-systems'**](https://doi.org/10.1016/j.rser.2018.04.113).
+systems'".
 
-see [full post](burden-of-proof.html)
+[full post](burden-of-proof.html)
