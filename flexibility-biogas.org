@@ -1,7 +1,7 @@
 #+TITLE: What flexibility do we need from biogas?
 #+OPTIONS: tex:t
 
-First Posted: 2024.08.30, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.08.30 Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2024.08.30, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.08.30, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://twitter.com/nworbmot/status/1829517518727188665][Original Twitter post]]
 

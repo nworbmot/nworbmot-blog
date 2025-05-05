@@ -1,7 +1,7 @@
 #+TITLE: Vorschlag für die Senkung der Netzengelte
 #+OPTIONS: tex:t
 
-First Posted: 2025.03.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.03.10 Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.03.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.03.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://bsky.app/profile/nworbmot.bsky.social/post/3ljz5ojzwxs2p][Original Bluesky post]]
 

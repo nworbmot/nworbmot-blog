@@ -1,7 +1,7 @@
 #+TITLE: All your carbon shall be methanol
 #+OPTIONS: tex:t
 
-First Posted: 2023.10.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2023.10.03 Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2023.10.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2023.10.03, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://twitter.com/nworbmot/status/1709224110117519779][Original Twitter post]]
 

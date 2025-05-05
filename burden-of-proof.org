@@ -1,7 +1,7 @@
 #+TITLE: Burden of proof: renewables and nuclear power
 #+OPTIONS: tex:t
 
-First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31 Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 
 * About this document
