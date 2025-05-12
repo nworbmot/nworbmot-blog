@@ -1,0 +1,61 @@
+#+TITLE: Price formation without fuel costs: the interaction of demand elasticity with storage bidding
+#+OPTIONS: tex:t
+
+[[./index.html][Blog home]], First Posted: 2025.05.12, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.12, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_stable-electricity-prices-when-wind-and-activity-7327701002717929472-GE7k?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+Stable electricity prices when wind and solar dominate? Sure! All you need is storage plus a little bit of demand elasticity.
+
+New paper in Energy Economics with co-authors Fabian Neumann and Iegor Riepin:
+
+https://doi.org/10.1016/j.eneco.2025.108483
+
+based on a preprint from Aug 2024.
+
+The standard narrative goes something like this: Without fuel costs, there is nothing to set prices. There will be long phases of zero prices, then scarcity prices too high to be politically acceptable. Price recovery will concentrate in a few hours, then vary wildly from year to year. Who knows how we'll dispatch long-term storage.
+
+We argue that these problems are an artefact of modeling with perfectly inelastic demand (common in the capacity expansion world). If short-term elasticity is implemented to reflect today's flexible demand (-5%), the interaction of demand and storage is enough to produce stable pricing.
+
+This flexibility comes today from industry; in the future we'll have even more from industry, electric vehicles and heat pumps, which will further help stabilise prices. NB: nobody is asking poorer folks to turn off their heating in winter. NB: pure demand shifting, like a virtual storage, is also not enough; we need a smooth non-singular demand curve.
+
+
+#+CAPTION: Supply and demand with wind, solar, storage and demand elasticity
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/elasticity/price_settings.png]]
+
+
+This behaviour is illustrated in a model for the extreme case with only wind, solar, batteries, and hydrogen-based storage, where a piecewise linear demand curve removes high price peaks and reduces the fraction of zero-price hours from 90% to around 30%.
+
+
+#+CAPTION: Price duration curves without (left) and with (right) demand elasticity.
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/elasticity/duration-electricity-annotated.png]]
+
+
+
+Prices are more stable from year to year, and stable under perturbations of capacity.
+
+
+#+CAPTION: Price duration curves without (left) and with (right) demand elasticity.
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/elasticity/annual_prices.png]]
+
+
+Cost recovery of assets is no longer concentrated in a few hours.
+
+
+#+CAPTION: Cost recovery
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/elasticity/cost_recovery.png]]
+
+
+Fuels derived from green hydrogen take over the role of fossil fuels as the backup of final resort, steering prices via their marginal storage value.
+
+We show that with demand elasticity, the long-term capacity expansion model exactly reproduces the prices of the short-term operational model with the same capacities. We use insights from the long-term model to operate storage with limited foresight.
+
+We conclude that the energy-only market can still play a key role in coordinating dispatch and investment in the future given current price elasticity levels. If demand can be further flexibilised in future, this will only help to stabilise prices even more.
