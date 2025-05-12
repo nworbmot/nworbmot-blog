@@ -1,7 +1,7 @@
 #+TITLE: Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen?
 #+OPTIONS: tex:t
 
-First Posted: 2025.04.01, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.01, Author: [[https://www.nworbmot.org/][Tom Brown]]
+[[./index.html][Blog home]], First Posted: 2025.04.01, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.01, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_welche-kosten-lie%C3%9Fen-sich-mit-einer-gebotszonentrennung-activity-7312768135810469888-Ovqk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
 
