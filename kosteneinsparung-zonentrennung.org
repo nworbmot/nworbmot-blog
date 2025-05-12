@@ -1,0 +1,69 @@
+#+TITLE: Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen?
+#+OPTIONS: tex:t
+
+First Posted: 2025.04.01, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.01, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_welche-kosten-lie%C3%9Fen-sich-mit-einer-gebotszonentrennung-activity-7312768135810469888-Ovqk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen? Bis 2045 ist die Einsparung sicherlich im zweistelligen Milliardenbereich, aber umfassende Studien dazu gibt es für Deutschland leider nicht. Hier fasse ich einige Studien zusammen.
+
+Eine gute Orientierung gibt eine Reihe von Studien in Großbritannien in Vorbereitung auf den Review of Electricity Market Arrangements von FTI Consulting, geleitet von Jason Mann, die sich mit allen Aspekten einer Zonentrennung und nodaler Bepreisung auseinandersetzt.
+
+Erste große Studie im Jahr 2023 für den Regulierer Ofgem: https://www.fticonsulting.com/uk/insights/videos-and-podcasts/assessment-locational-wholesale-electricity-market-design-options
+
+Folien: https://www.strommarkttreffen.org/05_Jason%20Mann%20and%20Ljubo%20Mitrasevic%20(FTI%20Consulting)_%20Cost-Benefit-Analysis%20of%20moving%20to%20zonal%20or%20nodal%20electricity%20market%20design%20in%20GB.pdf
+
+Aktualisierung 2025 für Octopus: https://media.licdn.com/dms/document/media/v2/D4E1FAQEtS4YbXkaATQ/feedshare-document-pdf-analyzed/B4EZWUdVhcH0AY-/0/1741952490792?e=1744243200&v=beta&t=e5lugNsCZGtWWQNWvqpvqJRw-FoU3Y9Sk8w6_If2Zyg
+
+Kosteneinsparungen für Konsument*innen (NPV 2030-50) mit 12 Zonen für Großbritannien: 55 Milliarden GBP, allerdings verlieren Produzent*innen 30 Milliarden, sodass der Wohlfahrtsgewinn nur bei 25 Milliarden liegt.
+
+
+#+CAPTION: Vorteil Zonentrennung in Großbritannien (FTI, 2025)
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/fti-octopus-waterfall.png]]
+
+
+
+
+Großbritanniens System ist natürlich etwas anders als Deutschlands gestaltet (Balancing Mechanism, ein langes enges Netz) aber ähnliche Einsparungen könnte man erwarten.
+
+Die Analyse ist eher statisch: Netzausbau und Verortung der Nachfrage sind exogen fixiert. Weil lokale Preise helfen, Netzüberlastungen zu verwalten, würde man große Einsparungen beim Netzausbau erwarten. Netzdienliche Verortung von Elektrolyse würde Kosten auch senken.
+
+Genau diese dynamische Optimierung hatten wir uns im Ariadne-Szenarienreport für Deutschland vorgenommen. Durch eine integrierte Planung vom Strom und Wasserstoff mit regionalen Preisen, kann man die Elektrolyse an der Küste platzieren und viele der langen unterirdischen HGÜ-Leitungen in den Süden sparen.
+
+Bericht: https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/
+
+Folien zu Energiewirtschaft und Infrastruktur: https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf
+
+Kosteneinsparungen im Übertragungsnetz: 92 Mrd EUR2020, ein Drittel weniger als im Netzentwicklungsplan 2023.
+
+
+#+CAPTION: Einsparungen bei den Investitionen ins Übertragungsnetz
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/ariadne-wasserfall.png]]
+
+
+
+Die Engpassrente (Einkommen von Stromarbitrage zwischen Regionen mit Preisunterschieden) beträgt 7 Mrd EUR/a und der Redispatchbedarf verringert sich, sodass die Netzentgelte um 7,5 EUR/MWh im Durchchnitt sinken.
+
+Weil die Reduktion der Netzentgelte die regionalen Preisunterschiede überwiegt, wird in jeder Region im Durchschnitt gespart. Nur die energieintensive Industrie, die teils vom Netzentgelt befreit ist, müsste dann für leicht höhere Preise kompensiert werden.
+
+
+
+#+CAPTION: Preise mit und ohne PyPSA-Ausbau und Preisen
+#+NAME: fig:heat
+#+ATTR_HTML: :width 700px
+[[./graphics/ariadne-prices.jpeg]]
+
+
+
+Eine weitere Studie von Dr. Mirjam Ambrosius et al findet einen Wohlfahrtsgewinn von 1,2 Mrd EUR/a im first-best Szenario mit 16 Knoten für Deutschland, schaut sich allerdings nur ein altes NEP-Szenario fürs Jahr 2035 an. Größere Einsparungen gäbe es z.B. im Jahr 2045, wenn Klimaneutralität erreicht wird.
+
+Weitere Ko-Autor*innen: Veronika Grimm, Thomas Kleinert, Frauke Liers, Martin Schmidt und Gregor Zöttl.
+
+Paper: https://doi.org/10.1016/j.eneco.2020.104879
+
+
+Zusammenfassung: keine unfassende Studie, aber sicherlich Einsparungen pro Jahr im einstelligen Mrd-Bereich ab 2030, insgesamt zweistellig, wenn man alle Einsparungen bis 2045 aufsummiert.
