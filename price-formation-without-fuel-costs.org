@@ -3,7 +3,7 @@
 
 [[./index.html][Blog home]], First Posted: 2025.05.12, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.12, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
-[[https://www.linkedin.com/posts/tom-brown-226b191a0_stable-electricity-prices-when-wind-and-activity-7327701002717929472-GE7k?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_stable-electricity-prices-when-wind-and-activity-7327701002717929472-GE7k?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Parallel LinkedIn post]]
 
 Stable electricity prices when wind and solar dominate? Sure! All you need is storage plus a little bit of demand elasticity.
 

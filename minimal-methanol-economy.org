@@ -3,11 +3,13 @@
 
 [[./index.html][Blog home]], First Posted: 2025.05.19, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.19, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
-[[https://www.linkedin.com/posts/tom-brown-226b191a0_as-the-hydrogen-bubble-deflates-what-are-activity-7330232264129183745-LiyD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_as-the-hydrogen-bubble-deflates-what-are-activity-7330232264129183745-LiyD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Parallel LinkedIn post]]
 
-As the hydrogen bubble deflates, what are the alternatives? We present a "minimal methanol economy": using methanol as a gap filler for the few sectors electrification can't reach.
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3lpjuusbib22p][Parallel BlueSky post]]
 
-Working paper together with Philipp Glaum, Fabian Neumann and Markus Millinger:
+As the hydrogen bubble deflates, what are the alternatives? We present a "minimal methanol economy": using methanol as a gap-filler for the few sectors electrification can't reach.
+
+New working paper together with Philipp Glaum, Fabian Neumann and Markus Millinger:
 
 https://arxiv.org/abs/2505.09277
 

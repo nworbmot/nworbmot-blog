@@ -13,7 +13,7 @@ Erste große Studie im Jahr 2023 für den Regulierer Ofgem: https://www.fticonsu
 
 Folien: https://www.strommarkttreffen.org/05_Jason%20Mann%20and%20Ljubo%20Mitrasevic%20(FTI%20Consulting)_%20Cost-Benefit-Analysis%20of%20moving%20to%20zonal%20or%20nodal%20electricity%20market%20design%20in%20GB.pdf
 
-Aktualisierung 2025 für Octopus: https://media.licdn.com/dms/document/media/v2/D4E1FAQEtS4YbXkaATQ/feedshare-document-pdf-analyzed/B4EZWUdVhcH0AY-/0/1741952490792?e=1744243200&v=beta&t=e5lugNsCZGtWWQNWvqpvqJRw-FoU3Y9Sk8w6_If2Zyg
+Aktualisierung 2025 für Octopus: https://octoenergy-production-media.s3.amazonaws.com/documents/FTI_-_Octopus_-_Impact_of_zonal_design_-_Final_report_-_24_Feb_2025.pdf
 
 Kosteneinsparungen für Konsument*innen (NPV 2030-50) mit 12 Zonen für Großbritannien: 55 Milliarden GBP, allerdings verlieren Produzent*innen 30 Milliarden, sodass der Wohlfahrtsgewinn nur bei 25 Milliarden liegt.
 
