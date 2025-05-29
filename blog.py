@@ -79,6 +79,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 """
 
 bottom_html ="""
+<p>Copyright Tom Brown, Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a></p>
+</div>
 </body>
 </html>
 """
