@@ -1,0 +1,117 @@
+#+TITLE: History of green hydrogen
+#+OPTIONS: tex:t
+
+[[./index.html][Blog home]], First Posted: 2020.10.17, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2020.10.17, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://x.com/nworbmot/status/1317449761218285568][Original Twitter post]]
+
+Last thread on history of renewables + hydrogen (promise):
+
+TL;DR:
+
+- Idea of using electrolysis of water & storing hydrogen is almost as old as electrolysis (1789)
+
+- Already a lively debate in *1863* about combining variable renewables with electrolytic hydrogen to replace coal
+
+
+#+CAPTION: Jevons quotation pouring cold water on hydrogen storage
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/jevons-highlighted-crop.png]]
+
+The above quotation is from Jevons' (he of paradox fame) marvellous 1865 treatise "The Coal Question":
+
+https://oll.libertyfund.org/titles/317#Jevons_0546_346
+
+(h/t @physicspod)
+
+and refers to an exchange in The Times of London in 1863, started by this letter on page 10 of the 2nd Sep 1863 edition:
+
+
+#+CAPTION: Keyworth letter to The Times in 1863
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/18630902-keyworth-crop.png]]
+
+
+G.A. Keyworth of Hastings followed up a few days on 16th Sep 1863 later with an elaboration of his ideas:
+
+#+CAPTION: Keyworth letter to The Times in 1863
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/18630916-keyworth2-part1-crop.png]]
+
+#+CAPTION: Keyworth letter to The Times in 1863
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/18630916-keyworth2-part2-crop.png]]
+
+It was poo-pooed a few days later on 18th Sep later by some sceptics, with Q reported by Jevons to be "Dr. Percy of the School of Mines" (OMG did I uncover the identity of Q?!):
+
+#+CAPTION: Response to Keyworth letter to The Times in 1863
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/18630918-response-part1-crop.png]]
+
+
+#+CAPTION: Response to Keyworth letter to The Times in 1863
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/18630918-response-part2-crop.png]]
+
+Already in 1840 the "alternate decomposition and recomposition of water" was talked up in Dr. Dionysius Lardner's "The Steam Engine Explained and Illustrated" as something on "every mind":
+
+https://books.google.de/books/about/The_Steam_Engine_Explained_and_Illustrat.html?id=u4JMAAAAMAAJ&redir_esc=y
+
+https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306
+
+
+#+CAPTION: Lardner on using hydrogen storage
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/lardner-crop.png]]
+
+
+Jevons poured cold water on all this electricity hype in his 1865 book:
+
+"Electricity, in short, is to the present age what the perpetual motion was to an age not far removed"
+
+https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_307
+
+
+
+#+CAPTION: Jevons quotation pouring cold water on hydrogen storage
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/jevons-cold-water-crop.png]]
+
+
+The ideas resurfaced in the 1890s in Denmark (h/t [[https://twitter.com/ruth_mottram][@ruth mottram]]) with Poul la Cour's experiments to tame the wind with electrolysis:
+
+https://en.wikipedia.org/wiki/Poul_la_Cour#The_experimental_mill_at_Askov_1891
+
+And in fairly full/modern form in J.B.S. Haldane's Daedalus essay in 1923:
+
+In 1923 J.B.S. Haldane foresaw an energy system based on wind turbines, with surplus power used for hydrogen production by water electrolysis.
+
+Hydrogen would be stored underground and "expended for industry, transportation, heating and lighting".
+
+Sound familiar?
+
+#+CAPTION: Haldane on hydrogen storage in 1923
+#+ATTR_HTML: :width 700px
+[[./graphics/jevons/daedelus-hydrogen.png]]
+
+
+"Among its more obvious advantages will be the fact that energy will be as cheap in one part of the country as another, so that industry will be greatly decentralized; and that no smoke or ash will be produced."
+
+Links:
+
+http://bactra.org/Daedalus.html
+
+https://en.wikipedia.org/wiki/J._B._S._Haldane#Hydrogen-generating_windmills
+
+
+So why did it never take off? In a way it did: there was a rash of 100+ MW electrolysis projects starting in the late 1920s using hydroelectric power to make green ammonia: [[./electrolytic-hydrogen-not-new.html][Nothing new about electrolytic hydrogen]]
+
+But they were out-competed in the end by fossil ammonia and other demands for electric power.
+
+This was purely a matter of economics: electrolysis of water can only compete if there is abundant low cost power.
+
+With abundant low-cost wind and solar power coming our way, hydrogen may return for sectors unreachable by a combination of efficiency measures and direct electrification as we decarbonise the economy.
+
+It's been a long road!
+
+/end
