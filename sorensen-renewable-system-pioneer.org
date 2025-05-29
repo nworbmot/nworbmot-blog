@@ -1,0 +1,97 @@
+#+TITLE: First Coherent Renewables Scenario: Bent Sørensen in 1970s
+
+First Posted: 2019.06.23, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2019.06.23, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1142758825520447488][Original Twitter post]]
+
+Who came up with the first coherent plan to use renewables to cover all our energy needs?
+
+My money is on Bent Sørensen, who wrote these two ground-breaking papers in the 1970s:
+
+https://doi.org/10.1126/science.189.4199.255 (1975)
+
+https://doi.org/10.1016/0038-092X(78)90124-X (1978)
+
+He deserves more credit.
+
+[[./graphics/sorensen/1975-fig4.png]]
+
+By "coherent" I mean that it covers all energy sectors (electricity, heating, transport, industry) and it's technically, economically and socially viable. In particular, it considers the short- and long-term balancing needed to deal with the variability of wind and solar.
+
+[[./graphics/sorensen/1975-fig2.png]]
+
+The first paper looks at the big picture for Denmark: what are the feasible energy potentials?
+
+Hydro and geothermal are limited, so it focuses instead on wind and solar.
+
+His 1975 plan to use "continuous" (i.e. versus finite fossil) energy sources tackles the four major sectors:
+
+*electricity*: wind turbines spread north to south along Juttland, with multi-day balancing from compressed air energy and hydrogen storage (electrolysis then fuel cell) in underground salt domes; wake effects and area requirements for the turbines are taken into account
+
+In his 1978 paper he does computer simulations for meeting demand using hourly-measured wind data. He finds a combination of short-term storage (e.g. batteries) and 40-60 days of long-term storage with a 50% round-trip loss can provide a reliable supply from wind. Residual load:
+
+[[./graphics/sorensen/1978-fig19.png]]
+
+These results parallel those from a paper by Ken Caldeira and colleagues from 2018 looking at solar+wind in the US discussed in [[https://twitter.com/nworbmot/status/1024646209443717120][this thread]] [see also [[https://www.technologyreview.com/2018/07/27/141282/the-25-trillion-reason-we-cant-rely-on-batteries-to-clean-up-the-grid/][MIT Technology Review: The $2.5 trillion reason we can’t rely on batteries to clean up the grid]]].
+
+*heating*: improved building insulation, solar thermal collectors plus long-term thermal energy storage in giant hot water tanks, backup from resistive heaters; frictional heating from wind turbines is an option; combined heat and power plants are there on pathway to 2050
+
+*transport*: "hydrogen or other synthetic fuels" - but "various types of batteries might take the place of hydrogen as a storage medium"
+
+*industry*: more material recycling and hydrogen for process heat
+
+The 2000 2nd version of his [[https://shop.elsevier.com/books/renewable-energy/sorensen/978-0-12-804567-1][Renewable Energy textbook]] (perhaps more famous than the papers) includes global scenarios for a renewables-based world.
+
+What did he get wrong?
+
+It hasn't happened as quickly as he hoped. As he notes at the end:
+
+"the initial cost per energy unit produced is higher than for most of the alternatives, so that action is not expected to be taken immediately as a result of purely private initiative"
+
+But he emphasises often-overlooked points such as more jobs (Denmark had 10% unemployment at the time), improved balance of payments, energy security, and environment. I would add the huge health benefits from reduced air pollution.
+
+On the technology side, he acknowledges the potential of solar cells (PV) but didn't anticipate the huge price drops; heat pumps don't get a look-in; the improvements in battery technology and cost weren't anticipated. Chemical GHG emissions (e.g. calcination) are ignored.
+
+So what did he get right?
+
+Denmark has indeed seen a big build-out of wind energy, building insulation, with CHP as a stop-gap solution to improve energy efficiency. Solar thermal with seasonal water tank storage is deployed in some district heating networks.
+
+I would argue that our overall understanding of the system integration needs for wind and solar hasn't changed much over the last 40 years. We need to couple electricity-heat-gas better, so that we can leverage abundant cheap short- and long-term storage options.
+
+We've know since 1975 how to build a zero-emission, socially-acceptable energy system. We could have done it while we still had time to avoid climate breakdown. We can still do it now and avoid the worst consequences.
+
+What are we waiting for?
+
+[end of main thread]
+
+And now for some minor points:
+
+He considers energy savings from shopping by "selecting merchandise from computerized video displays" - hooray for the future!
+
+His motivation for renewables?
+
+In 1973 Denmark was 94% reliant on imported oil for energy, so the oil crisis was a big one, along with finite fossil fuels,  poor fossil resources within Denmark (this was before the North Sea gas fields were exploited) and "climate disruptions"
+
+He rejects nuclear because i) uranium supplies can be monopolised, whereas renewables are "more equitably distributed over the world". This has proved to be less of a concern, but more pertinent is ii) the size of the units implies a concentration of capital and monopoly power.
+
+He harvested a sceptical response from arch-renewables-rebutter Ted Trainer already in 1984:
+
+[[https://doi.org/10.1016/0361-3658(84)90085-7][The limitations of alternative energy sources]]
+
+He considers inter-annual variability of wind and solar, often neglected by modellers:
+
+"Fluctuations between years might alter these values [average wind/solar feed-in] by as much as a factor of 2"
+
+The 1975 paper has a nuanced description of the "lack of universal relationship between energy consumption and economic growth" which might be [[https://ifreetrade.org/article/the_secret_of_eternal_growth_the_physics_behind_pro_growth_environmentalism][appreciated by some]].
+
+There's a bit more explanation on the wind+storage duration curves [[https://twitter.com/nworbmot/status/1143236893460586496][here]].
+
+The 1978 paper also has an early diagram of a Smart Energy System (@ProfHLund @BrianVad) that integrates electricity, gas and heating grids, allowing us to leverage cheaper gas and heat storage rather than expensive electricity storage, and use waste heat for district heating
+
+[[./graphics/sorensen/smart_energy-diagram.png]]
+
+Here's his elegant explanation from the [[https://doi.org/10.1016/0038-092X(78)90124-X][paper]]:
+
+[[./graphics/sorensen/smart_energy-text.png]]
+
+WEG = Wind Energy Generator
