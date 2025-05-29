@@ -25,10 +25,7 @@ Prerequisite: cheap power from hydro dams.
 
 All were dismantled as other power demand grew and fossil gas became available to make ammonia.
 
-https://books.google.de/books?id=bf3lBwAAQBAJ&lpg=PA121&dq=united%20states%20electrolyzers%20heavy%20water&pg=PA122#v=onepage&q&f=false
-
-
-#+CAPTION: Large electrolysers built in the past
+#+CAPTION: Large electrolysers built in the past ([[https://books.google.de/books?id=bf3lBwAAQBAJ&lpg=PA121&dq=united%20states%20electrolyzers%20heavy%20water&pg=PA122#v=onepage&q&f=false][Electrode Processes and Electrochemical Engineering, Fumio Hine, 1985]])
 [[./graphics/hydrogen/large_electrolysis.png]]
 
 Electrolysis was also the means of making heavy water (D2O), a neutron moderator, from its discovery in the 1930s until the GS process replaced it in the mid-1940s. 

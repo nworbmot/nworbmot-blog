@@ -1,0 +1,48 @@
+#+TITLE: William Armstrong's 1863 admirable speech
+
+First Posted: 2020.10.22, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2020.10.22, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://x.com/nworbmot/status/1319325181979090947][Original Twitter post]]
+
+C. Darwin: an "admirable speech"
+
+In 1863, William Armstrong advocates:
+
+- end of coal
+- efficiency
+- electrification
+- renewables (he developed first hydro power)
+- open data
+- technological learning ("tendency of progress is to quicken progress")
+
+[[https://nworbmot.org/armstrong.html][Transcript of William Armstrong's 1863 Address to the 33rd Meeting of the British Association for the Advancement of Science]]
+
+[[https://vimeo.com/75975295][Vimeo video of speech enactment]]
+
+You can read more about him here:
+
+[[https://en.wikipedia.org/wiki/William_Armstrong,_1st_Baron_Armstrong][Wikipedia: William Armstrong]]
+
+https://williamarmstrong.info
+
+And in Henrietta Heald's biography "Magician of the North".
+
+His speech inspired the first suggestion I know of for green hydrogen (renewables + electrolysis of water to make hydrogen): [[./green-hydrogen-history.org][blogpost: History of green hydrogen]].
+
+As well as providing impetus for Jevons' marvellous [[https://oll.libertyfund.org/titles/jevons-the-coal-question][The Coal Question]].
+
+There's a fun profile of him and his mansion at Cragside (where he built the first hydroelectric plant to power the lights) in this architectural documentary: [[https://www.youtube.com/watch?v=Vq0ynWjSmTI][Youtube: Jonathan Meades Abroad Again In Britain 04 Cragside House]].
+
+Here's a scan of the speech from the Report of the 33rd Meeting of the British Association for the Advancement of Science:
+
+[[https://www.biodiversitylibrary.org/item/93073#page/55/mode/1up][Address by Sir William G. Armstrong]]
+
+And here's a more readable version:
+
+[[https://nworbmot.org/armstrong.html][Transcript of William Armstrong's 1863 Address to the 33rd Meeting of the British Association for the Advancement of Science]]
+
+based on a correction of the automatic optical character recognition (OCR) from the Internet Archive text version, see GitHub repo:
+
+[[https://github.com/nworbmot/armstrong-admirable-speech][GitHub: Armstrong's Admirable Speech]]
+
+It's in the public domain, so feel free to copy!
