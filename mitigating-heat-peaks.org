@@ -1,0 +1,118 @@
+#+TITLE: Mitigating heat demand peaks in buildings in a highly renewable European energy system
+
+First Posted: 2022.03.15, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2022.03.15, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1503730374689660936][Original Twitter post]]
+
+- Renovating buildings to make them more efficient doesn't just reduce energy use
+- It also reduces demand peaks in electrified system
+- Critical for the kalte Dunkelflaute! (cold, electric heat, low wind, low sun)
+- Strategies for heat demand in zero-CO2 Europe in a new paper
+
+
+[[./graphics/retrofitting/highlights.png]]
+
+[[./graphics/retrofitting/heatsupply-without.png]]
+
+
+New(ish) paper from 2021 led by researcher Lisa Zeyen
+
+"Mitigating heat demand peaks in buildings in a highly renewable European energy system"
+
+Open access in Energy:
+
+https://doi.org/10.1016/j.energy.2021.120784
+
+Also on arXiv:
+
+https://arxiv.org/abs/2012.01831
+
+
+[[./graphics/retrofitting/abstract.png]]
+
+
+What's the problem?
+
+You may know the "Dunkelflaute" - difficulty of supplying with wind and sun when both are low.
+
+If we electrify building heating, we double-down on Dunkelflaute, because low wind and sun can coincide  with cold periods with high heat pump use and low COP.
+
+
+[[./graphics/retrofitting/heatsupply-without.png]]
+
+Lisa Zeyen used our sector-coupled European model to explore both supply and efficiency measures in buildings.
+
+The model separates residential and services demand based on whether it is urban, rural or supplied district heating.
+
+It runs for Europe with hourly resolution.
+
+
+[[./graphics/retrofitting/network.png]]
+
+[[./graphics/retrofitting/supply_options.png]]
+
+
+She then built cost curves for building renovation measures that reduce space heating demand. These are based on building stock datasets from hotmaps, EU Buildings Database & TABULA.
+
+The model optimises investments in supply and building renovations itself (i.e. endogenously).
+
+[[./graphics/retrofitting/retrofitting_costs.png]]
+
+In several scenarios, different options for mitigating those nasty heat demand peaks were explored:
+
+- building retrofits
+
+- allowing thermal energy storage (TES) in buildings
+
+- allowing backup gas boilers in individual buildings (aka hybrid heat pumps)
+
+[[./graphics/retrofitting/scenario_table.png]]
+
+
+Impact on system cost for net-zero-CO2:
+
+- Without building retrofits (right 4 scenarios), TES and hybrid heat pumps add value
+
+- With building retrofits (right 4 scenarios), TES and hybrids add little
+
+=> Gas distribution to buildings can be removed with only 1-2% cost impact!
+
+
+[[./graphics/retrofitting/results.png]]
+
+Why does TES have so little impact?
+
+Because in individual buildings, it cannot store thermal energy for long enough to cover the multi-day kalte Dunkelflauten. Only in areas with district heating can it help (e.g. large hot water tanks that store for weeks/months).
+
+Why do backup boilers not help?
+
+Without retrofitting, they provide a back-stop on cold days with expensive electricity.
+
+With retrofitting, peaks from heat pumps are reduced relative to rest of system, so the backup boilers are less important.
+
+How to distinguish whether reducing overall energy demand is driving retrofits, or rather reducing the nasty heat peaks?
+
+We ran a thought experiment: a fictitious scenario where the building heat load is flat, i.e. not temperature dependent. There is barely any retrofitting.
+
+[[./graphics/retrofitting/heat_supply_with_evenload.png]]
+
+Costs are 30% lower with an even load than with the realistic peaked winter heat demand.
+
+=> What drives building retrofitting is NOT lowering overall energy demand, but rather reducing the heat demand peak, which is hard to meet from the electricity supply side.
+
+
+[[./graphics/retrofitting/evenload-results.png]]
+
+
+As with all these analyses there are important caveats (see SI for more):
+
+- We look at costs, ignoring taxes, subsidies and regulatory barriers
+- Co-benefits of retrofitting like increased comfort & jobs are not taken into account
+- The building stock is heavily aggregated
+- We assume a benevolent optimiser-God, but social factors/regulation as important as cost in consumer decisions
+- There is uncertainty in all data and lack of precision on buildings in services sector
+- We exclude waste heat for industry that could be used in district heating
+
+Alas, some model inaccuracy / reduction is necessary to capture important system interactions between sectors and regions.
+
+Still, we hope the analysis is useful and welcome any thoughts / comments / criticism!

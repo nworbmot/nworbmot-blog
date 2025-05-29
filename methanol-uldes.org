@@ -1,0 +1,175 @@
+#+TITLE: Methanol for ultra-long-duration energy storage anywhere
+
+First Posted: 2023.10.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2023.10.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1719404109726396534][Original Twitter post]]
+
+A renewable power system that is reliable whatever the weather? 🌬️⛅️
+
+The case for e-methanol with carbon cycling ♻️:: liquid storage that can be built anywhere
+
+🚨 New impulse paper🚨 in Joule with Johannes Hampp
+
+
+Paper: https://doi.org/10.1016/j.joule.2023.10.001
+
+Slides: https://nworbmot.org/energy/brown-ireland.pdf
+
+Webinar: [[https://www.youtube.com/watch?v=d_4wnum32AY][Youtube: Engineers Ireland: Ultra-long-duration energy storage anywhere: methanol with carbon cycling]]
+
+[[./graphics/methanol_ldes/costs-main.png]]
+
+For a very fine overview check out Peter Fairley's article in IEEE Spectrum:
+
+[[https://spectrum.ieee.org/methanol-energy-storage][Backing Up the Power Grid With Green Methanol]]
+
+or read on for my two pennies 🧵
+
+What's the problem?
+
+If wind and solar are the backbone of your system, you need to deal with multi-day periods of low feed-in and variability between years.
+
+Fossil+CCS, nuclear, geothermal etc. can help.
+
+Storage? Li-ion batteries can't span such long periods because of $$$.
+
+[[./graphics/methanol_ldes/wind-ireland.png]]
+
+[[./graphics/methanol_ldes/interannual.png]]
+
+Research and government policy is focused on hydrogen storage in underground salt caverns for bridging weekly to seasonal gaps in renewable power.
+
+See e.g. the UK's hydrogen strategy or this new report from The Royal Society
+
+[[https://royalsociety.org/news-resources/projects/low-carbon-energy-programme/large-scale-electricity-storage/][Large-scale electricity storage]]
+
+[[./graphics/methanol_ldes/salt_caverns.jpg]]
+
+Salt caverns are great, but need suitable salt deposits, and these are not always where cheap renewables are.
+
+=> Either need lots of power lines to bring power to electrolysis at salt caverns, or a hydrogen network to bring H2 from electrolysis near solar/wind to the caverns.
+
+[[./graphics/methanol_ldes/salt_deposits_world.png]]
+
+[[./graphics/methanol_ldes/salt-europe.png]]
+
+Large-scale storage of hydrogen in pressure vessels is a no-go because of the cost of all that steel (~15-50 €/kWh).
+
+Then there are other problems of being a fiddly gas to transport, H2 leaks as an indirect greenhouse gas, NOx emissions from high-temperatures in turbines, etc.
+
+[[./graphics/methanol_ldes/hydrogen-tank.jpg]]
+
+An alternative: store energy as a liquid in methanol
+
+Combust methanol in pure oxygen in an Allam cycle turbine; this allows easy capture of pure CO2; then cycle CO2 back for more methanol synthesis with green hydrogen
+
+Concept 1st suggested in Baak et al: https://doi.org/10.1016/j.enconman.2018.12.015
+
+[[./graphics/methanol_ldes/concept.png]]
+
+Cycling avoids sourcing CO2.
+
+Synthesis losses are partly offset by no need for compression and high efficiency of Allam (MeOH round-trip eff. is 35% versus 38% for H2).
+
+Methanol can be stored in aboveground tanks, just like oil.
+
+A single 200,000 m3 tank can store 880 GWh.
+
+[[./graphics/methanol_ldes/Fuel_tank_gnangarra.jpg]]
+
+Methanol is a widely-traded commodity.
+
+Looking beyond power sector, we may need renewable methanol for long-distance shipping, perhaps to make kerosene for aviation and also for the chemical sector. Power would be a tiny fraction on top.
+
+[[./carbon-be-methanol.html][Blogpost: All your carbon shall be methanol]]
+
+To test the concept, we built a stripped down power model with just wind, solar batteries and one type of chemical storage.
+
+To capture many weather conditions as well as inter-year variability, we took hourly data over 71 years (1950-2020) for 3 European countries.
+
+Scenarios:
+
+[[./graphics/methanol_ldes/scenarios.png]]
+
+So what would a wind/solar/storage system cost?
+
+Firstly, a methanol system is *much* cheaper than H2 pressure vessels (if no salt caverns).
+
+But still 16-20% more than using salt caverns, with costs driven by Allam turbines.
+
+If Allam costs reduce to CCGT costs, only 6-7% more.
+
+[[./graphics/methanol_ldes/costs-main.png]]
+
+We simulated over 71 years of weather data to show resilience to low-wind years and rare events.
+
+Methanol was stored over many years to bridge multi-year reductions in wind. Storage covers 92 days of electricity demand (today oil reserves also dimensioned for 90 days of demand).
+
+[[./graphics/methanol_ldes/storage-70a.png]]
+
+Less than 10% of electricity is provided by stored e-methanol; the rest comes from wind, solar, batteries.
+
+13% of wind and solar is curtailed, further 13% lost in storage conversion.
+
+Curtailment and use of e-MeOH will be lower with grid interconnection and flexible P2X demand.
+
+[[./graphics/methanol_ldes/sankey.png]]
+
+To wrap up:
+
+- e-methanol with carbon cycling is promising for long-duration storage
+- especially where hydrogen storage is tricky due to geology
+- will need methanol anyway for e.g. shipping and industry
+- granular tech => iterations => learning
+- More research needed!
+
+[[./graphics/methanol_ldes/conclusions.png]]
+
+Here are the links again:
+
+Impulse paper: https://doi.org/10.1016/j.joule.2023.10.001
+
+Slides: https://nworbmot.org/energy/brown-ireland.pdf
+
+Webinar: [[https://www.youtube.com/watch?v=d_4wnum32AY][Youtube: Engineers Ireland: Ultra-long-duration energy storage anywhere: methanol with carbon cycling]]
+
+Code and data is open: https://zenodo.org/doi/10.5281/zenodo.8307904
+
+IEEE Spectrum article by Peter Fairley: [[https://spectrum.ieee.org/methanol-energy-storage][Backing Up the Power Grid With Green Methanol]]
+
+Now some bonus content.
+
+How do costs change with scale?
+
+The size can be reduced to 200 MW (electrolyser power) while maintaining cost savings of scale.
+
+=> interesting for smaller autarkic regions, such as islands or data centres
+
+=> granular tech, many iterations, learning
+
+[[./graphics/methanol_ldes/methanol_scaling.png]]
+
+
+How does methanol compare to other hydrogen carriers like ammonia, methane, LOHC?
+
+Here's a summary.
+
+[[./graphics/methanol_ldes/comparison.png]]
+
+How are results affected by flexibility of methanol synthesis?
+
+Fossil methanol synthesis typically runs with high capacity factors. Here we explore varying the minimum part load level (from 0% to 50%) and the hourly ramping limit (from 10% to 5%).
+
+Answer: not too badly.
+
+[[./graphics/methanol_ldes/cost-flex.png]]
+
+Want to play around with the model yourself?
+
+Methanol storage can be added in the live optimisation website https://model.energy.
+
+Check the box in "advanced assumptions" (and set the H2 storage cost to pressure vessels with 13 €/kWh).
+
+Enjoy!
+
+[[./graphics/methanol_ldes/model-energy.png]]
