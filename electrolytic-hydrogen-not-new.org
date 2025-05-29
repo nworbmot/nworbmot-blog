@@ -1,0 +1,100 @@
+#+TITLE: Nothing new about electrolytic hydrogen
+#+OPTIONS: tex:t
+
+[[./index.html][Blog home]], First Posted: 2020.07.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2020.07.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://x.com/nworbmot/status/1289206939122008067][Original Twitter post]]
+
+[[https://www.carbonbrief.org/in-depth-qa-does-the-world-need-hydrogen-to-solve-climate-change/][Carbon Brief Q&A that embedded the post]]
+
+Despite the current hype, there's nothing new about electrolytic hydrogen.
+
+- 100 MW electrolysers since late 1920s for fertiliser and heavy water
+
+- 100 GWh salt cavern storage since 1960s
+
+- 4500 km hydrogen pipelines today
+
+What was missing was abundant low cost power.
+
+#+CAPTION: NEL's Rjukan electrolysers from the 1920s
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/rjukan.jpeg]]
+
+From 1920s-1970s, 100+ MW water electrolysers were built across world to meet demand for ammonia for fertiliser.
+
+Prerequisite: cheap power from hydro dams.
+
+All were dismantled as other power demand grew and fossil gas became available to make ammonia.
+
+https://books.google.de/books?id=bf3lBwAAQBAJ&lpg=PA121&dq=united%20states%20electrolyzers%20heavy%20water&pg=PA122#v=onepage&q&f=false
+
+
+#+CAPTION: Large electrolysers built in the past
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/large_electrolysis.png]]
+
+Electrolysis was also the means of making heavy water (D2O), a neutron moderator, from its discovery in the 1930s until the GS process replaced it in the mid-1940s. 
+
+Heavy water was crucial for making the atomic bomb.
+
+This made electrolysis of great military importance in WWII.
+
+
+#+CAPTION: Rjukan in the 1930s
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/historic_rjukan.jpeg]]
+
+History buffs can read more about the US heavy water production program here:
+
+https://en.wikipedia.org/wiki/P-9_Project
+
+and about Allied attacks on the Norwegian heavy water plant when it was under Nazi occupation:
+
+https://en.wikipedia.org/wiki/Norwegian_heavy_water_sabotage
+
+See also:
+
+https://ahf.nuclearmuseum.org/ahf/history/heavy-water-reactors/
+
+
+#+CAPTION: Film: Heroes of Telemark
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/heroes_of_telemark.jpeg]]
+
+
+Hydrogen has been stored underground in salt caverns at petrochemical plants since the 1960s. Two large multi-GWh facilities operate in the UK and in Texas:
+
+https://doi.org/10.1016/j.ijhydene.2012.07.111
+
+https://doi.org/10.1039/C8EE01157E
+
+
+#+CAPTION: Salt caverns used for hydrogen
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/cavern_table.png]]
+
+There are around 4500 km of hydrogen pipelines operational worldwide, so this isn't exactly an unknown quantity either:
+
+According to this report, there were 4542 km of hydrogen pipelines worldwide in 2017.
+
+https://juser.fz-juelich.de/record/842477/files/Energie_Umwelt_408_NEU.pdf
+
+#+CAPTION: Hydrogen pipelines worldwide
+#+ATTR_HTML: :width 700px
+[[./graphics/hydrogen/pipeline_table.jpeg]]
+
+
+So what's the lesson?
+
+- Hydrogen technology is there for when we need it.
+
+- Electrolytic hydrogen will only make economic sense with abundant low-cost power, as it has in the past.
+
+Opinion: In short-term we should focus on energy efficiency, displacing fossil electricity generation with low-emission sources, and electrifying other sectors before scaling up water electrolysis in a big way...
+
+but we may need electrolytic hydrogen in the medium/long-term to decarbonise some chemical sectors, high-density fuels, some industry demand and some backup electricity/heat.
+
+It makes sense to push R&D and niche electrolysis in the meantime.
+
+Enjoy your weekend!
