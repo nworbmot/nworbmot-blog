@@ -1,0 +1,37 @@
+#+TITLE: model.energy/future: Live future Germany power system updated with new loads
+
+First Posted: 2024.02.21, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.02.21, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1760187939420508226][Original Twitter post]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_future-germany-with-todays-weather-site-activity-7168586272205185024-oJMP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+"Future Germany with today's weather" site has experimental scenario with:
+
+- 15 million additional heat pumps 🌡️
+- 30 million battery electric passenger cars 🚘
+- 100 TWh/a hydrogen demand 🫧
+
+https://model.energy/future/html/newdemand.html
+
+Here is a difficult week in January, a "kalte Dunkelflaute":
+
+[[./graphics/nowcast-newdemands/kalte_dunkelflaute.png]]
+
+Technical details here:
+
+https://model.energy/future/#technical-details
+
+[[./graphics/nowcast-newdemands/description.png]]
+
+More background on the site here:
+
+[[./future-today-weather.html][Blogpost: model.energy/future: Future German renewable power system with today's data]]
+
+The difficult "kalte Dunkelflaute" is a rare thing, the wind has barely stopped blowing in the past month...
+
+[[./graphics/nowcast-newdemands/supply-demand-feb.png]]
+
+...and if you you look at the last 9 years (graphic shows weekly averages) the hydrogen is used sparingly - it's mainly a wind+solar+battery+demand management story.
+
+[[./graphics/nowcast-newdemands/9years.png]]

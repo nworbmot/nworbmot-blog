@@ -1,0 +1,101 @@
+#+TITLE: model.energy/future: Future German renewable power system with today's data
+
+First Posted: 2024.01.23, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.01.23, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://twitter.com/nworbmot/status/1749832008820248819][Original Twitter post]]
+
+🚨 new web app 🚨
+
+future renewable power systems running on today's market data 🌬️☀️, scaled up
+ 
+https://model.energy/future/
+
+- updated each day 🕰️
+- wind, solar, hydro, batteries, hydrogen storage 🔋
+- Germany as an island 🏝️
+- coming soon: interconnectors, new electric demands 🚗
+
+[[./graphics/nowcast/dispatch-future.jpeg]]
+
+
+How does it work?
+
+We take the current day's demand, wind, solar and hydro time series from https://SMARD.de.
+
+[[./graphics/nowcast/dispatch-now.jpeg]]
+
+Then we divide generation by current capacities and scale them up to the future capacities.
+
+[[./graphics/nowcast/future-capacities.jpeg]]
+
+All code and data is open (obvs).
+
+For each day we optimise the feed-in of generation and storage (short-term batteries and long-term hydrogen) with 24 hours of foresight, mimicking the day-ahead market.
+
+Demand here includes today's electricity demand and storage charging. Demand and supply match in each hour.
+
+[[./graphics/nowcast/demand-supply.jpeg]]
+
+We have run this simulation one day at a time with 24 hours foresight over 9 years of data since 2015.
+
+Here are weekly averages where you see more solar + electrolysis in summer, more wind + hydrogen-to-power in winter.
+
+[[./graphics/nowcast/demand-supply-full.jpeg]]
+
+Extra renewable generation is needed to cover the storage losses (batteries have round-trip efficiency of ~90% in the model, hydrogen just 39%). This you can see by the share of each technology in the load.
+
+[[./graphics/nowcast/shares.jpeg]]
+
+Batteries are used to bridge generation gaps of a few hours, while hydrogen bridges multiple days of low wind and solar as well as managing seasonal differences.
+
+[[./graphics/nowcast/dispatch-future.jpeg]]
+
+Hydrogen storage is dispatched on a roughly seasonal basis, filling up in the summer, depleting in the winter.
+
+Note that full power-to-hydrogen-to-power storage systems don't yet exist at scale, and more development is needed for hydrogen turbines to get the NOx emissions down.
+
+[[./graphics/nowcast/h2-soc.jpeg]]
+
+Hydrogen storage is dispatched using a constant hydrogen value of 80 EUR/MWh (LHV). Like how water values are used to dispatch hydroelectricity systems today.
+
+The hydrogen value influences electricity prices when hydrogen turbines supply power, and when electrolysers consume.
+
+[[./graphics/nowcast/prices.jpeg]]
+
+Prices here only drop to zero when supply is larger than all flexible demand. The mean electricity price is 82 €/MWh, which allows almost all cost recovery of the system cost 93 €/MWh. Hydrogen turbines don't cover all their investment costs (usual missing money problem).
+
+[[./graphics/nowcast/dispatch-future-less.jpeg]]
+
+There are many technical details and warnings on the website:
+
+https://model.energy/future/#technical-details
+
+[[./graphics/nowcast/technical-details.jpeg]]
+
+[[./graphics/nowcast/warnings.jpeg]]
+
+In particular:
+
+- Allowing connection to Germany's neighbours would help balance variations, reducing costs and storage needs
+- Including new demands like heat pumps and electric vehicles will raise both total electricity demand and peak demand
+
+We'll add these features soon!
+
+Thanks to:
+
+- David Osmond for inspiring with [[https://reneweconomy.com.au/a-near-100-per-cent-renewables-grid-is-well-within-reach-and-with-little-storage/][simulations for Australia]]
+- #openenergytracker team (Wolf-Peter Schill et al) for brainstorming - it will be integrated there soon!
+- BNetzA for data via https://SMARD.de
+- Mirko Schäfer for time series rescaling
+
+We welcome all your feedback & suggestions!
+
+There are already many technical details on the site:
+
+https://model.energy/future/
+
+and planned features in the GitHub issues:
+
+https://github.com/PyPSA/nowcast/issues
+
+See also: [[./future-today-new-loads.html][model.energy/future: Live future Germany power system updated with new loads]] (2024.02.21)

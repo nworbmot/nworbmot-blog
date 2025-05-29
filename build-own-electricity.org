@@ -1,4 +1,4 @@
-#+TITLE: Build your own clean electricity supply
+#+TITLE: model.energy: Build your own clean electricity supply
 
 First Posted: 2019.12.05, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2019.12.05, Author: [[https://www.nworbmot.org/][Tom Brown]]
 

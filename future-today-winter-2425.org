@@ -1,0 +1,38 @@
+#+TITLE: model.energy/future: Challenging Winter 2024/5
+
+First Posted: 2025.04.23, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.23, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_this-past-winter-20245-would-have-been-challenging-activity-7320852723229155330-ax35?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+This past winter 2024/5 would have been challenging for a renewable system in Germany, due to a row of dark wind lulls (Dunkelflauten), combined with colder weather. You can see that the plunge in hydrogen storage in our live simulation is as bad as the winter 2016/7. But we got through it fine, and seem to have now turned the corner: the heating season is over and the storage is filling up again with all that solar energy.
+
+
+[[./graphics/nowcast-winter245/h2-soc.png]]
+
+
+The repeated usage of hydrogen to fill the gaps between wind and solar generation can be seen in the weekly averages of the supply (all the red bits).
+
+[[./graphics/nowcast-winter245/demand-supply.png]]
+
+See here for the full simulations results:
+
+https://model.energy/future/html/newdemand.html
+
+This simulation uses today's weather and scales it up to a scenario of [[https://model.energy/future/html/newdemand.html#future-capacities-in-de][future capacities]], including for new demands like electric vehicles and heat pumps.
+
+In reality we would not cover all these gaps with hydrogen, this is an extreme toy model.
+
+This simulation assumes islanded operation for Germany, and ignores the significant role imports and exports with Germany's neighbours can play balancing the system, thus reducing the need for hydrogen storage.
+
+We've also restricted the technology choice, and there's a whole plethora of technologies that could step up: other storage media like methanol that are easy to bunker for 1-in-10-year events, biofuels, gas with carbon capture or even unabated gas whose emissions are compensated elsewhere, or other advanced dispatchables, see here for more discussion of the options:
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_tough-few-days-for-our-simulation-of-a-future-activity-7261368356501340160-hlvX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][LinkedIn post on options for Dunkelflaute]]
+
+The point is rather to showcase challenges and at least one set of solutions (among many).
+
+There's more info on the assumptions here:
+
+https://model.energy/future/
+
+https://github.com/PyPSA/nowcast
+

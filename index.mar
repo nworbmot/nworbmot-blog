@@ -4,6 +4,7 @@
 This blog discusses future scenarios for the
 energy system. It also stores a record of my LinkedIn, BlueSky and older Twitter posts. All posts are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
 
+<br />
 
 # [The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](./minimal-methanol-economy.html)
 
@@ -24,6 +25,17 @@ Stable electricity prices when wind and solar dominate? Sure! All you need is st
 New paper in Energy Economics with co-authors Fabian Neumann and Iegor Riepin.
 
 <br />
+
+
+
+# [model.energy/future: Challenging Winter 2024/5](future-today-winter-2425.html)
+
+Date: 2025.04.23
+
+This past winter 2024/5 would have been challenging for a renewable system in Germany, due to a row of dark wind lulls (Dunkelflauten), combined with colder weather.
+
+<br />
+
 
 # [Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen?](./kosteneinsparung-zonentrennung.html)
 
@@ -57,6 +69,29 @@ A few thoughts on scaling, grids, liquids.
 
 <br />
 
+
+
+# [model.energy/future: Live future Germany power system updated with new loads](future-today-new-loads.html)
+
+Date: 2024.02.21
+
+"Future Germany with today's weather" site has experimental scenario with:
+
+- 15 million additional heat pumps 🌡️
+- 30 million battery electric passenger cars 🚘
+- 100 TWh/a hydrogen demand 🫧
+
+
+<br />
+
+
+# [model.energy/future: Future German renewable power system with today's data](future-today-weather.html)
+
+Date: 2024.01.23
+
+A future German renewable power system running on today's market datascaled u up.
+
+<br />
 
 
 # [Methanol for ultra-long-duration energy storage anywhere](methanol-uldes.html)
@@ -173,7 +208,7 @@ VRE cannibalisation is a policy artefact, not a physical system constraint.
 
 
 
-# [Build your own clean electricity supply](build-own-electricity.html)
+# [model.energy: Build your own clean electricity supply](build-own-electricity.html)
 
 Date: 2019.12.05
 
