@@ -68,6 +68,16 @@ TL,DR: methanol is liquid; easier to transport/store than CH4/H2/CO2; costs scal
 <br />
 
 
+# [Learning effects lead to path dependency](learning-path-dependency.html)
+
+Date: 2021.05.22
+
+- Learning effects lead to path dependency
+- Including learning in your model => many distinct local optima
+
+<br />
+
+
 # [William Armstrong's 1863 admirable speech](armstrong-admirable-speech.html)
 
 Date: 2020.10.22
@@ -91,7 +101,6 @@ In 1863, William Armstrong advocates:
 Date: 2020.10.17
 
 - Idea of using electrolysis of water & storing hydrogen is almost as old as electrolysis (1789)
-
 - Already a lively debate in *1863* about combining variable renewables with electrolytic hydrogen to replace coal
 
 <br />
@@ -103,12 +112,24 @@ Date: 2020.07.31
 Despite the current hype, there's nothing new about electrolytic hydrogen.
 
 - 100 MW electrolysers since late 1920s for fertiliser and heavy water
-
 - 100 GWh salt cavern storage since 1960s
-
 - 4500 km hydrogen pipelines today
 
 What was missing was abundant low cost power.
+
+<br />
+
+
+# [History of ideas for integrating renewable energy](renewable-integration-history.html)
+
+Date: 2020.03.06
+
+I would love to read a history of ideas to integrate renewable energy
+
+This 1955 book is very familiar:
+
+- electrify first to avoid conversion losses
+- then use thermal, hydrogen and compressed air energy storage to balance wind variations
 
 <br />
 
