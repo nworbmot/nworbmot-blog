@@ -127,4 +127,9 @@ def process_org(file_name):
 
 for file_name in os.listdir("."):
     if file_name[-4:] == ".org":
-        process_org(file_name)
+        html_name = file_name[:-3] + "html"
+        if os.path.isfile(html_name) and os.path.getmtime(html_name) > os.path.getmtime(file_name):
+            print(f"{file_name} was already processed, skipping")
+        else:
+            print(f"processing {file_name}")
+            process_org(file_name)
