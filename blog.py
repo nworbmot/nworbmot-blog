@@ -10,8 +10,9 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
+<meta charset="utf-8">
 <title> blog | nworbmot:tombrown</title>
-<link rel="stylesheet" type="text/css" href="../theme.css" />
+<link rel="stylesheet" type="text/css" href="../theme-250529.css" />
 <script type="text/javascript" src="https://orgmode.org/mathjax/MathJax.js"></script>
 <script type="text/javascript">
 <!--/*--><![CDATA[/*><!--*/
@@ -103,7 +104,7 @@ def process_org(file_name):
         print("File is already processed, skipping")
         return
 
-    start_string = '<div id="content">'
+    start_string = '<div id="content" class="content">'
 
     if start_string not in html:
         print("Start string not found, skipping")
@@ -126,7 +127,9 @@ def process_org(file_name):
     f.close()
 
 for file_name in os.listdir("."):
-    if file_name[-4:] == ".org":
+    if file_name == "blog.org":
+        continue
+    elif file_name[-4:] == ".org":
         html_name = file_name[:-3] + "html"
         if os.path.isfile(html_name) and os.path.getmtime(html_name) > os.path.getmtime(file_name):
             print(f"{file_name} was already processed, skipping")

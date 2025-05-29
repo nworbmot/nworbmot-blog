@@ -1,7 +1,6 @@
 #+TITLE: All your carbon shall be methanol
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2023.10.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2023.10.03, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2023.10.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2023.10.03, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://twitter.com/nworbmot/status/1709224110117519779][Original Twitter post]]
 
@@ -13,8 +12,6 @@ TL,DR: methanol is liquid; easier to transport/store than CH4/H2/CO2; costs scal
 
 
 #+CAPTION: Methanol production routes.
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/process.png]]
 
 
@@ -27,8 +24,6 @@ Flexible, distributed synthesis from wastes and residues (topped up with green H
 => minimise direct air capture, and transport of fiddly gases
 
 #+CAPTION: Methanl production routes
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/irena.png]]
 
 
@@ -41,8 +36,6 @@ https://en.wikipedia.org/wiki/Methanol_economy
 
 
 #+CAPTION: Methanol economy
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/methanol-economy.png]]
 
 
@@ -59,8 +52,6 @@ synthesised from CO, CO2 and H2 (already at megaton scale in China)
 don't drink it!
 
 #+CAPTION: Flames of different fuels
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/flame.jpg]]
 
 in cost-effective net-zero scenarios almost everything gets electrified
@@ -78,8 +69,6 @@ https://hymethship.com
 
 
 #+CAPTION: Ship with carbon capture
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/hymethship.png]]
 
 while most studies consider Fischer-Tropsch for kerosene, methanol is also in the running!
@@ -89,9 +78,6 @@ methanol-to-kerosene is around 90% efficient, but not yet commercial
 going via methanol has big benefit that methanol synthesis can be run more flexibly than FT (big advantage with VRE!)
 
 
-#+CAPTION: 22% biogas
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/A380-family-stage.jpg]]
 
 
@@ -106,8 +92,6 @@ methanol use today:
 
 
 #+CAPTION: Methanol usage in chemical industry
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/meoh-chemicals.png]]
 
 
@@ -120,8 +104,6 @@ https://doi.org/10.1016/j.rser.2021.110861
 
 
 #+CAPTION: Methanol production costs.
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/fuelcosts.png]]
 
 So what does methanol production look like?
@@ -132,8 +114,6 @@ Enerkem's plant in Canada uses non-recyclable and non-compostable waste, thus re
 
 
 #+CAPTION: Enerkem plant in Alberta, Canada.
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/alberta.jpg]]
 
 
@@ -144,8 +124,6 @@ https://www.ieabioenergy.com/wp-content/uploads/2020/12/Case-Story-DK_-Green-Met
 
 
 #+CAPTION: Methanol production from biogas
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/biogas.png]]
 
 
@@ -163,8 +141,6 @@ https://m2x.energy
 
 
 #+CAPTION: M2X small-scale methanol production
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biomass_methanol/m2x.jpg]]
 
 

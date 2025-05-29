@@ -1,7 +1,6 @@
 #+TITLE: History of green hydrogen
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2020.10.17, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2020.10.17, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2020.10.17, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2020.10.17, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://x.com/nworbmot/status/1317449761218285568][Original Twitter post]]
 
@@ -14,8 +13,7 @@ TL;DR:
 - Already a lively debate in *1863* about combining variable renewables with electrolytic hydrogen to replace coal
 
 
-#+CAPTION: Jevons quotation pouring cold water on hydrogen storage
-#+ATTR_HTML: :width 700px
+#+CAPTION: Jevons pouring cold water on green hydrogen
 [[./graphics/jevons/jevons-highlighted-crop.png]]
 
 The above quotation is from Jevons' (he of paradox fame) marvellous 1865 treatise "The Coal Question":
@@ -27,30 +25,19 @@ https://oll.libertyfund.org/titles/317#Jevons_0546_346
 and refers to an exchange in The Times of London in 1863, started by this letter on page 10 of the 2nd Sep 1863 edition:
 
 
-#+CAPTION: Keyworth letter to The Times in 1863
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/18630902-keyworth-crop.png]]
 
 
 G.A. Keyworth of Hastings followed up a few days on 16th Sep 1863 later with an elaboration of his ideas:
 
-#+CAPTION: Keyworth letter to The Times in 1863
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/18630916-keyworth2-part1-crop.png]]
 
-#+CAPTION: Keyworth letter to The Times in 1863
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/18630916-keyworth2-part2-crop.png]]
 
 It was poo-pooed a few days later on 18th Sep later by some sceptics, with Q reported by Jevons to be "Dr. Percy of the School of Mines" (OMG did I uncover the identity of Q?!):
 
-#+CAPTION: Response to Keyworth letter to The Times in 1863
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/18630918-response-part1-crop.png]]
 
-
-#+CAPTION: Response to Keyworth letter to The Times in 1863
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/18630918-response-part2-crop.png]]
 
 Already in 1840 the "alternate decomposition and recomposition of water" was talked up in Dr. Dionysius Lardner's "The Steam Engine Explained and Illustrated" as something on "every mind":
@@ -60,8 +47,7 @@ https://books.google.de/books/about/The_Steam_Engine_Explained_and_Illustrat.htm
 https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306
 
 
-#+CAPTION: Lardner on using hydrogen storage
-#+ATTR_HTML: :width 700px
+
 [[./graphics/jevons/lardner-crop.png]]
 
 
@@ -71,10 +57,6 @@ Jevons poured cold water on all this electricity hype in his 1865 book:
 
 https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_307
 
-
-
-#+CAPTION: Jevons quotation pouring cold water on hydrogen storage
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/jevons-cold-water-crop.png]]
 
 
@@ -91,7 +73,6 @@ Hydrogen would be stored underground and "expended for industry, transportation,
 Sound familiar?
 
 #+CAPTION: Haldane on hydrogen storage in 1923
-#+ATTR_HTML: :width 700px
 [[./graphics/jevons/daedelus-hydrogen.png]]
 
 

@@ -1,7 +1,6 @@
 #+TITLE: Vorschlag für die Senkung der Netzengelte
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2025.03.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.03.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.03.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.03.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://bsky.app/profile/nworbmot.bsky.social/post/3ljz5ojzwxs2p][Original Bluesky post]]
 
@@ -12,12 +11,7 @@ Vorschlag: Anstatt die Übertragungsnetze dauerhaft zu subventionieren, lieber k
 
 Nach unserer Berechnung kann man mit kluger Planung etwa 92 Mrd. EUR (einen ,,Wumms'') sparen
 
-#+CAPTION: Einsparungen bei den Investitionen ins Übertragungsnetz
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/ariadne-wasserfall.jpg]]
-
-
 
 Dies zeigen wir im neuen Ariadne-Szenarienreport ,,Die Energiewende kosteneffizient gestalten – Szenarien zur Klimaneutralität 2045''
 
@@ -25,9 +19,6 @@ https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente
 
 Das Übertragungsnetz muss zügig und stark ausgebaut, aber durch eine integrierte Planung von Erzeugung, Speichern und anderen Flexibilitätsmaßnahmen lässt sich der Netzausbaubedarf im Übertragungsnetz um etwa ein Drittel reduzieren (Senkung um 92 Mrd. EUR von 283 Mrd. EUR2020 auf 191 Mrd. EUR).
 
-#+CAPTION: Ausbau des Übertragungsnetzes im PyPSA-Szenario
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/ariadne-netzkarte.jpg]]
 
 
@@ -43,9 +34,6 @@ Wichtige Maßnahmen hierfür sind:
 
 Warum ist das Amortisationskonto notwendig? Weil die Netzentgelte einen Höhenpunkt in den Jahren 2025 bis 2030 erreichen, und dann durch die steigende Stromnachfrage wieder sinken. Mit einem Amortisationskonto werden die Kosten besser über die Jahre verteilt.
 
-#+CAPTION: Netzengelte
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/ariadne-netzentgelte.jpg]]
 
 Die Aufnahmen der Webinare zum Szenarienreport sind jetzt online verfügbar:

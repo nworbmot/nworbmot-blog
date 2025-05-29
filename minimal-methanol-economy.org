@@ -1,7 +1,6 @@
 #+TITLE: The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2025.05.19, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.19, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.05.19, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.19, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_as-the-hydrogen-bubble-deflates-what-are-activity-7330232264129183745-LiyD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Parallel LinkedIn post]]
 
@@ -17,21 +16,18 @@ As a liquid at ambient conditions, methanol avoids many of the problems of hydro
 
 But isn't the carbon in it a problem? Not if you broaden out and look at the system as a whole: we need sustainable carbon for chemical feedstocks and dense fuels for longhaul shipping and aviation. These demands are massive. Methanol helps mop up sustainable decentral carbon from biomass and then bring it to these users. Adding a bit of backup power on top is small fry.
 
-#+CAPTION: Methanol supply and demand routes.
-#+NAME: fig:methanol_routes
-#+ATTR_HTML: :width 700px
 [[./graphics/methanol_economy/methanol_routes.png]]
 
 Methanol can be produced for 80-100 EUR/MWh from biomass. Since biomass has excess carbon, we can in future top-up with electrolytic hydrogen to boost yields (for extra cost).
+
+[[./graphics/methanol_economy/methanol_bottom_up_costs.png]]
+
 
 So what did we do in the paper? We took a granular model of Europe with net-zero carbon dioxide emissions, then implemented new uses of methanol (for olefins, aromatics and kerosene) where it is competitive. Then we successively removed hydrogen and methane pipeline networks to see how methanol fared as a substitute.
 
 The result? A system without hydrogen and methane transport, i.e. relying on methanol for non-electric use cases and confining hydrogen to industrial clusters, is just 24 billion euro per year (3% of system costs) more expensive.
 
-#+CAPTION: Methanol costs in different scenarios; Panel A is default scenario with all networks; Panel B shows differences as pipelines are turned off.
-#+NAME: fig:methanol_routes
-#+ATTR_HTML: :width 700px
-[[./graphics/methanol_economy/methanol_routes.png]]
+[[./graphics/methanol_economy/methanol_costs.png]]
 
 Why so little? Because the system is already highly electrified (including shorthaul aviation & shipping), and it needs lots of methanol anyway for chemicals and longhaul.
 

@@ -1,7 +1,7 @@
 #+TITLE: Burden of proof: renewables and nuclear power
 #+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 
 * About this document
@@ -100,7 +100,6 @@ carbon dioxide emission in the European Union in 2015:
 
 #+CAPTION: Carbon dioxide emissions in the European Union in 2015 (Source: Tom Brown, based on statistics from [[https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-13][EEA]])
 #+NAME: fig:eu_co2
-#+ATTR_HTML: :width 700px
 [[./graphics/EU28-emissions_pie-2015-CO2.png]]
 
 No country is yet making big inroads into defossilising transport,
@@ -136,7 +135,6 @@ in Europe:
 
 #+CAPTION: Electricity demand in Europe in 2011 (Source: Tom Brown, based on statistics from ENTSO-E)
 #+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/elec_demand.png]]
 
 
@@ -144,7 +142,6 @@ with the yearly profile for space and water heating:
 
 #+CAPTION: Space and water heating demand in Europe in 2011, based on degree-day approximation (Source: Tom Brown)
 #+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/heat_demand.png]]
 
 
@@ -259,7 +256,6 @@ ii) There is more to stationary electricity storage than lithium batteries. Here
 
 #+CAPTION: Comparison of power rating and rated energy capacity with discharge time duration at power rating (Source: https://doi.org/10.1016/j.apenergy.2014.09.081)
 #+NAME: fig:storage
-#+ATTR_HTML: :width 700px
 [[./graphics/storage.jpg]]
 
 Not all the technologies are mature. Here is a list with commentary on
@@ -524,7 +520,6 @@ fuels and other inputs:
 
 #+CAPTION: Embodied energy use of electricity generation technologies as a percentage of lifetime electricity generation (Source: https://doi.org/10.1038/s41560-017-0032-9)
 #+NAME: fig:embodied
-#+ATTR_HTML: :width 700px
 [[./graphics/embodied_energy.png]]
 
 The embodied energy use of wind, CSP and PV (primarily in

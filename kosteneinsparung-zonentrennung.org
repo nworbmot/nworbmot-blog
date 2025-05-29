@@ -1,7 +1,6 @@
 #+TITLE: Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen?
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2025.04.01, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.01, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.04.01, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.04.01, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_welche-kosten-lie%C3%9Fen-sich-mit-einer-gebotszonentrennung-activity-7312768135810469888-Ovqk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
 
@@ -17,14 +16,8 @@ Aktualisierung 2025 für Octopus: https://octoenergy-production-media.s3.amazona
 
 Kosteneinsparungen für Konsument*innen (NPV 2030-50) mit 12 Zonen für Großbritannien: 55 Milliarden GBP, allerdings verlieren Produzent*innen 30 Milliarden, sodass der Wohlfahrtsgewinn nur bei 25 Milliarden liegt.
 
-
 #+CAPTION: Vorteil Zonentrennung in Großbritannien (FTI, 2025)
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/fti-octopus-waterfall.png]]
-
-
-
 
 Großbritanniens System ist natürlich etwas anders als Deutschlands gestaltet (Balancing Mechanism, ein langes enges Netz) aber ähnliche Einsparungen könnte man erwarten.
 
@@ -38,26 +31,13 @@ Folien zu Energiewirtschaft und Infrastruktur: https://ariadneprojekt.de/media/2
 
 Kosteneinsparungen im Übertragungsnetz: 92 Mrd EUR2020, ein Drittel weniger als im Netzentwicklungsplan 2023.
 
-
-#+CAPTION: Einsparungen bei den Investitionen ins Übertragungsnetz
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/ariadne-wasserfall.png]]
-
-
 
 Die Engpassrente (Einkommen von Stromarbitrage zwischen Regionen mit Preisunterschieden) beträgt 7 Mrd EUR/a und der Redispatchbedarf verringert sich, sodass die Netzentgelte um 7,5 EUR/MWh im Durchchnitt sinken.
 
 Weil die Reduktion der Netzentgelte die regionalen Preisunterschiede überwiegt, wird in jeder Region im Durchschnitt gespart. Nur die energieintensive Industrie, die teils vom Netzentgelt befreit ist, müsste dann für leicht höhere Preise kompensiert werden.
 
-
-
-#+CAPTION: Preise mit und ohne PyPSA-Ausbau und Preisen
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/ariadne-prices.jpeg]]
-
-
 
 Eine weitere Studie von Dr. Mirjam Ambrosius et al findet einen Wohlfahrtsgewinn von 1,2 Mrd EUR/a im first-best Szenario mit 16 Knoten für Deutschland, schaut sich allerdings nur ein altes NEP-Szenario fürs Jahr 2035 an. Größere Einsparungen gäbe es z.B. im Jahr 2045, wenn Klimaneutralität erreicht wird.
 

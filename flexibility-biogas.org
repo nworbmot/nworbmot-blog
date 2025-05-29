@@ -1,7 +1,6 @@
 #+TITLE: What flexibility do we need from biogas?
-#+OPTIONS: tex:t
 
-[[./index.html][Blog home]], First Posted: 2024.08.30, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.08.30, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2024.08.30, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.08.30, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://twitter.com/nworbmot/status/1829517518727188665][Original Twitter post]]
 
@@ -15,8 +14,6 @@ A few thoughts on scaling, grids, liquids.
 
 
 #+CAPTION: Biogas utilisation options
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/biomethane.jpg]]
 
 "Flexibility from biogas" often means switching from baseload to only feeding in at peak hours of the day, which requires a larger generator and biogas storage of 12-24 hours, like this oft-cited example in the Schwarzwald
@@ -36,8 +33,6 @@ https://langfristszenarien.de
 
 
 #+CAPTION: Seasonal generation from hydrogen power plants
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/h2_seasonal.png]]
 
 
@@ -45,8 +40,6 @@ https://langfristszenarien.de
 It cannot be stored at small plants seasonally. One obvious option is to upgrade it to bio-methane (i.e. remove the CO2, ~30-50% by volume, and other impurities), and feed it into the gas grid where it can be stored seasonally and used in regular gas turbines.
 
 #+CAPTION: Biomethane upgrading
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/biomethane.jpg]]
 
 
@@ -55,8 +48,6 @@ This is done in Denmark and to a limited extent in Germany, but there are hurdle
 
 
 #+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/pooling.png]]
 
 Upgrading plants need to be close to the main gas network at the right pressure level. In a 2020 paper IZES and UFZ
@@ -67,8 +58,6 @@ https://doi.org/10.1186/s13705-020-00276-z
 
 
 #+CAPTION: 22% biogas
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/22pc_biogas.png]]
 
 
@@ -77,8 +66,6 @@ https://doi.org/10.1186/s13705-020-00276-z
 
 
 #+CAPTION: Paper quote
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/pressure.png]]
 
 
@@ -90,14 +77,10 @@ https://doi.org/10.1080/17597269.2024.2318515
 
 
 #+CAPTION: Swedish example: decentral/central setup.
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/sweden_setup.png]]
 
 
 #+CAPTION: Swedish example: cost implications.
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/sweden_cost.png]]
 
 
@@ -118,21 +101,9 @@ Costs in these pathways is high, but there is a clear need for carbonaceous mole
 Biogas can play a big role so let's do it right!
 
 
-
-#+CAPTION: Biogas utilisation
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/biogas_plant.jpg]]
 
 
-
-
-
-
-
-#+CAPTION: Biogas utilisation
-#+NAME: fig:heat
-#+ATTR_HTML: :width 700px
 [[./graphics/biogas_flex/schwarzwald.png]]
 
 
