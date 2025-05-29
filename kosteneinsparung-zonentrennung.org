@@ -8,11 +8,11 @@ Welche Kosten ließen sich mit einer Gebotszonentrennung in Deutschland sparen? 
 
 Eine gute Orientierung gibt eine Reihe von Studien in Großbritannien in Vorbereitung auf den Review of Electricity Market Arrangements von FTI Consulting, geleitet von Jason Mann, die sich mit allen Aspekten einer Zonentrennung und nodaler Bepreisung auseinandersetzt.
 
-Erste große Studie im Jahr 2023 für den Regulierer Ofgem: https://www.fticonsulting.com/uk/insights/videos-and-podcasts/assessment-locational-wholesale-electricity-market-design-options
+Erste große Studie im Jahr 2023 für den Regulierer Ofgem: [[https://www.fticonsulting.com/uk/insights/videos-and-podcasts/assessment-locational-wholesale-electricity-market-design-options][FTI: Assessment of Locational Wholesale Electricity Market Design Options in GB]]
 
-Folien: https://www.strommarkttreffen.org/05_Jason%20Mann%20and%20Ljubo%20Mitrasevic%20(FTI%20Consulting)_%20Cost-Benefit-Analysis%20of%20moving%20to%20zonal%20or%20nodal%20electricity%20market%20design%20in%20GB.pdf
+Folien: [[https://www.strommarkttreffen.org/05_Jason%20Mann%20and%20Ljubo%20Mitrasevic%20(FTI%20Consulting)_%20Cost-Benefit-Analysis%20of%20moving%20to%20zonal%20or%20nodal%20electricity%20market%20design%20in%20GB.pdf][FTI: Nodal pricing in GB: Brief overview of conclusions and impact on use of flexibility resources]]
 
-Aktualisierung 2025 für Octopus: https://octoenergy-production-media.s3.amazonaws.com/documents/FTI_-_Octopus_-_Impact_of_zonal_design_-_Final_report_-_24_Feb_2025.pdf
+Aktualisierung 2025 für Octopus: [[https://octoenergy-production-media.s3.amazonaws.com/documents/FTI_-_Octopus_-_Impact_of_zonal_design_-_Final_report_-_24_Feb_2025.pdf][FTI: Impact of a Potential Zonal Market Design in Great Britain]]
 
 Kosteneinsparungen für Konsument*innen (NPV 2030-50) mit 12 Zonen für Großbritannien: 55 Milliarden GBP, allerdings verlieren Produzent*innen 30 Milliarden, sodass der Wohlfahrtsgewinn nur bei 25 Milliarden liegt.
 
@@ -25,9 +25,9 @@ Die Analyse ist eher statisch: Netzausbau und Verortung der Nachfrage sind exoge
 
 Genau diese dynamische Optimierung hatten wir uns im Ariadne-Szenarienreport für Deutschland vorgenommen. Durch eine integrierte Planung vom Strom und Wasserstoff mit regionalen Preisen, kann man die Elektrolyse an der Küste platzieren und viele der langen unterirdischen HGÜ-Leitungen in den Süden sparen.
 
-Bericht: https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/
+Bericht: [[https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/][Ariadne-Szenarienreport]]
 
-Folien zu Energiewirtschaft und Infrastruktur: https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf
+[[https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf][Folien Energiewirtschaft & Infrastruktur]]
 
 Kosteneinsparungen im Übertragungsnetz: 92 Mrd EUR2020, ein Drittel weniger als im Netzentwicklungsplan 2023.
 

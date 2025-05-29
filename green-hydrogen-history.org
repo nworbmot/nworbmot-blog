@@ -42,7 +42,7 @@ It was poo-pooed a few days later on 18th Sep later by some sceptics, with Q rep
 
 Already in 1840 the "alternate decomposition and recomposition of water" was talked up in Dr. Dionysius Lardner's "The Steam Engine Explained and Illustrated" as something on "every mind":
 
-https://books.google.de/books/about/The_Steam_Engine_Explained_and_Illustrat.html?id=u4JMAAAAMAAJ&redir_esc=y
+[[https://books.google.de/books/about/The_Steam_Engine_Explained_and_Illustrat.html?id=u4JMAAAAMAAJ&redir_esc=y][The Steam Engine Explained and Illustrated]]
 
 https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306
 
@@ -62,7 +62,7 @@ https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_307
 
 The ideas resurfaced in the 1890s in Denmark (h/t [[https://twitter.com/ruth_mottram][@ruth mottram]]) with Poul la Cour's experiments to tame the wind with electrolysis:
 
-https://en.wikipedia.org/wiki/Poul_la_Cour#The_experimental_mill_at_Askov_1891
+[[https://en.wikipedia.org/wiki/Poul_la_Cour#The_experimental_mill_at_Askov_1891][Poul la Cour's experimental mill at Askov]]
 
 And in fairly full/modern form in J.B.S. Haldane's Daedalus essay in 1923:
 

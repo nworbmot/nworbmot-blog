@@ -15,7 +15,7 @@ Nach unserer Berechnung kann man mit kluger Planung etwa 92 Mrd. EUR (einen ,,Wu
 
 Dies zeigen wir im neuen Ariadne-Szenarienreport ,,Die Energiewende kosteneffizient gestalten – Szenarien zur Klimaneutralität 2045''
 
-https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/
+[[https://ariadneprojekt.de/pressemitteilung/ariadne-report-zeigt-kosteneffiziente-pfade-zur-klimaneutralitaet-2045-in-deutschland/][Ariadne-Szenarienreport]]
 
 Das Übertragungsnetz muss zügig und stark ausgebaut, aber durch eine integrierte Planung von Erzeugung, Speichern und anderen Flexibilitätsmaßnahmen lässt sich der Netzausbaubedarf im Übertragungsnetz um etwa ein Drittel reduzieren (Senkung um 92 Mrd. EUR von 283 Mrd. EUR2020 auf 191 Mrd. EUR).
 
@@ -38,10 +38,10 @@ Warum ist das Amortisationskonto notwendig? Weil die Netzentgelte einen Höhenpu
 
 Die Aufnahmen der Webinare zum Szenarienreport sind jetzt online verfügbar:
 
-https://ariadneprojekt.de/events-de/webinare-zum-ariadne-szenarienreport-2025/
+[[https://ariadneprojekt.de/events-de/webinare-zum-ariadne-szenarienreport-2025/][Webinar zum Ariadne-Szenarienreport]]
 
 Hier geht's direkt zu den Folien zu Energiewirtschaft und Infrastruktur los: 
 
-https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf
+[[https://ariadneprojekt.de/media/2025/03/Ariadne_Szen2025_Webinar_Folien_Energiewirtschaft.pdf][Folien Energiewirtschaft & Infrastruktur]]
 
 Mit ein paar Easter Eggs am Ende, die ich im Webinar nicht zeigen konnte 😀
