@@ -1,0 +1,33 @@
+#+TITLE: Options for the Dunkelflaute
+
+First Posted: 2024.11.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2024.11.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_tough-few-days-for-our-simulation-of-a-future-activity-7261368356501340160-hlvX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Original LinkedIn post]]
+
+Tough few days for our simulation of a future German renewable electricity system. The dreaded dark wind lull forces the model to rely on stored electrolytic hydrogen. But fortunately hydrogen storage was full at the beginning, and has only dropped to a filling level of 85% so far.
+
+https://model.energy/future/
+
+[[./graphics/options_dunkelflaute/supply-df.jpeg]]
+
+[[./graphics/options_dunkelflaute/h2-df.jpeg]]
+
+What would alternative clean supply systems look like?
+
+Imports: The model treats Germany as an island, which is daft given how well Germany is interconnected today. Imports would help to substitute some hydrogen with electricity generation from regions with a bit more wind during these days. 
+
+Batteries: Batteries are in the model (grey) but can only help to shift solar peaks by a few hours. No help against this multi-day event.
+
+Non-hydrogen long-duration energy storage (LDES): Electrochemical options with e.g. 100 hours of storage could help, but note this event could go on for another week.
+
+Other green molecules: Hydrogen is a pain to handle, but other green-hydrogen-based molecules could substitute, like methane, methanol or ammonia, see e.g. here: [[https://nworbmot.org/energy/brown-iew24.pdf][Slide deck on methanol for hard-to-electrify sectors]].
+
+Nuclear: Nuclear is not great for simply providing capacity because of its high CAPEX. There is a residual load here that peaks at 70 GW. Suppose we built 70 GW of nuclear. Then you would want to run it as much as possible, e.g. when it has to fight for dominance with wind and solar at other times, and it won't compete in the long-run unless it has LCOE < 80 EUR/MWh (rough system cost of this renewables-based system with interconnection).
+
+Biomass residues: Power plants that directly use solid biomass residues typically have high CAPEX because they have to handle inhomogeneous feedstock. Biogas plants are usually too small to be able to store enough biogas for rare events like this. One possibility is to upgrade biomass to biomethane or biomethanol and store it centrally. But then it also competes with other future users of sustainable carbon (industry feedstocks and dense fuels for shipping/aviation).
+
+Unabated fossil fuels compensated by carbon dioxide removal (CDR): Could be cost-effective in the long-run, but many challenges: we should be keeping CDR for harder-to-abate sectors, upstream emissions have to be compensated, other air pollutants (NOx etc).
+
+Fossil fuels with carbon capture and sequestration (CCS): Can be cost-effective, but some solutions have high CAPEX (others like Allam cycle maybe do not), CCS will initially be scarce and taken by harder-to-abate sectors, upstream emissions, air pollutants (again, doesn't apply to Allam).
+
+[Demand reduction? Yes definitely, some industrial consumers could shut down for several days with the right incentives, but other consumers would struggle with multiple days.]

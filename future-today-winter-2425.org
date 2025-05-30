@@ -26,7 +26,7 @@ This simulation assumes islanded operation for Germany, and ignores the signific
 
 We've also restricted the technology choice, and there's a whole plethora of technologies that could step up: other storage media like methanol that are easy to bunker for 1-in-10-year events, biofuels, gas with carbon capture or even unabated gas whose emissions are compensated elsewhere, or other advanced dispatchables, see here for more discussion of the options:
 
-[[https://www.linkedin.com/posts/tom-brown-226b191a0_tough-few-days-for-our-simulation-of-a-future-activity-7261368356501340160-hlvX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][LinkedIn post on options for Dunkelflaute]]
+[[./options-dunkelflaute.html][Blog post: Options for Dunkelflaute]]
 
 The point is rather to showcase challenges and at least one set of solutions (among many).
 
