@@ -47,7 +47,7 @@ This is done in Denmark and to a limited extent in Germany, but there are hurdle
 
 
 
-#+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion
+#+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion  (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/pooling.png]]
 
 Upgrading plants need to be close to the main gas network at the right pressure level. In a 2020 paper IZES and UFZ
@@ -57,7 +57,7 @@ https://doi.org/10.1186/s13705-020-00276-z
 
 
 
-#+CAPTION: 22% biogas
+#+CAPTION: 22% biogas (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/22pc_biogas.png]]
 
 
@@ -65,7 +65,7 @@ https://doi.org/10.1186/s13705-020-00276-z
 
 
 
-#+CAPTION: Paper quote
+#+CAPTION: Paper quote (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/pressure.png]]
 
 

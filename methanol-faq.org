@@ -1,0 +1,315 @@
+#+TITLE: Minimal Methanol Economy: Frequently Asked Questions
+
+First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.07.07, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+This Frequently Asked Questions page answers common questions arising
+from our 2025 paper [[https://arxiv.org/abs/2505.09277][The Minimal Methanol Economy as a Gap-Filler for
+High Electrification Scenarios]] (see this [[./minimal-methanol-economy.html][blog post]] for an
+introduction to the paper).
+
+* How sustainable is the biomass used to produce the methanol in your scenarios?
+
+Biomass is used to produce methanol in our scenarios. Since biomass
+has excess carbon compared to methanol, the additional carbon is
+upgraded with electrolytic hydrogen to make the most of the available
+carbon, so-called e-biomethanol. This allows the model to avoid
+expensive direct air capture (DAC).
+
+Only sustainable biomass sources are allowed in the model. This means
+the model is forced to used wastes and residues that do not cause any
+[[https://knowledge4policy.ec.europa.eu/glossary-item/indirect-land-use-change_en][additional land use]]. In particular, dedicated energy crops such as
+corn/maize, other cereals or rape seed, are not allowed. This would be
+a substantial change to the biomass substrates used today.
+
+The biomass sources are split into two categories: solid biomass and
+biogas. Solid biomass can be combusted for process heat or power
+generation, or gasified to produce synthetic fuels. Biogas sources can
+be processed in anaerobic digestors into biogas (a mixture mostly of
+methane and carbon dioxide). The boundary is fluid; some solid biomass
+could be used in biogas units ([[https://doi.org/10.1038/s41560-024-01693-6][Millinger et al, 2025]] also allow straw
+to be mixed into the biogas substrate).
+
+For the European area using wastes and residues from the JRC's
+[[https://data.jrc.ec.europa.eu/dataset/74ed5a04-7d74-4807-9eab-b94774309d9f][ENSPRESO dataset]] (medium potential) this translates to 1049 TWh/a of
+solid biomass (coming from agricultural residues like straw, forestry
+residues, sawdust, biogenic municipal waste) and ~342 TWh/a of biogas
+(from animal manure and sludge waste).
+
+Focusing on Germany, there is 189 TWh/a solid biomass and 32 TWh/a biogas.
+
+Further sustainable biomass could be leveraged without increasing land
+usage by allowing to use [[https://en.wikipedia.org/wiki/Cover_crop][cover crops]] (crops planted between growing
+seasons to maintain soil integrity) or grasses on marginal lands.
+
+
+* What does the carbon cycle look like?
+
+In the minimal methanol scenario, the 1391 TWh/a of biomass contains around 114 MtC/a (equivalent to 417 tCO_2/a).
+
+1211 TWh/a of this is used to make methanol (99 MtC/a, 363 MtCO_2/a).
+
+The rest goes to industry heat, where some carbon is captured.
+
+Extra carbon is also captured from the Allam cycle plants, waste-to-energy plants and industry heat with carbon capture (? MtC/a, ? MtCO_2/a).
+
+1500 TWh/a of methanol is produced (the extra energy coming from electricity and 648 TWh/a of hydrogen), which has 102 MtC/a (372 MtCO_2/a).
+
+This carbon is then released into the atmosphere when used in planes and ships. Some carbon is captured from methanol use in Allam cycle plants, burning the resulting plastics from MtO/A in waste-to-energy plants and industry heat.
+
+TODO: Sankey of carbon.
+
+* Is (e-)biomethane not a better solution than (e-)biomethanol?
+
+Producing methane instead of methanol would allow more of current
+fossil gas demand to be directly replaced, and would reuse more of the
+existing methane infrastructure (pipelines, storage, end-use devices).
+
+We would argue that:
+- Future methanol demand is much more robust than methane demand in climate neutral scenarios.
+- Many sources of biomethane, such as biogas plants, are not close enough to the current methane pipeline network to connect in a cost-effective way.
+- As methane demand reduces, it becomes harder to maintain much of the methane infrastructure.
+- Methane is a greenhouse gas with around 28 times the global warming
+  potential over 100 years (GWP100) of CO_2. Any leakage would
+  contribute towards global warming.
+
+Demand: The current methane demand mostly disppears in climate-neutral scenarios. Gas boilers for building heating are replaced by heat pumps; electricity generation from gas shrinks substantially; gas for non-energy use is replaced by hydrogen; gas for process heat is replaced by electrification, hydrogen and its derivatives.
+
+Methanol *is* required, since it needed for high value chemicals (HVC), as a shipping fuel, and can also be used to make kerosene. These use cases make up 300-600 TWh/a each for Europe.
+
+E-biomethanol would likely be cheaper to use in shipping than e-biomethane, as shown in the paper [[https://doi.org/10.1016/j.apenergy.2024.124163][An assessment of decarbonisation pathways for intercontinental deep-sea shipping using power-to-X fuels]] (2024).
+
+#+CAPTION: Costs for green shipping fuels (source: [[https://doi.org/10.1016/j.apenergy.2024.124163][Gray et al, 2024]])
+[[./graphics/methanol_faq/shipping-comparison.png]]
+
+The logistic costs of liquefied methane (LCH_4) are simply higher than
+methanol, which is already liquid.
+
+
+Pipeline proximity: As discussed in the blogpost [[./flexibility-biogas.html][What flexibility do
+we need from biogas?]], in [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]] IZES and UFZ authors
+found that only 22% of today's biogas plants in Germany by kW output
+would be eligible for upgrading, even before further economic
+analysis.
+
+#+CAPTION: 22% biogas statistics (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/22pc_biogas.png]]
+
+Uncertainty around future methane infrastructure: As building heating
+and other demands reduce, much of the distribution network for methane
+could be retired. This makes it still harder to connect biomethane
+producers.
+
+* Can't e-biomethane be liquefied to gain similar advantages to e-biomethanol?
+
+Some biomethane is liquefied already today for use by trucks. LCH_4
+could also be produced decentrally and brought to larger gas
+pipelines, to mitigate some of the issues of missing gas distribution.
+
+For an idea what this might look like, see the Swedish paper
+[[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]] (Sweden has a limited gas grid; upgrading can be done
+cryogenically to match LCH_4 temp).
+
+
+#+CAPTION: Swedish example: decentral/central setup for bio-LCH_4 production. (Source: [[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]])
+[[./graphics/biogas_flex/sweden_setup.png]]
+
+
+#+CAPTION: Swedish example: cost implications for bio-LCH_4 production. (Source: [[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]])
+[[./graphics/biogas_flex/sweden_cost.png]]
+
+
+
+
+However, we reiterate the point that future methane demand is expected
+to be small in climate neutral scenarios. Trucking is electrified, and
+for shipping methanol is a superior fuel to LCH_4.
+
+
+
+* Aren't the costs of keeping the existing methane transmission network small?
+
+* How would end-consumer prices of green methanol differ from hydrogen or methane?
+
+In general the production costs of e-biomethanol are expected to be
+somewhat higher at ~180 EUR/MWh versus ~100-120 EUR/MWh for e-hydrogen
+and ~120-150 EUR/MWh for e-biomethane. However, the costs of
+transporting and storing the hydrogen and methane are expected to be
+much higher than for methanol.
+
+For example, consider the usage case of a power plant running 500
+hours per year paying a 25 EUR/kW/a network fee on peak demand
+(suggested for German core network). This translates to 25000 EUR/MW/a
+/ 500 h/a = 50 EUR/MWh, which alredy closes the gap with methanol. Add
+in the costs for storing the hydrogen, and the cost advantage
+disappears.
+
+Industry demand with constant hydrogen usage would pay a much lower
+network fee per MWh, and would see lower costs for hydrogen.
+
+
+* Wouldn't the large-scale use of methanol require methanol pipelines?
+
+Methanol transport can be done flexibly by truck, barge, ship, train or pipeline.
+
+For large volumes pipelines are most efficient. Liquid fuels like
+crude oil and well as refined products like diesel, gasoline and
+kerosene are transported by pipeline today.
+
+Methanol could reuse some of this pipeline infrastructure.
+
+Liquid product transport by pipeline is considered to be easier to
+build, since the pipelines have a smaller diameter and don't offer the
+same dangers of explosion as hydrogen or asphixiation in the case of
+carbon dioxide.
+
+* Are the logistic costs of transporting biomass and biogas included in the model?
+
+Yes, solid biomass transport by truck is costed at 0.1 EUR/MWh/km
+(based on [[https://publications.jrc.ec.europa.eu/repository/bitstream/JRC98626/biomass%20potentials%20in%20europe web%20rev.pdf][JRC-EU-TIMES]]). For biogas distribution via pipelines, costs
+are around 7 EUR/MWh for a 10 km distance (based on [[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]]).
+
+* What is the minimal methanol scenario more expensive?
+
+The minimal methanol scenario was around 24 billion euros per year (3%) more expensive than the cost-optimal scenario.
+
+The main cost drivers are:
+
+- Methanol (~180 €/MWh) itself is more expensive than fossil gas compensated by carbon dioxide removal (~30 €/MWh + ~40 €/MWh) or electrolytic hydrogen (~100 €/MWh) because of the further conversion steps. Therefore whereever methanol is substituting. Extra cost of 100 €/MWh on 250 TWh/a for backup power and heat makes 25 billion euros per year.
+
+* Are there resilience benefits to using methanol (e.g. dealing with shocks better, losses of pipelines)?
+
+Yes, methanol tanks next to power stations is resilient against attacks on infrastructure.
+
+Black-start-capable power plants follow this strategy: fuel oil bunkered next to diesel generators to restart the grid after a black out.
+
+A similar strategy is followed in regions with unreliable power supply, where diesel generators are used for backup power supplies.
+
+
+* Is the Allam cycle generator required in order to cycle carbon for the scenario?
+
+The Allam cycle generator uses pure oxygen to combust the fuel, allowing a pure stream of carbon dioxide to be captured from the exhaust. This reduces the energy requirements and costs for carbon capture. The use of the Allam cycle was explored in a previous paper with a toy model of the power sector.
+
+However, once the concept is expanded to the full energy system like in the current paper, biogenic sources can be used for the methanol and the need to cycle carbon dioxide by capturing it is much reduced.
+
+The model only builts 20 GW of Allam cycle running with full load hours of 1350. Costs would barely increase if the Allam cycle was disallowed and the model was forced to use CCGT instead.
+
+The reason: the low running hours of the backup power plants tend to lead to low-capex solutions. Carbon capture is relatively high-capex.
+
+The Allam cycle has seen recent delays and cost escalations in deployment, so it may be best to plan without it.
+
+* How easy is it to retrofit an existing gas turbine to use methanol?
+
+Retrofitting gas turbines from methane to use methanol is relatively
+simple and substantially easier than retrofitting for hotter-burning
+hydrogen.  Burners and fuel delivery must be changed, and mass flow adjusted. Since
+methanol burns at a lower temperature than methane, it reduces the
+formation of unwanted NO_x emissions.
+
+A gas turbine in Israel was [[https://www.methanol.org/wp-content/uploads/2016/06/Dor-Chemicals-Methanol-Turbine-Demo-Jerusalum-Post.pdf][already converted to methanol]] to meet
+strict NO_x and other emission standards.
+
+The Siemens gas turbine SGT-400 is sold as [[https://www.linkedin.com/posts/mark-alexander-sgt_our-sgt-400-offers-the-fuel-flexibility-activity-7260677716759265280-aaTB][running on methanol]].
+
+See also the [[https://www.methanol.org/power-generation/][Methanol Institute's power generation page]].
+
+* What is the typical size envisaged for a methanol synthesis plant? How many would be needed in Europe/Germany?
+
+Methanol synthesis needs to take place at scale to benefit from lower specific costs. Unlike other components (electrolysis, PV, batteries, biogas plants, biogas upgrading), it benefits from larger scales.
+
+Literature indicates that the production size should be at least 25
+MW_MeOH or around 35 kt_MeOH/a when operating for 8000 hours per year.
+
+Ideally for lower costs it should be more like 100 kt_MeOH/a, i.e. 75
+MW_MeOH.
+
+For Europe's 1500 TWh_MeOH/a demand, this would be around 2300 plants
+of capacity 75 MW_MeOH, or 1150 plants of size 150 MW_MeOH.
+
+For German needs of 200 TWh_MeOH/a this would be around 330 plants of
+capacity 75 MW_MeOH. (Comparison: there are around 10,000 biogas
+plants in Germany today, TODO ? biorefineries for diesel.)
+
+Assuming residues were collected from 170,000 km^2 in Germany, each
+plant would have a catchment area of around 500 km^2, i.e. a radius of
+around 13 km. Whether biomass is transported to a central processing
+plant, or processed to biogas or biocrude decentrally before
+transport, is open to optimisation.
+
+Example of small biogas networks aggregating:
+
+#+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion  (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/pooling.png]]
+
+
+
+
+* How would existing biogas units fit into the minimal methanol economy?
+
+Many existing biogas plants are smaller than the scale needed for
+methanol synthesis. However, several small plants could be linked up
+together in a local biogas pipeline network to feed a single synthesis
+unit. There are examples of small biogas pipeline networks in Germany
+today.
+
+#+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion  (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/pooling.png]]
+
+* How would the results change if a lot of carbon sequestration or cheap carbon dioxide removal were available?
+
+See the sequestration scenarios; CCU is much reduced; some methanol is still used in shipping.
+
+* What is the carbon dioxide abatement cost of e-biomethanol?
+
+The carbon dioxide abatement cost, measured as the shadow price of the
+constraint setting carbon dioxide emissions to net-zero, varies
+depending on the scenario. If we stick with the methanol economy and
+keep the sequestration limit tight (200 MtCO2/a), it's 426 €/tCO2, if
+we relax to 400 MtCO2/a it drops to 335 €/tCO2, then at 600 MtCO2/a
+it's just 124 €/tCO2. As sequestration is relaxed, CCU is replaced by
+fossil+CDR. That last value is quite low because the model is
+forbidden in that scenario from using fossil gas as a gas. If fossil
+gas allowed with 600 MtCO2/a sequestration, the price rises to 239
+€/tCO2, since that's cheaper than making fossil methanol.
+
+See [[https://bsky.app/profile/nworbmot.bsky.social/post/3lrgd6ndhok2x][BlueSky discussion]].
+
+
+* What path dependencies are locked in by pursuing e-biomethanol?
+
+Very few.
+
+* Path to climate neutrality: could you start producing (e-)biomethane, then switch to (e-)biomethanol later?
+
+Some infrastructures would be in common: collection logistics for
+biomass, use of syngas for methane/methanol synthesis.
+
+* Do any e-biomethanol plants exist today?
+
+The [[https://europeanenergy.com/kasso/][Kasso e-methanol plant]] in Denmark is the largest, using CO_2 from a nearby biogas plant. Plants in China too  are being built (although CO_2 source needs to be checked).
+
+[[https://industrydecarbonization.com/news/the-canceled-swedish-e-methanol-factory-may-rise-from-the-ashes.html][Hanno Böck's Feb 2025 summary of active e-biomethanol projects]]
+
+* Who would the first users of green methanol be?
+
+Shipping companies like Maersk are already signing offtake agreements
+for green methanol for their ships. Customers for the Kasso plant
+include Maersk, Novo Nordisk and Lego.
+
+* What provides industrial process heat in the model?
+
+A large fraction of industrial process heat is electrified, following
+Agora study. Existing biomass uses, such as in the pulp and paper
+industry, are left as they are. Methanol is used for the flat glass
+industry, although it is not as good at providing radiant heat as
+methane (ironically due to methane's unclean burning compared to
+methanol).
+
+* There is significant methanol usage even in the reference cost-optimal case - aren't all the scenarios methanol scenarios?
+
+Yes, methanol usage for shipping, producing kerosene and high value
+chemicals (HVC) is prefered in the model over alternatives (other
+fuels for shipping (although model isn't offered full pallette),
+Fischer-Tropsch for kerosene and naphtha for HVC).
+
+The main differences between the scenarios is the use of fuels for
+backup electricity and heat.
