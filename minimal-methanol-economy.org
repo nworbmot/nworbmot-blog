@@ -35,6 +35,8 @@ This small increase is also robust when you sequester the majority of the CO2 un
 
 We're very happy to have your feedback!
 
+See also: [[./methanol-faq.html][The Minimal Methanol Economy: Frequently Asked Questions]] (2025.07.14)
+
 See also: [[./carbon-be-methanol.html][All your carbon shall be methanol]] (2023.10.03)
 
 See also: [[./flexibility-biogas.html][Flexibility from biogas]] (2024.08.30)
