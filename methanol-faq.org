@@ -1,6 +1,6 @@
 #+TITLE: The Minimal Methanol Economy: Frequently Asked Questions
 
-First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.07.14, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.07.15, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 This Frequently Asked Questions page answers common questions arising
 from our 2025 paper [[https://arxiv.org/abs/2505.09277][The Minimal Methanol Economy as a Gap-Filler for
@@ -122,20 +122,21 @@ This carbon is then released into the atmosphere when used in planes and ships. 
 
 TODO: Sankey of carbon.
 
-* Wouldn't biofuels like HVO, renewable/biodiesel or corn ethanol be better?
+* Wouldn't first generation biofuels like renewable/biodiesel or corn ethanol be better?
 
 Most of the biofuels today come from dedicated energy crops that
 require significant amounts of energy, fertiliser and land. Including
 the indirect land use change that comes when food crops are displaced,
 forcing food to be grown on virgin land elsewhere, can make the life
-cycle greenhouse gas balance of some biofuels worse than gasoline.
+cycle greenhouse gas balance of some biofuels worse than fossil
+gasoline or diesel.
 
 
 #+CAPTION: Lifecycle greenhouse gas emissions for different biofuels (source: [[https://www.transportenvironment.org/discover/globiom-basis-biofuel-policy-post-2020/][Transport & Environment, 201x]])
 [[./graphics/methanol_faq/te-lca-ghg.png]]
 
 
-There are some limited biogenic wastes that could use routes other than methanol, e.g. used cooking oil via HVO to diesel or kerosene.
+There are some limited biogenic wastes that could use routes other than methanol, e.g. used cooking oil via the HVO route to diesel or kerosene.
 
 Research on life cycle emissions of biofuels:
 
@@ -278,6 +279,28 @@ Liquid product transport by pipeline is considered to be easier to
 build, since the pipelines have a smaller diameter and don't offer the
 same dangers of explosion as hydrogen or asphixiation in the case of
 carbon dioxide.
+
+* Are CO_2 pipelines required in the scenarios?
+
+In the default scenarios we assume the availability of a CO_2 pipeline
+to transport process emissions from industrial sites and biogenic CO_2
+to sequestration sites offshore as well as for fuel synthesis.
+
+CO_2 is transported by pipeline in a supercritical state cooled and
+under pressure as a liquid, so that the pipelines can have a narrow
+diameter. If the pipelines are not well regulated, accidents can be a
+threat to health (a [[https://lailluminator.com/2025/03/08/co2-pipeline/][pipeline accident]] in 2020 in Mississippi sent 45
+to hospital, although this [[https://climate.mit.edu/ask-mit/are-there-risks-transporting-carbon-dioxide-pipelines][may have been due to hydrogen sulfide mixed
+in]]).
+
+In an sensitivity calculation the removal of the CO_2 pipeline raised
+costs by 2% (forcing more biomass to be used for CDR to compensate
+industry process emissions that cannot be transported to sequestration sites):
+
+#+CAPTION: Minimal methanol economy sensitivities
+[[./graphics/methanol_faq/methanol-sensitivity.png]]
+
+See also [[https://doi.org/10.1038/s41560-025-01752-6][Hofmann et al, 2025]] on the cost benefits of CO_2 pipeline networks.
 
 * Are the logistic costs of transporting biomass and biogas included in the model?
 
