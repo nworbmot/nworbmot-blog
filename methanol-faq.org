@@ -1,6 +1,6 @@
 #+TITLE: The Minimal Methanol Economy: Frequently Asked Questions
 
-First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.07.15, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.08.04, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 This Frequently Asked Questions page answers common questions arising
 from our 2025 paper [[https://arxiv.org/abs/2505.09277][The Minimal Methanol Economy as a Gap-Filler for
@@ -33,7 +33,7 @@ electrified. We also avoid fossil production of methanol.
 Methanol is used for non-electrified shipping, producing kerosene for
 long-distance aviation, plastics, and for backup power and district
 heat when other renewable sources are absent. Methanol is easy to
-transport and store since it is a liquid in ambient conditions.
+transport and store since it is a liquid at ambient conditions.
 
 
 [[./graphics/methanol_economy/methanol_routes.png]]
@@ -45,7 +45,7 @@ sequestered, how much can be electrified, and how demand changes.
 
 * Is green hydrogen still needed in a "minimal methanol economy"?
 
-In the default setup, when only 200 MtCO_2/a sequestration is allowed
+In the default setup, where only 200 MtCO_2/a sequestration is allowed
 in Europe in 2050, there is around 820 TWh/a of electrolytic hydrogen
 production:
 
@@ -61,17 +61,21 @@ As discussed below, if the sequestration is increased, the model
 prefers to compensate fossil fuels with carbon dioxide removal (CDR)
 using the biogenic carbon for sequestration instead of in fuels.
 
-At 400 MtCO_2/a the use of electrolytic hydrogen drops to 250 TWh/a:
+At 400 MtCO_2/a sequestration the use of electrolytic hydrogen drops to 250 TWh/a:
 
 #+CAPTION: Energy balances for sensitivity with 400 MtCO_2/a sequestration.
 [[./graphics/methanol_faq/methanol-balance-400seq.png]]
 
-At 600 MtCO_2/a it drops to 145 TWh/a:
+At 600 MtCO_2/a sequestration  it drops to 145 TWh/a:
 
 #+CAPTION: Energy balances for sensitivity with 600 MtCO_2/a sequestration.
 [[./graphics/methanol_faq/methanol-balance-600seq.png]]
 
 
+Similarly, the scenario with higher biomass potentials also allows to avoid most electrolytic hydrogen:
+
+#+CAPTION: Energy balances for sensitivity with more than double the biomass potential (3300 TWh/a).
+[[./graphics/methanol_faq/methanol-balance-high_bio.png]]
 
 * How sustainable is the biomass used to produce the methanol in your scenarios?
 
@@ -107,6 +111,53 @@ Focusing on Germany, there is 189 TWh/a solid biomass and 32 TWh/a biogas.
 Further sustainable biomass could be leveraged without increasing land
 usage by allowing to use [[https://en.wikipedia.org/wiki/Cover_crop][cover crops]] (crops planted between growing
 seasons to maintain soil integrity) or grasses on marginal lands.
+
+Short rotation coppices are not included but are a good example of
+crops that need land, but provide a high carbon yield, while avoiding
+soil disturbance and enhancing biodiversity if planted appropriately.
+
+* Isn't straw used for animal bedding, animal feed, mushroom cultivation or returned to the fields to enhance soil carbon?
+
+The JRC [[https://data.jrc.ec.europa.eu/dataset/74ed5a04-7d74-4807-9eab-b94774309d9f][ENSPRESO dataset]] takes into account alternative uses of each
+residue and waste. Only around one third of straw is available for
+energy (in the medium scenario). The rest is used for animal bedding,
+mushroom cultivation, or returned to carbon-poor soils. Use of straw
+for animal feed is rare.
+
+* What is e-biomethanol?
+
+Biomethanol is methanol produced exclusively from biomass. Since
+biomass has an excess of carbon compared with methanol, the excess
+carbon can be used with added electrolytic hydrogen to enhance the
+yield of methanol for a given mass of biomaterial. If e-hydrogen is
+added, the resulting methanol is called e-biomethanol to indicate its
+mixed origins (all carbon from biomass, some hydrogen from
+electrolysis).
+
+
+The addition of e-hydrogen makes sure all the carbon in the biomass is
+utilised; repeated scientific studies show that the sustainable carbon
+in biomass is of more importance than its energy content ([[https://doi.org/10.1038/s41560-024-01693-6][Millinger et al,
+2025]]). E-hydrogen tends to be expensive, so e-biomethanol is
+typically more expensive than biomethanol (e.g. 160-180 €/MWh versus
+80-110 €/MWh for the 2030+ time horizon).
+
+* Why is direct air capture (DAC) not used?
+
+Direct air capture (DAC) refers to technical measures to extract CO_2
+from its low concentrations in the atmosphere. DAC is implemented in
+the model, however the cost of CO_2 capture from the air is
+significantly higher than capturing CO_2 from biomass (for 2050,
+roughly 300 €/tCO2 versus 100-150 €/tCO2). As long as biogenic sources
+are available, the model prefers biomass to the air as a source of carbon.
+
+The logic is that if the plants are already extracting CO_2 from the
+air for food and our building materials like wood, we can use the
+excess CO_2 in biogenic wastes and residues for plastics and energy.
+
+DAC also has a long path ahead of it before it can scale up to the megaton per year, let along gigaton per year size needed ([[https://www.researchsquare.com/article/rs-6165238/v1][Brazzola et al, 2025]]).
+
+
 
 
 * What does the carbon cycle look like?
@@ -183,7 +234,7 @@ existing methane infrastructure (pipelines, storage, end-use devices).
 We would argue that:
 - Future methanol demand is much more robust than methane demand in climate neutral scenarios.
 - Many sources of biomethane, such as biogas plants, are not close enough to the current methane pipeline network to connect in a cost-effective way.
-- As methane demand reduces, it becomes harder to maintain much of the methane infrastructure.
+- As methane demand reduces, it becomes harder to maintain the methane infrastructure.
 - Methane is a greenhouse gas with around 28 times the global warming
   potential over 100 years (GWP100) of CO_2. Any leakage would
   contribute towards global warming.
@@ -206,6 +257,12 @@ we need from biogas?]], in [[https://doi.org/10.1186/s13705-020-00276-z][Matscho
 found that only 22% of today's biogas plants in Germany by kW output
 would be eligible for upgrading, even before further economic
 analysis.
+
+Why are biogas plants so far from the gas grid? Biogas plants are
+deliberately located in rural areas near agriculture, whereas the gas
+network is optimised to bring gas to dense demand in industry and
+urban areas.
+
 
 #+CAPTION: 22% biogas statistics (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/22pc_biogas.png]]
@@ -359,6 +416,8 @@ hydrogen.  Burners and fuel delivery must be changed, and mass flow adjusted. Si
 methanol burns at a lower temperature than methane, it reduces the
 formation of unwanted NO_x emissions.
 
+For a large gas turbine the cost of conversion from oil to methanol was estimated to be 3 million USD (i.e. 6 USD/kW for a 500 MW plant) ([[https://doi.org/10.1007/978-3-642-39709-7][Bertau et al, 2014]]).
+
 A gas turbine in Israel was [[https://www.methanol.org/wp-content/uploads/2016/06/Dor-Chemicals-Methanol-Turbine-Demo-Jerusalum-Post.pdf][already converted to methanol]] to meet
 strict NO_x and other emission standards.
 
@@ -429,6 +488,11 @@ products like gasoline, diesel and kerosene.
 
 * How would existing biogas units fit into the minimal methanol economy?
 
+As discussed above, most biogas units today use unsustainable
+feedstocks like maize. If the substrates can be exchanged for biogenic
+residues (e.g. manure, straw) and wastes, the existing biogas units
+could play an important role.
+
 Many existing biogas plants are smaller than the scale needed for
 methanol synthesis. However, several small plants could be linked up
 together in a local biogas pipeline network to feed a single synthesis
@@ -437,6 +501,18 @@ today.
 
 #+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion  (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/pooling.png]]
+
+* How would existing bioethanol and biodiesel plants fit into the minimal methanol economy?
+
+As discussed above, most 1st generation biofuels are not sustainable
+from a life cycle perspective.  Bioethanol often uses maize, while
+biodiesel often uses oils from rapeseed, palm or soy. There are
+unlikely to be enough sustainable sugary feedstocks for bioethanol or
+oily feedstocks for biodiesel to be able to reuse many of the existing
+facilities.
+
+The know-how at the facilities could however be integrated into
+methanol synthesis plants.
 
 * How would the results change if a lot of carbon sequestration or cheap carbon dioxide removal were available?
 
@@ -469,7 +545,7 @@ In principle it is cheaper to sequester a tonne of biogenic CO_2 to compensate
 for a tonne of fossil fuel use than to use it in a synthetic fuel. If the
 transport and sequestration costs 100 EUR/tCO_2, the abatement cost
 could be around 150 EUR/tCO_2, while for the synthetic fuel it could
-be 300-400 EUR/tCO2.
+be 300-400 EUR/tCO_2.
 
 However, as discussed above, the sequestration volume per year is
 expected to be much lower (200-300 MtCO_2/a) than that need to
@@ -489,22 +565,37 @@ lower acceptance than methanol, since CO_2 is an asphyxiating gas.
 * What is the carbon dioxide abatement cost of e-biomethanol?
 
 The carbon dioxide abatement cost, measured as the shadow price of the
-constraint setting carbon dioxide emissions to net-zero, varies
+constraint limiting carbon dioxide emissions to net-zero, varies
 depending on the scenario. If we stick with the methanol economy and
-keep the sequestration limit tight (200 MtCO2/a), it's 426 €/tCO2, if
-we relax to 400 MtCO2/a it drops to 335 €/tCO2, then at 600 MtCO2/a
-it's just 124 €/tCO2. As sequestration is relaxed, CCU is replaced by
+keep the sequestration limit tight (200 MtCO_2/a), it's 426 €/tCO_2, if
+we relax to 400 MtCO_2/a it drops to 335 €/tCO_2, then at 600 MtCO_2/a
+it's just 124 €/tCO_2. As sequestration is relaxed, CCU is replaced by
 fossil+CDR. That last value is quite low because the model is
 forbidden in that scenario from using fossil gas as a gas. If fossil
-gas allowed with 600 MtCO2/a sequestration, the price rises to 239
-€/tCO2, since that's cheaper than making fossil methanol.
+gas allowed with 600 MtCO_2/a sequestration, the price rises to 239
+€/tCO_2, since that's cheaper than making fossil methanol.
+
+While these abatement costs are high, there are two important points to bear in mind:
+
+- The climate damage from emitting a tonne of CO_2 are this high. The
+  [[https://www.umweltbundesamt.de/daten/umwelt-wirtschaft/gesellschaftliche-kosten-von-umweltbelastungen][German Environmental Agency estimates]] the climate damage of a tonne
+  emitted in 2050 at 435 €_2024/tCO_2 (assuming a 1% time preference
+  rate).
+- The high abatement costs are marginal costs for the last few 100
+  MtCO_2/a of abatement in Europe. Most of the greenhouse gas
+  reduction happens at a much lower marginal cost. For example, if the
+  last 300 MtCO_2/a of reduction has a marginal abatement cost of 200
+  €/tCO_2 higher than the rest, this means extra costs of 300*200
+  mn€/a i.e. 60 bn€/a or around 130 € per citizen.
 
 See [[https://bsky.app/profile/nworbmot.bsky.social/post/3lrgd6ndhok2x][BlueSky discussion]].
 
 
 * What path dependencies are locked in by pursuing e-biomethanol?
 
-Very few. Plants can be flexibly repurposed for e-biomethane or for biomethane/ol with carbon dioxide removal for the excess CO_2.
+Very few. Methanol synthesis plants can be flexibly repurposed for
+e-biomethane or for biomethane/ol or to export excess CO_2 for
+sequestration (i.e. carbon dioxide removal).
 
 * Path to climate neutrality: could you start producing (e-)biomethane, then switch to (e-)biomethanol later?
 
@@ -513,9 +604,16 @@ biomass, use of syngas for methane/methanol synthesis.
 
 * Do any e-biomethanol plants exist today?
 
-The [[https://europeanenergy.com/kasso/][Kasso e-methanol plant]] in Denmark is the largest, using CO_2 from a nearby biogas plant. Plants in China too  are being built (although CO_2 source needs to be checked).
+The [[https://europeanenergy.com/kasso/][Kasso e-methanol plant]] (42 kt/a) in Denmark started operation in
+March 2025 and was the largest, using CO_2 from a nearby biogas plant.
+
+Since then in July 2025 a 50 kt/a plant went online in China using
+biomass gasification and electrolytic hydrogen, [[https://www.genasolutions.com/analysis_and_insights/49][Shanghai Electric's
+Taonan plant]], and several more in China are under construction.
 
 [[https://industrydecarbonization.com/news/the-canceled-swedish-e-methanol-factory-may-rise-from-the-ashes.html][Hanno Böck's Feb 2025 summary of active e-biomethanol projects]]
+
+[[https://www.methanol.org/renewable/][The Methanol Institute's Plant Tracker (updated regularly)]]
 
 * Who would the first users of green methanol be?
 
