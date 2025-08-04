@@ -9,6 +9,9 @@ introduction to the paper).
 
 
 * What is a "minimal methanol economy"?
+  :PROPERTIES:
+  :CUSTOM_ID: intro
+  :END:
 
 The basic concept is described  in this blog post:
 
@@ -169,6 +172,9 @@ that confidence in regulation is raised.
 
 
 * Is (e-)biomethane not a better solution than (e-)biomethanol?
+  :PROPERTIES:
+  :CUSTOM_ID: methane
+  :END:
 
 Producing methane instead of methanol would allow more of current
 fossil gas demand to be directly replaced, and would reuse more of the
@@ -361,6 +367,9 @@ The Siemens gas turbine SGT-400 is sold as [[https://www.linkedin.com/posts/mark
 See also the [[https://www.methanol.org/power-generation/][Methanol Institute's power generation page]].
 
 * What is the typical size envisaged for a methanol synthesis plant? How many would be needed in Europe/Germany?
+  :PROPERTIES:
+  :CUSTOM_ID: scale
+  :END:
 
 Both methanol synthesis and gasification need to take place at
 double-digit-MW scale to benefit from lower specific costs. Unlike
