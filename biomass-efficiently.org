@@ -1,7 +1,7 @@
 #+TITLE: Using sustainable biomass with high carbon efficiency
 #+OPTIONS: tex:t
 
-First Posted: 2025.10.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.10.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.10.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.11.07, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 * Introduction & Summary
 
@@ -25,6 +25,9 @@ Main points:
 - we need to have a rough long-term plan out to 2040-50 because industrial plant, ships and planes have lifetimes of 30-40 years; solutions need to slot into those reinvestment cycles
 - in the short-term out to 2035 we need to focus 95% of our attention on electrification, clean electricity, and replumbing biomass and agriculture; grandiose hydrogen plans should be put on hold
 
+
+#+CAPTION: Comparing demand assuming low carbon efficiency for biofuels, high carbon efficiency (either e-biofuels or a combination of biofuels with bio-CDR), and 3 different assessment of the sustainable biomass supply.
+[[./graphics/biomass-efficiently/world_biomass_comparison.png]]
 
 * Overall setting and targets for 2050
 
@@ -78,7 +81,7 @@ and Fischer-Tropsch plants. Hydrogen is not transported for these use
 cases, but it's assumed that the hydrogen derivative (direct-reduce
 iron or ammonia) can be produced at good hydrogen locations (Spain,
 Denmark, Oman, Namibia, etc.) and transported at low cost by ship to
-Europe [[[https://www.nature.com/articles/s41560-024-01492-z][Verpoort et al,2024]],[[https://www.nature.com/articles/s41467-025-60652-1][Neumann et al, 2025]],[[http://arxiv.org/abs/2510.00918][Seibold et al,2025]]].
+Europe [[[https://www.nature.com/articles/s41560-024-01492-z][Verpoort et al,2024]], [[https://www.nature.com/articles/s41467-025-60652-1][Neumann et al, 2025]], [[http://arxiv.org/abs/2510.00918][Seibold et al,2025]]].
 
 I'll also assume that there is no role for hydrogen for backup power
 or district heating. The simple reason is that the costs for nearby
@@ -102,10 +105,11 @@ transport will be much cheaper for backup applications.
 Here is the crux of the argument: for the remaining non-electrifiable
 sectors, everything involves carbon, either compensating fossil
 emissions with carbon dioxide removal (CDR) or using carbon for making
-molecules. Since sustainable biogenic carbon is much cheaper than
-direct-air-captured (DAC) carbon, it all hinges on what we do with our
-limited sustainable biomass resource. Since these are the problem
-sectors, they are likely to set the carbon price for net-zero.
+molecules. Since sustainable biogenic carbon comes originally from the
+atmosphere and is much cheaper than direct-air-captured (DAC) carbon,
+it all hinges on what we do with our limited sustainable biomass
+resource. Because these are the problem sectors, they are likely to set
+the carbon price for net-zero.
 
 What is this remaining demand? The remainder that cannot be electrified (beyond ammonia, steel, cement and lime) is: (demands in 2050 in brackets for Europe/World)
 
@@ -119,19 +123,25 @@ Summing this up for 2050, the demand for carbonaceous fuels is: Europe: 1500-230
 
 The carbon needed is equivalent to CO_2 volumes: Europe 350-575 MtCO_2/a, World: 3.1-5.5 GtCO_2/a  (using methanol's 0.25 tCO_2/MWh as orientation). For comparison, another study put the needs of CO_2 capture for fuels and chemicals worldwide at 6 GtCO_2/a in 2050 [[[https://doi.org/10.1016/j.jclepro.2022.133920][Gulagi et al, 2022]]].
 
-This can then be translated into the amount of biomass needed, either as a carbon source for fuels, or to bury for CDR.
-Assuming carbon is around 47% of the dried biomass by mass, and that the processes to use the biomass have a carbon efficiency of up to 90% (which for fuels requires additional green hydrogen to absorb excess carbon), this is for the fuels: Europe: 225-370 Mtbiomass/a, World: 2-3.5 Gtbiomass/a. Assuming the average energetic density for agricultural residues is 16 GJ/tbiomass (4.4 MWh/tbiomass), this is in energetic terms: Europe: 3.6-5.9 EJ/a  (990-1350 TWh/a), World: 32-56 EJ/a (8.9-15.6 PWh/a).
+We assume that this carbon demand is met by sustainable biomass, since other sources like direct air capture are not yet scaleable. Biomass absorbs CO_2 during its growth, so that when the carbon is eventually oxidised back to CO_2 in the energy system and released to the atmosphere, there are no net CO_2 emissions. This picture is complicated by (at least) two factors: there are other emissions from growing the biomass and the land use (see below); some of that CO_2 can be captured, e.g. in waste-to-energy plants, to close the circle.
 
-These numbers for sustainable carbon can just about be met by careful harvesting of agricultural residues (e.g. staw or corn stover), forestry residues (e.g. sawdust or branches) and biogenic municipal waste. We are assuming that dedicated energy crops with high land use (corn for bioethanol, corn for biogas, rapeseed for biodiesel) are phased out. Their poor lifecycle GHG are shown below:
+Now we'll translate the carbon demand into the amount of biomass needed, either as a carbon source for fuels, or to bury for CDR.
+Assuming carbon is around 47% of the dried biomass by mass, and that the processes to use the biomass have a carbon efficiency of up to 90% (which for fuels requires additional green hydrogen to absorb excess carbon), this is for the fuels: Europe: 225-370 Mtbiomass/a, World: 2-3.5 Gtbiomass/a. Assuming the average energetic density for agricultural residues is 16 GJ/tbiomass (4.4 MWh/tbiomass), this is in energetic terms: Europe: 3.6-5.9 EJ/a  (990-1350 TWh/a), World: 32-56 EJ/a (8.9-15.6 PWh/a). If the carbon efficiency is lower, e.g. taking 42% as a representative efficiency for biomethanol production, then we would need: Europe: 7.7-12.6 EJ/a, World: 69-120 EJ/a.
+
+To assess the supply, we will focus on sustainable biomass residues and wastes that are co-products of food production and consumption as well as forestry, i.e. that are grown anyway and do not displace food crops, thus minimising indirect emissions.
+
+The demand for carbon, assuming a high carbon efficiency of 90%, can just about be met by careful harvesting of agricultural residues (e.g. staw or corn stover), forestry residues (e.g. sawdust or branches) and biogenic municipal waste. We are assuming that dedicated energy crops with high land use that competes with food (corn for bioethanol, corn for biogas, rapeseed for biodiesel) are phased out. Their poor lifecycle GHG are shown below:
 
 #+CAPTION: Lifecycle greenhouse gas emissions for different biofuels (source: [[https://www.transportenvironment.org/discover/globiom-basis-biofuel-policy-post-2020/][Transport & Environment, 201x]])
 [[./graphics/methanol_faq/te-lca-ghg.png]]
 
 Here we focus on the advanced 2nd generation biofuels. For now we do not include small volumes of wastes, e.g. used cooking oil, or the other crops with lower footprints, like short rotation coppice, interseasonal cover crops or grasses on marginal lands.
 
-How much of these sustainable feedstocks are available? The European
-Commission's Joint Research Centre's [[https://data.jrc.ec.europa.eu/dataset/74ed5a04-7d74-4807-9eab-b94774309d9f][ENSPRESO dataset]] (medium
-potential) has around 1550 TWh/a for Europe (split into 350 TWh/a
+How much of these sustainable feedstocks are available? Assessments differ quite widely, because there are other competing uses for these feedstocks, and they may be difficult to mobilise. For example, small fractions of straw are also used for animal bedding, animal feed, mushroom cultivation, or are returned to fields to replenish carbon-poor soils. In many countries straw is burned without any energetic use at all, causing [[https://doi.org/10.1016/j.jdeveco.2020.102468][widespread health harms from particulate matter]], so alternate uses may bring advantages.
+
+The European Commission's Joint Research Centre's [[https://data.jrc.ec.europa.eu/dataset/74ed5a04-7d74-4807-9eab-b94774309d9f][ENSPRESO dataset]]
+(medium potential, where for example only one third of straw is
+available) has around 1550 TWh/a for Europe (split into 350 TWh/a
 biogas, 1050 TWh/a solid biomass, 150 TWh/a biogenic municipal solid
 waste). This would cover the demand of 990-1350 TWh/a.
 
@@ -266,9 +276,10 @@ figure from [[https://arxiv.org/abs/2505.09277][Glaum et al, 2025]]).
 Taking captured CO_2 and electrolytic hydrogen to produce e-methanol
 is likely to be much more expensive than either biomethanol or
 e-biomethanol, since the entire energy-content of the fuel is based on
-electrolytic hydrogen. Likely it would be pushing 150-200 EUR/MWh by
-2035 (see above figure from [[https://arxiv.org/abs/2505.09277][Glaum et al, 2025]]; today it is more like
-400 EUR/MWh).
+electrolytic hydrogen and the CO_2 needs to be supplied
+separately. Likely it would be pushing 150-200 EUR/MWh by 2035 (see
+above figure from [[https://arxiv.org/abs/2505.09277][Glaum et al, 2025]]; today it is more like 400
+EUR/MWh).
 
 Given that there is enough sustainable biomass to meet demand with
 biomethanol and e-biomethanol alone, it seems e-methanol and other
@@ -302,9 +313,13 @@ than bio-CDR: (400-200) EUR/tCO_2 * 80 MtCO_2/a + (240-200) EUR/tCO_2 *
 it is in a similar range to current European subsidies for first
 generation biofuels.
 
-Most likely, there would be a regional mix of direct bio-CDR, biofuels with
-BECCS, and e-biofuels, depending on available infrastructure.
+Most likely, there would be a regional mix of direct bio-CDR, biofuels
+with BECCS, and e-biofuels, depending on available
+infrastructure. Carbon-efficient systems include:
 
+- Pyrolysis of biomass to biochar, burial of biochar (CDR); using remaining bio-oil and syngas for biofuels
+- Synthesis of biofuels; capturing excess CO_2 for sequestration (BECCS, CDR)
+- Adding green hydrogen to syngas to increase biofuel yield (e-biofuels)
 
 ** Infrastructure and scale: bio-hubs
 
@@ -312,13 +327,13 @@ There are two main ways to keep costs down:
 - Learning effects: repeated production of small units (applies to solar modules, wind turbines, batteries, electrolyser stacks, wind turbines)
 - Economies of scale: for chemical engineering, total cost goes like p^0.6 for size p, so making plant bigger brings costs down (applies to methanol synthesis, electrolyser balance of plant)
 
-Once learning effects have been exhausted, an additonal lever is plant size. The largest biomethanol plant in Europe today produces 50 kilotons of methanol a year (50 ktMeOH/a). It would make sense to scale up to at least 100-200 ktMeOH/a (500-1000 GWh/a, 75-150 MW), and combine the options for biomass pyrolysis (for biochar-based CDR), biomethane upgrading and e-biomethanol synthesis (including 50-100 MW electrolyis and local generation) in a *bio-hub*. All these processes share the need to gather biomass wastes and residues, and some diversity helps the business case. 100-200 ktMeOH/a is the size many new green projects are choosing to get economies of scale. (Chinese coal-to-methanol production is already at MtMeOH/a scale.)
+Once learning effects have been exhausted, an additonal lever is plant size. The largest biomethanol plant in Europe today, Tjeldbergodden in Norway, produces 48 kilotons of methanol a year (48 ktMeOH/a). It would make sense to scale up to at least 100-200 ktMeOH/a (500-1000 GWh/a, 75-150 MW), and combine the options for biomass pyrolysis (for biochar-based CDR), biomethane upgrading and e-biomethanol synthesis (including 50-100 MW electrolyis and local generation) in a *bio-hub*. All these processes share the need to gather biomass wastes and residues, and some diversity helps the business case. 100-200 ktMeOH/a is the size many new green projects are choosing to get economies of scale. (Chinese coal-to-methanol production is already at MtMeOH/a scale.)
 
 [[./graphics/biomass-efficiently/methanol-cell.png]]
 
 This scale means gathering biomass in a 10-20 km radius (500-1000 km^2), e.g. connecting smaller biogas units to a central point with a small raw biogas pipeline network, and gathering solid biomass for gasification from this catchment area.
 
-To kick this off means financing plants at scale, so a trickle of pilot and demonstration plants won't be sufficient. In the period 2030-2035 this could entail 2-5 bnEUR/a of extra costs (either through subsidies or quotas) to cover a cost gap of 100 EUR/MWh for early volumes of 20-50 TWh/a (20-100 plants).
+To kick this off means financing plants at scale, so a trickle of pilot and demonstration plants won't be sufficient. In the period 2030-2035 this could entail 2-5 bnEUR/a of extra costs (either through subsidies or quotas) to cover a cost gap of 100 EUR/MWh for early volumes of 20-50 TWh/a (20-100 plants). To keep costs and complexity low, one could start with advanced biofuel production, and then slowly start experimenting with adding e-H_2.
 
 
 * What could change this picture
@@ -327,12 +342,13 @@ There are many uncertainties that could up-end this analysis. Here is an non-exh
 
 - Scaleable direct air capture (DAC) at an all-in cost of < 200 EUR/tCO_2 could displace biomass wastes and residues as a sustainable carbon source.
 - Electrolytic hydrogen < 2.5 EUR/kgH_2 (e.g. installed electrolyser cost < 1000 EUR/kW_el) would also start displacing biomass on the energy side.
-- Lowish-cost batteries at densities > 600 kWh/kg would displace more aviation demand (e.g. perhaps flights up to 2000 km).
+- Lowish-cost batteries at densities > 600 Wh/kg would displace more aviation demand (e.g. perhaps flights up to 2000 km).
 - Changing plastics end-of-life policy to managed landfilling would avoid the need to provide green primary high value chemicals (HVC).
 - New long-duration electricity storage at investment cost < 10 EUR/kWh would displace much of the need for storeable carbonaceous fuels for backup.
 - Nuclear delivered on time with installed cost < 5000 EUR/kW_el would start displacing wind and solar.
 - Ammonia engines with no emissions beyond water and nitrogen gas could displace methanol in shipping.
-  
+- Residues and wastes could prove difficult to mobilise and convert, raising prices and making more space for other solutions.
+
 * Consequences for German and European energy system planning
 
 Now that we know roughly where we're heading by 2050 and where the uncertainties lie, we can take a pragmatic, adaptive approach to planning over the next 10-15 years.
@@ -340,10 +356,10 @@ Now that we know roughly where we're heading by 2050 and where the uncertainties
 - Full steam ahead on electrification of buildings, transport and industry. (For Germany, see our recent scenario report [[[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Ariadne, 2025]]], [[https://ariadneprojekt.de/en/publication/report-a-cost-efficient-energy-transition-scenarios-for-climate-neutrality-2045-summary/][English summary]].)
 - Expand low-carbon generation, which in most countries will be wind, solar and batteries.
 - Reorganise biomass and agriculture: start phasing down 1st generation biofuels (biodiesel from rapeseed, bioethanol from corn, biogas from energy crops) and start phasing in bio-hubs that process agricultural and forestry wastes and residues into e-biomethane, e-biomethanol and CO_2/biochar for CDR, keeping subsidy levels low while we experiment.
-- Spend up to 2-5 billion EUR/a on supporting e-biofuels worldwide in the short term to kick the industry off.
+- Spend up to 2-5 billion EUR/a on supporting advanced biofuels and e-biofuels worldwide in the short term to kick the industry off.
 - Build new dispatchable backup power plants (turbines, engines, fuel cells) to run on carbonaceous fuels (easily switchable from methane to methanol, fossil gas being displaced over time by e-biofuels); don't add cost by insisting they be hydrogen-ready. (Germany needs 70-90 GW of dispatchable capacity, depending on which study you look at.)
 - German hydrogen network: Given that the power plant and industrial demand is not materialising, pause the Kernnetz beyond [[https://fnb-gas.de/pressematerialien/genehmigtes-wasserstoff-kernnetz-2029/][its planned 2028 extent]] or [[https://fnb-gas.de/pressematerialien/genehmigtes-wasserstoff-kernnetz-2029/][2029]] (by then it would reach one third of its full extent, e.g. 3000 km rather than 9000 km, and cost 6 bnEUR rather than 18 bnEUR, covering important sites in the northern half of Germany to kick-start green steel in Salzgitter and NRW, as well as the chemical industry around Leuna and Halle and SKW Piesteritz; ArcelorMittal has no immediate plans for H2-DRI any more; Saar/Dillingen is supplied from the French side).
 - Use locational pricing to manage power grid congestion (in countries where this is currently politically difficult: use tools for locational investment signals, which can provide much of the benefit of locational prices [[[https://publications.jrc.ec.europa.eu/repository/handle/JRC142047][JRC, 2025]]]; vary network charges spatially and temporally to get operations right).
-- German electricity transmission: reconsider the [[https://www.netzentwicklungsplan.de/][2023 Network Development Plan]] projects from 2030 onwards, look for cost savings (we [[./vorschlag-netzentgelte.html][made some suggestions]]), and take the pressure out of grid supply chains.
+- German electricity transmission: reconsider the [[https://www.netzentwicklungsplan.de/][2023 Network Development Plan]] projects from 2030 onwards to reduce the total 320 bnEUR cost (440 bnEUR with 2025 grid component inflation [[[https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/energiewende-effizient-machen.html][EWI/BET,2025]]]), look for cost savings (we [[./vorschlag-netzentgelte.html][made some suggestions]]), and take the pressure out of grid supply chains.
 - German carbon dioxide network: Experiment with pipelines in the north to major cement and lime kilns in NRW and elsewhere; if there is public resistance to pipelines, try barges and trains, or in worst case CCU than needs to be compensated elsewhere with CDR.
 - In industry when plant comes up for reinvestment, slowly start replacing the capital stock: steam generators and furnaces with electrified options, steam crackers with MtA/O plants, blast furnaces with electric arc furnaces and direct reduction plants if there is a prospect of cheap hydrogen soon (can be fed with methane initially).
