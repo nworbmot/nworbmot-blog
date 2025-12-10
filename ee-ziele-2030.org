@@ -1,0 +1,47 @@
+#+TITLE: Auswirkungen reduzierter Erneuerbare-Ziele für das Jahr 2030
+
+First Posted: 2025.12.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.12.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_reduzierte-erneuerbare-ziele-2030-ergebnis-activity-7404444786604216321-KPUZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Paralleler LinkedIn-Beitrag]]
+
+Reduzierte Erneuerbare-Ziele 2030? Ergebnis: höhere Stromkosten überwiegen geringere Förderung; 80%- & Emissions-Ziele in Gefahr
+
+Das zeigt eine neue Studie vom [[https://ariadneprojekt.de/][Kopernikus-Projekt Ariadne]]. Mit dem quelloffenen Modell [[https://github.com/pypsa/pypsa-de][PyPSA-DE]] wurden die Auswirkungen eines möglichen geringeren Ausbaus der Erneuerbaren Energien (EE) für das Jahr 2030 unter Unsicherheit bezüglich der Stromnachfrage untersucht. 
+
+[[https://ariadneprojekt.de/publikation/report-auswirkungen-einer-anpassung-der-ausbauziele-fuer-erneuerbare-energie-fuer-das-jahr-2030/][Report 📖]]
+
+[[https://ariadneprojekt.de/pressemitteilung/verminderter-ausbau-erneuerbarer-energien-sorgt-fuer-steigende-stromkosten-und-importabhaengigkeiten/][Pressemitteilung 🗞️]] 
+
+[[https://pik-potsdam.zoom.us/webinar/register/WN_7TJaKVZmT6WsfxbZqW4_pQ#/registration][Webinar am Dienstag 16.12 um 10 Uhr 📺]]
+
+
+Ergebnisse:
+
+- Bei einer Reduktion des EE-Ausbaus sinkt zwar der Förderbedarf für das Konto des Erneuerbaren-Energie-Gesetzes (EEG), die Mehrkosten für Stromkunden fallen jedoch deutlich höher aus als die Einsparungen bei der Förderung. Im Extremfall einer Reduktion um 30% steigt der Strompreis um 20 EUR pro Megawattstunde (MWh), beziehungsweise 2,0 ct pro Kilowattstunde (kWh). In diesem Fall betragen die Mehrkosten für Stromkunden 9,0–13,2 Mrd EUR, während der Förderbedarf für das EEG-Konto um 7,0–7,5 Milliarden EUR sinkt.
+
+[[./graphics/ee-ziele-2030/strompreise.png]]
+
+[[./graphics/ee-ziele-2030/netto-effekte.png]]
+
+- Ein geringerer EE-Ausbau führt zu mehr Stromerzeugung aus Erdgas und folglich zu einer erhöhten Importabhängigkeit sowie einem höheren Bedarf an neuen Gaskraftwerken. Gleichzeitig steigen die Stromimporte. 
+
+[[./graphics/ee-ziele-2030/gas-erzeugung.png]]
+
+[[./graphics/ee-ziele-2030/stromimporte.png]]
+
+- Die Flankierung der EE-Erzeugung durch Flexibilität ist essentiell für das Erreichen der Klimaziele und die Kosteneffizienz des Stromsystems. Beispielsweise könnten Erneuerbare Energien in Kombination mit Batterien einen Teil des Bedarfs an neuen Gaskraftwerken decken. Regulatorische Rahmenbedingungen, die eine marktgetriebene Bereitstellung von Flexibilität ermöglichen, sollten daher Priorität haben.
+  
+[[./graphics/ee-ziele-2030/gas-flex.png]]
+
+
+- Die zulässige Höchstmenge für Emissionen von Treibhausgasen im Jahr 2030 wird schon bei einer geringfügigen Reduktion des EE-Ausbaus überschritten.
+
+[[./graphics/ee-ziele-2030/emissionen.png]]
+
+- Das Ziel, im Jahr 2030 80% des Bruttostromverbrauchs durch Erneuerbare Energien zu decken, wird nur mit einem EE-Ausbau auf hohem Niveau erreicht.
+
+[[./graphics/ee-ziele-2030/ee-ziel.png]]
+
+Die Arbeit wurde von Michael Lindner geleitet, mit Beiträgen von mir, Julian Geis, Gunnar Luderer und Frederike Bartels.
+
+Wir freuen uns auf Ihr Feedback!
