@@ -18,28 +18,45 @@ This [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricit
 [[./graphics/golding/golding-279.jpg]]
 [[./graphics/golding/golding-280.jpg]]
 
+---
 
 The book is [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricity+by+wind+power+golding][The Generation of Electricity by Wind Power]] by British engineer E.W. Golding, and describes the early experience with wind power across the world.
+
+---
 
 There were of course ideas in the 19th century already to use concentrated solar power in combination with thermal storage:
 
 https://en.wikipedia.org/wiki/Concentrated_solar_power#History
 
+---
+
 As far as I can tell Bent Sørensen was one of the first people to discuss running an entire country (rather than isolated communities) on renewable energy in detail after the 1970s oil crisis
 
 [[./sorensen-renewable-system-pioneer.org][Blogpost: First Coherent Renewables Scenario: Bent Sørensen in 1970s]]
+
+---
 
 The Union of Concerned Scientists had detailed work for the US back in the 1970s too, summarised in this brilliant book from 1980:
 
 [[https://books.google.de/books/about/Energy_strategies.html?id=J5JjAAAAIAAJ&redir_esc=y][Energy strategies: toward a solar future]] by Kendall, Nadis et al, 1980
 
+---
+
 Amory Lovins cites this technical work in his famous 1976 essay on [[https://en.wikipedia.org/wiki/Soft_energy_path][soft energy paths]]
+
+---
 
 If anyone has any tips on good summaries of this early history, I'd be very grateful!
 
+---
+
 Hermann Scheer's 2010 book "100% now" documents several early versions of the DESERTEC idea, including:
 
+---
+
 i) Marcel Perrot's ideas in the 1940s/50s/60s (?) to export solar (thermal?) power from Algeria to France, see his book  "La Houille D'or Ou L'énergie Solaire" from 1963.
+
+---
 
 ii) German professor Eduard Justi's ideas in the 1950s to use solar power in the Sahara to export hydrogen to Europe.
 

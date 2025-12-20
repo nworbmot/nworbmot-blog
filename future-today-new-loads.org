@@ -18,19 +18,27 @@ Here is a difficult week in January, a "kalte Dunkelflaute":
 
 [[./graphics/nowcast-newdemands/kalte_dunkelflaute.png]]
 
+---
+
 Technical details here:
 
 https://model.energy/future/#technical-details
 
 [[./graphics/nowcast-newdemands/description.png]]
 
+---
+
 More background on the site here:
 
 [[./future-today-weather.html][Blogpost: model.energy/future: Future German renewable power system with today's data]]
 
+---
+
 The difficult "kalte Dunkelflaute" is a rare thing, the wind has barely stopped blowing in the past month...
 
 [[./graphics/nowcast-newdemands/supply-demand-feb.png]]
+
+---
 
 ...and if you you look at the last 9 years (graphic shows weekly averages) the hydrogen is used sparingly - it's mainly a wind+solar+battery+demand management story.
 

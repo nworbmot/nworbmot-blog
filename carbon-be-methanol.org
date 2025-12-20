@@ -10,10 +10,10 @@ Arguments for mopping up all carbon in wastes and residues into methanol; use it
 
 TL,DR: methanol is liquid; easier to transport/store than CH4/H2/CO2; costs scale down nicely to multi-MW size
 
-
 #+CAPTION: Methanol production routes.
 [[./graphics/biomass_methanol/process.png]]
 
+---
 
 We need carbonaceous fuels for big chunks of shipping, aviation and chemicals
 
@@ -26,6 +26,7 @@ Flexible, distributed synthesis from wastes and residues (topped up with green H
 #+CAPTION: Methanl production routes
 [[./graphics/biomass_methanol/irena.png]]
 
+---
 
 None of these ideas are new; ideas of a methanol economy have been circulating since the 1980s (Asinger, Olah, etc.).
 
@@ -33,11 +34,10 @@ Novelty is to put them in updated net-zero context, remove daft bits like coal-t
 
 https://en.wikipedia.org/wiki/Methanol_economy
 
-
-
 #+CAPTION: Methanol economy
 [[./graphics/biomass_methanol/methanol-economy.png]]
 
+---
 
 ok, now for the basics
 
@@ -54,6 +54,8 @@ don't drink it!
 #+CAPTION: Flames of different fuels
 [[./graphics/biomass_methanol/flame.jpg]]
 
+---
+
 in cost-effective net-zero scenarios almost everything gets electrified
 
 but some thorny sectors remain: dense fuels for long-distance shipping and aviation; feedstocks for chemicals
@@ -62,14 +64,16 @@ Maersk sailed a container ship with green methanol, has ordered lots
 
 https://www.maersk.com/news/articles/2023/06/26/maersk-orders-six-methanol-powered-vessels
 
+---
 
 There are even funky concepts around to capture the CO2 on board the ship (using a reformer - the hydrogen goes to a fuel cell) and bring it back to land for synthesis
 
 https://hymethship.com
 
-
 #+CAPTION: Ship with carbon capture
 [[./graphics/biomass_methanol/hymethship.png]]
+
+---
 
 while most studies consider Fischer-Tropsch for kerosene, methanol is also in the running!
 
@@ -77,10 +81,9 @@ methanol-to-kerosene is around 90% efficient, but not yet commercial
 
 going via methanol has big benefit that methanol synthesis can be run more flexibly than FT (big advantage with VRE!)
 
-
 [[./graphics/biomass_methanol/A380-family-stage.jpg]]
 
-
+---
 
 even if we reduce, reuse, recycle, we still need some primary production of plastics, paints, adhesives etc.
 
@@ -90,11 +93,10 @@ obvs we still will also need ammonia for fertilisers, etc.
 
 methanol use today:
 
-
 #+CAPTION: Methanol usage in chemical industry
 [[./graphics/biomass_methanol/meoh-chemicals.png]]
 
-
+---
 
 Yes, the synthesis of methanol adds losses to chain of conversion, but you also save e.g. the compression losses of transporting and storing gases like hydrogen.
 
@@ -102,9 +104,10 @@ If carbon comes from sustainable biogenic sources, cost can be 70-90 EUR/MWh
 
 https://doi.org/10.1016/j.rser.2021.110861
 
-
 #+CAPTION: Methanol production costs.
 [[./graphics/biomass_methanol/fuelcosts.png]]
+
+---
 
 So what does methanol production look like?
 
@@ -112,21 +115,19 @@ Let's look first at the gasification route, suitable for solid wastes and residu
 
 Enerkem's plant in Canada uses non-recyclable and non-compostable waste, thus reducing landfill, to produce up to 38 million litres per year
 
-
 #+CAPTION: Enerkem plant in Alberta, Canada.
 [[./graphics/biomass_methanol/alberta.jpg]]
 
-
+---
 
 In Denmark several projects are currently underway (BioReFuel and eSMR-MeOH) using biogas, adding electrolytic hydrogen to soak up the excess carbon, to produce e-biomethanol.
 
 https://www.ieabioenergy.com/wp-content/uploads/2020/12/Case-Story-DK_-Green-Methanol_web-1.pdf
 
-
 #+CAPTION: Methanol production from biogas
 [[./graphics/biomass_methanol/biogas.png]]
 
-
+---
 
 M2X Energy is building small modular reactors 😂 to convert fossil flare gas to methanol
 
@@ -136,15 +137,14 @@ Methanol is the distributed solution!
 
 https://m2x.energy
 
-
-
-
-
 #+CAPTION: M2X small-scale methanol production
 [[./graphics/biomass_methanol/m2x.jpg]]
 
+---
 
 The M2X energy synthesis units produce at a rate of around 1 MW - this would be bigger than most biogas facilities, at least in Germany, so either the substrate or the biogas itself would have to be pooled into each methanol synthesis facility.
+
+---
 
 Do CO2 demand and supply match?
 
@@ -154,12 +154,15 @@ Demand for aviation fuels is ~135 MtCO2/a, shipping ~150 MtCO2/a and chemicals ~
 
 So enough in principle to avoid DAC.
 
+---
+
 Green H2 is still needed to mix with excess carbon in biomass, for ammonia and steel, but transport could be minimised.
 
 Methanol could be used as a hydrogen carrier for e.g. backup power.
 
 Or as a carbon carrier to get e.g. cement emissions from inland sites to coast for CCS.
 
+---
 
 To summarise:
 
@@ -170,6 +173,8 @@ Electrify everything*
 **OK, also a bit of hydrogen for ammonia and steel
 
 Happy to hear comments or thoughts!
+
+---
 
 PS For further reading I recommend the excellent report by IRENA and the Methanol Institute
 

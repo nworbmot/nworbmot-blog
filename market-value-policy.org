@@ -12,6 +12,8 @@ First Posted: 2020.02.17, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 
 WRONG, WRONG & WRONG
 
+---
+
 ...based on a preprint (not through peer review yet) by Lina Reichenberg of Chalmers University and me:
 
 https://arxiv.org/abs/2002.05209
@@ -20,6 +22,7 @@ David Mitchell's pithy summary:
 
 "VRE cannibalisation is a policy artefact, not a physical system constraint"
 
+---
 
 Short version:
 
@@ -27,33 +30,48 @@ Some studies show that average revenues for wind and solar go down with rising s
 
 We show that the studies have an implicit assumption that variable renewable energy (VRE) are forced into the system, which depresses prices and their own market value (MV).
 
+---
+
 Dump large quantities of any commodity into a market, be it steel / grain / potatoes, and its value will drop.
 
 No surprises here, it's economics 101.
 
 It can happen for wind and solar, but also for nuclear and coal. Nothing to do with variability (although it can affect rate).
 
+---
+
 A CO2 price or budget does the opposite: it makes fossil fuels more expensive, encouraging VRE into the system. This can allow VRE penetration to rise, while VRE recoup their costs exactly from their market revenue (in a long-term equilibrium).
 
+---
 
 To prove the point, we took Lion Hirth's EMMA model, in which many of these properties were demonstrated in previous studies, and showed how market value remains stable under a rising CO2 price:
 
 [[./graphics/market_value/comparison.png]]
 [[./graphics/market_value/three-dispatch.png]]
 
+---
+
 Note that the area under the revenue curves are the same for "no policy" and "CO2 policy" - solar makes back its costs exactly, the "zero-profit" condition.
+
+---
 
 Theory point: "in the long-term equilibrium, all profits are zero" isn't always true: constraints can alter prices in the system and stop zero-profit from holding.
 
 Constraining VRE share forces prices and market value of VRE down; CO2 prices leave zero-profit for VRE intact.
 
+---
+
 NB: We're NOT advocating for a CO2 price (or anything really). There are many good reasons to prefer direct subsidy of VRE/nuclear (reduced investor risk => lower LCOE, popularity, etc).
 
 You can also do both and get the best of both worlds.
 
+---
+
 But understand that sinking market value (MV) is a direct math consequence of subsidy and nothing to panic about.
 
 If you like, sinking market value of wind and solar under a VRE subsidy regime is a consequence of not valuing the low-CO2-ness of wind and solar properly.
+
+---
 
 Is this an arcane wonk-fest?
 
@@ -63,6 +81,7 @@ Declining market value is regularly used in the press and in the literature to e
 
 [[./graphics/market_value/nytimes.png]]
 
+---
 
 We need more clarity on market value.
 
@@ -70,14 +89,19 @@ Our conclusion: market value depends too heavily on policy to be a reliable indi
 
 Instead, focus on the total system cost, which is what really matters.
 
+---
+
 Now the long version:
 
 What is market value?
 
 It's the market revenue (sum of market price * generation at all times) averaged over each unit of generation. Measured in money per energy unit, e.g. €/MWh.
 
+---
+
 For a generator, you want your market value to be at least as high as the levelized cost of energy (LCOE) so you cover your costs and make a profit.
 
+---
 
 Previous studies, such as this one from Lion Hirth
 
@@ -85,22 +109,25 @@ https://doi.org/10.1016/j.eneco.2013.02.004
 
 showed that in a variety of situations (real markets, short- and long-term equilibria), the market value of wind and solar declines when their share goes up.
 
-
 [[./graphics/market_value/hirth-wind_mv.png]]
+
+---
 
 We focus on long-term equilibria, where investments are allowed to change to fit observed revenue.
 
 Now, when you hear "long-term", you should smell a rat.
 
+---
 
 In the long-term, we're told to believe that each generator adjusts its capacity until it recovers its costs exactly from the market.
 
 If it makes too much profit, new entrants will outcompete it; if it makes a loss, it will leave the market.
 
-
 [[https://en.wikipedia.org/wiki/Zero-profit_condition][Wikipedia: Zero-profit condition]]
 
 [[./graphics/market_value/hirth-zero_profit.png]]
+
+---
 
 In these simulations the costs are fixed, yet the revenue is declining.
 
@@ -110,15 +137,21 @@ By what?
 
 It turns out that to arrange a wind share higher than the equilibrium level for the simulations, a constraint on wind share has been introduced.
 
+---
+
 We show with some fairly standard math that this constraint (or rather its shadow price) is what is responsible for depressing the prices.
 
 The fact that constraints can distort the zero-profit condition seems to be under-appreciated among modellers.
+
+---
 
 By forcing in the wind, we depress the prices.
 
 This is what is happening in these MV studies, and it borders on economic tautology: forcing a commodity into a market makes prices go down.
 
 It's NOT an inherent fact about wind and solar, and applies to nuclear & coal too.
+
+---
 
 Is it a problem?
 
@@ -128,6 +161,8 @@ Can we stop MV dropping?
 
 Sure! Replacing the VRE subsidy with a CO2 price or budget will do it.
 
+---
+
 A CO2 price will create more revenue when fossils are setting the price, compensating exactly for lost revenue.
 
 In fact, the math guarantees that VRE will cover their costs from the market price.
@@ -136,6 +171,7 @@ Revenue under "no policy" is same as under "CO2 policy":
 
 [[./graphics/market_value/three-dispatch.png]]
 
+---
 
 We took Hirth's EMMA model and did exactly the same model runs, but with a CO2 price driving rising VRE penetration.
 
@@ -143,19 +179,25 @@ MV remains stable, and tracks LCOE exactly:
 
 [[./graphics/market_value/comparison.png]]
 
+---
+
 Just to prove the point, we drive the penetration of wind and solar all the way up to 100%.
 
 If there's enough flexibility from transmission and storage expansion in the system, LCOE = MV remains steady all the way up to 100%:
 
-
 [[./graphics/market_value/mv-flexibility.png]]
 
+---
+
 Storage and transmission are playing a role here to steady prices. Storage charging bids increase prices when VRE are abundant, and discharging bids stop prices going too high. Demand response would have a similar effect. There's some nice math here (for another time).
+
+---
 
 What about system costs? They rise up to €103/MWh, dominated by wind, solar and hydrogen storage for balancing. Despite some conservative cost assumptions (in view of 2030-2050 time frame for zero emissions), this is still less than generation cost in Germany today.
 
 [[./graphics/market_value/breakdown_sys_costs.png]]
 
+---
 
 Adding other low-CO2 technology may alter the final system mix, but not the conclusions about market value.
 
@@ -164,6 +206,8 @@ So where does this leave us?
 Let's refocus the debate on the system cost of low-CO2 systems and stop fretting about market value.
 
 Market value is an artefact of policy choices.
+
+---
 
 Even better (personal view), given the enormous costs of climate change and the health impacts of fossil fuels, let's focus less on system cost, and more on speed of change: how do we overcome inertia and get this done as soon as possible?
 

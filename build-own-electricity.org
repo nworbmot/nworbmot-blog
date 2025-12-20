@@ -18,18 +18,26 @@ reward at end
 
 [[./graphics/model_energy/de-2011-overview.png]]
 
+---
+
 This toy model meets a constant demand over a year of weather data
 
 The default setting is to use wind, solar, batteries and hydrogen storage only; further technologies can be added, as can H2 demand (for heavy transport and industry)
+
+---
 
 In this example for a 100 MW demand in Germany, when wind (blue) and solar (yellow) generation exceed demand (black line), electricity is stored (negative values) in batteries (grey) or used to electrolyse water to hydrogen (cyan), which is then stored underground
 
 [[./graphics/model_energy/de-2011-storing.png]]
 
+---
+
 When wind and solar are scarce, like this week in November, the demand is met by generating electricity from the hydrogen, which can be stored for long periods underground, with a smaller contribution from the batteries
 
 
 [[./graphics/model_energy/de-2011-dispatch.png]]
+
+---
 
 The model balances the costs of all assets (wind, solar, storage) against their generation profiles, the demand and conversion losses
 
@@ -37,21 +45,29 @@ The system cost (87 €/MWh) is higher than typical wind/solar LCOEs (40-50 €/
 
 [[./graphics/model_energy/cost-breakdown.png]]
 
+---
+
 For comparison, residential electricity rates in Germany are 300 €/MWh (including all taxes and network charges), non-households average around 150 €/MWh
 
 Here's LCOE estimates of conventional generation in the United States (€1 = $1.1) from Lazard
 
 [[./graphics/model_energy/lazard-lcoe.png]]
 
+---
+
 Batteries have low round-trip losses of 10%, but per-kWh cost make them good for storing only a few hours of demand
 
 Hydrogen (H2) storage has higher round-trip losses of 64%, but low per-kWh cost (in underground salt caverns), which makes it good for storing days and weeks
+
+---
 
 H2 losses are outweighed by the value of "firm" storage available at any time of year
 
 Other long-term storage or low-CO2 "firm" generators (hydroelectricity, sustainable biomass, geothermal, nuclear, plants with CCS) can provide this service too
 
 H2 puts an upper bound on cost
+
+---
 
 You can choose any region in the world to determine wind and solar output
 
@@ -63,6 +79,8 @@ Thanks to [[https://www.ecmwf.int/][ECMWF]] for open ERA5 global weather data!
 [[./graphics/model_energy/florida.png]]
 [[./graphics/model_energy/south_africa.png]]
 [[./graphics/model_energy/heart-eu.png]]
+
+---
 
 You can use the model for important insights:
 
@@ -77,11 +95,15 @@ Compare European system with offshore regions (47 €/MWh) to Germany alone (87 
 [[./graphics/model_energy/europe-map.png]]
 [[./graphics/model_energy/europe-results.png]]
 
+---
+
 Pick your own technology mix - cost/efficiency assumptions can be customised under "advanced assumptions"
 
 (NB you can also add hydrogen demand, dispatchable generators, non-zero CO2 limits)
 
 Default assumptions are almost all from the [[https://ens.dk/en][Danish Energy Agency]]
+
+---
 
 For example, if you remove the option of wind from the German system, costs nearly double to 150 €/MWh, because you need many weeks of H2 storage to balance the seasonality of solar generation
 
@@ -93,16 +115,21 @@ However, if there are cost breakthroughs (PV at 200 €/kWDC, battery 100 €/kW
 
 [[./graphics/model_energy/de-low-costs.png]]
 
+---
+
 The solar resource is better in other countries.
 
 Here's a chart of the cost in all countries in the world (including wind), using the default Danish Energy Agency assumptions for 2030:
 
-
 [[./graphics/model_energy/countries-bars.png]]
+
+---
 
 The highest cost is 132 €/MWh, the mean is 86 €/MWh, 50% of countries are below 86 €/MWh.
 
 Including other low-CO2 technologies, cross-border transmission and further cost reductions will push costs down even further. Solar tends to dominate.
+
+---
 
 The model returns results in just 10 seconds thanks to the kind provision of a solver licence by [[https://www.gurobi.com/][gurobi]] - thanks!
 
@@ -110,9 +137,13 @@ All other software and data is open.
 
 All results can be reached with a deep link, and all data can be downloaded with open licences.
 
+---
+
 Thanks also to Bo Tranberg of [[https://www.ento.ai/][Ento Labs]] for help building with the GUI, and to Jonas Hörsch for the weather data backend.
 
 You can add suggestions and help with improving the site on the [[https://github.com/PyPSA/whobs-server][GitHub page]].
+
+---
 
 Bonus round*: we can use http://model.energy to reproduce the results by Nestor Sepulveda, Jesse Jenkins et al that wind+solar+battery gets expensive for deep decarbonisation without "firm" sources (like nuclear, fossil+CCS, biomass, hydroelectricity).
 
@@ -120,21 +151,31 @@ https://doi.org/10.1016/j.joule.2018.08.006
 
 [[./graphics/model_energy/sepulveda-cost_comparison.png]]
 
+---
+
 If we take the mid-range cost assumptions from that paper (corresponding to orange points in graph above):
 
 [[./graphics/model_energy/sepulveda-cost_assumptions.png]]
+
+---
 
 And use Massachussetts for the "northern" system and Texas for the "southern" system, we can reproduce the results with http://model.energy:
 
 [[./graphics/model_energy/both-4-bars.png]]
 
+---
+
 The agreement is surprisingly good, especially for the renewables-dominated systems. http://model.energy underestimates the cost for firm sources, since it assumes a flat load. The $80/MWh LCOE for nuclear is probably over-optimistic on current trends:
 
 [[./graphics/model_energy/lazard-lcoe.png]]
 
+---
+
 If we now allow long-term hydrogen storage, and use the "conservative" cost for nuclear ($7000/kW) corresponding to an LCOE of $114/MWh in best case (at low end of Lazard numbers), then the wind+solar+battery+hydrogen system is better (TX) or competitive (MA)
 
 [[./graphics/model_energy/both-6-bars-better.png]]
+
+---
 
 If you got this far, you deserve a sloth!
 
