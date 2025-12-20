@@ -356,8 +356,8 @@ threat to health (a [[https://lailluminator.com/2025/03/08/co2-pipeline/][pipeli
 to hospital, although this [[https://climate.mit.edu/ask-mit/are-there-risks-transporting-carbon-dioxide-pipelines][may have been due to hydrogen sulfide mixed
 in]]).
 
-In an sensitivity calculation the removal of the CO_2 pipeline raised
-costs by 2% (forcing more biomass to be used for CDR to compensate
+In a sensitivity calculation the removal of the CO_2 pipeline raised
+costs by just 2% (forcing more biomass to be used for CDR to compensate
 industry process emissions that cannot be transported to sequestration sites):
 
 #+CAPTION: Minimal methanol economy sensitivities
