@@ -11,8 +11,9 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title> blog | nworbmot:tombrown</title>
-<link rel="stylesheet" type="text/css" href="../theme-250529.css" />
+<link rel="stylesheet" type="text/css" href="../theme-260104.css" />
 <script type="text/javascript" src="https://orgmode.org/mathjax/MathJax.js"></script>
 <script type="text/javascript">
 <!--/*--><![CDATA[/*><!--*/
