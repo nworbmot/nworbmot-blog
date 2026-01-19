@@ -1,0 +1,46 @@
+#+TITLE: We need to talk about grid costs
+#+OPTIONS: tex:t
+
+First Posted: 2026.01.15, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.01.15, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_we-need-to-talk-about-grid-costs-high-inflation-activity-7417533921573298176--IxL][Parallel LinkedIn post]]
+
+We need to talk about grid costs! High inflation for equipment, ambitious plans => grid charges that threaten the transition.
+
+While we've all been celebrating the drop in solar and battery costs, network component costs have quadrupled.
+
+The first graphic is taken from the [[https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/monitoringbericht-der-expertenkommission-zum-energiewende.html][German Energy Transition Monitoring Report 2025]]:
+
+[[./graphics/grid_costs/monitoring-grid_costs-2025.png]]
+
+
+It shows the increases in network charges with the top beige line rising to almost 12 ct/kWh for households.
+
+The cause is the investments and expenditures for transmission (red bars) and distribution (blue bars). Some of this massive cost increase comes from congestion management (which rose from €1.5 billion in 2020 to €3 billion in 2024), but most of the €10 billion rise for transmission is additional investments.
+
+The planned German investments in transmission until 2045 rose from €320 billion in the 2023 Network Development Plan (NDP) to €360-390 billion in the [[https://www.netzentwicklungsplan.de/nep-aktuell/netzentwicklungsplan-20372045-2025][latest 2025 NDP]].
+
+These are colossal numbers! €240 billion for distribution comes on top.
+
+Why are the numbers so high? Part of the story is that grid components have got more expensive due to inflation in material costs and permitting, but a lot is the market power of the manufacturers (check out this year's profits at Siemens Energy and Hitachi!).
+
+The next graphic shows the *quadrupling* of specific costs for onshore high voltage transmission in the NDP (2025 is back-calculated, since they didn't publish the specific costs yet):
+
+[[./graphics/grid_costs/line_costs-25-en.png]]
+
+These high costs threaten the acceptance of the energy transition, electrification, and the business models of energy providers if customers start defecting.
+
+Some of the impact on network charges will be compensated as demand grows, spreading the costs over a larger consumer base (but this hasn't happened yet).
+
+We need to keep expanding the transmission grid, but some moderation is needed.
+
+What to do? We set out [[./vorschlag-netzentgelte.html][some suggestions]] and the [[https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/monitoringbericht-der-expertenkommission-zum-energiewende.html][Monitoring Report]] does too.
+
+- Stretching out the investments over a longer time frame to ameliorate the supply chain crunch.
+- More use of non-wire solutions, enabled by local price signals.
+- Guarantees to help manufacturers build capacity.
+- Regular corrections to scenario assumptions as demand trends lower.
+- Reconsideration of offshore targets and how offshore is connected (offshore drives high costs with HVDC connections deep into Germany).
+- Allow more redispatch in the NDP scenarios.
+
+There are many more, please pile in in the comments.

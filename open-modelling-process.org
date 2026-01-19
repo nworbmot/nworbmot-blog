@@ -1,0 +1,26 @@
+#+TITLE: Open energy modelling is about process
+#+OPTIONS: tex:t
+
+First Posted: 2026.01.12, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.01.12, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_freethemodels-activity-7416492026956804097-TjDv][Parallel LinkedIn post]]
+
+The recording of Agora Energiewende's "empowerment through openness" webinar is online! 📺 Keynote from me and PyPSA-SPICE intro by Dr. Samarth Kumar with discussion moderation by Rena Kuwahata.
+
+[[https://www.agora-energiewende.org/news-events/empowerment-through-openness-the-future-of-energy-modelling]] (includes video and presentation materials)
+
+https://www.youtube.com/watch?v=4yy41TSAFpI
+
+I want to make a few comments and highlight slide 6 in [[../energy/brown-spice.pdf][my deck]]:
+
+[[./graphics/open-utopia.png]]
+
+Sometimes in the discussion around open energy modelling it's suggested that if everyone just switched from PLEXOS to an open source framework, or put their model data online, then we're done.
+
+That's not how I see it.
+
+Open modelling is much more about **process**, about involving existing and new stakeholders in the process of energy system planning. We don't have a perfect roadmap where we're going with the energy transition so a) we need lots of folks enabled to think about innovative ways to drive it forward faster and b) we need high levels of general involvement to enable stakeholder buy-in for all the changes it brings. Open modelling can help get more folks involved, **that** is the big selling point. Existing stakeholders may find that scary, but it will help the energy transition in the long-run.
+
+Tools like PyPSA-SPICE and others can help lower the barrier to running these tools.
+
+#freethemodels
