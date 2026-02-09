@@ -3,9 +3,9 @@
 
 First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.02.09, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
-[[https://www.linkedin.com/posts/tom-brown-226b191a0_solar-and-batteries-are-cheap-enough-that-activity-7426681921201524737-Cw8-][Parallel LinkedIn post]]
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_solar-and-batteries-are-cheap-enough-that-activity-7426691261467721729-poX5][Parallel LinkedIn post]]
 
-[[https://bsky.app/profile/did:plc:5wbpz573z5lg3e4q3xzq6nf7/post/3megzcxiqbk2n][Parallel BlueSky post]]
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3meh344vkw224][Parallel BlueSky post]]
 
 * Summary
 
@@ -80,15 +80,16 @@ weather data from 2011. The 1° by 1° pixels are chosen based on where
 the population is densest, representing where 99.9% of the population
 lives. The model is based on [[https://model.energy/#background-and-warnings][model.energy]] but without the hydrogen
 storage. The most important economic data is based on the [[https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv][Danish
-Energy Agency Technology Database]] for 2030 in 2020 euros: solar
-installed cost 384 €/kW_p, battery installed cost 157 €/kWh. By 2050
-these reduce to 293 €/kW_p and 83 €/kWh respectively. The solar costs
-include 50 €/kW for transformer and grid connection, but no further
-grid costs are included.  Additional assumptions: cost of capital 5%,
-cost of backup generator with 50% efficiency 1000 €/kW_el, cost of
-backup fuel (based roughly on fossil gas) 30 €/MWh_th. There is more
-information below including instructions on how to adjust the results
-if you don't like the inputs.
+Energy Agency Technology Database]] for 2030 in 2020 euros: solar PV
+installed cost 384 €/kW_p, Lithium-ion battery installed cost 157
+€/kWh. By 2050 these reduce to 293 €/kW_p and 83 €/kWh
+respectively. The solar costs include 50 €/kW for transformer and grid
+connection, but no further grid costs are included.  Additional
+assumptions: cost of capital 5%, cost of backup generator with 50%
+efficiency 1000 €/kW_el, cost of backup fuel (based roughly on fossil
+gas) 30 €/MWh_th. There is more information below including
+instructions on how to adjust the results if you don't like the
+inputs.
 
 
 * More technical details
@@ -223,3 +224,5 @@ Maps
 [[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt90.png]]
 
 [[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt95.png]]
+
+[[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt99.png]]
