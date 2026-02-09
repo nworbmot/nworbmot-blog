@@ -1,0 +1,169 @@
+#+TITLE: Solar and batteries can power the world
+#+OPTIONS: tex:t
+
+First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.02.09, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+* Summary
+
+Solar and batteries are cheap enough that most people can get most of
+their electricity from them, and save money. This equation gets better
+and better over time as their costs decline.
+
+More precisely: solar and batteries can supply 90% of electricity for
+80% of the world's population at less than 80 €/MWh (including a fuel
+backup) with 2030 assumptions.  Add some wind, existing hydro, or wait
+a few more years for costs to decline, and the equation just gets
+better.
+
+The map shows the total average system cost of providing electricity
+for a constant hourly demand in 2030 with solar and batteries
+providing 90% of the electricity and some storeable fuel the final
+10%.
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt-solarbatt90.png]]
+
+
+For 80% of the population it is below 80 €/MWh. Expensive locations
+are all at high latitudes in the North, where low sunshine in the
+winter increases backup costs. In these regions the addition of wind,
+existing hydro or other energy sources would help to alleviate the
+higher costs.
+
+The graph shows the results for 90%, 95% and 99% solar-battery
+supply. The high-latitude regions in particular have difficulty
+with the last 1-5% because of low winter sunshine.
+
+[[./graphics/solar-battery-world/cost_distribution-260206-solarbatt.png]]
+
+With projected cost reductions for solar and batteries in 2050,
+80% of the population are below 60 €/MWh for 90% solar-battery
+supply, and 93% are below 80 €/MWh for 95% solar-battery supply.
+
+
+[[./graphics/solar-battery-world/cost_distribution-both.png]]
+
+
+If we add wind in the case of 2030, this helps reduce costs
+particularly in high northern latitudes, where the wind tends to blow
+more strongly in the winter.
+
+
+[[./graphics/solar-battery-world/windcost_distribution-2030.png]]
+
+What conclusions can we draw?
+
+- Solar and batteries have the potential to dominate electricity
+  supply in most regions of the world, providing cheap and clean power.
+
+- The more expensive regions are concentrated at high latitudes in the
+  North, where seasonal variations make supplementing with wind and
+  other energy sources attractive.
+
+- We can get far without worrying about the last 1-5%. The solutions
+  for the last 1-5% look similar to what we need anyway for
+  long-distance shipping and aviation: [[./methanol-faq.html][easily storeable fuels]].
+
+
+Briefly on the assumptions (more below): The system cost is higher
+than the solar levelised cost, because it also includes the costs of
+the batteries and backup power, as well as accounting for
+curtailment. Utility-scale solar PV and batteries are sized to
+minimise the costs for meeting a constant demand based on hourly
+weather data from 2011. The 1° by 1° pixels are chosen based
+on where the population is densest, representing where 99.9% of the
+population lives. The model is based on [[https://model.energy/#background-and-warnings][model.energy]] but without the
+hydrogen storage. The most important economic data is based on the
+[[https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv][Danish Energy Agency Technology Database]] for 2030 in 2020 euros: solar
+installed cost 384 €/kW_p, battery installed cost 157 €/kWh. By 2050
+these reduce to 293 €/kW_p and 83 €/kWh respectively.  Additional
+assumptions: cost of capital 5%, cost of backup generator with 50%
+efficiency 1000 €/kW_el, cost of backup fuel (based roughly on
+fossil gas) 30 €/MWh_th. There is more below including instructions
+on how to adjust the results if you don't like the inputs.
+
+
+* More technical details
+
+The full set of technical assumptions, mostly leaning on the 
+[[https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv][Danish Energy Agency Technology Database]], can be found here:
+
+https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv
+
+The model is based on [[https://model.energy/#background-and-warnings][model.energy]] but without the hydrogen
+storage. It is optimised with free generation for the final 10/5/1%
+then the costs are added back on top (allowing the user to easily
+increase the investment or fuel cost for the backup).
+
+For example, if the solar-battery system on its own costs 50 €/MWh for
+(100-$x$)% coverage, where $x=10,5,1$, then you add for the backup:
+
+investment cost * (annuity factor + fom)/8760 + fuel cost * x / efficiency
+
+For the default of 1 M€/MW investment cost, 25 year lifetime, 5% cost of capital, 3% yearly FOM, fuel cost of 30 €/MWh, efficiency 50% you get
+
+1e6 * (0.071 + 0.03) / 8760 + 30*(x/100)/0.5 = (11.5 + 0.6x) €/MWh
+
+For x=10, you get 17.5 €/MWh contribution from the backup.
+
+If the fuel cost rises to 50 €/MWh, the backup contribution rises to (11.5 + x) = 21.5 €/MWh.
+
+* Warnings
+
+Many of the [[https://model.energy/#background-and-warnings][model.energy]] warnings also apply here.
+
+- The demand is flat, so doesn't account for seasonal variability in
+  demand. Cooling demands align well with solar insolation. However,
+  seasonal heating demands can be a challenge for solar-based
+  systems. For high latitudes in the North, the wind is stronger in
+  the winter, which raises the value of wind.
+- The solar panels have a fixed attitude tilted 30 degrees towards the
+  equator. Axis-tracking could lower costs.
+- The cost assumptions assume utility-scale solar panels and batteries
+  in large parks. Smaller-scale rooftop solar and home batteries would
+  cost 2-3 times more.
+- There may not be sufficient land near densely-populated areas. This
+  may require supply from further away. More discussion on land use
+  can be found below.
+- The cost of capital, assumed to be 5%, may be higher in some areas.
+
+* Open code
+
+https://github.com/nworbmot/solar-battery-world
+
+* Land and material use
+
+Assuming most energy demand electrifies and living standards equalise worldwide, each person would consume annually around 10 MWhel/a/person.
+
+This gives worldwide electricity demand for 8 billion people of 80,000 TWhel/a.
+
+The 90% solar-battery supply would require then 69 TWp of solar and 72 TWh of batteries in 2050.
+
+70 TWp at 50 MWp/km2 covers 1440,000 km2, less than urban area, 2% of land used for livestock, around 1% of total land
+
+[[./graphics/solar-battery-world/Global-land-use-breakdown.png]]
+
+But **locally** in densely-populated areas there may not be sufficient land, requiring the grid to transport it from neighbouring regions.
+
+
+* Additional results
+
+Maps
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt-solarbatt95.png]]
+
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt-solarbatt99.png]]
+
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt2050-solarbatt90.png]]
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt2050-solarbatt95.png]]
+
+[[./graphics/solar-battery-world/cost_map-260206-solarbatt2050-solarbatt99.png]]
+
+
+
+
+[[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt90.png]]
+
+[[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt95.png]]

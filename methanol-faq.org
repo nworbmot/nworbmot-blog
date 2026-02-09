@@ -145,17 +145,17 @@ typically more expensive than biomethanol (e.g. 160-180 €/MWh versus
 * Why is direct air capture (DAC) not used?
 
 Direct air capture (DAC) refers to technical measures to extract CO_2
-from its low concentrations in the atmosphere. DAC is implemented in
+from the atmosphere, where it is present at low concentrations. DAC is implemented in
 the model, however the cost of CO_2 capture from the air is
 significantly higher than capturing CO_2 from biomass (for 2050,
 roughly 300 €/tCO2 versus 100-150 €/tCO2). As long as biogenic sources
 are available, the model prefers biomass to the air as a source of carbon.
 
-The logic is that if the plants are already extracting CO_2 from the
+The broader logic is that if the plants are already extracting CO_2 from the
 air for food and our building materials like wood, we can use the
 excess CO_2 in biogenic wastes and residues for plastics and energy.
 
-DAC also has a long path ahead of it before it can scale up to the megaton per year, let along gigaton per year size needed ([[https://www.researchsquare.com/article/rs-6165238/v1][Brazzola et al, 2025]]).
+DAC also has a long path ahead of it before it can scale up to a megaton per year, let alone the gigaton per year scale needed ([[https://www.researchsquare.com/article/rs-6165238/v1][Brazzola et al, 2025]]).
 
 
 
@@ -186,7 +186,7 @@ cycle greenhouse gas balance of some biofuels worse than fossil
 gasoline or diesel.
 
 
-#+CAPTION: Lifecycle greenhouse gas emissions for different biofuels (source: [[https://www.transportenvironment.org/discover/globiom-basis-biofuel-policy-post-2020/][Transport & Environment, 201x]])
+#+CAPTION: Lifecycle greenhouse gas emissions for different biofuels (source: [[https://www.transportenvironment.org/discover/globiom-basis-biofuel-policy-post-2020/][Transport & Environment, 2016]])
 [[./graphics/methanol_faq/te-lca-ghg.png]]
 
 
