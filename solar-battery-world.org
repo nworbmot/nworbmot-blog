@@ -1,7 +1,7 @@
 #+TITLE: Solar and batteries can power the world
 #+OPTIONS: tex:t
 
-First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.02.09, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.02.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_solar-and-batteries-are-cheap-enough-that-activity-7426691261467721729-poX5][Parallel LinkedIn post]]
 
@@ -51,6 +51,8 @@ If we add wind in the case of 2030, this helps reduce costs
 particularly in high northern latitudes, where the wind tends to blow
 more strongly in the winter.
 
+[[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt90.png]]
+
 
 [[./graphics/solar-battery-world/cost_distribution-wind-2030.png]]
 
@@ -72,7 +74,7 @@ What conclusions can we draw?
 
 
 Briefly on the assumptions (more below): The system cost is higher
-than the solar levelised cost, because it also includes the costs of
+than the solar levelised cost because it also includes the costs of
 the batteries and backup power, as well as accounting for
 curtailment. Utility-scale solar PV and batteries are sized to
 minimise the costs for meeting a constant demand based on hourly
@@ -81,7 +83,7 @@ the population is densest, representing where 99.9% of the population
 lives. The model is based on [[https://model.energy/#background-and-warnings][model.energy]] but without the hydrogen
 storage. The most important economic data is based on the [[https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv][Danish
 Energy Agency Technology Database]] for 2030 in 2020 euros: solar PV
-installed cost 384 €/kW_p, Lithium-ion battery installed cost 157
+installed cost 384 €/kW_p, lithium-ion battery installed cost 157
 €/kWh. By 2050 these reduce to 293 €/kW_p and 83 €/kWh
 respectively. The solar costs include 50 €/kW for transformer and grid
 connection, but no further grid costs are included.  Additional
@@ -93,11 +95,19 @@ inputs.
 
 
 * More technical details
+  :PROPERTIES:
+  :CUSTOM_ID: details
+  :END:
 
 The full set of technical assumptions, mostly leaning on the 
 [[https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv][Danish Energy Agency Technology Database]], can be found here:
 
 https://github.com/nworbmot/solar-battery-world/blob/main/defaults.csv
+
+As well as the incremental energy cost for the lithium-ion batteries,
+an inverter cost of 177 €/kW in 2030 and 66 €/kW in 2050 is also
+included. The lithium-ion batteries have a round-trip efficiency of
+96%.
 
 The model is based on [[https://model.energy/#background-and-warnings][model.energy]] but without the hydrogen
 storage. It is optimised with free generation for the final 10/5/1%
@@ -105,8 +115,21 @@ then the costs are added back on top. This allows the user to easily
 increase the investment or fuel cost for the backup, since this is the
 most uncertain part of the costing.
 
-For example, if the solar-battery system on its own costs 50 €/MWh for
-(100-x)% coverage, where x=10,5,1, then you add for the backup per €/MWh:
+To reproduce the optimisation on [[https://model.energy/#background-and-warnings][model.energy]], choose the point
+location in "Step 1". Then for the technologies, disable wind and
+hydrogen storage. Under "Advanced settings" enable the checkbox for
+"Dispatchable technology 1" and set both its overnight cost and
+marginal cost to zero so it is maximised. To get (100-x)%
+solar-battery coverage, i.e. limit the backup to x% coverage, put a
+dummy emissions factor of 100 gCO_2/kWh_el on the backup, and then
+activate the checkbox for the overall CO_2 limit and set the allowed
+emissions to x gCO_2/kWh_el. The CO_2 emissions limit is being used as
+a proxy for the overall backup fuel usage.
+
+Once you have the optimisation result, you can add the backup costs
+separately.  For example, if the solar-battery system on its own costs
+50 €/MWh for (100-x)% coverage, where x=10,5,1, then you add for the
+backup per €/MWh:
 
 investment cost * (annuity factor + FOM) / 8760 + fuel cost * x / efficiency
 
@@ -141,6 +164,9 @@ and varied the location, we fix instead the fraction of load supplied,
 and optimise the solar and battery capacities.
 
 * Warnings
+  :PROPERTIES:
+  :CUSTOM_ID: warnings
+  :END:
 
 Many of the [[https://model.energy/#background-and-warnings][model.energy]] warnings also apply here.
 
@@ -174,7 +200,7 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
   can be found below.
 - The cost of capital, assumed to be 5%, may be higher in some regions.
 - The solar insolation is based on reanalysis data from the European
-  Centre for Medium-Range Weather Forecasts (ECMWF) [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels][ERA5dataset]] and is
+  Centre for Medium-Range Weather Forecasts (ECMWF) [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels][ERA5 dataset]] and is
   processed using the [[https://github.com/FRESNA/atlite][atlite library]]. Reanalysis data is sometimes
   imperfect.
 
@@ -186,6 +212,9 @@ with an open licence:
 https://github.com/nworbmot/solar-battery-world
 
 * Land and material use
+  :PROPERTIES:
+  :CUSTOM_ID: land
+  :END:
 
 Some rough calculations are provided here.
 
@@ -203,6 +232,9 @@ But **locally** in densely-populated areas there may not be sufficient land, req
 
 
 * Additional results
+  :PROPERTIES:
+  :CUSTOM_ID: more
+  :END:
 
 Maps
 
