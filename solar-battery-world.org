@@ -2,7 +2,7 @@
 #+OPTIONS: tex:t
 #+OPTIONS: toc:nil
 
-First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.02.19, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.03.30, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_solar-and-batteries-are-cheap-enough-that-activity-7426691261467721729-poX5][Parallel LinkedIn post]]
 
@@ -40,14 +40,14 @@ If we increase the solar-battery supply from 90% to 95% and 99%, the
 high-latitude regions have difficulty with the last 1-5%
 because of low winter sunshine.
 
-[[./graphics/solar-battery-world-260219/cost_distribution-reverse-2030.png]]
+[[./graphics/solar-battery-world-260330/cost_distribution-reverse-2030.png]]
 
 With projected cost reductions for solar and batteries in 2050,
 86% of the population are below 60 €/MWh for 90% solar-battery
 supply, and 93% are below 80 €/MWh for 95% solar-battery supply.
 
 
-[[./graphics/solar-battery-world-260219/cost_distribution-reverse-2030-2050.png]]
+[[./graphics/solar-battery-world-260330/cost_distribution-reverse-2030-2050.png]]
 
 
 If we add wind in the case of 2030, this helps reduce costs
@@ -57,7 +57,7 @@ more strongly in the winter.
 [[./graphics/solar-battery-world/cost_map-260207-solarwindbatt-solarwindbatt90.png]]
 
 
-[[./graphics/solar-battery-world-260219/cost_distribution-reverse-wind-2030.png]]
+[[./graphics/solar-battery-world-260330/cost_distribution-reverse-wind-2030.png]]
 
 What conclusions can we draw?
 
@@ -159,13 +159,18 @@ To supply the full demand with these assumptions with a fuel cost of
 30 €/MWh_th would cost (11.5 + 60) = 71.5 €/MWh, which is more
 expensive in most locations that the solar-battery-fuel
 system. However the cost of the backup fuel will vary by location
-based on availability.
+based on availability. If it rises to 60 €/MWh_th the full system
+costs would rise to (11.5 + 120) = 131.5 €/MWh.
 
 The calculations are carried out for the 9196 1° by 1° pixels that
 contains more than 10,000 people, which is enough to include 99.86% of
 the population.
 
 [[./graphics/solar-battery-world/population_density.png]]
+
+90% of the population lives within 45 degrees of the equator:
+
+[[./graphics/solar-battery-world-260330/population_latitude.png]]
 
 Here are the capacity factors (average production divided by capacity)
 for solar and wind, at the locations where they are built by the model:
@@ -229,11 +234,27 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
 - There may not be sufficient land near densely-populated areas. This
   may require supply from further away. More discussion on land use
   can be found below.
-- The cost of capital, assumed to be 5%, may be higher in some regions.
 - The solar insolation is based on reanalysis data from the European
   Centre for Medium-Range Weather Forecasts (ECMWF) [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels][ERA5 dataset]] and is
   processed using the [[https://github.com/FRESNA/atlite][atlite library]]. Reanalysis data is sometimes
   imperfect.
+- The costs are given in 2020 euros; in 2026 euros the costs will be
+  around 20-25% higher. This needs to be set against the conservative
+  cost projections for 2030, particularly for batteries, whose costs
+  are dropping fast.
+- The backup fuel is costed for fossil gas at 30 €/MWh_th. This
+  excludes any externalities, such as climate damages or energy
+  insecurity. Priced at 300 €/tCO_2 (the German Environmental Agency
+  (UBA) [[https://www.umweltbundesamt.de/daten/umwelt-wirtschaft/gesellschaftliche-kosten-von-umweltbelastungen#methodik-zur-schtzung-von-klimakosten-][social cost of carbon (SCC)]]), the climate damage externality
+  would add 60 €/MWh_th. Due to the US-Israeli attack on Iran in 2026,
+  the fossil gas price rose in March 2026 to 50-60 €/MWh_th. These
+  higher fuel prices could make higher shares of solar and batteries,
+  e.g. 99% lower cost than shares of 90%.
+- The cost of capital, assumed to be 5% in all regions, will vary
+  depending on the region. Here is the spread of weighted average cost
+  of capital (WACC) from 2024 ([[https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024][IRENA, 2025]]). Particularly in Africa,
+  this will raise the system costs.
+  [[./graphics/solar-battery-world-260330/irena-wacc-2024.png]]
 
 * Open code and data
 
@@ -266,10 +287,36 @@ The 90% solar-battery supply would require then 69 TW_p of solar and 72 TWh of b
 But **locally** in densely-populated areas there may not be sufficient land, requiring the grid to transport it from neighbouring regions.
 
 
+The factory capacity to produce solar PV is today just over 1 TW_p/a, much of which is in China ([[https://ember-energy.org/latest-insights/china-spare-solar-climate-energy-opportunity/][Ember, 2024]]).
+
+The IEA predicts close to 7 TWh/a manufacturing capacity for lithium ion batteries by 2030, mainly for electric vehicles ([[https://www.iea.org/data-and-statistics/charts/lithium-ion-battery-manufacturing-capacity-2022-2030][IEA, 2023]]).
+
+The mining needs for renewable technologies are substantially lower
+than for fossil fuels ([[https://ourworldindata.org/low-carbon-technologies-need-far-less-mining-fossil-fuels][Ritchie, Our World in Data, 2024]]).
+
+For solar PV, silicon is not scarce. The small silver requirement is
+dropping all the time and being substituted by copper and aluminium.
+
+In batteries, many of the scarce materials are substitutable with less
+rare ones. Cobalt-containing cathodes can be replaced with
+[[https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery][lithium-iron-phosphate (LFP)]]; graphite anodes can be partially
+replaced with silicon; looking at the whole battery, sodium-ion
+batteries can substitute for lithium-ion ones, particular for
+stationary applications where weight and bulk are not an issue.
+
 * Additional results
   :PROPERTIES:
   :CUSTOM_ID: more
   :END:
+
+** Population density versus system cost in one plot
+
+Most of the population lives within 45 degrees of the equator. In this
+region, the cost of solar-battery systems remains low and doesn't need
+to be supplemented with wind. Above 45 degrees, wind helps to keep
+down system costs.
+
+[[./graphics/solar-battery-world-260330/population-sys_cost.png]]
 
 ** Additional plots for main 90% solar-battery scenario
 
@@ -292,10 +339,10 @@ The default battery installed cost assumption for 2050 is 83
 according to [[https://doi.org/10.1016/j.est.2025.119861][Keiner et al, 2025]], so we also provide here some
 simulations with lower-cost batteries.
 
-[[./graphics/solar-battery-world-260219/cost_distribution-reverse-2050-cheaper_battery.png]]
+[[./graphics/solar-battery-world-260330/cost_distribution-reverse-2050-cheaper_battery.png]]
 
 
-[[./graphics/solar-battery-world-260219/cost_distribution-reverse-wind-2050-cheaper_battery.png]]
+[[./graphics/solar-battery-world-260330/cost_distribution-reverse-wind-2050-cheaper_battery.png]]
 
 
 
