@@ -6,6 +6,9 @@ First Posted: 2025.10.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_since-everyone-is-busy-resetting-here-activity-7390094069781401609-LVce][Parallel LinkedIn post]]
 
 * Introduction & Summary
+  :PROPERTIES:
+  :CUSTOM_ID: introduction
+  :END:
 
 Several folks have written pleas for a reset in climate policy ([[https://institute.global/insights/climate-and-energy/the-climate-paradox-why-we-need-to-reset-action-on-climate-change][Tony
 Blair]], [[https://www.gatesnotes.com/home/home-page-topic/reader/three-tough-truths-about-climate][Bill Gates]], [[https://en.wikipedia.org/wiki/Michael_Liebreich][Michael Liebreich]]'s "Pragamatic Reset" [[https://about.bnef.com/insights/clean-energy/liebreich-the-pragmatic-climate-reset-part-i/][Part I]] and
@@ -103,6 +106,9 @@ transport will be much cheaper for backup applications.
 
 
 * Carbon demand versus sustainable biomass supply
+  :PROPERTIES:
+  :CUSTOM_ID: carbondemandsupply
+  :END:
 
 Here is the crux of the argument: for the remaining non-electrifiable
 sectors, everything involves carbon, either compensating fossil
@@ -170,6 +176,9 @@ This means that no region can be exempt from managing their own agricultural and
 We also need to be careful of skewed incentives to declare energy crops fraudulently as wastes, as has been seen recently in cases where palm oil was reclassified as palm oil mill effluent (POME) to meet sustainability criteria [[[https://www.transportenvironment.org/uploads/files/202504_POME_fraud_Report.pdf][T&E, 2025]]].
 
 * Costs of biomass usage
+  :PROPERTIES:
+  :CUSTOM_ID: cost
+  :END:
 
 What do we do with the sustainable biomass? Here we'll examine 3 main options:
 
@@ -339,6 +348,9 @@ To kick this off means financing plants at scale, so a trickle of pilot and demo
 
 
 * What could change this picture
+  :PROPERTIES:
+  :CUSTOM_ID: changes
+  :END:
 
 There are many uncertainties that could up-end this analysis. Here is an non-exhaustive list:
 
@@ -352,6 +364,9 @@ There are many uncertainties that could up-end this analysis. Here is an non-exh
 - Residues and wastes could prove difficult to mobilise and convert, raising prices and making more space for other solutions.
 
 * Consequences for German and European energy system planning
+  :PROPERTIES:
+  :CUSTOM_ID: consequences
+  :END:
 
 Now that we know roughly where we're heading by 2050 and where the uncertainties lie, we can take a pragmatic, adaptive approach to planning over the next 10-15 years.
 

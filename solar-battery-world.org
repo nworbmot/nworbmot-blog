@@ -279,6 +279,9 @@ But **locally** in densely-populated areas there may not be sufficient land, req
 
 [[./graphics/solar-battery-world-260219/battery_hours-solarbatt90+tech2030.png]]
 
+[[./graphics/solar-battery-world-260219/solar_capacity-solarbatt90+tech2030.png]]
+
+[[./graphics/solar-battery-world-260219/battery_capacity-solarbatt90+tech2030.png]]
 
 [[./graphics/solar-battery-world-260219/battery_solar_hours-solarbatt90+tech2030.png]]
 
