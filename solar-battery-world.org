@@ -294,15 +294,18 @@ The IEA predicts close to 7 TWh/a manufacturing capacity for lithium ion batteri
 The mining needs for renewable technologies are substantially lower
 than for fossil fuels ([[https://ourworldindata.org/low-carbon-technologies-need-far-less-mining-fossil-fuels][Ritchie, Our World in Data, 2024]]).
 
-For solar PV, silicon is not scarce. The small silver requirement is
-dropping all the time and being substituted by copper and aluminium.
+For solar PV, silicon is not scarce. The small silver requirement for
+the cell contacts dropped sevenfold (per W) from 2005 to 2020 and can
+be substituted by copper and aluminium ([[https://doi.org/10.1016/j.joule.2021.03.005][Victoria et al,
+2021]]). Recycling can extract much of the used materials.
 
 In batteries, many of the scarce materials are substitutable with less
 rare ones. Cobalt-containing cathodes can be replaced with
 [[https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery][lithium-iron-phosphate (LFP)]]; graphite anodes can be partially
 replaced with silicon; looking at the whole battery, sodium-ion
 batteries can substitute for lithium-ion ones, particular for
-stationary applications where weight and bulk are not an issue.
+stationary applications where weight and bulk are not an issue ([[https://doi.org/10.1038/s41560-024-01701-9][Yao et
+al, 2025]]).
 
 * Additional results
   :PROPERTIES:
