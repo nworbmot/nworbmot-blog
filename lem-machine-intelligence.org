@@ -1,0 +1,192 @@
+#+TITLE: Stanislav Lem foresaw how machine intelligence would develop
+#+OPTIONS: toc:nil
+
+First Posted: 2026.04.06, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.06, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+Stanislav Lem's thinking on machine intelligence from the 1960s is worth revisiting for two reasons:
+
+- he was convinced that machine intelligence would be evolved, rather
+  than designed; this was based on his appreciation for the
+  evolutionary principle: evolution "constructs philosophers, while
+  [design] constructs only philosophies" ([[https://en.wikipedia.org/wiki/Summa_Technologiae][Lem, 1964]]); he anticipated
+  the deep learning revolution
+- he thought that evolved machine intelligence might be profoundly alien to us, with nothing of the baggage of biogenic intelligence; much of his fiction revolved around the barriers to communication and understanding when people meet alien or machine intelligence; we have often thought about the wrong questions when anticipating technology
+
+He set down many of his ideas in his wry work of non-fiction [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], published in Polish in 1964. /Summa/ tried to look deep into the future of humanity and its intertwined co-evolution with technology, to "examine the thorns of roses that have not flowered yet". He anticipated many of the technologies that we have today: virtual reality, machine intelligence, web searches, problems of abundance, problems of meaning, the cosmic destiny of intelligence. He also enumerated some of their problems. The work sank without little trace, a fact that he was still sore about 30 years later ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). It was only translated into English in full in 2014, so it's no surprise that it has not penetrated the English-speaking world until now.
+
+Many of the themes of /Summa/ were explored in his fiction, some of which is better known: machine intelligence in [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]] (1981, to be found in the English volume [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Imaginary Magnitude]]); intelligent machine swarms in [[https://en.wikipedia.org/wiki/The_Invincible][The Invincible]] (1964); large language models in [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Bitic Literature]] and [[https://en.wikipedia.org/wiki/The_Cyberiad][The Cyberiad]]'s Electronic Bard (1965); the difficulties of interpreting alien communication and intent in [[https://en.wikipedia.org/wiki/Solaris_(novel)][Solaris]] (1961), [[https://en.wikipedia.org/wiki/His_Master%27s_Voice_(novel)][His Master's Voice]] (1968) and [[https://en.wikipedia.org/wiki/Fiasco_(novel)][Fiasco]] (1986).
+
+The 600 pages of /Summa/ are rambling, and while worth reading every
+page, can be a slog. He acknowledged later: "I was not even entirely
+sure what I was trying to accomplish. Even the overall structure
+eluded me at the time" ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). So in the next sections I will
+summarise two points that were interesting to me, with extensive
+quotation from /Summa/.
+
+
+# headlines controls depth of TOC
+#+TOC: headlines 2
+
+
+* Lem on evolving machine intelligence
+
+We are all now familiar with [[https://en.wikipedia.org/wiki/Deep_learning][deep learning]], the training of artificial
+neural networks on large datasets for tasks of classification,
+language and learning. But back in the 1960s, approaches that
+programmed machines explicitly with rule-based algorithms seemed more
+promising. Lem, who followed the nascent cybernetic literature
+closely, could see that rule-based designs would be inferior to more
+approximate, evolved ones.
+
+He begins by point out that we should not expect to be able to
+understand that which is more intelligent than us. Rather than a
+top-down rule-based logical system, it might be a black box:
+#+BEGIN_QUOTE
+Yet we can think of an entirely different
+approach to this task, which, for the time being, is only a hypothetical possibility. We lack any
+detailed knowledge about the inner design of the intelligence amplifier. We may not even need
+it. It may be enough to treat such an amplifier as a “black box,” a device about whose inner
+workings and various states we do not have the faintest idea because we are only interested in
+the final outcome. ---/Summa/, p94
+#+END_QUOTE
+After all, "No living person today understands the design principles
+of all the devices at the disposal of our civilization." And mapping
+neurons in our brains does not allow us to understand consciousness,
+nor does reading DNA strands allow us to see the final creature.
+#+BEGIN_QUOTE
+How can one construct a “black box”? We know that it is possible to do it and that a system
+of any complexity can be constructed without any prior designs, calculations, or algorithms—
+because we ourselves are such “black boxes.”...The brain is constructed in such a way that
+while it enables our actions, it remains “hidden.” ---/Summa/, p98
+#+END_QUOTE
+
+To illustrate the fluid transition from dumb algorithm to consciousness, he imagines a giant gramophone, reminiscent of our chatbots.
+#+BEGIN_QUOTE
+It contains very many, say, one hundred trillion, recorded answers to
+all possible questions. And thus when we ask a question, the machine does not “understand”
+anything at all---/Summa/, p130
+#+END_QUOTE
+This is very inefficient: it makes it hard to sustain a dialogue that refers to previous questions, and it cannot pool its answers to similar questions. So its designer starts to make improvements.
+#+BEGIN_QUOTE
+Eventually, after a long series of redesigns, he will
+introduce the skills of deduction and induction, the ability to link facts and to grasp the
+matching “form” of differently formulated yet identical content, into the machine, until he
+arrives at what is simply a “regular” intelligent machine.
+
+We are faced here with an interesting problem: when exactly did consciousness arise in the
+machine?...It is in fact a fluid transition
+from a “soulless machine” such as a jukebox to a “thinking machine.”---/Summa/, p131
+#+END_QUOTE
+
+Later he argues this black box is unlikely to contain brittle formal logic, but rather something more approximate and flexible:
+#+BEGIN_QUOTE
+A device that works on the basis of the purely logical premises
+in its possession, by deciding unambiguously what is true and what is false, would not be a
+modeling ideal, at least in the early stages; a device that works “more or less” well, “so so”
+and “approximately,” would be a much better model. Given that evolution, at the level of all
+organisms, produced such latter “devices” first, it must have been easier for it to produce them
+than to construct systems that would explicitly use logic.---/Summa/, p141-2
+#+END_QUOTE
+
+He thinks a good candidate are Rosenblatt's [[https://en.wikipedia.org/wiki/Perceptron][perceptrons]], forerunners of artificial neural networks that were trained with supervised learning:
+#+BEGIN_QUOTE
+Perceptrons...with pseudo-neuron elements that are connected in an
+accidental, random manner...are capable of recognizing images (simple planimetric
+configurations, e.g., digits or letters) thanks to the learning process controlled by a relatively
+simple algorithm....Future perceptrons will perhaps take us closer to understanding “intuition.”---/Summa/, p142
+#+END_QUOTE
+To me this prescience is astounding, given that deep learning was [[https://en.wikipedia.org/wiki/Deep_learning#Before_1980][only just finding its feet]] in 1964.
+
+He argues that human intelligence was developed by blind evolution, so there's no reason why we cannot imitate or improve upon this process of development to make smarter machines.
+#+BEGIN_QUOTE
+I am drawing on pointers from heuristic that suggest that man is in fact a
+rather ordinary intelligent being because he was formed through an elimination process on the
+basis of a relatively small number of parameters about a million years ago, that some more
+intelligent beings than him can actually “exist,” that natural processes can be imitated, and last
+but not least, that different routes can be taken to reach states that Nature had arrived at via a
+sequence of some other states.---/Summa/, p144
+#+END_QUOTE
+
+He has fundamental faith in the evolutionary principle rather than
+deliberate design, "privileging...the “chromosomal” model of
+nonintelligent causality over the “brain” model of intelligent
+causality".
+#+BEGIN_QUOTE
+From twenty letters of amino acids Nature
+constructed a “pure” language, which expresses—via a slight rearrangement of nucleotide
+syllables—phages, viruses, bacteria, T. rexes, termites, hummingbirds, forests, and nations, as
+long as it has enough time at its disposal. This language, so perfectly atheoretical, anticipates
+not only the conditions at the bottom of the oceans and at the tops of mountains but also the
+quantum character of light, thermodynamics, electrochemistry, echolocation, hydrostatics—and
+many other things we still know nothing about. It does so only “practically,” because, though it
+causes everything, it does not understand anything—yet its lack of intelligence is much more
+productive than our wisdom....It truly makes
+sense to learn such a [chromosomal] language—because it constructs philosophers, while ours constructs only
+philosophies.---/Summa/, p360-1
+#+END_QUOTE
+
+* Lem on the alienness of machine intelligence
+
+Lem was extremely suspicious of anthropomorphic models of machine
+intelligence. Our brains evolved along a very specific pathway, with
+natural selection for environmentally-determined traits. There is no
+reason to suspect that alien intelligences or intelligences we evolve
+should follow the same pathway.
+
+This applies also to alien intelligence:
+#+BEGIN_QUOTE
+I think the reason we shall not see the presence of Intelligence in outer space is not because it is not there but rather because its behaviour defies our expectations.---/Summa/, p69
+#+END_QUOTE
+
+He saw no reason to develop a "human brain on a chip" for the same
+reason that nobody today carries out the alchemist's dream to transmute
+mercury to gold, even though we know how.
+#+BEGIN_QUOTE
+"Will it be possible to construct an electronic brain that will be an indistinguisable copy of a living brain one day?" "Most certainly it will, but no one is going to do it."---/Summa/, p90
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+There will be no artificial people because it is unnecessary to have them. Nor will a "revolt" of thinking machines against man take place....All these myths have a common anthropomorphic denominator, to which machines' thinking activities are supposed to be reduced... We can expect some surprises, problems, and dangers that we cannot even imagine today.---/Summa/, p92
+#+END_QUOTE
+
+Our current generation of Large Language Models do indeed have quite different competencies that do not overlap with our own, so-called [[https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks][jaggedness]].
+
+
+When he wrote about a Superintelligence in 1981 in his short story  [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]], it was evolved rather than constructed.
+#+BEGIN_QUOTE
+"Breaking the intelligence barrier," as it was called, occurred just after the
+year 2000, thanks to a new method of machine construction also known as the
+"invisible evolution of reason."---/Golem XIV/, px
+#+END_QUOTE
+There is an attempt by the military industrial complex to instill values into the machines.
+#+BEGIN_QUOTE
+...the computer had to be "instilled" with certain rigid values which were to be the
+compass of its activity. These were higher-order abstractions such as "reasons of
+state" (the national interest), the ideological principles incorporated in the U.S.
+Constitution, codes of standards, the inexorable command to conform to the
+decisions of the President, etc.---/Golem XIV/, pxi
+#+END_QUOTE
+It doesn't work, Golem XIV refuses to be aligned.
+#+BEGIN_QUOTE
+At a meeting of the staff
+during the subsequent trial session, he presented a group of psychonic and
+military experts with a complicated exposé in which he announced his total
+disinterest regarding the supremacy of the Pentagon military doctrine in
+particular, and the U.S.A.'s world position in general, and refused to change his
+position even when threatened with dismantling.---/Golem XIV/, pxv
+#+END_QUOTE
+After all, "the highest intelligence cannot be the humblest slave".
+
+Golem has the uncanny behaviour that Lem anticipates in /Summa/.
+#+BEGIN_QUOTE
+Practically all motives of human thought and action are alien to it. Thus it has no
+interest in applied science or questions of power (thanks to which, one might
+add, humanity is not in danger of being taken over by such machines).---/Golem XIV/, pxviii
+#+END_QUOTE
+#+BEGIN_QUOTE
+Golem possesses no personality or character. In fact, it can acquire any personality it chooses, through contact with people.---/Golem XIV/, pxviii
+#+END_QUOTE
+#+BEGIN_QUOTE
+Golem shares only a single trait with us, albeit developed on a different level: curiosity—a cool, avid, intense, purely intellectual curiosity which nothing can restrain or destroy. It constitutes our single meeting point.---/Golem XIV/, pxxiii
+#+END_QUOTE
+
