@@ -12,16 +12,16 @@ Stanislav Lem's thinking on machine intelligence from the 1960s is worth revisit
   the deep learning revolution
 - he thought that evolved machine intelligence might be profoundly alien to us, with nothing of the baggage of biogenic intelligence; much of his fiction revolved around the barriers to communication and understanding when people meet alien or machine intelligence; we have often thought about the wrong questions when anticipating technology
 
-He set down many of his ideas in his wry work of non-fiction [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], published in Polish in 1964. /Summa/ tried to look deep into the future of humanity and its intertwined co-evolution with technology, to "examine the thorns of roses that have not flowered yet". He anticipated many of the technologies that we have today: virtual reality, machine intelligence, web searches, problems of abundance, problems of meaning, the cosmic destiny of intelligence. He also enumerated some of their problems. The work sank without little trace, a fact that he was still sore about 30 years later ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). It was only translated into English in full in 2014, so it's no surprise that it has not penetrated the English-speaking world until now.
+He set down many of his ideas in his wry work of non-fiction [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], published in Polish in 1964. /Summa/ tried to look deep into the future of humanity and its intertwined co-evolution with technology, to "examine the thorns of roses that have not flowered yet". He anticipated many of the technologies that we have today: virtual reality, machine intelligence, web searches, problems of abundance, problems of meaning, the cosmic destiny of intelligence. He also enumerated some of their problems. The work sank with little trace, a fact that he lamented 30 years later ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). It was only translated into English in full in 2014, so it's no surprise that it has not penetrated the English-speaking world until now.
 
-Many of the themes of /Summa/ were explored in his fiction, some of which is better known: machine intelligence in [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]] (1981, to be found in the English volume [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Imaginary Magnitude]]); intelligent machine swarms in [[https://en.wikipedia.org/wiki/The_Invincible][The Invincible]] (1964); large language models in [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Bitic Literature]] and [[https://en.wikipedia.org/wiki/The_Cyberiad][The Cyberiad]]'s Electronic Bard (1965); the difficulties of interpreting alien communication and intent in [[https://en.wikipedia.org/wiki/Solaris_(novel)][Solaris]] (1961), [[https://en.wikipedia.org/wiki/His_Master%27s_Voice_(novel)][His Master's Voice]] (1968) and [[https://en.wikipedia.org/wiki/Fiasco_(novel)][Fiasco]] (1986).
+Many of the themes of /Summa/ were explored in his fiction, some of which is better known: machine intelligence in [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]] (1973, to be found in the English volume [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Imaginary Magnitude]]); intelligent machine swarms in [[https://en.wikipedia.org/wiki/The_Invincible][The Invincible]] (1964); large language models in [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Bitic Literature]] and [[https://en.wikipedia.org/wiki/The_Cyberiad][The Cyberiad]]'s Electronic Bard (1965); the difficulties of interpreting alien communication and intent in [[https://en.wikipedia.org/wiki/Solaris_(novel)][Solaris]] (1961), [[https://en.wikipedia.org/wiki/His_Master%27s_Voice_(novel)][His Master's Voice]] (1968) and [[https://en.wikipedia.org/wiki/Fiasco_(novel)][Fiasco]] (1986).
 
-The 600 pages of /Summa/ are rambling, and while worth reading every
-page, can be a slog. He acknowledged later: "I was not even entirely
-sure what I was trying to accomplish. Even the overall structure
-eluded me at the time" ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). So in the next sections I will
-summarise two points that were interesting to me, with extensive
-quotation from /Summa/.
+The 600 pages of /Summa/ are rambling, and while every page is worth
+reading, it can be a slog. He acknowledged later: "I was not even
+entirely sure what I was trying to accomplish. Even the overall
+structure eluded me at the time" ([[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][Lem, 1991]]). So in the next sections
+I will summarise two points that were interesting to me, with
+extensive quotation from /Summa/.
 
 
 # headlines controls depth of TOC
@@ -36,9 +36,9 @@ language and learning. But back in the 1960s, approaches that
 programmed machines explicitly with rule-based algorithms seemed more
 promising. Lem, who followed the nascent cybernetic literature
 closely, could see that rule-based designs would be inferior to more
-approximate, evolved ones.
+fuzzy, evolved ones.
 
-He begins by point out that we should not expect to be able to
+He begins by pointing out that we should not expect to be able to
 understand that which is more intelligent than us. Rather than a
 top-down rule-based logical system, it might be a black box:
 #+BEGIN_QUOTE
@@ -152,7 +152,7 @@ There will be no artificial people because it is unnecessary to have them. Nor w
 Our current generation of Large Language Models do indeed have quite different competencies that do not overlap with our own, so-called [[https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks][jaggedness]].
 
 
-When he wrote about a Superintelligence in 1981 in his short story  [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]], it was evolved rather than constructed.
+When he wrote about a Superintelligence in 1973 in his short story  [[https://en.wikipedia.org/wiki/Golem_XIV][Golem XIV]], it was evolved rather than constructed.
 #+BEGIN_QUOTE
 "Breaking the intelligence barrier," as it was called, occurred just after the
 year 2000, thanks to a new method of machine construction also known as the
