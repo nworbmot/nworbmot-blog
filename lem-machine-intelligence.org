@@ -1,9 +1,9 @@
-#+TITLE: Stanislav Lem foresaw how machine intelligence would develop
+#+TITLE: Stanislaw Lem foresaw how machine intelligence would develop
 #+OPTIONS: toc:nil
 
 First Posted: 2026.04.06, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.06, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
-Stanislav Lem's thinking on machine intelligence from the 1960s is worth revisiting for two reasons:
+Stanislaw Lem's thinking on machine intelligence from the 1960s is worth revisiting for two reasons:
 
 - he was convinced that machine intelligence would be evolved, rather
   than designed; this was based on his appreciation for the
@@ -190,3 +190,10 @@ Golem possesses no personality or character. In fact, it can acquire any persona
 Golem shares only a single trait with us, albeit developed on a different level: curiosity—a cool, avid, intense, purely intellectual curiosity which nothing can restrain or destroy. It constitutes our single meeting point.---/Golem XIV/, pxxiii
 #+END_QUOTE
 
+* Selected Bibliography
+
+- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], 1964 (translated 2014 by Joanna Zylinska).
+- Lem, Stanislaw, [[https://www.newyorker.com/magazine/1984/01/30/chance-and-order][Chance and Order]], 1984, New Yorker.
+- Lem, Stanislaw; Peter Swirski (editor), [[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][A Stanislaw Lem Reader]], 1997 (includes Lem's "30 Years Later").
+- Konior, Bogna, [[https://doi.org/10.1093/oso/9780192865366.003.0006][The Gnostic Machine: Artificial Intelligence in Stanisław Lem’s Summa Technologiae]], 2023.
+- Galchen, Rivka, [[https://www.newyorker.com/science/elements/thinking-about-ai-with-stanislaw-lem][Thinking About A.I. with Stanisław Lem]], 2024.
