@@ -468,6 +468,15 @@ See also the [[https://www.methanol.org/power-generation/][Methanol Institute's 
   :CUSTOM_ID: scale
   :END:
 
+Our model encompasses two biogenic methanol routes, namely solid biomass-to-methanol and
+biogas-to-methanol. Solid (mostly woody) biomass is gasified to syngas in large 200 ktMeOH/a
+(around 140 MW-MeOH) plants, since the solid biomass is easier to aggregate and transport over
+long distances. Biogas from anaerobic digesters is run through a steam methane reformer to produce
+syngas at smaller scale (around 30 MW-MeOH), since the substrates have a high water content
+and transportation is more expensive. There is a trade-off between economies of plant size and the
+logistic costs for transporting biomass over the longer distances that a larger collection area would
+require, which we did not explore.
+
 Both methanol synthesis and gasification need to take place at
 double-digit-MW scale to benefit from lower specific costs. Unlike
 other components that are linear beyond MW-scale (electrolysis, PV,
@@ -498,6 +507,10 @@ land in Germany, each plant would have a catchment area of around 500
 km^2, i.e. a radius of around 13 km. Whether biomass is transported to
 a central processing plant, or processed to biogas or biocrude
 decentrally before transport, is open to optimisation.
+
+E-biomethanol and electricity could be produced in discrete cells:
+
+[[./graphics/biomass-efficiently/methanol-cell.png]]
 
 Example of small biogas networks aggregating:
 
@@ -1006,14 +1019,121 @@ If steel and ammonia can relocate within Europe (scenario "relocation") then the
 #+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
-* Aren't ammonia, LCH_4, LH_2, ethanol, LOHC, DME, or Fischer-Tropsch fuels better than methanol as an energy carrier?
 
-Here are the relevant sections from our 2025 paper [[https://arxiv.org/abs/2505.09277][AAA Minimal Methanol
-Backstop for High Electrification Scenarios]] that discuss alternative
-energy carriers.
+* Isn't ethanol better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: ethanol
+  :END:
 
-[[./graphics/methanol_faq/methanol_alternatives-1.png]]
+Methanol is an alcohol with one carbon atom. The next highest alcohol,
+ethanol, has two carbon atoms. Ethanol has many of the attractive
+properties of methanol (liquid at ambient conditions, existing
+infrastructure, existing production routes from biomass). Ethanol is
+extensively used today as a first generation biofuel mixed with
+gasoline, but the production by fermentation from dedicated energy
+crops of maize and sugarcane requires extensive land use and is
+therefore not sustainable. The synthesis of ethanol, both from CO_2
+and H_2 or from residual cellulosic biomass is much less mature than
+methanol synthesis, as are process pathways using it as a platform
+chemical for producing HVC and kerosene. While the use of marine
+vessels operating on methanol is growing, both through new orders and
+retrofits, ethanol is not being considered ([[https://www.dnv.com/services/alternative-fuels-insights-afi--128171/][DNV]]).
 
-[[./graphics/methanol_faq/methanol_alternatives-2.png]]
+* Isn't HVO, HEFA or FAME better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: hvo
+  :END:
 
-[[./graphics/methanol_faq/methanol_alternatives-3.png]]
+Hydrotreated Vegetable Oil (HVO) turns vegetable oil or animal fat
+into renewable diesel. While attractive as a drop-in fuel, the sources
+of sustainable HVO are limited. Energy crops such as rapeseed are not
+sustainable because of the high land use; used cooking oil is severely
+limited; residue oils from palm oil production encourage
+rainforest-damaging palm oil production; animal fats are also limited.
+
+Hydroprocessed Esters and Fatty Acids (HEFA) is a similar process to
+HVO but used for producing aviation fuels. It has the same
+sustainability limits as HVO.
+
+Fatty Acid Methyl Esters (FAME) turn vegetable oils into
+biodiesel. This has the same limitations as HVO.
+
+* Isn't ammonia better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: ammonia
+  :END:
+
+Green ammonia is a liquid under moderate pressure (10 bar) or
+cryogenic conditions (-33°C), and does not require a sustainable
+carbon source, leading some to suggest using it as an energy carrier
+([[http://dx.doi.org/10.1126/science.aas9793][Davis et al, 2018]], [[http://dx.doi.org/10.1126/science.361.6398.120][Service, 2018]], [[http://dx.doi.org/10.1016/j.apenergy.2024.124495][Mucci et al, 2024]]). However,
+ammonia is much harder to handle than methanol because of its higher
+toxicity; it does not combust very well and combustion results in high
+nitrogen oxide emissions (nitrous oxide, N_2 O, is a potent
+greenhouse gas, while NO_x are air pollutants); converting ships from
+fuel oil to ammonia is arduous and there can be engine slippage
+([[http://dx.doi.org/10.1073/pnas.2311728120][Bertagni et al, 2023]], [[https://globalmaritimeforum.org/news/zero-emission-shipping-fuels-methanol-and-ammonia/][Global Maritime Forum,2025]]); and it requires
+more renewable electricity ([[http://dx.doi.org/10.1073/pnas.2311728120][Bertagni et al, 2023]], [[http://dx.doi.org/10.1016/j.apenergy.2023.121773][Kanchiralla,2023]]).
+Furthermore, it does not address the need for carbonaceous fuels in
+aviation or feedstocks in the chemical industry.
+
+* Isn't liquefied methane better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: lch4
+  :END:
+
+Fossil gas is regularly transported in liquid form below its boiling
+point of -162°C, making liquid methane LCH_4 a possible alternative to
+methanol. It can be transported by truck and be flexibly combined with
+the existing methane pipeline and storage infrastructure. LCH_4 has
+already been suggested as a carrier to gather biomethane from
+decentral sources in the absence of a gas grid ([[http://dx.doi.org/10.1080/17597269.2024.2318515][Gustafsson,2024]]). On
+the other hand, it requires considerable energy to liquefy; LCH_4
+storage facilities must reliquefy the constant but slow boil-off,
+which is faster for smaller volumes; the cryogenic conditions result
+in trucking costs nearly ten times those of methanol ([[http://dx.doi.org/10.3389/fmech.2020.00021][Dias et
+al,2020]]); slip emissions from engines can be substantial ([[http://dx.doi.org/10.1007/s00773-018-00622-z][Ushakov et
+al,2019]]); converting ships from fuel oil to LCH_4 is more
+challenging than to methanol ([[https://globalmaritimeforum.org/news/zero-emission-shipping-fuels-methanol-and-ammonia/][Global Maritime Forum,2025]]). Perhaps
+most decisively, there is no clear long-term demand that absolutely
+requires methane, unlike the high volume demands for methanol in
+MtA/O/K processes.
+
+* Isn't liquefied hydrogen better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: lh2
+  :END:
+
+The temperature (-253°C) and energy requirement for hydrogen liquefaction are even more
+extreme than methane, which is why gaseous hydrogen is the dominant concept for its usage as an energy carrier. Widespread
+use of liquefied hydrogen (LH_2) is therefore prohibitive.
+
+* Isn't DME better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: dme
+  :END:
+
+Direct dimethyl ether (DME) production from CO_2 can be more
+thermodynamically favourable than methanol, and it is less toxic. On
+the negative side, it is a gas at ambient conditions, and is usually
+liquefied under pressures of around 5 bar, much like propane.
+
+* Aren't Fischer-Tropsch fuels better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: ft
+  :END:
+
+The Fischer-Tropsch process can be used to produce kerosene for
+aviation, diesel for ships, and naphtha for steam crackers to produce
+HVC. However, the production process is less flexible than methanol
+([[https://aireg.de/wp-content/uploads/2024/07/airegWebinar_FT_and_MeOH-based_Kerosene_TUHH.pdf][Bube et al, 2024]]) and the variety of products it produces makes it less suitable as
+a platform solution.
+
+* Aren't liquid organic hydrogen carriers (LOHC) better than methanol as an energy carrier?
+  :PROPERTIES:
+  :CUSTOM_ID: lohc
+
+Compared to methanol, LOHCs are more expensive and have a lower
+technological readiness level. Methanol would still be needed for
+MtO/A/K processes. On the positive side, the waste heat from power
+generation could be used to dehydrogenate LOHCs.
