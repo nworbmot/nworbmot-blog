@@ -404,21 +404,32 @@ hydrogen and methane backup.
 
 [[./graphics/methanol_faq-260330/methanol-cost_with_caption.png]]
 
-The main cost drivers are:
-
-- Methanol (~170 €/MWh) itself is more expensive than fossil gas
-  compensated by carbon dioxide removal (~30 €/MWh + ~40 €/MWh) or
-  electrolytic hydrogen (~100 €/MWh) because of the further conversion
-  steps. Therefore whereever methanol is substituting methane or
-  hydrogen, it is increasing costs. An extra cost of 80 €/MWh on 250
-  TWh/a for backup power and heat makes 20 billion euros per year.
-- Decentral biomass boilers, allowed in the other scenarios, must be replaced by heat pumps in the "minimal methanol" scenario.
+The main cost driver is the methanol itself. The price of green
+methanol is set by e-methanol at ~170 €/MWh, which is more expensive
+than fossil gas compensated by carbon dioxide removal (~30 €/MWh + ~60
+€/MWh) or electrolytic hydrogen (~100 €/MWh) because of the further
+conversion steps. Therefore whereever methanol is substituting methane
+or hydrogen, it is increasing costs. An extra cost of 80 €/MWh on 250
+TWh/a for backup power and heat makes 20 billion euros per year.
   
 * Are there resilience benefits to using methanol (e.g. dealing with shocks better, losses of pipelines)?
 
-Yes, methanol tanks next to power stations is resilient against attacks on infrastructure.
+In future scenarios where much of the demand is electrified, the resilience of the power system to
+disturbances and its ability to recover quickly, including from full blackouts, becomes ever more
+important. Liquids offer advantages in this regard, since they can be bunkered next to power
+plants in large volumes in aboveground tanks, they do not need to rely on the functioning of a
+pipeline network and they do not require any special geology like the salt deposits needed to build
+underground salt caverns for hydrogen.
 
-Black-start-capable power plants follow this strategy: fuel oil bunkered next to diesel generators to restart the grid after a black out.
+As was argued in [[https://doi.org/10.1016/j.joule.2023.10.001][Brown and Hampp, 2023]], large-scale
+methanol storage provides resilience against unusual events, such as low wind years, volcano
+eruptions, and physical or cyber attacks on infrastructure. Storing liquid fuels in tanks next to
+power plants is an approach often followed for black-start-capable power plants today. While the
+extra cost of our extreme sensitivity run without any power transmission is substantial, a middle
+ground could be found where enough power capacity is kept in each region, along with reserves
+of methanol, so that the regions can run in a disconnected state for a few days or weeks in an
+emergency. In the event of a blackout, this would allow island grids to be formed before the full
+system is reconnected.
 
 A similar strategy is followed in regions with unreliable power supply, where diesel generators are used for backup power supplies.
 
@@ -629,6 +640,25 @@ sequestration (i.e. carbon dioxide removal).
 Some infrastructures would be in common: collection logistics for
 biomass, use of syngas for methane/methanol synthesis.
 
+* How much methanol is produced today and how is it used?
+
+Global fossil-based methanol production reached around 110 million
+tonnes per year (110 Mt/a) in 2023 ([[https://www.methanol.org/methanol-price-supply-demand/][Methanol Institute, 2024]]) and demand is forecast to grow at
+3.5% per year ([[https://www.methanex.com/wp-content/uploads/MEOH-Investor-Presentation-March-2024.pdf][Methanex, 2024]]).
+
+Since its commercialisation of
+methanol-to-olefin technology in 2010, China has been using methanol
+synthesised from coal for a large share of its olefin production
+([[https://doi.org/10.1016/j.cherd.2023.04.037][Liang et al, 2023]]).
+
+Given methanol's promise as a potentially clean fuel, container
+shipping companies like Maersk and COSCO have since 2024 been
+retrofitting ships from fuel oil to methanol (which requires
+adjustments to engines, fuel delivery and tanks) and commissioning
+dual-fuel ships that can switch between fuel oil and methanol, so that
+as of August 2025 there were 60 methanol-capable ships on the water
+and more than 300 on order ([[https://globalmaritimeforum.org/news/zero-emission-shipping-fuels-methanol-and-ammonia/][Global Maritime Forum, 2025]]).
+
 * Do any e-biomethanol plants exist today?
 
 The [[https://europeanenergy.com/kasso/][Kasso e-methanol plant]] (42 kt/a) in Denmark started operation in
@@ -640,13 +670,27 @@ Taonan plant]], and several more in China are under construction.
 
 [[https://industrydecarbonization.com/news/the-canceled-swedish-e-methanol-factory-may-rise-from-the-ashes.html][Hanno Böck's Feb 2025 summary of active e-biomethanol projects]]
 
-[[https://www.methanol.org/renewable/][The Methanol Institute's Plant Tracker (updated regularly)]]
+In 2025 renewable methanol production will rise to 1.7 Mt/a, of which
+the majority is biomethanol plants. The pipeline of planned projects for biomethanol
+and e-methanol amounts to 18.5 Mt/a and 23.4 Mt/a respectively by 2030, see  
+[[https://www.methanol.org/renewable/][The Methanol Institute and GENA Solution's Plant Tracker (updated regularly)]].
+
+
 
 * Who would the first users of green methanol be?
 
 Shipping companies like Maersk are already signing offtake agreements
 for green methanol for their ships. Customers for the Kasso plant
 include Maersk, Novo Nordisk and Lego.
+
+Given methanol's promise as a potentially clean fuel, container
+shipping companies like Maersk and COSCO have since 2024 been
+retrofitting ships from fuel oil to methanol (which requires
+adjustments to engines, fuel delivery and tanks) and commissioning
+dual-fuel ships that can switch between fuel oil and methanol, so that
+as of August 2025 there were 60 methanol-capable ships on the water
+and more than 300 on order ([[https://globalmaritimeforum.org/news/zero-emission-shipping-fuels-methanol-and-ammonia/][Global Maritime Forum, 2025]]).
+
 
 * What provides industrial process heat in the model?
 
@@ -720,9 +764,9 @@ The following innovations would improve the case for a minimal methanol backstop
 
 The following innovations in competing technologies would worsen the case for a minimal methanol backstop:
 
-- Cheap and plentiful carbon dioxide removal options (e.g. burying biomass, innovations in carbon sequestration).
+- Cheap and plentiful carbon dioxide removal options (e.g. burying biomass, innovations in carbon sequestration) combined with fossil fuel usage would substitute green fuels.
 - Improvements to synthesis of competing liquid fuels, e.g. ethanol, DME or Fischer-Tropsch.
-- Electrification concepts for long-haul aviation or shipping.
+- Electrification concepts for long-haul aviation or shipping (e.g. batteries at density over 1000 Wh/kg).
 - Onboard carbon capture on ships (although this could work with the methanol backstop).
 - Increase in plastic landfilling, which would act like carbon
   sequestration and reduce the need for primary green HVC.
@@ -734,6 +778,134 @@ The fact that methanol does not rely on complex interlinked
 infrastructure, allows methanol production targets to be easily
 adjusted downwards, unlike hydrogen, that needs complex coordination
 of pipelines and underground storage.
+
+* How plausible is the very high level of electrification assumed in the paper?
+  :PROPERTIES:
+  :CUSTOM_ID: electrification
+  :END:
+
+In our scenarios electrification is implemented wherever possible,
+including all space and water heating, road transport, domestic
+aviation, domestic shipping, and industry process heat where biomass
+is not used today and where fuels are not required for chemical or
+radiant heat.
+
+The complete electrification of land transport, the high share of heat
+pumps in buildings, the widespread electrification of process heat in
+industry as well as of domestic aviation and shipping is plausible,
+but requires concerted action by consumers and the public. The
+increased electricity distribution grid capacity is estimated in the
+model, but the feasibility of its expansion is not assessed. There has
+been considerable inflation in grid component costs since 2022 that is
+not accounted for. Furthermore, the coarse grid resolution may
+underestimate grid upgrade costs ([[https://doi.org/10.1016/j.apenergy.2021.116726][Frysztacki et al, 2021]]), and the
+costs for ancillary services are not included, although they are
+estimated to be low once there is sufficient storage and demand
+response in the system ([[https://doi.org/10.1016/j.rser.2018.04.113][Brown et al, 2018]]).
+
+On the electrification of end-use sectors:
+
+*Industrial electrification*: Here we follow other literature highlighting the feasibility and cost
+benefits of electrification, taking the best-in-class electrification option for each sub-industry
+and electrifying this exogenously ([[https://doi.org/10.1016/j.joule.2023.06.016][Neumann et al, 2023]]). Then the model can choose for remaining medium- and
+high-temperature heat whether to use electrification or fuels. [[https://doi.org/10.1088/1748-9326/abbd02][Madeddu et al, 2020]] show that
+‘Seventy-eight per cent of the energy demand [in industry] is electrifiable with technologies that
+are already established, while 99% electrification can be achieved with the addition of technologies
+currently under development’. Similarly [[https://www.agora-industry.org/fileadmin/Projects/2023/2023-20_IND_Electrification_Industrial_Heat/A-IND_329_04_Electrification_Industrial_Heat_WEB.pdf][Rehfeldt et al, 2023]] show that 90% of Europe’s process
+heat energy demand can be electrified with technologies available from 2035 (with most of the
+remaining 10% being hydrogen for direct reduction, which is not strictly process heat). A further
+contribution is the increase in recycling rates for aluminium and plastics, which contributes to
+higher electricity usage (e.g. for mechanical recycling of plastics).
+
+
+*Short-haul aviation*: Beta Technologies’ Alia CX300, which has a
+range up to 600km, [[https://www.ainonline.com/aviation-news/futureflight/2025-06-03/beta-makes-first-electric-flight-new-york-city-airport][carried 4 passengers over 130 km to New York in June 2025]]. Beta
+Technologies reports extremely low OPEX in comparison with kerosene-based aircraft. Larger
+aircraft flying up to 1000 km would require batteries with higher density (800 Wh/kg compared to
+today’s available 250 Wh/kg Li-ion batteries and prototypes with 400-500 Wh/kg) and lower cost
+ ([[https://doi.org/10.1038/s41560-018-0294-x][Schäfer et al, 2019]]). Given recent trends, we believe this is plausible. We note that battery-swapping technologies,
+which have seen wide deployment in China, mitigate the need for extremely fast charging in
+aviation.
+
+*Domestic shipping*: Given the ability to charge regularly in inland waterways, and the higher
+tolerance for weight, we believe this is certainly plausible to electrify the fleet. This field is already
+moving fast with many ferries electrifying (e.g. in Norway backed by mandates). The cost and
+environmental benefits of electrifying shorter maritime trips is discussed in several research papers
+([[https://doi.org/10.1038/s41560-024-01655-y][Moon et al, 2025]], [[https://doi.org/10.1080/09377255.2025.2469396][Teske et al, 2025]]).
+
+*Land transport cars*: The International Energy Agency's [[https://www.iea.org/reports/global-ev-outlook-2025][2025 Electric Vehicle Outlook]]: ‘Today,
+electric cars often have a lower total cost of ownership [TCO] than ICE cars over the vehicle lifetime,
+due to reduced fuel and maintenance expenses. However, reducing the purchase price gap will be
+key to broader uptake.’ This advantage in TCO is likely to increase. In markets outside the Western world, where tariffs are absent and legacy car manufacturers
+cannot influence the public narrative, electric vehicle sales have boomed ([[https://ember-energy.org/latest-insights/the-electrotech-revolution/][Walter et al, 2025]]):
+
+
+#+CAPTION: Source: [[https://ember-energy.org/latest-insights/the-electrotech-revolution/][Walter et al, 2025]]
+[[./graphics/methanol_faq-260330/ember-evs.png]]
+
+*Land transport trucks*: Referring to the International Energy
+Agency's [[https://www.iea.org/reports/global-ev-outlook-2025][2025 Electric Vehicle Outlook]], the heavy transport TCO is
+also predicted to favour electric trucks by 2030: ‘Battery electric
+trucks become competitive for long- haul applications this decade in
+China and Europe’, here is the IEA’s graphic showing this (diesel TCO
+is the white dot):
+
+#+CAPTION: Source: IEA [[https://www.iea.org/reports/global-ev-outlook-2025][2025 Electric Vehicle Outlook]]
+[[./graphics/methanol_faq-260330/truck-tco-iea-25.png]]
+
+Worldwide electric trucks and vans are following the same exponential growth pathway as cars ([[https://ember-energy.org/latest-insights/the-electrotech-revolution/][Walter et al, 2025]]):
+
+#+CAPTION: Source: [[https://ember-energy.org/latest-insights/the-electrotech-revolution/][Walter et al, 2025]]
+[[./graphics/methanol_faq-260330/ember-all_evs.png]]
+
+
+We note that there is strong agreement on the dominant role of
+electrification for decarbonisation in the scentific community:
+- International Panel on Climate Change [[https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_TechnicalSummary.pdf][6th Assessment Report, 2022]]:
+  ‘Low-carbon energy systems are expected to rely heavily on end-use
+  electrification, where electricity produced with low GHG emissions
+  is used for building and industrial heating, transport and other
+  applications that rely heavily on fossil fuels at present.’
+- International Energy Agency (IEA) [[https://www.iea.org/reports/world-energy-outlook-2024][World Energy Outlook (WEO) 2024]]
+  Net Zero Emission (NZE) Scenario: ‘Growth in renewables and
+  increasing electrification of end-uses both play an important part
+  to increase the efficiency of energy systems... Electrification
+  accelerates across all scenarios and in all sectors, providing
+  heating, cooling and mobility, powering motors and appliances, and
+  producing onsite electrolytic hydrogen for heavy industry. By 2050,
+  the share of electricity in total final consumption ... nearly
+  triples in the NZE Scenario, where unabated fossil fuels are swiftly
+  replaced by electricity generated by clean sources.’
+- European Commission [[https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2024:63:FIN][2040 target communication from 2024]]:
+  ‘[e]lectrification with a fully decarbonised power system by 2040 is
+  the main driver of the energy transition’.
+
+
+
+* How would lower levels of electrification affect the thesis of the paper?
+  :PROPERTIES:
+  :CUSTOM_ID: low_electrification
+  :END:
+
+Lower levels of electrification mean that fuel demand rises. If this
+demand must be met by green methanol, which is more expensive than
+CDR-compensated natural gas or green hydrogen, then it will raise
+costs disproportionately in the minimal methanol scenario.
+
+As a sensitivity we calculated a scenario "low electrification" where
+high and medium temperature heat for industry, heavy duty vehicles for
+road transport, domestic aviation and navigation cannot be
+electrified.
+
+#+CAPTION: Minimal methanol backstop sensitivities
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
+
+This drives up the total system cost of the "minimal methanol
+backstop" by 246 bnEUR2020/a (29.6%), since methanol demand rises by
+62% and the only production route with free capacity is the expensive
+e-methanol route which requires direct air capture (DAC). The "minimal
+methanol" scenario is now 4.7% more expensive than the
+methane/hydrogen optimum, rather than 2.3% in the default.
 
 
 * Is methane/hydrogen value chain leakage an argument for methanol?
