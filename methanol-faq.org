@@ -251,12 +251,25 @@ that confidence in regulation is raised.
   :CUSTOM_ID: methane
   :END:
 
-Producing methane instead of methanol would allow more of current
-fossil gas demand to be directly replaced, and would reuse more of the
+Using methane instead of methanol would allow more of current fossil
+gas supply to be directly replaced, and would reuse more of the
 existing methane infrastructure (pipelines, storage, end-use devices).
 
-We would argue that:
-- Future methanol demand is much more robust than methane demand in climate neutral scenarios.
+Our scenario CH_4 shows that using methane as the backup energy
+carrier and excluding hydrogen would only be 0.8% more expensive than
+the optimum:
+
+[[./graphics/methanol_faq-260330/methanol-cost_with_caption.png]]
+
+This would also avoid the complexities of building up a new hydrogen infrastructure.
+
+However, we would argue that:
+- Methane still requires substantial infrastructure (pipelines, underground storage).
+- Methanol can be bunkered cheaply in aboveground tanks, which is good for resilience (power plants are not dependent on the functioning of the gas network) and is good for countries with no underground gas storage (e.g. Ireland, Switzerland, and more).
+- Future methanol demand is much more robust than methane demand in
+  climate neutral scenarios, since methanol is used as an industry
+  feedstock, shipping and for kerosene production. All of our scenarios are methanol-heavy scenarios.
+- Methanol is a much better shipping fuel than liquefied methane, since it has lower volume, no cooling requirements, and there is no gas slippage from engines (methane is a greenhouse gas).
 - Many sources of biomethane, such as biogas plants, are not close enough to the current methane pipeline network to connect in a cost-effective way.
 - As methane demand reduces, it becomes harder to maintain the methane infrastructure.
 - Methane is a greenhouse gas with around 28 times the global warming
@@ -332,6 +345,25 @@ neutral scenario, the specific costs per transported MWh would rise.
 
 In addition, the distribution network costs to bring (e-)biomethane to
 it, and from it to the small number of users, could be quite high.
+
+* Wouldn't abandoning methane and fossil fuels leave many stranded infrastructure assets?
+  :PROPERTIES:
+  :CUSTOM_ID: stranded
+  :END:
+
+For all the scenarios there is a risk of stranded assets in some industry sectors as
+well as for gas distribution due to declining use of fossil fuels. However, if managed well, all assets
+can be retired before they reach their end of life or are fully depreciated. In the steel and basic
+chemicals sectors in Europe, 90% of blast furnaces need relining between 2025 and 2040 while 41%
+of steam crackers reach their end of life before 2030 ([[https://doi.org/10.1016/j.enconman.2024.119117][Neuwirth et al, 2024]]). This allows a complete replacement of
+the plant fleet by following their reinvestment cycles ([[https://doi.org/10.1016/j.enconman.2024.119117][Neuwirth et al, 2024]]). For gas networks, which are dominated
+by distribution pipes to buildings for heating, many of the assets are also decades old and expected
+to be fully depreciated by 2050 ([[https://doi.org/10.1016/j.esr.2022.100908][Bouacida, 2022]]). For remaining newer assets, many European countries have
+recently allowed faster depreciation so that gas grid operators can recover their costs before the
+pipelines are decommissioned ([[https://doi.org/10.1016/j.erss.2025.103987][Rosenow et al, 2025]]). Decommissioning pipes to make them safe, however, does
+represent a substantial one-off cost, estimated to be 25 billion euros in Germany and 29 billion
+euros in the United Kingdom ([[https://doi.org/10.1016/j.oneear.2024.05.022][Rosenow et al, 2024]]).
+
 
 * How would end-consumer prices of green methanol differ from hydrogen or methane?
 
@@ -778,7 +810,12 @@ The following innovations would improve the case for a minimal methanol backstop
 The following innovations in competing technologies would worsen the case for a minimal methanol backstop:
 
 - Cheap and plentiful carbon dioxide removal options (e.g. burying biomass, innovations in carbon sequestration) combined with fossil fuel usage would substitute green fuels.
-- Improvements to synthesis of competing liquid fuels, e.g. ethanol, DME or Fischer-Tropsch.
+- Improvements to synthesis of competing liquid fuels, e.g. ethanol,
+  DME or Fischer-Tropsch.  If all the Fischer-Tropsch products can be
+  used (diesel for shipping, kerosene for aviation, naphtha in steam
+  crackers for high value chemicals), then FT can substitute methanol
+  routes for these sectors.
+- Direct electrolysis routes for producing ethylene from water and CO could substitute methanol routes, but they currently have a low TRL.
 - Electrification concepts for long-haul aviation or shipping (e.g. batteries at density over 1000 Wh/kg).
 - Onboard carbon capture on ships (although this could work with the methanol backstop).
 - Increase in plastic landfilling, which would act like carbon
@@ -922,6 +959,9 @@ methane/hydrogen optimum, rather than 2.3% in the default.
 
 
 * Is methane/hydrogen value chain leakage an argument for methanol?
+  :PROPERTIES:
+  :CUSTOM_ID: leakage
+  :END:
 
 Methane is a greenhouse gas with around 28 times the global warming
 potential over 100 years (GWP100) of CO_2. Hydrogen is an indirect
@@ -937,13 +977,28 @@ to keep it below 1%.
 Biogas production is one source of carbon in the minimal methanol
 concept, so would also have to be regulated carefully.
 
-
-TODO:
-[[https://doi.org/10.1016/j.ijhydene.2025.150265][2025 paper: Assessing hydrogen supply chains: An integrated review of
-leakage and energy efficiency studies]]: "gaseous H_2 systems have
-∼4.5% leakage"
+Hydrogen supply chains could have leakage of up to 4.5% ([[https://doi.org/10.1016/j.ijhydene.2025.150265][Restrepo and
+Fulton, 2025]]).
 
 
+* Is methanol vapour a greenhouse gas?
+  :PROPERTIES:
+  :CUSTOM_ID: vapour
+  :END:
+
+The storage requirements and vapourisation conditions of methanol are
+very similar to those of gasoline.
+
+Methanol vapour is not a direct greenhouse gas, but it can indirectly
+prolong the lifetime of methane in the atmosphere, and eventually
+decays to CO_2 ([[https://forcetechnology.com/en/articles/emissions-ship-engines-methanol-new-green-fuel][Kristensen and Bræstrup]]). Since the mass of methanol
+vapour compared to liquid is low, this is a substantially lower risk
+from leakage than methane or hydrogen.
+
+Methane is a greenhouse gas with around 28 times the global warming
+potential over 100 years (GWP100) of CO_2. Hydrogen is an indirect
+greenhouse gas (it prolongs the life of methane in the atmosphere)
+with a GWP100 of 11.6 \pm 2.8 ([[https://doi.org/10.1038/s43247-023-00857-8][Sand et al, 2023]]).
 
 * Is there any similarity with cellular approaches for energy supply?
 
@@ -1019,6 +1074,30 @@ If steel and ammonia can relocate within Europe (scenario "relocation") then the
 #+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
+* What is the intuition behind methanol's superiority?
+  :PROPERTIES:
+  :CUSTOM_ID: intuition
+  :END:
+
+From a synthesis perspective, the fact that methanol has a single
+carbon atom makes it easier to synthesise than other higher alcohols
+like ethanol.
+
+Methanol synthesis is highly selective (it produces a relatively pure,
+single product), whereas Fischer Tropsch synthesis produces a wide
+selection of hydrocarbons, some of which get wasted or have to be
+cracked down to shorter chain lengths. If all the FT products can be
+used, FT can be competitive with methanol for producing shipping
+fuels, kerosene and HVC (the model results show relatively easy
+substitution between FT routes and methanol routes for these products).
+
+Unlike methane or hydrogen, methanol is a liquid at room temperature
+and pressure, which makes it much easier to store and handle.
+
+Methanol is already used as a shipping fuel.
+
+There are mature processes used at industrial scale to produce
+ethylene and other high value chemicals from methanol.
 
 * Isn't ethanol better than methanol as an energy carrier?
   :PROPERTIES:
@@ -1126,8 +1205,11 @@ liquefied under pressures of around 5 bar, much like propane.
 The Fischer-Tropsch process can be used to produce kerosene for
 aviation, diesel for ships, and naphtha for steam crackers to produce
 HVC. However, the production process is less flexible than methanol
-([[https://aireg.de/wp-content/uploads/2024/07/airegWebinar_FT_and_MeOH-based_Kerosene_TUHH.pdf][Bube et al, 2024]]) and the variety of products it produces makes it less suitable as
-a platform solution.
+([[https://aireg.de/wp-content/uploads/2024/07/airegWebinar_FT_and_MeOH-based_Kerosene_TUHH.pdf][Bube et al, 2024]]) and the variety of products it produces makes it
+less suitable as a platform solution. If all the products can be used
+(diesel for shipping, kerosene for aviation, naphtha in steam crackers
+for high value chemicals), then FT can substitute methanol routes for
+these sectors.
 
 * Aren't liquid organic hydrogen carriers (LOHC) better than methanol as an energy carrier?
   :PROPERTIES:

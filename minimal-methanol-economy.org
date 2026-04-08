@@ -1,12 +1,12 @@
-#+TITLE: The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios
+#+TITLE: A Minimal Methanol Backstop for High Electrification Scenarios
 
-First Posted: 2025.05.19, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.05.19, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.05.19, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.08, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://www.linkedin.com/posts/tom-brown-226b191a0_as-the-hydrogen-bubble-deflates-what-are-activity-7330232264129183745-LiyD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8m0v4BLqFAkSoIYA7JxSmV67sodg4vnrw][Parallel LinkedIn post]]
 
 [[https://bsky.app/profile/nworbmot.bsky.social/post/3lpjuusbib22p][Parallel BlueSky post]]
 
-As the hydrogen bubble deflates, what are the alternatives? We present a "minimal methanol economy": using methanol as a gap-filler for the few sectors electrification can't reach.
+As the hydrogen bubble deflates, what are the alternatives? We present a "minimal methanol backstop": using methanol as a gap-filler for the few sectors electrification can't reach.
 
 New working paper together with Philipp Glaum, Fabian Neumann and Markus Millinger:
 
@@ -20,14 +20,13 @@ But isn't the carbon in it a problem? Not if you broaden out and look at the sys
 
 Methanol can be produced for 80-100 EUR/MWh from biomass. Since biomass has excess carbon, we can in future top-up with electrolytic hydrogen to boost yields (for extra cost).
 
-[[./graphics/methanol_economy/methanol_bottom_up_costs.png]]
-
+[[./graphics/methanol_faq-260330/methanol-lcoes.png]]
 
 So what did we do in the paper? We took a granular model of Europe with net-zero carbon dioxide emissions, then implemented new uses of methanol (for olefins, aromatics and kerosene) where it is competitive. Then we successively removed hydrogen and methane pipeline networks to see how methanol fared as a substitute.
 
-The result? A system without hydrogen and methane transport, i.e. relying on methanol for non-electric use cases and confining hydrogen to industrial clusters, is just 24 billion euro per year (3% of system costs) more expensive.
+The result? A system without hydrogen and methane transport, i.e. relying on methanol for non-electric use cases and confining hydrogen to industrial clusters, is just 20 billion euro per year (2.4% of system costs) more expensive.
 
-[[./graphics/methanol_economy/methanol_costs.png]]
+[[./graphics/methanol_faq-260330/methanol-cost_with_caption.png]]
 
 Why so little? Because the system is already highly electrified (including shorthaul aviation & shipping), and it needs lots of methanol anyway for chemicals and longhaul.
 
@@ -35,7 +34,7 @@ This small increase is also robust when you sequester the majority of the CO2 un
 
 We're very happy to have your feedback!
 
-See also: [[./methanol-faq.html][The Minimal Methanol Economy: Frequently Asked Questions]] (2025.07.14)
+See also: [[./methanol-faq.html][A Minimal Methanol Backstop: Frequently Asked Questions]] (2025.07.14)
 
 See also: [[./carbon-be-methanol.html][All your carbon shall be methanol]] (2023.10.03)
 
