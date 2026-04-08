@@ -1,21 +1,24 @@
-#+TITLE: The Minimal Methanol Economy: Frequently Asked Questions
+#+TITLE: The Minimal Methanol Backstop: Frequently Asked Questions
+#+OPTIONS: toc:nil
 
-First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2025.08.04, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.08, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 This Frequently Asked Questions page answers common questions arising
-from our 2025 paper [[https://arxiv.org/abs/2505.09277][The Minimal Methanol Economy as a Gap-Filler for
-High Electrification Scenarios]] (see this [[./minimal-methanol-economy.html][blog post]] for an
-introduction to the paper).
+from our 2025 preprint [[https://arxiv.org/abs/2505.09277][A Minimal Methanol Backstop for High
+Electrification Scenarios]] (see this [[./minimal-methanol-economy.html][blog post]] for an introduction to
+the paper).
 
+# headlines controls depth of TOC
+#+TOC: headlines 2
 
-* What is a "minimal methanol economy"?
+* What is a "minimal methanol backstop"?
   :PROPERTIES:
   :CUSTOM_ID: intro
   :END:
 
 The basic concept is described  in this blog post:
 
-[[./minimal-methanol-economy.html][The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios]]
+[[./minimal-methanol-economy.html][A Minimal Methanol Backstop for High Electrification Scenarios]]
 
 but to keep it short: "electrify as much as possible and use methanol
 for the rest".
@@ -42,15 +45,24 @@ transport and store since it is a liquid at ambient conditions.
 The volume of green methanol needed depends how much carbon can be
 sequestered, how much can be electrified, and how demand changes.
 
+We find that using methanol for backstop applications instead of
+hydrogen or methane only raises system costs by 2.4% in our default
+settings, and by maximum 6% in the other sensitivities.
 
-* Is green hydrogen still needed in a "minimal methanol economy"?
+Here is a graphical summary of the paper.
+
+[[./graphics/methanol_faq-260330/methanol-graphical_abstract.png]]
+
+
+
+* Is green hydrogen still needed in a "minimal methanol backstop"?
 
 In the default setup, where only 200 MtCO_2/a sequestration is allowed
-in Europe in 2050, there is around 820 TWh/a of electrolytic hydrogen
+in Europe in 2050, there is 1027 TWh/a of electrolytic hydrogen
 production:
 
 #+CAPTION: Energy balances for the default scenario with 200 MtCO_2/a sequestration.
-[[./graphics/methanol_economy/methanol_balances.png]]
+[[./graphics/methanol_faq-260330/methanol_balances.png]]
 
 This hydrogen is all used locally inside industry clusters to produce
 the following green derivatives: methanol (using excess CO_2 from
@@ -58,24 +70,24 @@ biomass), ammonia (using nitrogen from the air) and steel (using
 imported iron ore).
 
 As discussed below, if the sequestration is increased, the model
-prefers to compensate fossil fuels with carbon dioxide removal (CDR)
+prefers to compensate fossil fuels with carbon dioxide removal (CDR),
 using the biogenic carbon for sequestration instead of in fuels.
 
-At 400 MtCO_2/a sequestration the use of electrolytic hydrogen drops to 250 TWh/a:
+At 400 MtCO_2/a sequestration the use of electrolytic hydrogen drops to 458 TWh/a:
 
 #+CAPTION: Energy balances for sensitivity with 400 MtCO_2/a sequestration.
-[[./graphics/methanol_faq/methanol-balance-400seq.png]]
+[[./graphics/methanol_faq-260330/methanol-eb-400seq.png]]
 
-At 600 MtCO_2/a sequestration  it drops to 145 TWh/a:
+With infinite sequestration it drops to 364 TWh/a:
 
-#+CAPTION: Energy balances for sensitivity with 600 MtCO_2/a sequestration.
-[[./graphics/methanol_faq/methanol-balance-600seq.png]]
+#+CAPTION: Energy balances for sensitivity with infinite sequestration.
+[[./graphics/methanol_faq-260330/methanol-eb-infseq.png]]
 
 
-Similarly, the scenario with higher biomass potentials also allows to avoid most electrolytic hydrogen:
+Similarly, the scenario with higher biomass potentials also allows to avoid over half of the electrolytic hydrogen:
 
 #+CAPTION: Energy balances for sensitivity with more than double the biomass potential (3300 TWh/a).
-[[./graphics/methanol_faq/methanol-balance-high_bio.png]]
+[[./graphics/methanol_faq-260330/methanol-eb-high_bio.png]]
 
 * How sustainable is the biomass used to produce the methanol in your scenarios?
 
@@ -142,6 +154,8 @@ in biomass is of more importance than its energy content ([[https://doi.org/10.1
 typically more expensive than biomethanol (e.g. 160-180 €/MWh versus
 80-110 €/MWh for the 2030+ time horizon).
 
+[[./graphics/methanol_faq-260330/methanol-lcoes.png]]
+
 * Why is direct air capture (DAC) not used?
 
 Direct air capture (DAC) refers to technical measures to extract CO_2
@@ -162,19 +176,29 @@ DAC also has a long path ahead of it before it can scale up to a megaton per yea
 
 * What does the carbon cycle look like?
 
-In the minimal methanol scenario, the 1391 TWh/a of biomass contains around 114 MtC/a (equivalent to 417 tCO_2/a).
+Annual flows of carbon can be followed through the energy system in a
+Sankey diagram.
 
-1211 TWh/a of this is used to make methanol (99 MtC/a, 363 MtCO_2/a).
+[[./graphics/methanol_faq-260330/methanol-sankey.png]]
 
-The rest goes to industry heat, where some carbon is captured.
+143 MtC/a (equivalent to 525 MtCO_2/a) enters the energy system from
+the atmosphere as biomass (either solid, gaseous, or municipal
+waste). Since the energy system has net-zero CO_2 emissions, this is
+balanced by emissions of 525 MtCO_2/a from backup heat and power,
+shipping, aviation, imperfect capture, and a few other sources.
 
-Extra carbon is also captured from the Allam cycle plants, waste-to-energy plants and industry heat with carbon capture (? MtC/a, ? MtCO_2/a).
+Similarly the 200 MtCO_2/a-equivalent of fossil carbon, entering the
+system either as liquid fuels or in limestone for cement-making, is
+balanced by 200 MtCO_2/a that is sequestered.
 
-1500 TWh/a of methanol is produced (the extra energy coming from electricity and 648 TWh/a of hydrogen), which has 102 MtC/a (372 MtCO_2/a).
+The biomass is used to synthesis 1357 TWh/a (245 Mt/a) of methanol
+(equivalent to 92 MtC/a, 336 MtCO_2/a).
 
-This carbon is then released into the atmosphere when used in planes and ships. Some carbon is captured from methanol use in Allam cycle plants, burning the resulting plastics from MtO/A in waste-to-energy plants and industry heat.
+The rest goes to industry heat and backup power, where some carbon is
+captured.
 
-TODO: Sankey of carbon.
+Extra carbon is also captured from the Allam cycle plants,
+waste-to-energy plants and cement plants.
 
 * Wouldn't first generation biofuels like renewable/biodiesel or corn ethanol be better?
 
@@ -356,12 +380,13 @@ threat to health (a [[https://lailluminator.com/2025/03/08/co2-pipeline/][pipeli
 to hospital, although this [[https://climate.mit.edu/ask-mit/are-there-risks-transporting-carbon-dioxide-pipelines][may have been due to hydrogen sulfide mixed
 in]]).
 
-In a sensitivity calculation the removal of the CO_2 pipeline raised
-costs by just 2% (forcing more biomass to be used for CDR to compensate
-industry process emissions that cannot be transported to sequestration sites):
+In a sensitivity calculation "no CO_2 network" the removal of the CO_2
+pipeline raised costs by just 1.7% (forcing more biomass to be used for
+CDR to compensate industry process emissions that cannot be
+transported to sequestration sites):
 
 #+CAPTION: Minimal methanol economy sensitivities
-[[./graphics/methanol_faq/methanol-sensitivity.png]]
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 See also [[https://doi.org/10.1038/s41560-025-01752-6][Hofmann et al, 2025]] on the cost benefits of CO_2 pipeline networks.
 
@@ -373,18 +398,20 @@ are around 7 EUR/MWh for a 10 km distance (based on [[https://doi.org/10.1080/17
 
 * Why is the minimal methanol scenario more expensive?
 
-The minimal methanol scenario was around 24 billion euros per year (3%) more expensive than the cost-optimal scenario.
+The minimal methanol scenario was around 20 billion euros per year
+(2.4%) more expensive than the cost-optimal scenario that allows
+hydrogen and methane backup.
 
-[[./graphics/methanol_economy/methanol_costs.png]]
+[[./graphics/methanol_faq-260330/methanol-cost_with_caption.png]]
 
 The main cost drivers are:
 
-- Methanol (~180 €/MWh) itself is more expensive than fossil gas
+- Methanol (~170 €/MWh) itself is more expensive than fossil gas
   compensated by carbon dioxide removal (~30 €/MWh + ~40 €/MWh) or
   electrolytic hydrogen (~100 €/MWh) because of the further conversion
   steps. Therefore whereever methanol is substituting methane or
-  hydrogen, it is increasing costs. An extra cost of 100 €/MWh on 250
-  TWh/a for backup power and heat makes 25 billion euros per year.
+  hydrogen, it is increasing costs. An extra cost of 80 €/MWh on 250
+  TWh/a for backup power and heat makes 20 billion euros per year.
 - Decentral biomass boilers, allowed in the other scenarios, must be replaced by heat pumps in the "minimal methanol" scenario.
   
 * Are there resilience benefits to using methanol (e.g. dealing with shocks better, losses of pipelines)?
@@ -522,21 +549,21 @@ Comparable studies have similar assumptions. The CCS-friendly CATF included at m
 The EU Commission's [[https://energy.ec.europa.eu/document/download/6b89e732-fea4-480b-9d2e-cf64de90247e_en?filename=Communication_-_Industrial_Carbon_Management.pdf][Carbon Management Strategy]] has around 250 MtCO_2/a in 2050.
 
 
-To explore the dependence on sequestration volume, we varied it in two sensitivities with 400 and 600 MtCO_2/a. Since using fossil fuels and compensating with CDR from bioenergy with CCS (BECCS) is generally cheaper than CCU, the scenarios are lower cost.
+To explore the dependence on sequestration volume, we varied it in two sensitivities with 400 MtCO_2/a and infinite sequestration. Since using fossil fuels and compensating with CDR from bioenergy with CCS (BECCS) is generally cheaper than CCU, the scenarios are lower cost.
 
 #+CAPTION: Minimal methanol economy sensitivities
-[[./graphics/methanol_faq/methanol-sensitivity.png]]
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 At 400 MtCO_2/a the use of methanol for HVC (MtA/O) and kerosene is reduced; methanolisation reduces to compensate:
 
 #+CAPTION: Energy balances for sensitivity with 400 MtCO_2/a sequestration.
-[[./graphics/methanol_faq/methanol-balance-400seq.png]]
+[[./graphics/methanol_faq-260330/methanol-eb-400seq.png]]
 
 
-At 600 MtCO_2/a the main use is in shipping; methanol is still made from biogas with a little extra from solid biomass:
+With infinite sequestration the main use is in shipping and backup power; methanol is still made from biogas with a little extra from solid biomass:
 
-#+CAPTION: Energy balances for sensitivity with 600 MtCO_2/a sequestration.
-[[./graphics/methanol_faq/methanol-balance-600seq.png]]
+#+CAPTION: Energy balances for sensitivity with infinite sequestration.
+[[./graphics/methanol_faq-260330/methanol-eb-infseq.png]]
 
 
 * Isn't it always cheaper to sequester a tonne of carbon dioxide than to use it in a fuel?
@@ -644,21 +671,21 @@ backup electricity and heat.
 * What if green methanol were imported?
 
 In the paper the import of green methanol from outside of Europe was
-only allowed in the scnario "green imports" along with imports of
+only allowed in the scenario "imports" along with imports of
 green steel and green ammonia:
 
 #+CAPTION: Minimal methanol economy sensitivities
-[[./graphics/methanol_faq/methanol-sensitivity.png]]
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
-This reduces the cost of the minimal methanol economy scenario by 26
-bnEUR/a (3%), see Panel A.
+This reduces the cost of the minimal methanol backstop scenario by 28
+bnEUR/a (3.4%), see Panel B.
 
-In the minimal methanol scenario, 619 TWh/a of 1550 TWh/a total methanol is imported:
+In the minimal methanol scenario, 457 TWh/a of 1222 TWh/a total methanol is imported:
 
 #+CAPTION: Energy balances for sensitivity with green imports
-[[./graphics/methanol_faq/methanol-balance-green-import.png]]
+[[./graphics/methanol_faq-260330/methanol-eb-green_imports.png]]
 
-Hydrogen production in Europe is much lower than in the default scenario.
+Hydrogen production in Europe is around 70% lower than in the default scenario.
 
 
 Since the sustainability of carbon sources abroad cannot be
@@ -805,7 +832,7 @@ If steel and ammonia can relocate within Europe (scenario "relocation") then the
 
 
 #+CAPTION: Minimal methanol economy sensitivities
-[[./graphics/methanol_faq/methanol-sensitivity.png]]
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 * Aren't ammonia, LCH_4, LH_2, ethanol, LOHC, DME, or Fischer-Tropsch fuels better than methanol as an energy carrier?
 
