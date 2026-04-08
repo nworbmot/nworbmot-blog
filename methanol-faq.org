@@ -1,4 +1,4 @@
-#+TITLE: The Minimal Methanol Backstop: Frequently Asked Questions
+#+TITLE: A Minimal Methanol Backstop: Frequently Asked Questions
 #+OPTIONS: toc:nil
 
 First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.08, Author: [[https://www.nworbmot.org/][Tom Brown]]
@@ -385,7 +385,7 @@ pipeline raised costs by just 1.7% (forcing more biomass to be used for
 CDR to compensate industry process emissions that cannot be
 transported to sequestration sites):
 
-#+CAPTION: Minimal methanol economy sensitivities
+#+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 See also [[https://doi.org/10.1038/s41560-025-01752-6][Hofmann et al, 2025]] on the cost benefits of CO_2 pipeline networks.
@@ -513,7 +513,7 @@ Multiple methanol plants could be aggregated to a multi-Mt_MeOH/a pipeline.
 There are many pipelines today for crude oil as well as refined
 products like gasoline, diesel and kerosene.
 
-* How would existing biogas units fit into the minimal methanol economy?
+* How would existing biogas units fit into the minimal methanol backstop?
 
 As discussed above, most biogas units today use unsustainable
 feedstocks like maize. If the substrates can be exchanged for biogenic
@@ -529,7 +529,7 @@ today.
 #+CAPTION: Local biogas pipeline networks aggregate small biogas units for conversion  (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
 [[./graphics/biogas_flex/pooling.png]]
 
-* How would existing bioethanol and biodiesel plants fit into the minimal methanol economy?
+* How would existing bioethanol and biodiesel plants fit into the minimal methanol backstop?
 
 As discussed above, most 1st generation biofuels are not sustainable
 from a life cycle perspective.  Bioethanol often uses maize, while
@@ -551,7 +551,7 @@ The EU Commission's [[https://energy.ec.europa.eu/document/download/6b89e732-fea
 
 To explore the dependence on sequestration volume, we varied it in two sensitivities with 400 MtCO_2/a and infinite sequestration. Since using fossil fuels and compensating with CDR from bioenergy with CCS (BECCS) is generally cheaper than CCU, the scenarios are lower cost.
 
-#+CAPTION: Minimal methanol economy sensitivities
+#+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 At 400 MtCO_2/a the use of methanol for HVC (MtA/O) and kerosene is reduced; methanolisation reduces to compensate:
@@ -593,7 +593,7 @@ lower acceptance than methanol, since CO_2 is an asphyxiating gas.
 
 The carbon dioxide abatement cost, measured as the shadow price of the
 constraint limiting carbon dioxide emissions to net-zero, varies
-depending on the scenario. If we stick with the methanol economy and
+depending on the scenario. If we stick with the methanol backstop and
 keep the sequestration limit tight (200 MtCO_2/a), it's 426 €/tCO_2, if
 we relax to 400 MtCO_2/a it drops to 335 €/tCO_2, then at 600 MtCO_2/a
 it's just 124 €/tCO_2. As sequestration is relaxed, CCU is replaced by
@@ -674,7 +674,7 @@ In the paper the import of green methanol from outside of Europe was
 only allowed in the scenario "imports" along with imports of
 green steel and green ammonia:
 
-#+CAPTION: Minimal methanol economy sensitivities
+#+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 This reduces the cost of the minimal methanol backstop scenario by 28
@@ -699,9 +699,9 @@ There has been significant fraud with the sustainability criteria of imported bi
 Since biogenic wastes and residues are limited worldwide, it might make sense for Europe to cultivate its own biogenic biomass to maximise supply.
 
 
-* Which technology innovations would improve the case for a minimal methanol economy?
+* Which technology innovations would improve the case for a minimal methanol backstop?
 
-The following innovations would improve the case for a minimal methanol economy:
+The following innovations would improve the case for a minimal methanol backstop:
 
 - Methanol catalysts that would allow more flexible operation,
   allowing the synthesis to shut down during periods of low wind and
@@ -716,19 +716,19 @@ The following innovations would improve the case for a minimal methanol economy:
   allow heat integration with methanol synthesis, and possible reverse
   operation as fuel cells.
   
-* Which technology innovations would worsen the case for a minimal methanol economy?
+* Which technology innovations would worsen the case for a minimal methanol backstop?
 
-The following innovations in competing technologies would worsen the case for a minimal methanol economy:
+The following innovations in competing technologies would worsen the case for a minimal methanol backstop:
 
 - Cheap and plentiful carbon dioxide removal options (e.g. burying biomass, innovations in carbon sequestration).
 - Improvements to synthesis of competing liquid fuels, e.g. ethanol, DME or Fischer-Tropsch.
 - Electrification concepts for long-haul aviation or shipping.
-- Onboard carbon capture on ships (although this could work with the methanol economy).
+- Onboard carbon capture on ships (although this could work with the methanol backstop).
 - Increase in plastic landfilling, which would act like carbon
   sequestration and reduce the need for primary green HVC.
 
 These technologies would allow methanol use to further be minimised. A
-"minimal methanol" economy can also be a "no methanol" economy.
+"minimal methanol" backstop can also be a "no methanol" backstop.
 
 The fact that methanol does not rely on complex interlinked
 infrastructure, allows methanol production targets to be easily
@@ -784,7 +784,7 @@ factor.
 
 The careful collection and processing of biomass wastes and residues,
 primarily from agriculture and forestry, put agriculture and forestry
-at the centre of the "minimal methanol" economy. Whether down a CCU or
+at the centre of the "minimal methanol" backstop. Whether down a CCU or
 CDR route, sustainable biogenic CO_2 takes centre stage.
 
 Coordinating carbon management with food production, to avoid indirect
@@ -831,13 +831,14 @@ If existing sites in Europe for steel and ammonia are used, these are sub-optima
 If steel and ammonia can relocate within Europe (scenario "relocation") then they move to good H2 sites and the model avoids steam-reforming methanol:
 
 
-#+CAPTION: Minimal methanol economy sensitivities
+#+CAPTION: Minimal methanol backstop sensitivities
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
 * Aren't ammonia, LCH_4, LH_2, ethanol, LOHC, DME, or Fischer-Tropsch fuels better than methanol as an energy carrier?
 
-Here are the relevant sections from our 2025 paper [[https://arxiv.org/abs/2505.09277][The Minimal
-Methanol Economy as a Gap-Filler for High Electrification Scenarios]] that discuss alternative energy carriers.
+Here are the relevant sections from our 2025 paper [[https://arxiv.org/abs/2505.09277][AAA Minimal Methanol
+Backstop for High Electrification Scenarios]] that discuss alternative
+energy carriers.
 
 [[./graphics/methanol_faq/methanol_alternatives-1.png]]
 
