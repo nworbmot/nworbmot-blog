@@ -58,7 +58,7 @@ Here is a graphical summary of the paper.
 * Is green hydrogen still needed in a "minimal methanol backstop"?
 
 In the default setup, where only 200 MtCO_2/a sequestration is allowed
-in Europe in 2050, there is 1027 TWh/a of electrolytic hydrogen
+in Europe in 2050, there is 980 TWh/a of electrolytic hydrogen
 production:
 
 #+CAPTION: Energy balances for the default scenario with 200 MtCO_2/a sequestration.
@@ -66,19 +66,19 @@ production:
 
 This hydrogen is all used locally inside industry clusters to produce
 the following green derivatives: methanol (using excess CO_2 from
-biomass), ammonia (using nitrogen from the air) and steel (using
-imported iron ore).
+biomass), ammonia (using nitrogen from the air in the Haber-Bosch
+process) and direct reduced iron for steel (using imported iron ore).
 
 As discussed below, if the sequestration is increased, the model
 prefers to compensate fossil fuels with carbon dioxide removal (CDR),
 using the biogenic carbon for sequestration instead of in fuels.
 
-At 400 MtCO_2/a sequestration the use of electrolytic hydrogen drops to 458 TWh/a:
+At 400 MtCO_2/a sequestration the use of electrolytic hydrogen drops to 389 TWh/a:
 
 #+CAPTION: Energy balances for sensitivity with 400 MtCO_2/a sequestration.
 [[./graphics/methanol_faq-260330/methanol-eb-400seq.png]]
 
-With infinite sequestration it drops to 364 TWh/a:
+With infinite sequestration it drops to 239 TWh/a:
 
 #+CAPTION: Energy balances for sensitivity with infinite sequestration.
 [[./graphics/methanol_faq-260330/methanol-eb-infseq.png]]
@@ -966,8 +966,11 @@ methane/hydrogen optimum, rather than 2.3% in the default.
 Methane is a greenhouse gas with around 28 times the global warming
 potential over 100 years (GWP100) of CO_2. Hydrogen is an indirect
 greenhouse gas (it prolongs the life of methane in the atmosphere)
-with a GWP100 of 11.6 \pm 2.8 ([[https://doi.org/10.1038/s43247-023-00857-8][Sand et al, 2023]]). Any leakage of methane or hydrogen could weaken
-the case for these energy carriers.
+with a GWP100 of 11.6 \pm 2.8 ([[https://doi.org/10.1038/s43247-023-00857-8][Sand et al, 2023]]).
+
+Any leakage of methane or hydrogen could weaken the case for these
+energy carriers. There is however a strong economic argument to reduce
+leakage rates as much as possible.
 
 Methane leakage from extraction, transport and storage can be as high
 as 5% or more across the value chain ([[https://doi.org/10.1021/acs.est.0c00437][Weller et al, 2020]]). However,
@@ -991,9 +994,16 @@ very similar to those of gasoline.
 
 Methanol vapour is not a direct greenhouse gas, but it can indirectly
 prolong the lifetime of methane in the atmosphere, and eventually
-decays to CO_2 ([[https://forcetechnology.com/en/articles/emissions-ship-engines-methanol-new-green-fuel][Kristensen and Bræstrup]]). Since the mass of methanol
-vapour compared to liquid is low, this is a substantially lower risk
-from leakage than methane or hydrogen.
+decays to CO_2 ([[https://forcetechnology.com/en/articles/emissions-ship-engines-methanol-new-green-fuel][Kristensen and Bræstrup]]). This could be a problem if
+any vapour leaks from energy systems.
+
+For multiple reasons there are lower risks from methanol vapour
+leakage than hydrogen (or methane) leakage: the mass of methanol
+vapour compared to consumed liquid is under normal circumstances low;
+the vapour pressure is much lower than pressures needed for hydrogen
+storage and transportation; the molecule size is smaller; the
+atmospheric lifetime is shorter; and the coupling to methane is weaker
+than for hydrogen.
 
 Methane is a greenhouse gas with around 28 times the global warming
 potential over 100 years (GWP100) of CO_2. Hydrogen is an indirect
@@ -1007,6 +1017,12 @@ Compare: [[https://www.vde.com/resource/blob/2316160/9e7075474d567a1a30e9459b6ca
 Some similarity, in that a 100-200 kt_MeOH/a synthesis plant with a
 biomass collection area of 500-1000 km^2 determines a cellular
 structure.
+
+
+As discussed above, e-biomethanol and electricity could be produced in discrete cells:
+
+[[./graphics/biomass-efficiently/methanol-cell.png]]
+
 
 
 * How flexibly must the electrolysis and methanol synthesis be operated?
