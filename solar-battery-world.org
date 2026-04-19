@@ -8,6 +8,8 @@ First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 
 [[https://bsky.app/profile/nworbmot.bsky.social/post/3meh344vkw224][Parallel BlueSky post]]
 
+[[https://xenetwork.org/ets/episodes/episode-273-can-solar-and-batteries-power-the-world/][Energy Transition Show podcast]]
+
 Solar and batteries are cheap enough that most people can get most of
 their electricity from them, and save money. This equation gets better
 and better over time as their costs decline.

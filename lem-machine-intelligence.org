@@ -78,7 +78,7 @@ machine?...It is in fact a fluid transition
 from a “soulless machine” such as a jukebox to a “thinking machine.”---/Summa/, p131
 #+END_QUOTE
 
-Later he argues this black box is unlikely to contain brittle formal logic, but rather something more approximate and flexible:
+Later he argues that this black box is unlikely to contain brittle formal logic, but rather something more approximate and flexible:
 #+BEGIN_QUOTE
 A device that works on the basis of the purely logical premises
 in its possession, by deciding unambiguously what is true and what is false, would not be a
@@ -88,7 +88,7 @@ organisms, produced such latter “devices” first, it must have been easier fo
 than to construct systems that would explicitly use logic.---/Summa/, p141-2
 #+END_QUOTE
 
-He thinks a good candidate are Rosenblatt's [[https://en.wikipedia.org/wiki/Perceptron][perceptrons]], forerunners of artificial neural networks that were trained with supervised learning:
+He thinks a good candidate are Rosenblatt's [[https://en.wikipedia.org/wiki/Perceptron][perceptrons]], forerunners of today's artificial neural networks that were trained with supervised learning:
 #+BEGIN_QUOTE
 Perceptrons...with pseudo-neuron elements that are connected in an
 accidental, random manner...are capable of recognizing images (simple planimetric
@@ -192,7 +192,7 @@ Golem shares only a single trait with us, albeit developed on a different level:
 
 * Selected Bibliography
 
-- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], 1964 (translated 2014 by Joanna Zylinska).
+- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], 1964 (translated in 2014 by Joanna Zylinska).
 - Lem, Stanislaw, [[https://www.newyorker.com/magazine/1984/01/30/chance-and-order][Chance and Order]], 1984, New Yorker.
 - Lem, Stanislaw; Peter Swirski (editor), [[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][A Stanislaw Lem Reader]], 1997 (includes Lem's "30 Years Later").
 - Konior, Bogna, [[https://doi.org/10.1093/oso/9780192865366.003.0006][The Gnostic Machine: Artificial Intelligence in Stanisław Lem’s Summa Technologiae]], 2023.

@@ -175,6 +175,9 @@ DAC also has a long path ahead of it before it can scale up to a megaton per yea
 
 
 * What does the carbon cycle look like?
+  :PROPERTIES:
+  :CUSTOM_ID: carbon_cycle
+  :END:
 
 Annual flows of carbon can be followed through the energy system in a
 Sankey diagram.
@@ -691,6 +694,9 @@ Global fossil-based methanol production reached around 110 million
 tonnes per year (110 Mt/a) in 2023 ([[https://www.methanol.org/methanol-price-supply-demand/][Methanol Institute, 2024]]) and demand is forecast to grow at
 3.5% per year ([[https://www.methanex.com/wp-content/uploads/MEOH-Investor-Presentation-March-2024.pdf][Methanex, 2024]]).
 
+#+CAPTION: Global methanol demand in 2019 ([[https://www.irena.org/Publications/2021/Jan/Innovation-Outlook-Renewable-Methanol][IRENA, 2021]])
+[[./graphics/methanol_faq-260330/methanol_usage_today.png]]
+
 Since its commercialisation of
 methanol-to-olefin technology in 2010, China has been using methanol
 synthesised from coal for a large share of its olefin production
@@ -1099,13 +1105,14 @@ From a synthesis perspective, the fact that methanol has a single
 carbon atom makes it easier to synthesise than other higher alcohols
 like ethanol.
 
-Methanol synthesis is highly selective (it produces a relatively pure,
-single product), whereas Fischer Tropsch synthesis produces a wide
-selection of hydrocarbons, some of which get wasted or have to be
-cracked down to shorter chain lengths. If all the FT products can be
-used, FT can be competitive with methanol for producing shipping
-fuels, kerosene and HVC (the model results show relatively easy
-substitution between FT routes and methanol routes for these products).
+Methanol synthesis is highly selective (it produces a relatively pure
+product), whereas Fischer Tropsch synthesis produces a wide selection
+of hydrocarbons, some of which get wasted or have to be cracked down
+to shorter chain lengths. If all the FT products can be used, FT can
+be competitive with methanol for producing shipping fuels, kerosene
+and naphtha for HVC (the model results show relatively easy
+substitution between FT routes and methanol routes for these
+products).
 
 Unlike methane or hydrogen, methanol is a liquid at room temperature
 and pressure, which makes it much easier to store and handle.
@@ -1113,7 +1120,8 @@ and pressure, which makes it much easier to store and handle.
 Methanol is already used as a shipping fuel.
 
 There are mature processes used at industrial scale to produce
-ethylene and other high value chemicals from methanol.
+ethylene and other high value chemicals from methanol ([[https://doi.org/10.1016/j.cherd.2023.04.037][Liang et al,
+2023]]).
 
 * Isn't ethanol better than methanol as an energy carrier?
   :PROPERTIES:
