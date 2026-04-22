@@ -1,0 +1,175 @@
+#+TITLE: Open grid data has a high public benefit
+#+OPTIONS: toc:nil
+
+First Posted: 2026.04.2x, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.2x, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+Concerns have been raised about the security threat from sharing open
+grid data. I lay out the arguments why, for certain types of data, we
+should not be concerned. There is in fact a huge benefit, including a
+security benefit, from sharing this data. The security of our grid is
+extremely important, especially as we electrify more of our demand, so
+I end with measures that can actually help raise security and
+resilience.
+
+In bullet points:
+
+- **Public benefit**: Sharing data about clearly visible power lines
+  and substation locations has many benefits for the public: planners
+  can assess where the grid needs reinforcement to integrate
+  renewables; market actors can get transparent information on grid
+  constraints; new generators, storage and consumers can see where
+  they can connect; companies trying to enhance grid capacity can
+  assess their innovative technologies; researchers can test measures
+  to improve resilience; and society can monitor the natural grid
+  monopolies in order to keep grid costs down.
+- **No security threat**: There is no danger to being open about
+  visible infrastructure, because, well, it's visible. Pylons can be
+  seen by anyone from the ground; substations are large enough that
+  you cannot miss them. Much of this data (particularly substations)
+  is already on regular maps, and all of it shows up in widely-available
+  satellite data. Some governments have shared this data for decades.
+  Anyone attacking this infrastructure will be capable of the minimal
+  effort to obtain this information. State actors will have much
+  better data sources.
+- **Reductio ad absurdam**: Similar arguments could also be made about
+  road maps. "Let's ban road maps so that our adversaries won't be
+  able to find their way around!" It's clear in this case: i) the maps
+  are already available; ii) even if they were banned today, there are
+  many old maps around; iii) they can be reproduced from satellite
+  imagery; iv) there is a high benefit to the public from road maps.
+- **Some data should not be shared**: There is no public benefit to
+  sharing information on security protocols, software versions,
+  locations of security cameras, or the exact pathways of underground
+  cables and pipelines. This data would help our adversaries and
+  should remain private.
+- **Real security** is not achieved by obscurity, i.e. hoping that
+  your adversary cannot access satellite data or see the
+  infrastructure from the ground. Real security requires layered
+  defence measures that slow down adversaries, redundancies that can
+  reroute power in case of damage, and regular threat assessments.
+
+I go into more detail on some points below.
+
+# headlines controls depth of TOC
+#+TOC: headlines 2
+
+
+* What open data is currently available?
+  :PROPERTIES:
+  :CUSTOM_ID: available
+  :END:
+
+The [[https://openinframap.org/][Open Infrastructure Map]] shows the power lines and substations in
+[[https://www.openstreetmap.org/][OpenStreetMap]] from the whole world. OpenStreetMap only maps visible
+infrastructure above ground.  Initiatives like [[https://mapyourgrid.org/][MapYourGrid]] empower
+people to improve open grid mapping.
+
+The data on the power lines and substations is [[https://www.nature.com/articles/s41597-025-04550-7][processed into grid
+models]] for use in open energy system models like [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]],
+[[https://github.com/pypsa-meets-earth/pypsa-earth][PyPSA-Earth]] or [[https://github.com/calliope-project/euro-calliope][Euro-Calliope]].
+
+It is also used by many other actors, such as renewable energy
+developers, storage developers and new industrial consumers like data
+centres, who are all looking for connection points to the grid. The
+data is available in high quality and in a uniform quality across the
+globe.
+
+* Who is concerned about open grid data?
+  :PROPERTIES:
+  :CUSTOM_ID: concerns
+  :END:
+
+The chancellor of Germany, Friedrich Merz, [[https://www.tagesschau.de/inland/innenpolitik/koalitonsausschuss-infrastruktur-100.html][said in January 2026]] that
+information about critical infrastructure should no longer be openly
+available. German industry associations have also [[https://www.cleanenergywire.org/news/berlin-arson-attack-power-blackout-triggers-calls-put-security-over-transparency][raised concerns]]
+about transparency requirements in the KRITIS law.
+
+These statements are mixing concerns about visible infrastructure,
+which do not pose any security threat, and more sensitive data (such
+as software versions, security protocols, maps of non-visible
+infrastructure) that would endanger security if released.
+  
+* What examples are there of the public benefit of open grid data?
+  :PROPERTIES:
+  :CUSTOM_ID: examples
+  :END:
+
+These are a few examples that jumped to mind - please email me if you want your example added to the list.
+
+- The European Commission's [[https://commission.europa.eu/about/departments-and-executive-agencies/joint-research-centre_en][Joint Research Centre]] (JRC) used the open
+  grid model [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]] in 2024 for a
+  [[https://publications.jrc.ec.europa.eu/repository/handle/JRC137685][study
+  on redispatch and congestion management]] that was highlighted in
+  the 2024 [[https://commission.europa.eu/topics/competitiveness/draghi-report_en][Draghi Report]] as an example of why a more efficient market
+  design is needed.
+- The same research team at JRC used the same model in a 2025 report on the benefits of [[https://publications.jrc.ec.europa.eu/repository/handle/JRC142047][local price signals in Europe]].
+- The open grid model [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]] was used in 2021 by researchers to show [[https://doi.org/10.1016/j.apenergy.2021.116726][the benefits of grid expansion]].
+- The open grid model [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]] was used in 2023 by researchers to show [[https://doi.org/10.1016/j.apenergy.2023.121199][the benefits of dynamic line rating (DLR)]], an example of a [[https://watt-transmission.org/what-are-grid-enhancing-technologies/][Grid Enhancing Technology (GET)]].
+- The firm [[https://www.dvlp.energy/en][dvlp.energy]] uses open grid data to help developers find land for their solar, wind or storage projects.
+- European electricity market participants need grid data to assess the grid capacity available for market trading in the [[https://www.jao.eu/][Flow-Based Market Coupling]].
+- [[https://www.openstreetmap.org/][OpenStreetMap]] data is used to assess [[https://paczyzak.substack.com/p/data-centers][Data Centre Siting]] in Europe.
+
+Further examples can be found on the [[https://mapyourgrid.org/impact/][MapYourGrid Impact page]].
+
+* Did open data play a role in the partial blackout in Berlin in January 2026?
+  :PROPERTIES:
+  :CUSTOM_ID: berlin
+  :END:
+
+In January 2026 arsonists [[https://en.wikipedia.org/wiki/2026_arson_attack_on_the_Berlin_power_grid][attacked a cable bridge]] in Berlin resulting in multi-day power outages for thousands of households.
+
+The cable bridge is [[https://openinframap.org/#15.86/52.42531/13.310071][visible on the Open Infrastructure Map]] but it is also visible from the path along the canal as well as in [[https://www.google.com/maps/@52.4255681,13.3067796,135m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D][satellite imagery]]. Open data did not contribute to the security threat.
+
+It turns out the bridge was barely protected at all, with gaps in the fence and minimal monitoring ([[https://www.spiegel.de/panorama/justiz/stromausfall-in-berlin-kabelbruecke-monatelang-nahezu-ungeschuetzt-und-zugaenglich-a-02826558-8ac9-48ae-8293-41c3573cd80e][Spiegel paywall]], [[https://www.rbb24.de/politik/beitrag/2026/02/berlin-brandanschlag-stromausfall-kabelbruecke-stromnetz-reaktion.html][RBB no paywall]]).
+
+[[#security][Below]] we lay out measures that would have improved security in cases like this.
+
+* Could open data allow attackers to model power flow through the network?
+  :PROPERTIES:
+  :CUSTOM_ID: flow
+  :END:
+
+Open grid data is good enough for a rough assessment of power flows
+through the network, which would assist planners and market
+participants.  However, since information on outages, switching and
+other operational details are missing, it is not sufficient for the
+detailed power flow modelling that would be helpful to adversaries.
+
+* Is it even feasible to ban open grid data?
+  :PROPERTIES:
+  :CUSTOM_ID: feasibility
+  :END:
+
+[[https://www.openstreetmap.org/][OpenStreetMap]] grid data is already backed up in thousands if not
+millions of locations worldwide. Satellite imagery that includes grid
+infrastructure is similarly widely available. Trying to restrict
+access or sharing of this data does not seem to be feasible. Even if
+one jurisdiction bans the sharing of open grid data, others will
+continue to host it.
+
+
+
+* What would provide real security and resilience?
+  :PROPERTIES:
+  :CUSTOM_ID: security
+  :END:
+
+This is a question for real security experts, but I can provide a few thoughts.
+
+An important security maxim is "design your system assuming that your opponents know it in detail" ([[https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle][Kerckhoffs's principle]] or Shannon's maxim).
+That means: protecting the vulnerable parts and ensuring redundancy where possible.
+
+Protecting the vulnerable parts means setting up layered barriers to slow down attackers and lower probabilities, knowing that 100% security everywhere is impossible against determined attackers.
+
+Redundancy means that if one network component fails, power can redistribute to other parts of the network ([[https://en.wikipedia.org/wiki/Contingency_(electrical_grid)][contingency analysis]]).
+
+Examples of improving security include (oriented towards the [[#berlin][Berlin cable arson attack describe above]]):
+- Better fence protection at vulnerable points. Fencing will not stop determined attackers, but it slows them down until police can arrive.
+- Cameras with AI watching to alert police if anyone crosses or attacks fences. Cameras can be destroyed, but they provide early warning and another security layer.
+- Avoid multiple cables bundled in the same place where possible.
+- Have redundancies to supply medium voltage networks from more directions, e.g. from neighbouring network.
+- Stockpile mobile power plants to supply critical loads in an emergency that can be deployed within 2-6 hours.
+- Stockpile replacement grid equipment so that repairs can be effected quickly.
+- Flexibility from storage and demand-side management to work around grid outages.
+- Allow regions of the network to function independently for grid restoration after emergencies.
+- Regular threat assessments and updates to protocols.
