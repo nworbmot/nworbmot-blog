@@ -1,12 +1,12 @@
-#+TITLE: Open grid data has a high public benefit
+#+TITLE: Open grid data has a huge public benefit
 #+OPTIONS: toc:nil
 
-First Posted: 2026.04.2x, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.2x, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.04.23, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.23, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 Concerns have been raised about the security threat from sharing open
 grid data. I lay out the arguments why, for certain types of data, we
-should not be concerned. There is in fact a huge benefit, including a
-security benefit, from sharing this data. The security of our grid is
+should not be concerned. There is in fact a huge benefit from sharing
+this data, including for security. The security of our grid is
 extremely important, especially as we electrify more of our demand, so
 I end with measures that can actually help raise security and
 resilience.
@@ -16,12 +16,15 @@ In bullet points:
 - **Public benefit**: Sharing data about clearly visible power lines
   and substation locations has many benefits for the public: planners
   can assess where the grid needs reinforcement to integrate
-  renewables; market actors can get transparent information on grid
-  constraints; new generators, storage and consumers can see where
-  they can connect; companies trying to enhance grid capacity can
-  assess their innovative technologies; researchers can test measures
-  to improve resilience; and society can monitor the natural grid
-  monopolies in order to keep grid costs down.
+  renewables, electrification and for climate adaptation; market
+  actors can get transparent information on grid constraints; new
+  generators, storage and consumers can see where they can connect;
+  companies with products that enhance grid capacity can assess their
+  innovative technologies; researchers can test measures to improve
+  market design and resilience; data is available for disaster
+  response; and society can monitor the natural grid monopolies in
+  order to keep grid costs down. Many examples of these benefits are
+  listed below.
 - **No security threat**: There is no danger to being open about
   visible infrastructure, because, well, it's visible. Pylons can be
   seen by anyone from the ground; substations are large enough that
@@ -46,18 +49,32 @@ In bullet points:
   your adversary cannot access satellite data or see the
   infrastructure from the ground. Real security requires layered
   defence measures that slow down adversaries, redundancies that can
-  reroute power in case of damage, and regular threat assessments.
+  reroute power in case of damage, and regular threat assessments. The
+  ability to recover quickly from outages requires good public
+  knowledge about our public infrastructure.
 
 I go into more detail on some points below.
 
 # headlines controls depth of TOC
 #+TOC: headlines 2
 
+* What is open grid data?
+  :PROPERTIES:
+  :CUSTOM_ID: definition
+  :END:
 
-* What open data is currently available?
+Open grid data is data about the grid that is available under an open
+licence. Open licences allow users to read, download, modify and
+reshare the data.
+
+
+* What open data is currently available for the grid?
   :PROPERTIES:
   :CUSTOM_ID: available
   :END:
+
+Typically data is available for the transmission grid and the higher
+voltages of the distribution grid.
 
 The [[https://openinframap.org/][Open Infrastructure Map]] shows the power lines and substations in
 [[https://www.openstreetmap.org/][OpenStreetMap]] from the whole world. OpenStreetMap only maps visible
@@ -66,7 +83,12 @@ people to improve open grid mapping.
 
 The data on the power lines and substations is [[https://www.nature.com/articles/s41597-025-04550-7][processed into grid
 models]] for use in open energy system models like [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]],
-[[https://github.com/pypsa-meets-earth/pypsa-earth][PyPSA-Earth]] or [[https://github.com/calliope-project/euro-calliope][Euro-Calliope]].
+[[https://github.com/pypsa-meets-earth/pypsa-earth][PyPSA-Earth]] or [[https://github.com/calliope-project/euro-calliope][Euro-Calliope]]. [[https://www.nature.com/articles/s41597-025-04550-7][Xiong et al, 2025]] provides more detail
+on this for PyPSA-Eur.
+
+#+CAPTION: Europen model [[https://pypsa-eur.readthedocs.io/en/latest/][PyPSA-Eur]]
+[[./graphics/open-grid-data/pypsa-eur.webp]]
+
 
 It is also used by many other actors, such as renewable energy
 developers, storage developers and new industrial consumers like data
@@ -101,15 +123,51 @@ These are a few examples that jumped to mind - please email me if you want your 
   [[https://publications.jrc.ec.europa.eu/repository/handle/JRC137685][study
   on redispatch and congestion management]] that was highlighted in
   the 2024 [[https://commission.europa.eu/topics/competitiveness/draghi-report_en][Draghi Report]] as an example of why a more efficient market
-  design is needed.
+  design is needed. Significant reductions to redispatch volumes and renewable
+  curtailment were found with more grid expansion.
+
+#+CAPTION: Redispatch evolution with extreme grid expansion (XGE), advanced (AGE) and business-as-usual (BAU), using open grid data (Source: [[https://publications.jrc.ec.europa.eu/repository/handle/JRC137685][JRC, 2024]])
+[[./graphics/open-grid-data/redispatch-jrc.png]]
+
 - The same research team at JRC used the same model in a 2025 report on the benefits of [[https://publications.jrc.ec.europa.eu/repository/handle/JRC142047][local price signals in Europe]].
+
+#+CAPTION: Cost savings for end consumers with locational pricing in Europe using open grid data (Source: [[https://publications.jrc.ec.europa.eu/repository/handle/JRC137685][JRC, 2024]])
+[[./graphics/open-grid-data/lmp-benefit.png]]
+
 - The open grid model [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]] was used in 2021 by researchers to show [[https://doi.org/10.1016/j.apenergy.2021.116726][the benefits of grid expansion]].
 - The open grid model [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]] was used in 2023 by researchers to show [[https://doi.org/10.1016/j.apenergy.2023.121199][the benefits of dynamic line rating (DLR)]], an example of a [[https://watt-transmission.org/what-are-grid-enhancing-technologies/][Grid Enhancing Technology (GET)]].
 - The firm [[https://www.dvlp.energy/en][dvlp.energy]] uses open grid data to help developers find land for their solar, wind or storage projects.
 - European electricity market participants need grid data to assess the grid capacity available for market trading in the [[https://www.jao.eu/][Flow-Based Market Coupling]].
+- A 2023 IEEE power & energy magazine article [[https://ieeexplore.ieee.org/document/10287706][Grid Planning for
+  Electrification Using Highly Granular Analytics: Insights Into the
+  Transportation Distribution Infrastructure]] points out that
+  "Publicly available grid data can significantly aid quick
+  and effective scenario analysis, helping to determine where and when
+  capacity issues will arise and how different kinds of DERs can
+  contribute toward the management of the system" ([[https://www.ieee.org/ns/periodicals/NxtBooks/PE/PDF/PE_NovDec2023.pdf][full magazine is available]]).
 - [[https://www.openstreetmap.org/][OpenStreetMap]] data is used to assess [[https://paczyzak.substack.com/p/data-centers][Data Centre Siting]] in Europe.
 
-Further examples can be found on the [[https://mapyourgrid.org/impact/][MapYourGrid Impact page]].
+#+CAPTION: Data Center Siting Tool (Source: [[https://paczyzak.substack.com/p/data-centers][Paul Czyzak, 2026]])
+[[./graphics/open-grid-data/data_center-siting.jpg]]
+
+- The [[https://electrifynow.energydata.info/][Global Electrification Platform]], [[https://dre.energydata.info/][Distributed Renewable Energy
+  Atlas]] and [[https://rezoning.energydata.info/][REZoning tool]], developed and used by the World Bank, use
+  open grid data from OpenStreetMap to support rural electrification
+  planning across 58 countries. GEP-OnSSET, the Open Source Software
+  behind Global Electrification Platform, [[https://gep-onsset.readthedocs.io/en/latest/GIS%20data%20collection.html#infrastructure][relies heavily on electrical
+  grid data of OpenStreetMap]].
+
+#+CAPTION: Zoom on World Bank's Africa Electricity Grids Explorer, used for initiatives in grid and off-grid electricity access, grid infrastructure upgrading, renewable energy and sector planning (Source: [[https://africagrid.energydata.info/][Africa Electricity Grids Explorer, 2026]])
+[[./graphics/open-grid-data/africa-grid-explorer.png]]
+
+- The [[https://www.hotosm.org/][Humanitarian OpenStreetMap Team]] provides high-quality, open geospatial data to guide decision-makers during early disaster response, including [[https://github.com/USAFORUNHCRhive/turkana-grid-mapping][open grid data]].
+- The [[https://www.energyaccessexplorer.org/][Energy Access Explorer]] is the first open-source, online, interactive geospatial platform enabling energy planners, clean energy entrepreneurs, donors and development institutions to identify areas of high priority for energy access interventions. it uses OpenStreetMap grid data.
+- The [[https://esmap-world-bank-group.github.io/EPM][Energy Planning Group Library]] offers a range of tools and models created by the World Bank's Energy Sector Management Assistance Programme (ESMAP) to support the planning of electricity systems at more than 40 national and regional levels. Studies performed using this framework primarily utilise OpenStreetMap's transmission grid data.
+- The French utility company [[https://www.enedis.fr/][Enedis]], operating the electricity distribution network, mapped power poles and substations with the help of a strong local OpenStreetMap community.
+- The Swiss company [[https://gilytics.com/][Gilytics]] uses OpenStreetMap grid data for infrastructure planning.
+- The ETAP software can [[https://etap.com/product/gis-for-electric][directly use OpenstreetMap data]].
+  
+Many of these examples and more can be found on the [[https://mapyourgrid.org/impact/][MapYourGrid Impact page]].
 
 * Did open data play a role in the partial blackout in Berlin in January 2026?
   :PROPERTIES:
@@ -173,3 +231,23 @@ Examples of improving security include (oriented towards the [[#berlin][Berlin c
 - Flexibility from storage and demand-side management to work around grid outages.
 - Allow regions of the network to function independently for grid restoration after emergencies.
 - Regular threat assessments and updates to protocols.
+
+* How can open grid data improve security and resilience?
+  :PROPERTIES:
+  :CUSTOM_ID: improve
+  :END:
+
+By making grid data available a wide range of stakeholders can provide
+feedback on how to improve security, pooling know-how from different
+domains.  For example, planners, researchers and emergency services
+can explore the data to plan better for outages.
+
+Open grid data also helps emergency services to react in the case of disasters.
+
+An example: The US Department of Homeland Security (DHS) made
+available [[https://www.dhs.gov/gmo/hifld][Homeland Infrastructure Foundation-Level Data (HIFLD)]],
+"high-quality geospatial data and tools for planners, analysts, and
+others" with the explicit goal to support "law enforcement, border
+protection, emergency management, critical infrastructure protection,
+and national operations and data fusion centers". This data was
+critical for [[https://projectgeospatial.org/geospatial-frontiers/the-rise-power-and-uncertain-future-of-americas-open-infrastructure-data][coordinating crisis management after Hurricane Harvey hit]] in 2017.
