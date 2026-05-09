@@ -1,0 +1,86 @@
+#+TITLE: My cameo in Ian McEwan's novel Solar
+#+OPTIONS: tex:t
+
+First Posted: 2026.05.1x, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.1x, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+
+I made a cameo in Ian McEwan's 2010 novel [[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]], only to be strangled a few pages later.
+
+This is the story of how a helpful correction got me written into his novel as a know-it-all (perish the thought).
+
+The scene: Hay-on-Wye literary festival 2008.
+
+Ian McEwan was due to speak to John Mullan on his recent novels [[https://en.wikipedia.org/wiki/On_Chesil_Beach][On Chesil Beach]] and [[https://en.wikipedia.org/wiki/Atonement_(novel)][Atonement]] (the [[https://www.hayfestival.com/p-212-ian-mcewan-talks-to-john-mullan.aspx][recording of the event]] is still on the Hay Festival website).
+
+Ian McEwan surprised the crowd by reading a passage from the book he was working on. He wanted to write about climate change, and found a way in via "human nature": his protagonist is Nobel-prize-winning physicist Michael Beard, a man full of faults who steals a colleague's work on artificial photosynthesis.
+
+The passage follows the gluttonous Michael Beard as he boards a train with a bag of salt and vinegar crisps.
+
+He settles down in his seat, opens the bag, and savours the first bite: the crunch, the acidic tang on the palate.
+
+Then, to his disbelief, the man opposite plunges his hand into the packet. Horror! Not knowing what else to do, Beard takes another crisp. The man opposite does the same. Beard, getting more and more agitated, alternates with the man until the packet is empty.
+
+Furious at his impudence, he takes the man's water bottle, drains it, and slams it back on the table in defiance.
+
+Only later does he realise that the packet he bought is still in his pocket. He has been eating the other man's crisps.
+
+The reversal of perspective feels revelatory.
+
+After accepting the audience's appreciation, Ian McEwan took a few questions. Someone stood up and said they felt sure they'd heard the story before:
+
+#+BEGIN_QUOTE
+The story of the salt and vinegar crisps, which you told in a very entertaining manner, is an old story, it's one I've certainly read in a novel before. [McEwan: oh my God] I think a packet of chocolate digestives was the bone of contention there. I'm afraid I can't remember where I read it, but I certainly have. I wonder if you're aware of this and if you thought you might be laying yourself open to claims of...misappropriating...
+#+END_QUOTE
+
+McEwan replied:
+#+BEGIN_QUOTE
+It could well be because I overheard someone tell the story to someone else. I wasn't on a train but I overheard it. It might have the ring of urban legend too, so I mean if it doesn't appear in my novel at all, you'll know why...[laughter]...because I read it aloud at Hay. But, no, thank you, if you could remember the novel that would be very helpful...It would save me an **awful** lot of trouble [laughter]
+#+END_QUOTE
+
+
+Afterwards, I went up to the stage and caught McEwan before he left, and told him that the version of the story with biscuits was from Douglas Adams's Hitchhiker's Guide to the Galaxy series (in [[https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish][So Long, and Thanks for All the Fish]]). McEwan rolled his eyes and said something along the lines of "Oh dear, am I going to have to read my way through all of that?" and left.
+
+As McEwan [[https://penguinindiablog.wordpress.com/2010/03/09/interview-with-ian-mcewan/][later explained in an interview]], "in the signing queue afterwards more than six or seven people  said that had happened to them, or to someone they know".
+
+The accusation of plagiarism briefly did the rounds in the press.
+
+When the book [[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] eventually came out two years later, the story
+with the crisp packet was still there. McEwan has Beard tell the story
+to a packed room of climate financiers in London. During the mingling
+after his speech, a know-it-all lecturer in urban studies and
+folklore, Jeremy Mellon, tells Beard that the story is stolen and is
+in fact a version of the Unwitting Thief, an urban legend. "The writer
+Douglas Adams put a version of it in a novel in the mid eighties."
+Beard dismisses him.
+
+A few pages later Beard dreams of strangling Mellon: "With the long
+and easy reach of sleeplessness, he saw his hand close round Mellon's
+throat and squeeze until he dropped to his knees to make his apology
+in gasps."
+
+So there you go! Mellon is my cameo.
+
+[[http://www.newyorker.com/reporting/2009/02/23/090223fa_fact_zalewski][Interviewed by The New Yorker in 2009]], McEwan claimed to have planned it this way all along:
+
+#+BEGIN_QUOTE
+After McEwan finished his reading, an audience member observed that a
+similar riff had appeared in Douglas Adams’s “The Hitchhiker’s Guide
+to the Galaxy” series. The next day, the British press halfheartedly
+raised the question of plagiarism—a pale retread of a furor two years
+ago, when the Mail on Sunday revealed that several phrases in
+“Atonement” resembled medical descriptions in a nurse’s wartime
+memoir. (McEwan had thanked the nurse in his acknowledgments.) McEwan
+claimed to be unfazed by the Wales incident. The chips story, he said,
+was an urban legend dating to the nineteen-twenties. “The scene is
+partially about what happens if you have an experience, and then
+you’re told it’s an urban legend. Your life is suddenly rendered
+inauthentic. Now, one of Beard’s friends can say, ‘But I read that in
+a Douglas Adams novel!’ So it’s even better.”
+#+END_QUOTE
+
+Rereading Solar in 2026, it's the climate and energy themes that still
+hit me. As a string theorist who transitioned to modelling renewable
+energy systems in 2012, it's hard to imagine string theory being of
+any use in designing artificial photosynthesis. But McEwan's arguments
+about the difficulty of restraint when fossil fuels are cheap still
+resonate.
