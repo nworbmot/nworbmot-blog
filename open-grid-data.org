@@ -3,6 +3,10 @@
 
 First Posted: 2026.04.23, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.23, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_open-grid-data-threat-or-opportunity-i-activity-7453077094315679744-KNN-][Parallel LinkedIn post]]
+
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3mk6gdyzgfc2k][Parallel BlueSky post]]
+
 Concerns have been raised about the security threat from sharing open
 grid data. I lay out the arguments why, for certain types of data, we
 should not be concerned. There is in fact a huge benefit from sharing
@@ -77,16 +81,19 @@ Typically data is available for the transmission grid and the higher
 voltages of the distribution grid.
 
 The [[https://openinframap.org/][Open Infrastructure Map]] shows the power lines and substations in
-[[https://www.openstreetmap.org/][OpenStreetMap]] from the whole world. OpenStreetMap only maps visible
-infrastructure above ground.  Initiatives like [[https://mapyourgrid.org/][MapYourGrid]] empower
-people to improve open grid mapping.
+[[https://www.openstreetmap.org/][OpenStreetMap]] for the whole world. OpenStreetMap data is entered by
+public-spirited mapping enthusiastics around the world.  OpenStreetMap
+only maps visible infrastructure above ground.  Initiatives like
+[[https://mapyourgrid.org/][MapYourGrid]] empower people to improve open grid mapping, especially in
+regions that currently are not so well covered. Please support these
+initiatives!
 
 The data on the power lines and substations is [[https://www.nature.com/articles/s41597-025-04550-7][processed into grid
 models]] for use in open energy system models like [[https://github.com/PyPSA/pypsa-eur][PyPSA-Eur]],
 [[https://github.com/pypsa-meets-earth/pypsa-earth][PyPSA-Earth]] or [[https://github.com/calliope-project/euro-calliope][Euro-Calliope]]. [[https://www.nature.com/articles/s41597-025-04550-7][Xiong et al, 2025]] provides more detail
 on this for PyPSA-Eur.
 
-#+CAPTION: Europen model [[https://pypsa-eur.readthedocs.io/en/latest/][PyPSA-Eur]]
+#+CAPTION: European model [[https://pypsa-eur.readthedocs.io/en/latest/][PyPSA-Eur]]
 [[./graphics/open-grid-data/pypsa-eur.webp]]
 
 

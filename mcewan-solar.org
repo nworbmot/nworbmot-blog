@@ -1,18 +1,17 @@
 #+TITLE: My cameo in Ian McEwan's novel Solar
 #+OPTIONS: tex:t
 
-First Posted: 2026.05.1x, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.1x, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.05.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
+This is the story of how I was written into Ian McEwan's 2010 novel
+[[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] as a know-it-all (perish the thought), only to be strangled a
+few pages later.
 
-I made a cameo in Ian McEwan's 2010 novel [[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]], only to be strangled a few pages later.
-
-This is the story of how a helpful correction got me written into his novel as a know-it-all (perish the thought).
-
-The scene: Hay-on-Wye literary festival 2008.
+The scene: the Hay-on-Wye Literary Festival, 2008.
 
 Ian McEwan was due to speak to John Mullan on his recent novels [[https://en.wikipedia.org/wiki/On_Chesil_Beach][On Chesil Beach]] and [[https://en.wikipedia.org/wiki/Atonement_(novel)][Atonement]] (the [[https://www.hayfestival.com/p-212-ian-mcewan-talks-to-john-mullan.aspx][recording of the event]] is still on the Hay Festival website).
 
-Ian McEwan surprised the crowd by reading a passage from the book he was working on. He wanted to write about climate change, and found a way in via "human nature": his protagonist is Nobel-prize-winning physicist Michael Beard, a man full of faults who steals a colleague's work on artificial photosynthesis.
+McEwan surprised the crowd by reading a passage from the book he was working on. He wanted to write about climate change, and found a way in via "human nature": his protagonist is Nobel-prize-winning physicist Michael Beard, a man full of faults who steals a colleague's work on artificial photosynthesis.
 
 The passage follows the gluttonous Michael Beard as he boards a train with a bag of salt and vinegar crisps.
 
@@ -26,7 +25,7 @@ Only later does he realise that the packet he bought is still in his pocket. He 
 
 The reversal of perspective feels revelatory.
 
-After accepting the audience's appreciation, Ian McEwan took a few questions. Someone stood up and said they felt sure they'd heard the story before:
+After accepting the audience's appreciation, Ian McEwan took a few questions. Someone stood up and said they felt sure they'd heard the story before (one hour and six minutes into the [[https://www.hayfestival.com/p-212-ian-mcewan-talks-to-john-mullan.aspx][recording]]):
 
 #+BEGIN_QUOTE
 The story of the salt and vinegar crisps, which you told in a very entertaining manner, is an old story, it's one I've certainly read in a novel before. [McEwan: oh my God] I think a packet of chocolate digestives was the bone of contention there. I'm afraid I can't remember where I read it, but I certainly have. I wonder if you're aware of this and if you thought you might be laying yourself open to claims of...misappropriating...
@@ -48,7 +47,7 @@ When the book [[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] eventually 
 with the crisp packet was still there. McEwan has Beard tell the story
 to a packed room of climate financiers in London. During the mingling
 after his speech, a know-it-all lecturer in urban studies and
-folklore, Jeremy Mellon, tells Beard that the story is stolen and is
+folklore, Jeremy Mellon, accuses Beard of stealing the story and explains that it is
 in fact a version of the Unwitting Thief, an urban legend. "The writer
 Douglas Adams put a version of it in a novel in the mid eighties."
 Beard dismisses him.
@@ -78,9 +77,10 @@ inauthentic. Now, one of Beard’s friends can say, ‘But I read that in
 a Douglas Adams novel!’ So it’s even better.”
 #+END_QUOTE
 
-Rereading Solar in 2026, it's the climate and energy themes that still
-hit me. As a string theorist who transitioned to modelling renewable
+Rereading Solar in 2026, it's the climate and energy sections that interest
+me. As a string theorist who transitioned to modelling renewable
 energy systems in 2012, it's hard to imagine string theory being of
 any use in designing artificial photosynthesis. But McEwan's arguments
-about the difficulty of restraint when fossil fuels are cheap still
+for taking climate change seriously, and his theme
+of the difficulty of restraint while fossil fuels are cheaper, still
 resonate.
