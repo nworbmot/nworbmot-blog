@@ -4,14 +4,14 @@
 First Posted: 2026.05.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 This is the story of how I was written into Ian McEwan's 2010 novel
-[[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] as a know-it-all (perish the thought), only to be strangled a
-few pages later.
+[[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] as an annoying know-it-all (perish the thought), only to be
+strangled a few pages later.
 
-The scene: the Hay-on-Wye Literary Festival, 2008.
+The scene: the Hay Festival of Literature & Arts, 2008.
 
-Ian McEwan was due to speak to John Mullan on his recent novels [[https://en.wikipedia.org/wiki/On_Chesil_Beach][On Chesil Beach]] and [[https://en.wikipedia.org/wiki/Atonement_(novel)][Atonement]] (the [[https://www.hayfestival.com/p-212-ian-mcewan-talks-to-john-mullan.aspx][recording of the event]] is still on the Hay Festival website).
+Ian McEwan was due to speak to John Mullan about his recent novels [[https://en.wikipedia.org/wiki/On_Chesil_Beach][On Chesil Beach]] and [[https://en.wikipedia.org/wiki/Atonement_(novel)][Atonement]] (the [[https://www.hayfestival.com/p-212-ian-mcewan-talks-to-john-mullan.aspx][recording of the event]] is still on the Hay Festival website).
 
-McEwan surprised the crowd by reading a passage from the book he was working on. He wanted to write about climate change, and found a way in via "human nature": his protagonist is Nobel-prize-winning physicist Michael Beard, a man full of faults who steals a colleague's work on artificial photosynthesis.
+McEwan surprised the crowd by reading a passage from the new book he was working on. He wanted to write about climate change, and found a way in via "human nature": his protagonist is Nobel-prize-winning physicist Michael Beard, a man full of faults who steals a colleague's work on artificial photosynthesis. A breakthrough will allow the efficient separation of hydrogen from water, which can then be combined "with carbon dioxide from the atmosphere...to make an all-purpose liquid fuel".
 
 The passage follows the gluttonous Michael Beard as he boards a train with a bag of salt and vinegar crisps.
 
@@ -37,7 +37,7 @@ It could well be because I overheard someone tell the story to someone else. I w
 #+END_QUOTE
 
 
-Afterwards, I went up to the stage and caught McEwan before he left, and told him that the version of the story with biscuits was from Douglas Adams's Hitchhiker's Guide to the Galaxy series (in [[https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish][So Long, and Thanks for All the Fish]]). McEwan rolled his eyes and said something along the lines of "Oh dear, am I going to have to read my way through all of that?" and left.
+Afterwards, I went up to the stage and caught McEwan before he left, and told him that the version of the story with biscuits was from Douglas Adams's Hitchhiker's Guide to the Galaxy series (I couldn't remember which one at the time, but it was [[https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish][So Long, and Thanks for All the Fish]]). McEwan rolled his eyes and said something along the lines of "Oh dear, am I going to have to read my way through all of that?" and left.
 
 As McEwan [[https://penguinindiablog.wordpress.com/2010/03/09/interview-with-ian-mcewan/][later explained in an interview]], "in the signing queue afterwards more than six or seven people  said that had happened to them, or to someone they know".
 
@@ -47,10 +47,10 @@ When the book [[https://en.wikipedia.org/wiki/Solar_(novel)][Solar]] eventually 
 with the crisp packet was still there. McEwan has Beard tell the story
 to a packed room of climate financiers in London. During the mingling
 after his speech, a know-it-all lecturer in urban studies and
-folklore, Jeremy Mellon, accuses Beard of stealing the story and explains that it is
-in fact a version of the Unwitting Thief, an urban legend. "The writer
-Douglas Adams put a version of it in a novel in the mid eighties."
-Beard dismisses him.
+folklore with "a certain autistic doggedness", Jeremy Mellon, accuses Beard of stealing the story and explains that it is
+in fact a version of the Unwitting Thief, an urban legend. He tells Beard "[t]he writer
+Douglas Adams put a version of it in a novel in the mid eighties".
+Beard dismisses him with irritation.
 
 A few pages later Beard dreams of strangling Mellon: "With the long
 and easy reach of sleeplessness, he saw his hand close round Mellon's
@@ -59,7 +59,7 @@ in gasps."
 
 So there you go! Mellon is my cameo.
 
-[[http://www.newyorker.com/reporting/2009/02/23/090223fa_fact_zalewski][Interviewed by The New Yorker in 2009]], McEwan claimed to have planned it this way all along:
+[[http://www.newyorker.com/reporting/2009/02/23/090223fa_fact_zalewski][Interviewed by The New Yorker in 2009]], McEwan seems to imply that he planned it this way all along:
 
 #+BEGIN_QUOTE
 After McEwan finished his reading, an audience member observed that a
@@ -78,7 +78,7 @@ a Douglas Adams novel!’ So it’s even better.”
 #+END_QUOTE
 
 Rereading Solar in 2026, it's the climate and energy sections that interest
-me. As a string theorist who transitioned to modelling renewable
+me most. As a string theorist who transitioned to modelling renewable
 energy systems in 2012, it's hard to imagine string theory being of
 any use in designing artificial photosynthesis. But McEwan's arguments
 for taking climate change seriously, and his theme
