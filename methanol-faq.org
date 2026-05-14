@@ -1,12 +1,12 @@
 #+TITLE: A Minimal Methanol Backstop: Frequently Asked Questions
 #+OPTIONS: toc:nil
 
-First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.04.08, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2025.07.07, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.14, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 This Frequently Asked Questions page answers common questions arising
-from our 2025 preprint [[https://arxiv.org/abs/2505.09277][A Minimal Methanol Backstop for High
-Electrification Scenarios]] (see this [[./minimal-methanol-economy.html][blog post]] for an introduction to
-the paper).
+from our 2026 paper in Joule [[https://doi.org/10.1016/j.joule.2026.102464][A Minimal Methanol Backstop for High
+Electrification Scenarios]] (see [[./world-without-gas.html][this blog post]] and [[./minimal-methanol-economy.html][this one]] for an
+introduction to the paper).
 
 # headlines controls depth of TOC
 #+TOC: headlines 2
@@ -16,7 +16,9 @@ the paper).
   :CUSTOM_ID: intro
   :END:
 
-The basic concept is described  in this blog post:
+The basic concept is described in these blog posts:
+
+[[./world-without-gas.html][A world without gas: electrification with a minimal methanol backstop]]
 
 [[./minimal-methanol-economy.html][A Minimal Methanol Backstop for High Electrification Scenarios]]
 

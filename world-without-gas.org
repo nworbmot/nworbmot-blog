@@ -1,0 +1,47 @@
+#+TITLE: A world without gas infrastructure: electrification with a minimal methanol backstop
+#+OPTIONS: tex:t
+
+First Posted: 2026.05.14, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.14, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://www.linkedin.com/posts/tom-brown-226b191a0_a-world-without-gas-infrastructure-if-we-share-7460718702435512320-OdHq][Parallel LinkedIn post]]
+
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3mlt6u33pns24][Parallel BlueSky post]]
+
+A world without gas infrastructure? If we aggressively electrify the economy, green methanol could cover most of the remaining non-electric demand - without needing large-scale hydrogen or methane networks.
+
+New paper in Joule: [[https://doi.org/10.1016/j.joule.2026.102464][A Minimal Methanol Backstop for High Electrification Scenarios]]
+
+The crux of this paper is based on three observations:
+
+i) *Electricity and carbonaceous liquids dominate demand in net-zero scenarios.* Once you’ve electrified buildings, land transport, process heat, domestic shipping and shorthaul aviation, most of what is left is carbonaceous liquids: dense aviation and shipping fuels, and feedstocks for plastics. For Europe the demand comprises around 5400 TWh/a of electricity and 1400 TWh/a liquids in our model. Only a small amount of hydrogen demand remains for steel and ammonia production.
+
+ii) *All of the carbonaceous demand can be met by (e-)biomethanol, synthesised from biomass and green hydrogen.* Methanol is an extremely versatile basic chemical: it can supply ships directly, be converted to kerosene for planes, and to olefins and aromatics for the plastics industry. Transport and storage are easy, since it’s a liquid. Just build a steel tank and you have a TWh of storage. Delivery can scale to demand, be it by ship, train, truck or pipeline.
+
+[[./graphics/methanol_economy/methanol_routes.png]]
+
+
+iii) *Methanol can also replace the final use of gas: backup power generation for days of low wind and solar.* Once you have all the methanol supply chains in place, backup adds a small amount of methanol demand on top, and allows you to shut down all the gaseous pipeline networks, compressors and cavern storage. The extra cost of this simplifying step, switching from gases to liquids for backup, is just 2.4% of system costs with our default settings (lower or higher depending on assumptions around electrification, CCS, biomass availability).
+
+[[./graphics/methanol_faq-260330/methanol-cost_with_caption.png]]
+
+*How does methanol compare to hydrogen?* Most consumers don’t need hydrogen, but rather hydrogen derivatives like ammonia and methanol. Keeping hydrogen captive within industry clusters, like it is today, keeps things simple. Ammonia and methanol are then much easier to store and transport than hydrogen. There is no complex simultaneous scale-up of GW-scale demand, supply, storage and pipelines, the ultimate chicken and egg problem.
+
+*How does methanol compare to methane?* In the short- to medium-term, methane will be convenient. But once the economy has been electrified and renewables dominate power generation, there is only a very small role for methane (around 300 TWh/a in our model). It is primarily used for backup power generation and niche areas like flat glass production, where you need radiant heat. Will we really keep the whole pipeline and underground storage infrastructure for this small demand? Using methanol for backup allows us to piggy-back on the supply chain we need anyway for all the other methanol demand.
+
+*Isn't it just easier to use fossil fuels and compensate the emissions with carbon dioxide removal (CDR)?* Our model has the option to sequester up to 200 MtCO2/a, and if we increase this limit the system gets cheaper. However, scaling up removals even this far is a risky and uncertain undertaking. Even with more CDR, we still see a lot of biomethanol used in the model. Using flexible methanol is better at hedging against these uncertainties than, e.g. hydrogen.
+
+#+CAPTION: Minimal methanol backstop sensitivities
+[[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
+
+
+Finally, what might be the killer argument: resilience. The more we electrify our homes and cars, the more important resilience becomes. Nothing is more resilient than a power generator next to a tank of liquid fuel. It can generate come rain or shine, it doesn’t depend on a pipeline network that might fail in a blackout, and it can run for weeks in the worst case. 
+
+Big thanks to my co-authors Philipp Glaum who led all the modelling, Fabian Neumann and Markus Millinger, as well as the Swedish Energy Agency and CETPartnership RESILIENT project for funding Markus.
+
+See also: [[./methanol-faq.html][A Minimal Methanol Backstop: Frequently Asked Questions]] (2025.07.14)
+
+See also: [[./minimal-methanol-economy.org][A Minimal Methanol Backstop for High Electrification Scenarios]] (2025.05.19)
+
+See also: [[./carbon-be-methanol.html][All your carbon shall be methanol]] (2023.10.03)
+
+See also: [[./flexibility-biogas.html][Flexibility from biogas]] (2024.08.30)
