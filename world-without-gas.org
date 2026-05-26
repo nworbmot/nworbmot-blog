@@ -7,6 +7,8 @@ First Posted: 2026.05.14, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 
 [[https://bsky.app/profile/nworbmot.bsky.social/post/3mlt6u33pns24][Parallel BlueSky post]]
 
+[[https://www.pv-magazine.de/2026/05/15/eine-welt-ohne-gasinfrastruktur-elektrifizierung-mit-methanol-fuer-den-rest/][PV Magazine Interview auf Deutsch]]
+
 A world without gas infrastructure? If we aggressively electrify the economy, green methanol could cover most of the remaining non-electric demand - without needing large-scale hydrogen or methane networks.
 
 New paper in Joule: [[https://doi.org/10.1016/j.joule.2026.102464][A Minimal Methanol Backstop for High Electrification Scenarios]]

@@ -238,12 +238,15 @@ network and storage infrastructure is maintained.
 Producing methanol from biomass involves feeding a synthesis plant
 with syngas (a mixture of H_2, CO and CO_2) that comes either from
 reforming biogas or gasifying solid biomass. By 2035 I'd expect the
-production cost to come down to 80-100 EUR/MWh, similar to bio-methane once
-production is scaled up. For comparison [[https://www.argusmedia.com/en/news-and-insights/latest-market-news/2641791-viewpoint-ethanol-producers-face-higher-costs-in-2025][in 2025 the price of biomethanol was 170
-EUR/MWh]]. Current prices are high because of high demand, and because the production facilities are
-small, with the largest in Europe around 50 ktMeOH/a. To leverage the
-economies of scale of chemical production (where costs often go as p^0.6
-in the size p) you need sizes rather of 100-200 ktMeOH/a.
+production cost to come down to 80-100 EUR/MWh, similar to bio-methane
+once production is scaled up. For comparison [[https://www.argusmedia.com/en/news-and-insights/latest-market-news/2641791-viewpoint-ethanol-producers-face-higher-costs-in-2025][in 2025 the price of
+biomethanol was 170 EUR/MWh]]. Current prices are high because of high
+demand, and because the production facilities are small, with the
+largest standalone project in Europe being 12 ktMeOH/a ([[https://methanol.org/renewable/][Project Odin]];
+plants that substitute some fossil methane feedstock with biomethane
+typically have a larger biomethanol production). To leverage the
+economies of scale of chemical production (where costs often go as
+p^0.6 in the size p) you need sizes rather of 100-200 ktMeOH/a.
 
 Here is one of our recent papers with production costs:
 
@@ -338,7 +341,7 @@ There are two main ways to keep costs down:
 - Learning effects: repeated production of small units (applies to solar modules, wind turbines, batteries, electrolyser stacks, wind turbines)
 - Economies of scale: for chemical engineering, total cost goes like p^0.6 for size p, so making plant bigger brings costs down (applies to methanol synthesis, electrolyser balance of plant)
 
-Once learning effects have been exhausted, an additonal lever is plant size. The largest biomethanol plant in Europe today, Tjeldbergodden in Norway, produces 48 kilotons of methanol a year (48 ktMeOH/a). It would make sense to scale up to at least 100-200 ktMeOH/a (500-1000 GWh/a, 75-150 MW), and combine the options for biomass pyrolysis (for biochar-based CDR), biomethane upgrading and e-biomethanol synthesis (including 50-100 MW electrolyis and local generation) in a *bio-hub*. All these processes share the need to gather biomass wastes and residues, and some diversity helps the business case. 100-200 ktMeOH/a is the size many new green projects are choosing to get economies of scale. (Chinese coal-to-methanol production is already at MtMeOH/a scale.)
+Once learning effects have been exhausted, an additonal lever is plant size. The largest standalone green methanol plant in Europe today, the [[https://methanol.org/renewable/][Kassø e-methanol facility]] in Denmark, produces 42 kilotons of methanol a year (42 ktMeOH/a). It would make sense to scale up to at least 100-200 ktMeOH/a (500-1000 GWh/a, 75-150 MW), and combine the options for biomass pyrolysis (for biochar-based CDR), biomethane upgrading and e-biomethanol synthesis (including 50-100 MW electrolyis and local generation) in a *bio-hub*. All these processes share the need to gather biomass wastes and residues, and some diversity helps the business case. 100-200 ktMeOH/a is the size many new green projects are choosing to get economies of scale. (Chinese coal-to-methanol production is already at MtMeOH/a scale.)
 
 [[./graphics/biomass-efficiently/methanol-cell.png]]
 
