@@ -66,8 +66,6 @@ Large-scale storage of hydrogen in pressure vessels is a no-go because of the co
 
 Then there are other problems of being a fiddly gas to transport, H2 leaks as an indirect greenhouse gas, NOx emissions from high-temperatures in turbines, etc.
 
-[[./graphics/methanol_ldes/hydrogen-tank.jpg]]
-
 ---
 
 An alternative: store energy as a liquid in methanol
