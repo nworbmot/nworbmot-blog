@@ -51,6 +51,7 @@ For comparison, residential electricity rates in Germany are 300 €/MWh (includ
 
 Here's LCOE estimates of conventional generation in the United States (€1 = $1.1) from Lazard
 
+#+CAPTION: Source: [[https://www.lazard.com/research-insights/levelized-cost-of-energy-and-levelized-cost-of-storage-2019/][Lazard LCOE, 2019]]
 [[./graphics/model_energy/lazard-lcoe.png]]
 
 ---
@@ -149,12 +150,15 @@ Bonus round*: we can use http://model.energy to reproduce the results by Nestor 
 
 https://doi.org/10.1016/j.joule.2018.08.006
 
+
+#+CAPTION: Source: [[https://doi.org/10.1016/j.joule.2018.08.006][Sepulveda et al, 2018]]
 [[./graphics/model_energy/sepulveda-cost_comparison.png]]
 
 ---
 
 If we take the mid-range cost assumptions from that paper (corresponding to orange points in graph above):
 
+#+CAPTION: Source: [[https://doi.org/10.1016/j.joule.2018.08.006][Sepulveda et al, 2018]]
 [[./graphics/model_energy/sepulveda-cost_assumptions.png]]
 
 ---
@@ -167,6 +171,7 @@ And use Massachussetts for the "northern" system and Texas for the "southern" sy
 
 The agreement is surprisingly good, especially for the renewables-dominated systems. http://model.energy underestimates the cost for firm sources, since it assumes a flat load. The $80/MWh LCOE for nuclear is probably over-optimistic on current trends:
 
+#+CAPTION: Source: [[https://www.lazard.com/research-insights/levelized-cost-of-energy-and-levelized-cost-of-storage-2019/][Lazard LCOE, 2019]]
 [[./graphics/model_energy/lazard-lcoe.png]]
 
 ---
@@ -183,4 +188,5 @@ Isn't he cute!
 
 /end
 
+#+CAPTION: Sloth (Source: [[https://commons.wikimedia.org/wiki/File:Bradypus.jpg][Wikipedia, public domain]])
 [[./graphics/model_energy/Bradypus.jpg]]

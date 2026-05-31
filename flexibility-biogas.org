@@ -12,7 +12,7 @@ but what we really need is seasonal flex by upgrading to biomethane/ol
 
 A few thoughts on scaling, grids, liquids. 🧵
 
-#+CAPTION: Biogas utilisation options
+#+CAPTION: Biogas utilisation options (Source: [[https://www.europenowjournal.org/2019/05/06/biomethane-the-future-fuel-for-europe-%EF%BB%BF/][EuropeNow, 2019]])
 [[./graphics/biogas_flex/biomethane.jpg]]
 
 ---
@@ -31,14 +31,14 @@ If biogas is to live up to its potential it needs to be stored seasonally, like 
 
 https://langfristszenarien.de
 
-#+CAPTION: Seasonal generation from hydrogen power plants
+#+CAPTION: Seasonal generation from hydrogen power plants (Source: [[https://langfristszenarien.de][Langfristszenarien]])
 [[./graphics/biogas_flex/h2_seasonal.png]]
 
 ---
 
 It cannot be stored at small plants seasonally. One obvious option is to upgrade it to bio-methane (i.e. remove the CO2, ~30-50% by volume, and other impurities), and feed it into the gas grid where it can be stored seasonally and used in regular gas turbines.
 
-#+CAPTION: Biomethane upgrading
+#+CAPTION: Biomethane upgrading (Source: [[https://www.europenowjournal.org/2019/05/06/biomethane-the-future-fuel-for-europe-%EF%BB%BF/][EuropeNow, 2019]])
 [[./graphics/biogas_flex/biomethane.jpg]]
 
 ---
@@ -67,10 +67,10 @@ One alternative would be to transport the biomethane alway as LNG. For an idea w
 
 https://doi.org/10.1080/17597269.2024.2318515
 
-#+CAPTION: Swedish example: decentral/central setup.
+#+CAPTION: Swedish example: decentral/central setup (Source: [[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]])
 [[./graphics/biogas_flex/sweden_setup.png]]
 
-#+CAPTION: Swedish example: cost implications.
+#+CAPTION: Swedish example: cost implications (Source: [[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]])
 [[./graphics/biogas_flex/sweden_cost.png]]
 
 ---
@@ -94,7 +94,3 @@ And we also need to be switching in parallel to feedstocks that don't compete wi
 Costs in these pathways is high, but there is a clear need for carbonaceous molecules in many 2045+ scenarios, whether for longhaul aviation, industry feedstocks or seasonal storage.
 
 Biogas can play a big role so let's do it right!
-
-[[./graphics/biogas_flex/biogas_plant.jpg]]
-
-[[./graphics/biogas_flex/schwarzwald.png]]

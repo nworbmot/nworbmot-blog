@@ -109,6 +109,7 @@ https://doi.org/10.1016/j.eneco.2013.02.004
 
 showed that in a variety of situations (real markets, short- and long-term equilibria), the market value of wind and solar declines when their share goes up.
 
+#+CAPTION: Source: [[https://doi.org/10.1016/j.eneco.2013.02.004][Hirth, 2013]]
 [[./graphics/market_value/hirth-wind_mv.png]]
 
 ---

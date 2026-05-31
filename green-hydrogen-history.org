@@ -12,7 +12,7 @@ TL;DR:
 
 - Already a lively debate in *1863* about combining variable renewables with electrolytic hydrogen to replace coal
 
-#+CAPTION: Jevons pouring cold water on green hydrogen
+#+CAPTION: Jevons pouring cold water on green hydrogen (Source: [[https://oll.libertyfund.org/titles/317#Jevons_0546_346][Jevons, 1865]])
 [[./graphics/jevons/jevons-highlighted-crop.png]]
 
 ---
@@ -25,6 +25,7 @@ https://oll.libertyfund.org/titles/317#Jevons_0546_346
 
 and refers to an exchange in The Times of London in 1863, started by this letter on page 10 of the 2nd Sep 1863 edition:
 
+#+CAPTION: Source: The Times, 1863
 [[./graphics/jevons/18630902-keyworth-crop.png]]
 
 [Keyworth is refering to [[./armstrong-admirable-speech.html][William Armstrong's 1863 Address to the 33rd Meeting of the British Association for the Advancement of Science]]]
@@ -33,16 +34,20 @@ and refers to an exchange in The Times of London in 1863, started by this letter
 
 G.A. Keyworth of Hastings followed up a few days on 16th Sep 1863 later with an elaboration of his ideas:
 
+#+CAPTION: Source: The Times, 1863
 [[./graphics/jevons/18630916-keyworth2-part1-crop.png]]
 
+#+CAPTION: Source: The Times, 1863
 [[./graphics/jevons/18630916-keyworth2-part2-crop.png]]
 
 ---
 
 It was poo-pooed a few days later on 18th Sep later by some sceptics, with Q reported by Jevons to be "Dr. Percy of the School of Mines" (OMG did I uncover the identity of Q?!):
 
+#+CAPTION: Source: The Times, 1863
 [[./graphics/jevons/18630918-response-part1-crop.png]]
 
+#+CAPTION: Source: The Times, 1863
 [[./graphics/jevons/18630918-response-part2-crop.png]]
 
 ---
@@ -53,6 +58,7 @@ Already in 1840 the "alternate decomposition and recomposition of water" was tal
 
 https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306
 
+#+CAPTION: Source: [[https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306][Jevons, 1865]]
 [[./graphics/jevons/lardner-crop.png]]
 
 ---
@@ -63,6 +69,7 @@ Jevons poured cold water on all this electricity hype in his 1865 book:
 
 https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_307
 
+#+CAPTION: Source: [[https://oll.libertyfund.org/titles/jevons-the-coal-question#Jevons_0546_306][Jevons, 1865]]
 [[./graphics/jevons/jevons-cold-water-crop.png]]
 
 ---
@@ -81,7 +88,7 @@ Hydrogen would be stored underground and "expended for industry, transportation,
 
 Sound familiar?
 
-#+CAPTION: Haldane on hydrogen storage in 1923
+#+CAPTION: Haldane on hydrogen storage in 1923 (Source: [[http://bactra.org/Daedalus.html][Daedalus by Haldane, 1923]])
 [[./graphics/jevons/daedelus-hydrogen.png]]
 
 "Among its more obvious advantages will be the fact that energy will be as cheap in one part of the country as another, so that industry will be greatly decentralized; and that no smoke or ash will be produced."

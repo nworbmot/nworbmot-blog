@@ -11,6 +11,7 @@ While we've all been celebrating the drop in solar and battery costs, network co
 
 The first graphic is taken from the [[https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/monitoringbericht-der-expertenkommission-zum-energiewende.html][German Energy Transition Monitoring Report 2025]]:
 
+#+CAPTION: Source: [[https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/monitoringbericht-der-expertenkommission-zum-energiewende.html][Monitoringbericht, 2025]]
 [[./graphics/grid_costs/monitoring-grid_costs-2025.png]]
 
 

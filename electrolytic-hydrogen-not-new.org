@@ -16,7 +16,7 @@ Despite the current hype, there's nothing new about electrolytic hydrogen.
 
 What was missing was abundant low cost power.
 
-#+CAPTION: NEL's Rjukan electrolysers from the 1920s
+#+CAPTION: NEL's Rjukan electrolysers from the 1920s (Source: [[https://nelhydrogen.com/][NEL Hydrogen]])
 [[./graphics/hydrogen/rjukan.jpeg]]
 
 ---
@@ -27,7 +27,7 @@ Prerequisite: cheap power from hydro dams.
 
 All were dismantled as other power demand grew and fossil gas became available to make ammonia.
 
-#+CAPTION: Large electrolysers built in the past ([[https://books.google.de/books?id=bf3lBwAAQBAJ&lpg=PA121&dq=united%20states%20electrolyzers%20heavy%20water&pg=PA122#v=onepage&q&f=false][Electrode Processes and Electrochemical Engineering, Fumio Hine, 1985]])
+#+CAPTION: Large electrolysers built in the past (Source: [[https://books.google.de/books?id=bf3lBwAAQBAJ&lpg=PA121&dq=united%20states%20electrolyzers%20heavy%20water&pg=PA122#v=onepage&q&f=false][Electrode Processes and Electrochemical Engineering, Fumio Hine, 1985]])
 [[./graphics/hydrogen/large_electrolysis.png]]
 
 ---
@@ -66,7 +66,7 @@ https://doi.org/10.1016/j.ijhydene.2012.07.111
 
 https://doi.org/10.1039/C8EE01157E
 
-#+CAPTION: Salt caverns used for hydrogen
+#+CAPTION: Salt caverns used for hydrogen (Source: [[https://doi.org/10.1016/j.ijhydene.2012.07.111][Ozarslan, 2012]])
 [[./graphics/hydrogen/cavern_table.png]]
 
 ---
@@ -77,7 +77,7 @@ According to this report, there were 4542 km of hydrogen pipelines worldwide in 
 
 https://juser.fz-juelich.de/record/842477/files/Energie_Umwelt_408_NEU.pdf
 
-#+CAPTION: Hydrogen pipelines worldwide
+#+CAPTION: Hydrogen pipelines worldwide (Source: [[https://juser.fz-juelich.de/record/842477/files/Energie_Umwelt_408_NEU.pdf][Robinius et al, 2018]])
 [[./graphics/hydrogen/pipeline_table.jpeg]]
 
 ---

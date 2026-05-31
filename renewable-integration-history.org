@@ -13,9 +13,16 @@ This [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricit
 
 (it pooh-poohs using batteries alone)
 
+#+CAPTION: Source: [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricity+by+wind+power+golding]["The Generation of Electricity by Wind Power" by E.W: Golding, 1955]]
 [[./graphics/golding/golding-277.jpg]]
+
+#+CAPTION: Source: [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricity+by+wind+power+golding]["The Generation of Electricity by Wind Power" by E.W: Golding, 1955]]
 [[./graphics/golding/golding-278.jpg]]
+
+#+CAPTION: Source: [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricity+by+wind+power+golding]["The Generation of Electricity by Wind Power" by E.W: Golding, 1955]]
 [[./graphics/golding/golding-279.jpg]]
+
+#+CAPTION: Source: [[https://books.google.de/books?id=ydcNvwEACAAJ&dq=generation+of+electricity+by+wind+power+golding]["The Generation of Electricity by Wind Power" by E.W: Golding, 1955]]
 [[./graphics/golding/golding-280.jpg]]
 
 ---

@@ -11,9 +11,9 @@ First Posted: 2021.05.22, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 
 Conclusions from Niclas Mattsson's pioneering work in 1990s:
 
-[[https://research.chalmers.se/en/publication/514513][Learning by modeling energy systems]]
+[[https://research.chalmers.se/en/publication/514513][Learning by modeling energy systems]] (PhD thesis, 2019)
 
-#+CAPTION: (Source: fabulous book [[https://climatestrategies.org/publication/planetary-economics/][Planetary Economics]] by Michael Grubb)
+#+CAPTION: Source: [[https://climatestrategies.org/publication/planetary-economics/][Planetary Economics]] by Michael Grubb et al, 2014
 [[./graphics/learning/grubb-path_dependence.png]]
 
 ---
@@ -22,8 +22,10 @@ So what did Niclas do?
 
 He ran an energy model with built-in learning curves and showed that with exactly the same model (same equations, all same data inputs, costs, etc.) you can get radically different energy pathways with similar total costs:
 
+#+CAPTION: Source: [[https://research.chalmers.se/en/publication/514513][Mattsson, 2019]]
 [[./graphics/learning/mattsson-case_1.png]]
 
+#+CAPTION: Source: [[https://research.chalmers.se/en/publication/514513][Mattsson, 2019]]
 [[./graphics/learning/mattsson-case_2.png]]
 
 ---
@@ -32,6 +34,7 @@ Case 1 is coal-heavy while Case 2 has lots of PV. They cost roughly the same.
 
 Case 2 is different because large investments get triggered early for PV and other technologies, which take them down the learning curve, saving costs later in the simulation:
 
+#+CAPTION: Source: [[https://research.chalmers.se/en/publication/514513][Mattsson, 2019]]
 [[./graphics/learning/mattsson-investment_costs.png]]
 
 ---
@@ -80,6 +83,7 @@ This is NOT the same as the near-optimal solutions that crop up in the Method to
 
 Niclas has some comments on this:
 
+#+CAPTION: Source: [[https://research.chalmers.se/en/publication/514513][Mattsson, 2019]]
 [[./graphics/learning/mga-global_optimum.png]]
 
 ---
@@ -88,4 +92,5 @@ What about models that approximate the non-linear learning curves with a piecewi
 
 Niclas has a trick to find the local optima by forcing constraints and seeing if they become non-binding:
 
+#+CAPTION: Source: [[https://research.chalmers.se/en/publication/514513][Mattsson, 2019]]
 [[./graphics/learning/milp-local_optima.png]]

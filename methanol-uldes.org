@@ -48,6 +48,7 @@ See e.g. the UK's hydrogen strategy or this new report from The Royal Society
 
 [[https://royalsociety.org/news-resources/projects/low-carbon-energy-programme/large-scale-electricity-storage/][Large-scale electricity storage]]
 
+#+CAPTION: [[https://refman.energytransitionmodel.com/publications/1756][Source: Crotogino et al, 2010]]
 [[./graphics/methanol_ldes/salt_caverns.jpg]]
 
 ---
@@ -56,8 +57,10 @@ Salt caverns are great, but need suitable salt deposits, and these are not alway
 
 => Either need lots of power lines to bring power to electrolysis at salt caverns, or a hydrogen network to bring H2 from electrolysis near solar/wind to the caverns.
 
+#+CAPTION: Source: [[https://energnet.eu/wp-content/uploads/2021/02/3-Hevin-Underground-Storage-H2-in-Salt.pdf][Solution Mining Research Institute, 2021]]
 [[./graphics/methanol_ldes/salt_deposits_world.png]]
 
+#+CAPTION: [[https://refman.energytransitionmodel.com/publications/1756][Source: Crotogino et al, 2010]]
 [[./graphics/methanol_ldes/salt-europe.png]]
 
 ---
@@ -86,6 +89,7 @@ Methanol can be stored in aboveground tanks, just like oil.
 
 A single 200,000 m3 tank can store 880 GWh.
 
+#+CAPTION: Source: [[https://commons.wikimedia.org/wiki/File:Fuel_tank_gnangarra.jpg][Wikipedia, 2008]]
 [[./graphics/methanol_ldes/Fuel_tank_gnangarra.jpg]]
 
 ---

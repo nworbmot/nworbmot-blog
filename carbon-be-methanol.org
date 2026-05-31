@@ -10,7 +10,7 @@ Arguments for mopping up all carbon in wastes and residues into methanol; use it
 
 TL,DR: methanol is liquid; easier to transport/store than CH4/H2/CO2; costs scale down nicely to multi-MW size
 
-#+CAPTION: Methanol production routes.
+#+CAPTION: Methanol production routes (Source: [[https://methanol.org/][Methanol Institute]])
 [[./graphics/biomass_methanol/process.png]]
 
 ---
@@ -23,7 +23,7 @@ Flexible, distributed synthesis from wastes and residues (topped up with green H
 
 => minimise direct air capture, and transport of fiddly gases
 
-#+CAPTION: Methanl production routes
+#+CAPTION: Methanol production routes (Source: [[https://www.irena.org/publications/2021/Jan/Innovation-Outlook-Renewable-Methanol][IRENA, 2021]])
 [[./graphics/biomass_methanol/irena.png]]
 
 ---
@@ -34,7 +34,7 @@ Novelty is to put them in updated net-zero context, remove daft bits like coal-t
 
 https://en.wikipedia.org/wiki/Methanol_economy
 
-#+CAPTION: Methanol economy
+#+CAPTION: Methanol economy (Source: [[https://doi.org/10.1039/C4CS00122B][Goeppert et al, 2014]])
 [[./graphics/biomass_methanol/methanol-economy.png]]
 
 ---
@@ -70,7 +70,7 @@ There are even funky concepts around to capture the CO2 on board the ship (using
 
 https://hymethship.com
 
-#+CAPTION: Ship with carbon capture
+#+CAPTION: Ship with carbon capture (Source: [[https://hymethship.com/][HyMethShip]])
 [[./graphics/biomass_methanol/hymethship.png]]
 
 ---
@@ -81,7 +81,8 @@ methanol-to-kerosene is around 90% efficient, but not yet commercial
 
 going via methanol has big benefit that methanol synthesis can be run more flexibly than FT (big advantage with VRE!)
 
-[[./graphics/biomass_methanol/A380-family-stage.jpg]]
+#+CAPTION: A380 (Source: [[https://commons.wikimedia.org/wiki/File:Airbus_A380_overfly_crop.jpg][Wikipedia, 2010]])
+[[./graphics/biomass_methanol/Airbus_A380_overfly_crop.jpg]]
 
 ---
 
@@ -93,7 +94,7 @@ obvs we still will also need ammonia for fertilisers, etc.
 
 methanol use today:
 
-#+CAPTION: Methanol usage in chemical industry
+#+CAPTION: Methanol usage in chemical industry (Source: [[https://www.irena.org/publications/2021/Jan/Innovation-Outlook-Renewable-Methanol][IRENA, 2021]])
 [[./graphics/biomass_methanol/meoh-chemicals.png]]
 
 ---
@@ -104,7 +105,7 @@ If carbon comes from sustainable biogenic sources, cost can be 70-90 EUR/MWh
 
 https://doi.org/10.1016/j.rser.2021.110861
 
-#+CAPTION: Methanol production costs.
+#+CAPTION: Methanol production costs (Source: [[https://doi.org/10.1016/j.rser.2021.110861][Korberg et al, 2021]])
 [[./graphics/biomass_methanol/fuelcosts.png]]
 
 ---
@@ -115,7 +116,7 @@ Let's look first at the gasification route, suitable for solid wastes and residu
 
 Enerkem's plant in Canada uses non-recyclable and non-compostable waste, thus reducing landfill, to produce up to 38 million litres per year
 
-#+CAPTION: Enerkem plant in Alberta, Canada.
+#+CAPTION: Enerkem plant in Alberta, Canada (Source: Enerkem)
 [[./graphics/biomass_methanol/alberta.jpg]]
 
 ---
@@ -124,7 +125,7 @@ In Denmark several projects are currently underway (BioReFuel and eSMR-MeOH) usi
 
 https://www.ieabioenergy.com/wp-content/uploads/2020/12/Case-Story-DK_-Green-Methanol_web-1.pdf
 
-#+CAPTION: Methanol production from biogas
+#+CAPTION: Methanol production from biogas (Source: Lemvig Biogas)
 [[./graphics/biomass_methanol/biogas.png]]
 
 ---
@@ -137,7 +138,7 @@ Methanol is the distributed solution!
 
 https://m2x.energy
 
-#+CAPTION: M2X small-scale methanol production
+#+CAPTION: M2X small-scale methanol production (Source: [[https://m2x.energy][M2X]])
 [[./graphics/biomass_methanol/m2x.jpg]]
 
 ---

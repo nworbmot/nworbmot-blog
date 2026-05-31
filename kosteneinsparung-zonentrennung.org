@@ -16,7 +16,7 @@ Aktualisierung 2025 für Octopus: [[https://octoenergy-production-media.s3.amazo
 
 Kosteneinsparungen für Konsument*innen (NPV 2030-50) mit 12 Zonen für Großbritannien: 55 Milliarden GBP, allerdings verlieren Produzent*innen 30 Milliarden, sodass der Wohlfahrtsgewinn nur bei 25 Milliarden liegt.
 
-#+CAPTION: Vorteil Zonentrennung in Großbritannien (FTI, 2025)
+#+CAPTION: Vorteil Zonentrennung in Großbritannien ([[https://octoenergy-production-media.s3.amazonaws.com/documents/FTI_-_Octopus_-_Impact_of_zonal_design_-_Final_report_-_24_Feb_2025.pdf][FTI, 2025]])
 [[./graphics/fti-octopus-waterfall.png]]
 
 Großbritanniens System ist natürlich etwas anders als Deutschlands gestaltet (Balancing Mechanism, ein langes enges Netz) aber ähnliche Einsparungen könnte man erwarten.

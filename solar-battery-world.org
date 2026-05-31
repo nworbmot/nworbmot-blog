@@ -191,6 +191,7 @@ and optimise the solar and battery capacities.
 solar variation and the locations where most of the population lives
 in this nice graphic:
 
+#+CAPTION: Source: [[https://doi.org/10.1016/j.joule.2021.03.005][Victoria et al, 2021]]
 [[./graphics/solar-battery-world-260219/mvp-graphic.jpg]]
 
 
@@ -256,6 +257,8 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
   depending on the region. Here is the spread of weighted average cost
   of capital (WACC) from 2024 ([[https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024][IRENA, 2025]]). Particularly in Africa,
   this will raise the system costs.
+
+  #+CAPTION: Source: [[https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024][IRENA, 2025]]
   [[./graphics/solar-battery-world-260330/irena-wacc-2024.png]]
 
 * Open code and data
@@ -284,6 +287,7 @@ The 90% solar-battery supply would require then 69 TW_p of solar and 72 TWh of b
 
 70 TW_p at 50 MW_p/km2 covers 1,400,000 km2, around 1% of total land and 3.7% of land used for livestock:
 
+#+CAPTION: Source: [[https://ourworldindata.org/global-land-for-agriculture][Our World in Data by Ritchie and Roser, 2023]]
 [[./graphics/solar-battery-world/Global-land-use-breakdown.png]]
 
 But **locally** in densely-populated areas there may not be sufficient land, requiring the grid to transport it from neighbouring regions.
