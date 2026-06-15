@@ -178,6 +178,7 @@ The size can be reduced to 200 MW (electrolyser power) while maintaining cost sa
 
 => granular tech, many iterations, learning
 
+#+CAPTION: [[https://doi.org/10.1016/j.enconman.2018.12.015][Source: Baak et al, 2018]]
 [[./graphics/methanol_ldes/methanol_scaling.png]]
 
 ---
