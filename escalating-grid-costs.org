@@ -1,5 +1,4 @@
 #+TITLE: We need to talk about grid costs
-#+OPTIONS: tex:t
 
 First Posted: 2026.01.15, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.01.15, Author: [[https://www.nworbmot.org/][Tom Brown]]
 

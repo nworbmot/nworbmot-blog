@@ -1,5 +1,4 @@
 #+TITLE: Solar and batteries can power the world
-#+OPTIONS: tex:t
 #+OPTIONS: toc:nil
 
 First Posted: 2026.02.09, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.03.30, Author: [[https://www.nworbmot.org/][Tom Brown]]

@@ -1,5 +1,4 @@
 #+TITLE: Open energy modelling is about process
-#+OPTIONS: tex:t
 
 First Posted: 2026.01.12, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.01.12, Author: [[https://www.nworbmot.org/][Tom Brown]]
 

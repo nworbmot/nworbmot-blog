@@ -1,5 +1,5 @@
 #+TITLE: Burden of proof: renewables and nuclear power
-#+OPTIONS: tex:t
+#+OPTIONS: ^:{}
 
 First Posted: 2018.05.31, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2018.05.31, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
@@ -463,10 +463,10 @@ production values themselves are definitely correlated (see references
 in footnote 3).
 
 Perhaps it's easier to say this in mathematics: suppose we have
-production $p_{n,t}$ at location $n$ and time $t$. The production time
-series for different $n$ will be correlated over hundreds of
+production /p_{n,t}/ at location /n/ and time /t/. The production time
+series for different /n/ will be correlated over hundreds of
 kilometres for both solar and wind. However, the differences
-$\Delta_{n,t} = p_{n,t} - p_{n,t-1}$ will not be correlated for short
+/Δ_{n,t} = p_{n,t} - p_{n,t-1}/ will not be correlated for short
 time steps beyond 100 km (see Figure 2 in our paper).
 
 So what we said is consistent with wind/solar dropping to zero for 2

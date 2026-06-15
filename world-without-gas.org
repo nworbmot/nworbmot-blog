@@ -1,5 +1,4 @@
 #+TITLE: A world without gas infrastructure: electrification with a minimal methanol backstop
-#+OPTIONS: tex:t
 
 First Posted: 2026.05.14, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.14, Author: [[https://www.nworbmot.org/][Tom Brown]]
 

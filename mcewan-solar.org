@@ -1,5 +1,4 @@
 #+TITLE: My cameo in Ian McEwan's novel Solar
-#+OPTIONS: tex:t
 
 First Posted: 2026.05.10, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.05.10, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
