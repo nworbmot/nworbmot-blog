@@ -203,8 +203,8 @@ in this nice graphic:
 Many of the [[https://model.energy/#background-and-warnings][model.energy]] warnings also apply here.
 
 - The demand is flat, so doesn't account for seasonal variability in
-  demand. Cooling demand align well with solar insolation. However,
-  seasonal heating demands can be a challenge for solar-based
+  demand. Cooling demand aligns well with solar insolation. However,
+  seasonal heating demand can be a challenge for solar-based
   systems. For high latitudes in the North, the wind is stronger in
   the winter, which raises the value of including wind.
 - The more technologies we include, the cheaper the supply cost can
@@ -212,7 +212,8 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
   hydro and other low-carbon sources can decrease costs while keeping
   emissions low.
 - The results are quite sensitive to battery costs, so further cost
-  reductions here could bring the system costs down further.
+  reductions here could bring the system costs down further. See
+  [[#lower_battery][results with lower battery costs]].
 - The results are based on today's population distribution. Since
   population is growing faster at lower latitudes, the fraction of the
   population with low cost will only increase.
@@ -222,7 +223,7 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
 - Including demand response, such as from battery electric vehicles,
   can further reduce costs.
 - Connecting regions can also spread balancing costs, particularly for
-  wind-heavy systems, at the expense of building the necessary grid
+  wind-heavy systems, but with the added expense of building the necessary grid
   infrastructure.
 - General grid costs were not included here beyond 50 €/kW to connect
   the solar, because in principle these utility-scale systems could be
@@ -251,7 +252,7 @@ Many of the [[https://model.energy/#background-and-warnings][model.energy]] warn
   would add 60 €/MWh_th. Due to the US-Israeli attack on Iran in 2026,
   the fossil gas price rose in March 2026 to 50-60 €/MWh_th. These
   higher fuel prices could make higher shares of solar and batteries,
-  e.g. 99% lower cost than shares of 90%.
+  e.g. 99%, cost less than shares of 90%.
 - The cost of capital, assumed to be 5% in all regions, will vary
   depending on the region. Here is the spread of weighted average cost
   of capital (WACC) from 2024 ([[https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024][IRENA, 2025]]). Particularly in Africa,
@@ -341,6 +342,9 @@ down system costs.
 [[./graphics/solar-battery-world-260219/battery_solar_hours-solarbatt90+tech2030.png]]
 
 ** 2050 results with battery investment cost reduced from 83 to 50 and 20 €/kWh
+  :PROPERTIES:
+  :CUSTOM_ID: lower_battery
+  :END:
 
 The default battery installed cost assumption for 2050 is 83
 €/kWh. Utility-scale sodium-ion batteries could drop to 29-52 €/kWh

@@ -192,7 +192,8 @@ Golem shares only a single trait with us, albeit developed on a different level:
 
 * Selected Bibliography
 
-- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], 1964 (translated in 2014 by Joanna Zylinska).
+- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Summa_Technologiae][Summa Technologiae]], 1964 (translated to English in 2014 by Joanna Zylinska).
+- Lem, Stanislaw, [[https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lem%27s_fictitious_criticism_of_nonexistent_books#Imaginary_Magnitude][Imaginary Magnitude]], 1973 (contains Golem XIV, translated to English in 1985).
 - Lem, Stanislaw, [[https://www.newyorker.com/magazine/1984/01/30/chance-and-order][Chance and Order]], 1984, New Yorker.
 - Lem, Stanislaw; Peter Swirski (editor), [[https://en.wikipedia.org/wiki/A_Stanislaw_Lem_Reader][A Stanislaw Lem Reader]], 1997 (includes Lem's "30 Years Later").
 - Konior, Bogna, [[https://doi.org/10.1093/oso/9780192865366.003.0006][The Gnostic Machine: Artificial Intelligence in Stanisław Lem’s Summa Technologiae]], 2023.
