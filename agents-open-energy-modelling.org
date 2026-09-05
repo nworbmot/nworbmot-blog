@@ -5,6 +5,8 @@ First Posted: 2026.09.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revi
 
 [[https://lnkd.in/p/dgvrMf5U][Parallel LinkedIn post]]
 
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3murfafgwvk2b][Parallel BlueSky post]]
+
 Agentic AI is surely the Killer App of open energy modelling - just watching the agents play with [[https://pypsa.org/][PyPSA]] workflows, it's hard to imagine how closed suites can compete.
 
 Just the sheer amount of online code and examples with PyPSA that the agents are trained on means they’re super-familiar with the tooling, concepts and conventions of open source tools. And when they do get stuck, they can go and look it up, search the issue tracker and read or even edit the actual source code. Closed source gives them much less to work with.

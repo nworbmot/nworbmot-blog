@@ -3,13 +3,15 @@
 
 First Posted: 2026.09.05, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.09.05, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
+[[https://lnkd.in/p/d3Nj4Kaw][Parallel LinkedIn post]]
+
 In 1988 [[https://en.wikipedia.org/wiki/Hans_Moravec][Hans Moravec]] made the ultimate extrapolation by predicting
 human-level AI by 2028. He has just come out of multi-decade seclusion
 to give an interview.
 
 Ever since reading Moravec's 1988 book [[https://en.wikipedia.org/wiki/Hans_Moravec#Mind_Children][Mind Children]] and seeing the
 progress made by LLMs, I've been wondering what he thought about
-current developments. He hasn't given any major public interviews in
+current developments. He hadn't given a major public interview in
 25 years. I assumed he had been ill, [[https://gwern.net/blog/2026/questions-moravec][as had others]].
 
 Then in April 2026 [[https://kagankans.com/][Dan Kagan-Kans]] snaffled an [[https://nymag.com/intelligencer/article/hans-moravec-interview.html][interview]], published in
