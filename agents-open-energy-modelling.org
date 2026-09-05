@@ -1,0 +1,30 @@
+#+TITLE: Agentic AI is the Killer App of open energy modelling
+#+OPTIONS: toc:nil
+
+First Posted: 2026.09.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.09.03, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://lnkd.in/p/dgvrMf5U][Parallel LinkedIn post]]
+
+Agentic AI is surely the Killer App of open energy modelling - just watching the agents play with [[https://pypsa.org/][PyPSA]] workflows, it's hard to imagine how closed suites can compete.
+
+Just the sheer amount of online code and examples with PyPSA that the agents are trained on means they’re super-familiar with the tooling, concepts and conventions of open source tools. And when they do get stuck, they can go and look it up, search the issue tracker and read or even edit the actual source code. Closed source gives them much less to work with.
+
+With relatively little prompting they can go and do sophisticated things that would have taken days in the past. With future agent tooling, this will only improve.
+
+This has surely dawned on many people already, and folks from my team are way ahead of me on this, but it was only this summer that I had time to play with the agents properly.
+
+I used to think the main advantage of open source was the flexibility - the ability to go into the code and do deep customisations, then throw thousands of parallel jobs on a cluster, but perhaps the familiarity of the agents with OS will be the bigger selling point in the future.
+
+And just from a personal perspective, if I wanted to start a project in the past I would have had to block several days for the programming, but now I can do it in between all the meetings and small admin stuff, without all the endless hours lost on bug fixing and pandas wrangling.
+
+We will be improving the agentic experience with PyPSA soon - stay tuned!
+
+#freethemodels
+
+Some eye candy from recent experiments:
+
+[[./graphics/agentic-openmod/yearly-dispatch-world.png]]
+
+[[./graphics/agentic-openmod/capital-cost-vs-cumulative-capacity-world.png]]
+
+[[./graphics/agentic-openmod/stacked_cost-optsolarwindbatt+tech2030+nobackup+ldes.png]]
