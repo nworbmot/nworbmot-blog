@@ -1,0 +1,48 @@
+#+TITLE: Hans Moravec has been interviewed
+#+OPTIONS: toc:nil
+
+First Posted: 2026.09.05, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.09.05, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+In 1988 [[https://en.wikipedia.org/wiki/Hans_Moravec][Hans Moravec]] made the ultimate extrapolation by predicting
+human-level AI by 2028. He has just come out of multi-decade seclusion
+to give an interview.
+
+Ever since reading Moravec's 1988 book [[https://en.wikipedia.org/wiki/Hans_Moravec#Mind_Children][Mind Children]] and seeing the
+progress made by LLMs, I've been wondering what he thought about
+current developments. He hasn't given any major public interviews in
+25 years. I assumed he had been ill, [[https://gwern.net/blog/2026/questions-moravec][as had others]].
+
+Then in April 2026 [[https://kagankans.com/][Dan Kagan-Kans]] snaffled an [[https://nymag.com/intelligencer/article/hans-moravec-interview.html][interview]], published in
+July in New York Magazine. It's a great summary of Moravec's thought,
+and a moving portrait of someone facing the end of their life with
+equanimity.
+
+Moravec looked at the trend of how the computing power you could get
+for a thousand dollars was doubling every two years, and then
+extrapolated out to the 10 trillion operations per second (teraops)
+you would need for a human-like mind. He assumed scaling is enough. In
+1988 he put the date of human-like intelligence at 40 years in the
+future, and then went on to explore the consequences. His [[https://en.wikipedia.org/wiki/Hans_Moravec#Robot:_Mere_Machine_to_Transcendent_Mind][later work]]
+imagined "mind fire" spreading into the universe, turning matter into
+computation. Arthur C. Clarke described it as "the most awesome work
+of controlled imagination I have ever encountered".
+
+Today Moravec sees that we're "on track, more or less".
+
+Of course you can quibble: Moravec thought the AI would be embodied,
+he thought it would be directly programmed rather than evolved, he
+thought we would be uploading our minds, and his prediction assumed we
+would have human-like AI in a supercomputer by 2010 already. For my
+money, Stanislaw Lem got [[./lem-machine-intelligence.html][more of the texture of AI right]] (how it would
+be evolved, how it would feel quite alien to us). Lem and Moravec were
+united in their [[https://doi.org/10.5817/pf21-3-2420][disdain for John Searle's Chinese Room]], an argument
+claiming that machines cannot have true understanding.
+
+For all the quibbles, you still have to admire Moravec's insight, and
+the predictive power of cold hard extrapolation.
+
+To end, here's a quotation from Mind Children where he imagines our
+impatience with our wetware: "Long life loses much of its point if we
+are fated to spend it staring stupidly at our ultra-intelligent
+machines as they try to describe their ever more spectacular
+discoveries in baby-talk that we can understand".

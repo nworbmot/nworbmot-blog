@@ -13,7 +13,7 @@ With relatively little prompting they can go and do sophisticated things that wo
 
 This has surely dawned on many people already, and folks from my team are way ahead of me on this, but it was only this summer that I had time to play with the agents properly.
 
-I used to think the main advantage of open source was the flexibility - the ability to go into the code and do deep customisations, then throw thousands of parallel jobs on a cluster, but perhaps the familiarity of the agents with OS will be the bigger selling point in the future.
+I used to think the main advantage of open source was the flexibility - the ability to go into the code and do deep customisations, then throw thousands of parallel jobs on a cluster, but perhaps the familiarity of the agents with open source will be the bigger selling point in the future.
 
 And just from a personal perspective, if I wanted to start a project in the past I would have had to block several days for the programming, but now I can do it in between all the meetings and small admin stuff, without all the endless hours lost on bug fixing and pandas wrangling.
 
