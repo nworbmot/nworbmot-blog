@@ -1,13 +1,15 @@
 #+TITLE: Hans Moravec has been interviewed
 #+OPTIONS: toc:nil
 
-First Posted: 2026.09.05, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.09.05, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.09.05, [[https://github.com/nworbmot/nworbmot-blog/commits/master/moravec-interview.org][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://lnkd.in/p/d3Nj4Kaw][Parallel LinkedIn post]]
 
+[[https://bsky.app/profile/nworbmot.bsky.social/post/3mutkh5hk622m][Parallel BlueSky post]]
+
 In 1988 [[https://en.wikipedia.org/wiki/Hans_Moravec][Hans Moravec]] made the ultimate extrapolation by predicting
 human-level AI by 2028. He has just come out of multi-decade seclusion
-to give an interview.
+from public life to give an interview.
 
 Ever since reading Moravec's 1988 book [[https://en.wikipedia.org/wiki/Hans_Moravec#Mind_Children][Mind Children]] and seeing the
 progress made by LLMs, I've been wondering what he thought about

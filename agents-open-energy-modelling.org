@@ -1,7 +1,7 @@
 #+TITLE: Agentic AI is the Killer App of open energy modelling
 #+OPTIONS: toc:nil
 
-First Posted: 2026.09.03, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.09.03, Author: [[https://www.nworbmot.org/][Tom Brown]]
+First Posted: 2026.09.03, [[https://github.com/nworbmot/nworbmot-blog/commits/master/agents-open-energy-modelling.org][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 [[https://lnkd.in/p/dgvrMf5U][Parallel LinkedIn post]]
 
