@@ -1,28 +1,29 @@
-#+TITLE: The Main Cost Levers for Climate Neutral Scenarios
+#+TITLE: The Main Cost Levers in Climate-Neutral Scenarios
 #+OPTIONS: toc:nil
 
 First Posted: 2026.10.27, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.10.27, Author: [[https://www.nworbmot.org/][Tom Brown]]
 
 What are the biggest levers for reducing costs in climate-neutral scenarios? Electrification, technological learning, biomass, CO_2 sequestration, grid expansion.
 
-In our May 2026 paper [[https://doi.org/10.1016/j.joule.2026.102464][A Minimal Methanol Backstop]] ([[./world-without-gas.html][blog post]] , [[./methanol-faq.html][FAQ]]) we did sixteen sensitivity runs on a climate-neutral model for Europe. Changing the model assumptions, you see how total costs react. It is of course just a model not reality, but at least it's open source, so you're free to look inside and improve it.
+In our May 2026 paper [[https://doi.org/10.1016/j.joule.2026.102464][A Minimal Methanol Backstop]] ([[./world-without-gas.html][blog post]], [[./methanol-faq.html][FAQ]]) we did sixteen sensitivity runs on a climate-neutral model for Europe. Changing the model assumptions shows how the total annualised system costs react. The first bar shows the absolute costs in the default scenario, with subsequent bars showing only differences. The size of each effect depends on the assumptions tested, and the percentage changes cannot simply be added together. It is of course just a model, not reality, but at least it's open source, so you're free to look inside and improve it.
 
-#+CAPTION: Sensitivity of total costs to changing assumptions in the minimal methanol backstop scenario (Source: based on Figure 9 from [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
+#+CAPTION: Total annual system costs, with investments annualised, for the default minimal methanol scenario (first bar on left) and differences to the default (other bars), with net changes as a black line (Source: based on Figure 9 from [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol-sensitivity/sensitivity-combined.png]]
 
 
-**Electrification**: The premise of the methanol backstop was that high electrification helps to minimise the leftover sectors that need chemical fuel. If important sectors do not electrify as planned, then costs rise by 30% since the model is forced to use synthetic fuels in those sectors. Those sectors were high- and medium-temperature industry heat, domestic navigation, domestic aviation, as well as heavy-duty land transport. Note that the costs of the charging infrastructure and the electric vehicles themselves were not included in the calculation. Note that the upfront cost of electric passenger cars is expected to be cheaper than their internal combustion counterparts in all vehicle classes by 2030 ([[https://theicct.org/cheaper-than-you-think-sooner-than-you-think-jul26/][ICCT 2026]]), and the total cost of ownership of trucks is predicted to favour electric vehicles by the same year 2030 ([[https://www.iea.org/reports/global-ev-outlook-2025][IEA 2025]]).
+**Electrification**: The premise of the methanol backstop was that high electrification helps to minimise the leftover sectors that need chemical fuel. If important sectors do not electrify as we assumed, then costs rise by 30% since the model is forced to use synthetic fuels in those sectors. Those sectors were high- and medium-temperature industry heat, domestic navigation, domestic aviation, as well as heavy-duty land transport. Note that the costs of the charging infrastructure and the electric vehicles themselves were not included in the calculation.
 
-**Technological learning**: Europe aims to achieve net-zero greenhouse gas emissions by 2050. Since most investments have to take place before then, and to avoid projecting too far into an uncertain future, we used cost assumptions for 2030. Most of the assumptions come from the [[https://ens.dk/en/analyses-and-statistics/technology-catalogues][Danish Energy Agency]]. If we use costs projected for 2050 instead, by which time technologies like solar and batteries have 20 further years to drop in cost thanks to [[https://en.wikipedia.org/wiki/Experience_curve_effect][improved manufacturing]], then total costs drop by 13.3%.
+**Technological learning**: Europe aims to achieve net-zero greenhouse gas emissions by 2050. Since most investments have to take place before then, and to avoid projecting too far into an uncertain future, we used cost assumptions for 2030. Most of the assumptions come from the [[https://ens.dk/en/analyses-and-statistics/technology-catalogues][Danish Energy Agency]]. If we use costs projected for 2050 instead, by which time technologies like solar and batteries have a further 20 years to reduce in cost thanks to [[https://en.wikipedia.org/wiki/Experience_curve_effect][improved manufacturing]], then total costs drop by 13.3%.
 
-**Biomass potentials**: We only allow the model to use sustainable biomass sources that don't cause additional land use, such as agricultural residues from food production like straw, forestry residues from wood harvesting, or biogenic waste. Our default case uses the "medium" assumptions from the European Commission's Joint Research Centre's [[https://doi.org/10.1016/j.esr.2019.100379][ENSPRESO dataset]], around 1550 TWh/a. Switching to the "high" potential of 3320 TWh/a reduces costs by 10% since the model uses biomethanol to replace all the e-methanol produced with captured CO_2. On the other hand, The "low" potential of 840 TWh/a raises costs by 8.1% as the model is forced to use direct air capture to source CO_2 for e-methanol instead of using biogenic carbon.
+**Biomass potentials**: We only allow the model to use biomass sources that don't cause additional land use, such as agricultural residues from food production like straw, forestry residues from wood harvesting, or biogenic waste. Dedicated energy crops are excluded. Our default case uses the "medium" assumptions from the European Commission's Joint Research Centre's [[https://doi.org/10.1016/j.esr.2019.100379][ENSPRESO dataset]], around 1550 TWh/a. Switching to the "high" potential of 3320 TWh/a reduces costs by 10% since the model uses biomethanol to replace all the e-methanol produced with captured CO_2. On the other hand, the "low" potential of 840 TWh/a raises costs by 8.1% as the model is forced to use direct air capture to source CO_2 for e-methanol instead of using biogenic carbon.
 
-**CO_2 sequestration**: The default assumption in the model limits Europe-wide CO_2 sequestration to 200 MtCO_2/a. Sequestration in Europe is currently in the [[https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/global-underground-co-storage-hits-record-436-million-tonnes-as-london-register-expands-reach/][low single digits]], but the EU's Net Zero Industry Act has a target of 50 MtCO_2/a by 2030, with assumptions for 2050 of around 250 MtCO_2/a ([[https://climate.ec.europa.eu/areas-action/industrial-carbon-management/eus-2030-carbon-storage-target_en][European Commission, 2026]]). The CCS-friendly CATF included at most around 300 MtCO_2/a in their [[https://www.catf.us/resource/unlocking-europes-co2-storage-potential-analysis-optimal-co2-storage-europe/][scenario for Europe in 2050]]. It is [[https://concito.dk/en/udgivelser/e-fuels-or-storage-how-to-make-the-most-of-clean-electricity-and-captured-co2][often]] [[https://lnkd.in/p/d8jxqvSp][said]] that storing CO_2 underground should be cheaper than using it in e-fuels. On the other hand, adding electrolytic hydrogen to biogenic syngas with excess CO to produce e-biofuels can avoid some of the thermodynamic work of using raw CO_2 ([[https://arxiv.org/abs/2604.12080][Zhang et al, 2026]]), and it's not clear that we can scale up all the CO_2 sequestration and pipeline infrastructure fast enough to compensate all hard-to-abate fossil CO_2 emissions. To explore the trade-offs, we raised the sequestration limit to 400 MtCO_2/a (above even CATF's scenario), and then unlimited, where around 500 MtCO_2 is sequestered. This reduces costs by 6.3% and 7.6% respectively, by allowing biogenic carbon dioxide removal (sequestering biogenic CO_2) to compensate increased fossil fuels in aviation, shipping and the chemical industry, and thus lowering expensive electrolytic hydrogen production. If we simultaneously increase biomass potentials, costs drop by 13.4% and the marginal abatement cost goes below 100 €/tCO_2.
+**CO_2 sequestration**: The default assumption in the model limits Europe-wide CO_2 sequestration to 200 MtCO_2/a. Sequestration in Europe is currently in the [[https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/global-underground-co-storage-hits-record-436-million-tonnes-as-london-register-expands-reach/][low single digits]], but the EU's Net Zero Industry Act has a target of 50 MtCO_2/a injection capacity by 2030, with projected storage needs of around 250 MtCO_2/a by 2040 ([[https://climate.ec.europa.eu/areas-action/industrial-carbon-management/eus-2030-carbon-storage-target_en][European Commission, 2026]]). It is [[https://concito.dk/en/udgivelser/e-fuels-or-storage-how-to-make-the-most-of-clean-electricity-and-captured-co2][often]] [[https://lnkd.in/p/d8jxqvSp][said]] that storing CO_2 underground should be cheaper than using it in e-fuels. On the other hand, adding electrolytic hydrogen to biogenic syngas with excess CO to produce e-biofuels can avoid some of the thermodynamic work of using raw CO_2 ([[https://arxiv.org/abs/2604.12080][Zhang et al, 2026]]), and it's not clear that we can scale up all the CO_2 sequestration and pipeline infrastructure fast enough to compensate all hard-to-abate fossil CO_2 emissions. To explore the trade-offs, we raised the sequestration limit to 400 MtCO_2/a and then unlimited, where around 500 MtCO_2/a is sequestered. This reduces costs by 6.3% and 7.6% respectively, by allowing biogenic carbon dioxide removal (sequestering biogenic CO_2) to offset emissions from increased fossil-fuel use in aviation, shipping and the chemical industry, and thus lowering expensive electrolytic hydrogen production. If we simultaneously increase biomass potentials with unlimited sequestration, costs drop by 13.4% and the marginal abatement cost goes below 100 €/tCO_2 (453 MtCO_2/a is sequestered in this scenario).
 
-**Grid expansion**: In the default scenario the model can choose the optimal electricity transmission corridors to reinforce, up to a total increase of the grid by 25% measured in MWkm. If we force the model to use today's grid, costs rise by 5.9%, since the grid can no longer balance wind fluctuations over long distances as effectively, and has to produce more backup fuels to be used locally. A thought experiment that removes power transmission altogether raises costs by 24%, showing the premium that has to be paid for regional autarky.
+**Grid expansion**: In the default scenario the model can choose the optimal electricity transmission corridors to reinforce, up to a total increase of the grid by 25% measured in MWkm. If we force the model to use today's grid, costs rise by 5.9%, since the grid can no longer balance wind fluctuations over long distances as effectively, and has to produce more backup fuels to be used locally. A thought experiment that removes power transmission altogether raises costs by 24%, showing the cost of foregoing electricity exchange between model regions.
 
-**Relocation/import green products**: Allowing green steel and ammonia production to move from their current locations to the best renewable sites in Europe lowers costs by 1.3%. Allowing imports of green methanol, steel and ammonia from outside Europe reduces further by 3.4%.
+**Relocation and imports of green products**: Allowing green steel and ammonia production to move from their current locations to the best renewable sites in Europe lowers costs by 1.3%. Allowing imports of green methanol, steel and ammonia from outside Europe reduces costs by 3.4%.
 
+**Demand**: More obviously, changes to overall demand also have a big effect. Raising demand for road transport, aviation, shipping and high-value chemicals by 30% increases total costs by 15%.
 
 # headlines controls depth of TOC
 #+TOC: headlines 2
@@ -43,11 +44,9 @@ sensitivity in Panel A.
 #+CAPTION: Minimal methanol backstop sensitivities, including difference to "all networks" in Panel A (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol_faq-260330/methanol-sensitivity.png]]
 
-The percentage change remains in a fairly narrow 2-3% range, showing
+The cost premium for the minimal methanol backstop remains mostly in a fairly narrow 2-3% range, showing
 that the use of the minimal methanol backstop is not that important
-for the sensitivity analysis. Only in extreme scenarios like "no power
-transmission" and "infinite sequestration" do we see larger
-differences.
+for the sensitivity analysis. Several sensitivities show larger differences, including "low electrification", "no power transmission" and "infinite sequestration".
 
 * Energy balances
   :PROPERTIES:
@@ -58,7 +57,7 @@ The energy balances for hydrogen, methane, methanol and liquid
 hydrocarbons are shown for all sensitivities in the Supplemental
 Information section of the paper.
 
-Here is a selection charting the increase in the sequestration limit.
+Here is a selection charting the increase in the sequestration limit. As sequestration increases, production of electrolytic hydrogen and e-methanol decreases, while fossil oil use grows.
   
 #+CAPTION: Energy balances for the default scenario with 200 MtCO_2/a sequestration.  (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol_faq-260330/methanol_balances.png]]
@@ -66,7 +65,7 @@ Here is a selection charting the increase in the sequestration limit.
 #+CAPTION: Energy balances for sensitivity with 400 MtCO_2/a sequestration.  (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol_faq-260330/methanol-eb-400seq.png]]
 
-#+CAPTION: Energy balances for sensitivity with infinite sequestration.  (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
+#+CAPTION: Energy balances for sensitivity with no upper limit on sequestration.  (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol_faq-260330/methanol-eb-infseq.png]]
 
 
@@ -75,6 +74,7 @@ Here is a selection charting the increase in the sequestration limit.
   :CUSTOM_ID: mac
   :END:
 
+The marginal CO_2 abatement cost measures the cost of tightening the emissions constraint by another tonne. It is not an average cost of decarbonisation or a prediction of the ETS price.
 
 #+CAPTION: CO_2 marginal abatement cost (shadow price of CO_2 limit) for the all networks and the minimal methanol backstop scenarios across the different sensitivity settings. (Source: [[https://doi.org/10.1016/j.joule.2026.102464][Glaum et al, 2026]])
 [[./graphics/methanol-sensitivity/methanol-co2_spider.png]]

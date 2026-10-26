@@ -1,0 +1,95 @@
+#+TITLE: Energy Transition Frequency Asked Questions
+#+OPTIONS: toc:nil
+
+
+First Posted: 2026.xx.xx, [[https://github.com/nworbmot/nworbmot-blog][Last Revised]]: 2026.xx.xx, Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+# headlines controls depth of TOC
+#+TOC: headlines 2
+
+* Materials for the energy transition
+
+** Doesn't the energy transition just replace fossil fuel consumption with mineral and metal consumption?
+  :PROPERTIES:
+  :CUSTOM_ID: minerals
+  :END:
+
+Today billions of tons of coal, gas and oil are consumed. Energy
+transition technologies do not consume fuels, but need metals and
+minerals such as silicon for solar panels or lithium for electric
+vehicle and stationary batteries.
+
+Comparing these metal and mineral needs (but excluding the rest of the ore and any other rock moved in mining) we find several orders of magnitude lower consumption:
+
+#+CAPTION: Mineral use (does not include steel or full ore or other material) (Source: [[https://hannahritchie.substack.com/p/mining-low-carbon-vs-fossil][Hannah Ritchie, 2023]])
+[[./graphics/energy-transition-faq/mineral_needs.png]]
+
+These numbers exclude steel but include: copper, cobalt, nickel, lithium, rare earth elements, chromium, zinc, platinum group metals and aluminium.
+
+The needs are concentrated in electrical equipment and batteries:
+
+#+CAPTION: Total mineral demand for clean energy technologies by scenario, 2010-2040 (Source: [[https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/mineral-requirements-for-clean-energy-transitions][IEA, 2021]])
+[[./graphics/energy-transition-faq/minerals-iea-2040.png]]
+
+
+However, for each tonne of metal or mineral, there is a substantially higher amount of ore removed (e.g. metal ores are oxidised version of the model) and other surrounding waste material that must also be removed:
+
+#+CAPTION: Ratio of product to ore and waste rock (Source: [[https://www.energy-transitions.org/publications/material-and-resource-energy-transition/][Energy Transitions Commission, 2023]])
+[[./graphics/energy-transition-faq/etc-material_moved.png]]
+
+Including the ore now (but not waste rock), and excluding oil and gas, the volume for batteries increases, but the total still goes down:
+
+#+CAPTION: Ore mining requirements (excluding waste rock) (Source: [[https://doi.org/10.1016/j.joule.2023.10.005][Nijnens et al, 2023]])
+[[./graphics/energy-transition-faq/minerals-ore.png]]
+
+
+Further reading:
+
+- Hannah Ritchie, [[https://hannahritchie.substack.com/p/energy-transition-materials][The low-carbon energy transition will need less mining than fossil fuels, even when adjusted for waste rock]], 2023, Substack.
+
+** Doesn't the energy transition just replace a dependence on fossil fuels exporters with one on green technology exporters like China?
+  :PROPERTIES:
+  :CUSTOM_ID: import-dependence
+  :END:
+
+There are several points to make here:
+
+- The dependency on green technology is much less immediate because solar panels and batteries are one-time purchases that last for decades. If there is a trade blockade, they will continue to generate electricity, whereas a fuel blockade will create an imminent emergency.
+- The manufacturing capacity can be built anywhere. Much of the capacity has been built in China because China can produce more cheaply, but other countries could built up their own capacity if they want to maintain resilience.
+- Green tech prices show much lower volatility than fossil fuel prices.
+- More than half of the value (installation, permitting, grid connection) stays local.
+  
+TODO: fraction of China in PV panel trade.
+
+** Does the energy transition really improve the trade balance if we just substitute importing fossil fuels for importing green technology?
+  :PROPERTIES:
+  :CUSTOM_ID: trade-balance
+  :END:
+
+- For PV the modules themselves are ~20-40% of the total installed cost. Mounting, labor, development, permitting, grid connection all stay domestic. SOmetimes the inverter can also be produced locally (e.g. in Europe by SMA, Fronius). For rooftop the local value is even higher and the module fraction is lower.
+
+** Aren't the critical mineral resources concentrated in particular countries?
+  :PROPERTIES:
+  :CUSTOM_ID: resource-concentration
+  :END:
+
+Some critical minerals are concentrated in particular countries, like cobalt in the Democratic Republic of Congo, but very few are essential for the energy transition because their use can be reduced over time or substituted altogether.
+
+Lithium-ion batteries with cobalt and manganese (LMC) can be substituted with Lithium-iron phosphate (LFP).
+
+Lithium efficiency increase all the time.
+
+The lithium in lithium-ion batteries itself can be substituted with sodium, which are slightly less dense in volume and mass. Already cars and stationary storage use sodium.
+
+TODO from ETS prep
+
+Silver is being reduced (MVP) paper.
+
+Silicon is not rare.
+
+** What about the energy needed to produce solar panels?
+  :PROPERTIES:
+  :CUSTOM_ID: energy-build
+  :END:
+
+EROI etc.
