@@ -21,6 +21,24 @@ And just from a personal perspective, if I wanted to start a project in the past
 
 We will be improving the agentic experience with PyPSA soon - stay tuned!
 
+Post scriptum 2026.09.07:
+
+One further point: In general the open source approach (text-based,
+modular, graphical user interface (GUI) built on top) is much more
+amenable to text-based agents that the monolithic GUIs you tend to see
+in the closed source world.
+
+The agents are much better suited to working in Linux than Windows for
+this reason, and I think this also plays to the strengths of open
+energy modelling suites like PyPSA, where everything is controlled by
+editing text files.
+
+The lack of built-in GUI used to be a disadvantage for PyPSA, but
+agents love it. Everyone and their dog is now letting agents build
+their own PyPSA GUIs, tailored to their needs. GUIs can be built with
+little supervision, unlike the core PyPSA code, which has to be
+hardened and battle-tested by humans.
+
 #freethemodels
 
 Some eye candy from recent experiments:
@@ -30,3 +48,5 @@ Some eye candy from recent experiments:
 [[./graphics/agentic-openmod/capital-cost-vs-cumulative-capacity-world.png]]
 
 [[./graphics/agentic-openmod/stacked_cost-optsolarwindbatt+tech2030+nobackup+ldes.png]]
+
+
