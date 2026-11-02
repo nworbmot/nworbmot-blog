@@ -3,6 +3,8 @@
 
 First Posted: 2026.11.02, [[https://github.com/nworbmot/nworbmot-blog][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
 
+[[https://lnkd.in/p/dcdiGw5Q][Parallel LinkedIn post]]
+
 Europe's dependence on proprietary software resembles its dependence
 on fossil fuels: it spends hundreds of billions of euros a year on
 foreign suppliers, and disruption threatens daily life. But for both
@@ -33,16 +35,17 @@ gas imports can be rapidly reduced. Some of these technologies may be
 imported, but they can in principle be produced anywhere, and they
 continue working even if there's a supply disruption.
 
-For software, open source packages like LibreOffice, Nextcloud and
-Ubuntu have matured to the point where they can be widely deployed to
-replace proprietary alternatives. The EU's [[https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy][Tech Sovereignty Package]] has put
-[[https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy][Open Source]] at its centre, next to chip production and accelerating
-the building of domestic data centres. Cloud software can be hosted by
-independent providers and you can choose your own support. If the
-original supplier withdraws, the software can still be run and
-maintained by someone else. Open formats and interfaces make it easier
-to migrate to another tool if you don't like the current one. In 2022
-Europe had [[https://www.linuxfoundation.org/blog/whats-the-state-of-open-source-in-europe-and-why-does-it-matter-now][3 million open source contributors]].
+For software, open source packages like [[https://www.libreoffice.org/][LibreOffice]], [[https://nextcloud.com/][Nextcloud]] and
+[[https://ubuntu.com/][Ubuntu]] have matured to the point where they can be widely deployed to
+replace proprietary alternatives. Mistral offers [[https://mistral.ai/news/mistral-large-4-oss/][open-weight AI
+models]]. The EU's [[https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy][Tech Sovereignty Package]] has put [[https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy][Open Source]] at its
+centre, next to chip production and accelerating the building of
+domestic data centres. Cloud software can be hosted by independent
+providers and you can choose your own support. If the original
+supplier withdraws, the software can still be run and maintained by
+someone else. Open formats and interfaces make it easier to migrate to
+another tool if you don't like the current one. In 2022 Europe had [[https://www.linuxfoundation.org/blog/whats-the-state-of-open-source-in-europe-and-why-does-it-matter-now][3
+million open source contributors]].
 
 Finally, the benefits of Europe switching to open source have huge
 positive spillovers for the whole world. Just like solar deployment in
