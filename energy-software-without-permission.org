@@ -16,9 +16,9 @@ services at around 264 billion EUR from the US alone. After US
 President Donald Trump sanctioned the International Criminal Court in
 February 2025, its chief prosecutor [[https://www.heise.de/en/news/Criminal-Court-Microsoft-s-email-block-a-wake-up-call-for-digital-sovereignty-10387383.html][reportedly lost access to his
 Microsoft email]]. In June 2026, foreign nationals were [[https://www.politico.com/news/2026/06/15/trumps-newest-fight-with-anthropic-00962858][barred from
-using Anthropic's latest AI models]]. Do other countries want this
-kind of dependency when we might have serious foreign policy
-disagreements with the White House?
+using Anthropic's latest AI models]]. Do we want this kind of
+dependency when we might have serious foreign policy disagreements
+with the White House? We are living in an age of [[https://en.wikipedia.org/wiki/Weaponized_interdependence][weaponised interdependence]].
 
 In 2025 the EU [[https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports/repowereu-4-years_en][spent 335 billion EUR]] on fossil fuels, mostly
 imported. Besides the enormous climate and health damage they
