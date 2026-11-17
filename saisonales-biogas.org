@@ -1,0 +1,26 @@
+#+TITLE: Saisonale Flexibilität von Biogas
+#+OPTIONS: toc:nil
+
+First Posted: 2026.11.17, [[https://github.com/nworbmot/nworbmot-blog][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+[[https://lnkd.in/p/dwDwdJE3][Parallel LinkedIn post]]
+
+Anlässlich [[https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/eeg-reform-drohen-durch-biogas-foerderung-50-milliarden-euro-mehrkosten-201688005.html][unseres heutigen Appells in der FAZ]]: Statt dezentrale Biogasanlagen mit mehreren Tausend Volllaststunden im Jahr zu fördern, sollten wir nachhaltiges Biogas zu Biomethan aufbereiten, ins Gasnetz einspeisen und saisonal speichern. So steht es für Spitzenkraftwerke bereit, die auf nur 500–1.000 Volllaststunden im Jahr kommen.
+
+Der von [[https://www.hertie-school.org/de/research/faculty-and-researchers/profile/person/hirth][Lion Hirth]] initiierte Artikel in der FAZ: [[https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/eeg-reform-drohen-durch-biogas-foerderung-50-milliarden-euro-mehrkosten-201688005.html][Wie die Koalition die Stromversorgung teurer machen könnte]]
+
+Was braucht ein von Wind und Sonne geprägtes Energiesystem in den 2030er und 2040er Jahren? Die Systemstudien zeigen in dieselbe Richtung: Wir brauchen Kraftwerke, die gezielt die Lücken füllen, wenn Wind und Sonne nicht genug einspeisen. In [[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][unseren Ariadne-Szenarien]] kommen solche Kraftwerke auf etwa 500–1.000 Volllaststunden im Jahr.
+
+Kleine Biogasanlagen mit lokalen Gasspeichern können zwar ihre Stromerzeugung innerhalb eines Tages verschieben, aber nicht über Wochen oder Monate.
+
+Sinnvoller wäre deshalb, die bestehenden Erdgasspeicher zu nutzen. Dafür wird Biogas zu Biomethan aufbereitet und ins Gasnetz eingespeist. Das dabei abgetrennte CO₂ lässt sich mit grünem Wasserstoff ebenfalls zu Methan umwandeln – so wird aus derselben Menge Biomasse mehr nutzbares Gas. Wo kein Gasnetzanschluss verfügbar ist, lässt sich aus dem Biogas auch Methanol herstellen und als Flüssigkeit leicht transportieren.
+
+Das eröffnet auch bestehenden Biogasanlagen eine Perspektive, wenn ihre EEG-Förderung ausläuft.
+
+Als Substrate sollten dabei nur nachhaltige Abfälle, Gülle und Reststoffe dienen. Den Maisanteil wie im Koalitionskompromiss vorgesehen auf bis zu 60 Prozent anzuheben, geht in die falsche Richtung.
+
+Nachhaltige Biomasse ist knapp. Wir sollten sie gezielt dort einsetzen, wo eine direkte Elektrifizierung kaum möglich ist: als Brennstoff für Spitzenkraftwerke, für schwer elektrifizierbare Sektoren und als Rohstoff.
+
+[[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Unsere Ariadne-Szenarien]] – eine Aktualisierung folgt nächste Woche
+
+[[https://nworbmot.org/blog/flexibility-biogas.html][Mehr zur Rolle von Biogas]]
