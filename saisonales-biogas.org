@@ -24,3 +24,45 @@ Nachhaltige Biomasse ist knapp. Wir sollten sie gezielt dort einsetzen, wo eine 
 [[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Unsere Ariadne-Szenarien]] – eine Aktualisierung folgt nächste Woche
 
 [[https://nworbmot.org/blog/flexibility-biogas.html][Mehr zur Rolle von Biogas]]
+
+Einige Fragen wurde in der Diskussion auf LinkedIn gestellt, die ich hier beantworte.
+
+# headlines controls depth of TOC
+#+TOC: headlines 2
+
+* Kann man nicht das Substrat statt des Biogases für die Dunkelflaute speichern?
+  :PROPERTIES:
+  :CUSTOM_ID: substrat
+  :END:
+
+Solche Konzepte gibt es: das Substrat lagern und die Biogasproduktion
+während einer Dunkelflaute erhöhen, sodass weniger Biogas gespeichert
+werden muss. Hier gibt es zwei Einwände:
+
+- Dafür müssen neben den Generatoren auch die Substratlager und Fermenter passend dimensioniert werden. Wenn ein großer Teil der Jahresproduktion in wenigen Wochen erzeugt werden soll, braucht man entsprechend mehr Fermenterkapazität.
+- Die Vergärung erfolgt nicht auf Knopfdruck: In Gärversuchen der Bayerischen Landesanstalt für Landwirtschaft setzte Maissilage nach rund [[https://www.alb-bayern.de/media/files/0002/ackerbau-technische-loesungen-zukunft-landtechnische-jahrestagung-2017-lfl-schriftenreihe.pdf][zwölf Tagen]] 80 Prozent ihres Methanpotenzials frei. Für  nachhaltige lignocellulosehaltige Substrate wie Stroh liegen die Vergärungszeiten deutlich höher.  Für vorbehandeltes Stroh nennt die Thüringer Landesanstalt für Landwirtschaft Labor-Vergärungszeiten von [[https://www.tll.de/www/daten/publikationen/standpunkte/st_bstroh.pdf][25–35 Tagen]], die sich nicht direkt auf Praxisanlagen übertragen lassen.
+
+Entscheidend ist deshalb, ob die gewünschte saisonale Flexibilität mit
+nachhaltigen Substraten erreicht werden kann und welche zusätzlichen
+Kosten dabei entstehen.
+
+* Gibt es nicht einen Sockel an steuerbaren Kraftwerken mit 2000 Volllasstunden?
+  :PROPERTIES:
+  :CUSTOM_ID: sockel
+  :END:
+
+In einigen Szenarien, auch in unseren [[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Ariadne-Szenarien]], , gibt es hocheffiziente Gas-und-Dampf-Kraftwerke (GuD), teilweise mit Kraft-Wärme-Kopplung (KWK), die höhere Volllaststunden erreichen.
+
+Hier ein Beispiel aus den 2024 veröffentlichten [[https://www.agora-energiewende.de/fileadmin/Projekte/2023/2023-30_DE_KNDE_Update/A-EW_349_KNDE_Szenariopfade_WEB.pdf][Agora-Szenarien]]: 20 GW GuD-Kraftwerke mit KWK kommen auf 2.650 Volllaststunden im Jahr.
+
+[[./graphics/agora-erzeugungstruktur.png]]
+  
+Aber die Gasmotoren in Biogasanlagen haben in der Regel viel niedrigere elektrische Wirkungsgrade als große GuD-Kraftwerke, und stehen oft außerhalb der großen Fernwärmenetze, wo die Wärme am dringendsten in einer Dunkelflaute gebraucht wird.
+
+* Stellen die Biogasanlagen nicht Schwungmasse bereit?
+  :PROPERTIES:
+  :CUSTOM_ID: schwungmasse
+  :END:
+
+Ja, Gasmotoren mit direkt ans Netz gekoppelten Synchrongeneratoren können zur Stabilisierung der Frequenz beitragen. Die gespeicherte Rotationsenergie pro MW Nennleistung ist allerdings typischerweise deutlich geringer als bei großen Gasturbinen-Generator-Sätzen. Bei entsprechend ausgestatteten Gasturbinenanlagen kann man die Turbine über eine Kupplung vom Generator trennen. Der Generator dreht dann als Phasenschieber am Netz weiter und kann auch ohne laufende Turbine Momentanreserve bereitstellen. Dabei entfällt allerdings der Beitrag der Turbine zur Schwungmasse; zusätzliche Schwungräder können diesen Verlust ausgleichen.
+
