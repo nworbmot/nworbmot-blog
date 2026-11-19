@@ -40,7 +40,7 @@ während einer Dunkelflaute erhöhen, sodass weniger Biogas gespeichert
 werden muss. Hier gibt es zwei Einwände:
 
 - Dafür müssen neben den Generatoren auch die Substratlager und Fermenter passend dimensioniert werden. Wenn ein großer Teil der Jahresproduktion in wenigen Wochen erzeugt werden soll, braucht man entsprechend mehr Fermenterkapazität.
-- Die Vergärung erfolgt nicht auf Knopfdruck: In Gärversuchen der Bayerischen Landesanstalt für Landwirtschaft setzte Maissilage nach rund [[https://www.alb-bayern.de/media/files/0002/ackerbau-technische-loesungen-zukunft-landtechnische-jahrestagung-2017-lfl-schriftenreihe.pdf][zwölf Tagen]] 80 Prozent ihres Methanpotenzials frei. Für  nachhaltige lignocellulosehaltige Substrate wie Stroh liegen die Vergärungszeiten deutlich höher.  Für vorbehandeltes Stroh nennt die Thüringer Landesanstalt für Landwirtschaft Labor-Vergärungszeiten von [[https://www.tll.de/www/daten/publikationen/standpunkte/st_bstroh.pdf][25–35 Tagen]], die sich nicht direkt auf Praxisanlagen übertragen lassen.
+- Die Vergärung erfolgt nicht auf Knopfdruck: In Gärversuchen der Bayerischen Landesanstalt für Landwirtschaft setzte Maissilage nach rund [[https://www.alb-bayern.de/media/files/0002/ackerbau-technische-loesungen-zukunft-landtechnische-jahrestagung-2017-lfl-schriftenreihe.pdf][zwölf Tagen]] 80 Prozent ihres Methanpotenzials frei. Für  nachhaltige lignocellulosehaltige Substrate wie Stroh liegen die Vergärungszeiten deutlich höher.  Für vorbehandeltes Stroh nennt die Thüringer Landesanstalt für Landwirtschaft Labor-Vergärungszeiten von [[https://www.tll.de/www/daten/publikationen/standpunkte/st_bstroh.pdf][25–35 Tagen]], die sich nicht direkt auf Praxisanlagen übertragen lassen. In der [[https://www.verbio.de/unternehmen/standorte/produktionsstandort-pinnow/][Biogasanlage in Pinnow]] bleibt das Stroh 150 Tage im Fermenter.
 
 Entscheidend ist deshalb, ob die gewünschte saisonale Flexibilität mit
 nachhaltigen Substraten erreicht werden kann und welche zusätzlichen
@@ -51,9 +51,9 @@ Kosten dabei entstehen.
   :CUSTOM_ID: sockel
   :END:
 
-In einigen Szenarien, auch in unseren [[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Ariadne-Szenarien]], , gibt es hocheffiziente Gas-und-Dampf-Kraftwerke (GuD), teilweise mit Kraft-Wärme-Kopplung (KWK), die höhere Volllaststunden erreichen.
+In einigen Szenarien, auch in unseren [[https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/][Ariadne-Szenarien]], gibt es hocheffiziente Gas-und-Dampf-Kraftwerke (GuD), teilweise mit Kraft-Wärme-Kopplung (KWK), die 2045 höhere Volllaststunden erreichen.
 
-Hier ein Beispiel aus den 2024 veröffentlichten [[https://www.agora-energiewende.de/fileadmin/Projekte/2023/2023-30_DE_KNDE_Update/A-EW_349_KNDE_Szenariopfade_WEB.pdf][Agora-Szenarien]]: 20 GW GuD-Kraftwerke mit KWK kommen auf 2.650 Volllaststunden im Jahr.
+Hier ein Beispiel aus den 2024 veröffentlichten [[https://www.agora-energiewende.de/fileadmin/Projekte/2023/2023-30_DE_KNDE_Update/A-EW_349_KNDE_Szenariopfade_WEB.pdf][Agora-Szenarien]]: 20 GW GuD-Kraftwerke mit KWK kommen 2045 auf 2.650 Volllaststunden im Jahr.
 
 [[./graphics/agora-erzeugungstruktur.png]]
   
@@ -66,3 +66,19 @@ Aber die Gasmotoren in Biogasanlagen haben in der Regel viel niedrigere elektris
 
 Ja, Gasmotoren mit direkt ans Netz gekoppelten Synchrongeneratoren können zur Stabilisierung der Frequenz beitragen. Die gespeicherte Rotationsenergie pro MW Nennleistung ist allerdings typischerweise deutlich geringer als bei großen Gasturbinen-Generator-Sätzen. Bei entsprechend ausgestatteten Gasturbinenanlagen kann man die Turbine über eine Kupplung vom Generator trennen. Der Generator dreht dann als Phasenschieber am Netz weiter und kann auch ohne laufende Turbine Momentanreserve bereitstellen. Dabei entfällt allerdings der Beitrag der Turbine zur Schwungmasse; zusätzliche Schwungräder können diesen Verlust ausgleichen.
 
+
+
+
+* Welche Gesetzesänderungen würden die Einspeisung von Biomethan unterstützen?
+  :PROPERTIES:
+  :CUSTOM_ID: gesetze
+  :END:
+
+Ich würde die Förderung von der Stromerzeugung auf die Bereitstellung von nachhaltigem Biomethan umstellen:
+
+- Differenzverträge für Biomethan: Die Produzenten bieten in Ausschreibungen den Preis, den sie pro MWh eingespeistem Biomethan brauchen. Für nachhaltige Substrate sind Preise im Bereich 80-100 €/MWh zu erwarten (deutlich weniger als für [[https://www.ieg.fraunhofer.de/de/presse/pressemitteilungen/2026/Transport-und-Speicherung-koennen-Kosten-fuer-gruenen-Wasserstoff-verdoppeln.html][Wasserstoff]]). Liegt der Preis des Erdgases zusammen mit enstprechenden CO_2-Zertifikaten darunter, wird die Differenz ausgezahlt; liegt er darüber, wird die Differenz zurückgezahlt. Verträge über beispielsweise 20 Jahre schaffen Planungssicherheit für die Finanzierung. Fördermengen sollten begrenzt sein und strenge Anforderungen an Substrate und Methanemissionen gelten. Bestehende Biogasanlagen sollten sich auch mit gemeinsamer Aufbereitung beteiligen können. Das würde auch zum REPowerEU-Ziel beitragen, die Biomethanproduktion in der EU bis 2030 auf 35 Milliarden Kubikmeter pro Jahr zu steigern.
+- Brennstoff und Kraftwerksleistung getrennt fördern: Die direkte Förderung der Biogasverstromung im EEG würde ich für neue Förderzusagen durch diese Biomethanförderung ersetzen. Die gesicherte elektrische Leistung soll separat über das StromVKG beschafft werden. Die Kraftwerke müssen dabei nachweisen, dass genügend klimaneutraler Brennstoff für längere Engpasszeiten verfügbar ist. So muss die Biogasproduktion nicht dem kurzfristigen Strombedarf folgen.
+- Fehlanreize im Verkehr abbauen: Die Förderung biogener Kraftstoffe sollte sich langfristig auf schwer elektrifizierbare Anwendungen wie Luft- und Schifffahrt konzentrieren. Im Straßenverkehr sollten wir direkt elektrifizieren, statt über die THG-Quote zusätzliche Nachfrage nach knappem Biomethan zu schaffen.
+- Keine Biomethanquoten für Gebäudeheizungen: Die Biotreppe und entsprechende Beimischungsquoten im Gebäudemodernisierungsgesetz würde ich durch stärkere Maßnahmen für Wärmepumpen und klimaneutrale Wärmenetze ersetzen. Nachhaltige Biomasse brauchen wir vor allem dort, wo direkte Elektrifizierung kaum möglich ist.
+
+Damit entscheidet der Markt über die Verwendung des Biomethans – innerhalb eines politischen Rahmens, der Elektrifizierung unterstützt und die Versorgung in Engpasszeiten sichert.
