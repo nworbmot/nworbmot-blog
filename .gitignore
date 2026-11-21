@@ -9,5 +9,6 @@ old/
 *~
 
 *.html
+/rss.xml
 
 blog.org
