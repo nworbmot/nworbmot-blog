@@ -1,0 +1,48 @@
+#+TITLE: Is AI coming for theoretical physics?
+#+OPTIONS: toc:nil
+
+First Posted: 2026.11.22, [[https://github.com/nworbmot/nworbmot-blog][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
+
+As the [[https://leanprover-community.github.io/blog/posts/riemann-hypothesis/][Riemann hypothesis falls]], will theoretical physics be the next
+field to experience AI disruption?  Like mathematics, theoretical
+physics relies more on internal consistency than verification from the
+real world, and has gone to places inaccessible to experiment in its
+quest to unify general relativity with quantum theory.
+
+The situation in theoretical physics is summed up very nicely in this
+article by Dan Kagan-Kans, supported by multiple interviews with the
+big beasts of the field:
+
+[[https://www.understandingai.org/p/i-spoke-to-seven-physics-experts][I spoke to seven physics experts grappling with the AI revolution]]
+
+In 2026 the field has seen a 30% uptick in papers submitted to
+the preprint server arXiv's theoretical physics category hep-th.
+
+As a recovering theoretical physicist, I'm mostly excited to see what
+this new tool of discovery brings. I'd be thrilled to read a
+microscopic proof of the [[https://en.wikipedia.org/wiki/AdS/CFT_correspondence][AdS/CFT correspondence]] along the lines
+explored by [[https://arxiv.org/abs/2412.13397][Gopakumar and colleagues]] and [[https://arxiv.org/abs/hep-th/0703282][Berkovits]]. There are several
+[[https://en.wikipedia.org/wiki/Black_hole_information_paradox][black hole information paradoxes]] to resolve.
+
+The field was already flooded by papers reporting results of the
+esoteric micro-increment variety, to the extent that back in 2010
+[[https://davidsd.org/][David Simmons-Duffin]] built a snarXiv of automatically generated paper
+titles. The game was to guess which titles were real versus invented,
+and most of us scored poorly:
+
+[[https://snarxiv.org/vs-arxiv/][arXiv or snarXiv?]]
+
+So filtering by personal reputation was already a necessity.
+
+For my current field of energy research there are [[https://nworbmot.org/blog/biomass-efficiently.html#changes][very concrete
+problems]] that AI could help solve.
+
+AI material discovery could bring batteries with a cell density above
+800 Wh/kg made for under 300 EUR/kWh with abundant materials, which
+would give us regional electric aircraft. Stable manufacturing
+processes for solid oxide fuel cells that bring the cost under 1500
+EUR/kW_el would relieve the gas turbine crunch and revolutionise
+long-duration storage.
+
+If we [[https://tupress.temple.edu/books/frontiers-of-illusion][keep focused on what allows us to live better]] and harness the
+technology to that end, then the future is bright.
