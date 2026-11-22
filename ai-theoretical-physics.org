@@ -3,6 +3,8 @@
 
 First Posted: 2026.11.22, [[https://github.com/nworbmot/nworbmot-blog][Revision History]], Author: [[https://www.nworbmot.org/][Tom Brown]]
 
+[[https://lnkd.in/p/dCmEz27S][Parallel LinkedIn post]]
+
 As the [[https://leanprover-community.github.io/blog/posts/riemann-hypothesis/][Riemann hypothesis falls]], will theoretical physics be the next
 field to experience AI disruption?  Like mathematics, theoretical
 physics relies more on internal consistency than verification from the
@@ -21,7 +23,7 @@ the preprint server arXiv's theoretical physics category hep-th.
 As a recovering theoretical physicist, I'm mostly excited to see what
 this new tool of discovery brings. I'd be thrilled to read a
 microscopic proof of the [[https://en.wikipedia.org/wiki/AdS/CFT_correspondence][AdS/CFT correspondence]] along the lines
-explored by [[https://arxiv.org/abs/2412.13397][Gopakumar and colleagues]] and [[https://arxiv.org/abs/hep-th/0703282][Berkovits]]. There are several
+explored by [[https://arxiv.org/abs/2412.13397][Gopakumar and colleagues]] or [[https://arxiv.org/abs/hep-th/0703282][Berkovits]]. There are several
 [[https://en.wikipedia.org/wiki/Black_hole_information_paradox][black hole information paradoxes]] to resolve.
 
 The field was already flooded by papers reporting results of the
@@ -32,7 +34,7 @@ and most of us scored poorly:
 
 [[https://snarxiv.org/vs-arxiv/][arXiv or snarXiv?]]
 
-So filtering by personal reputation was already a necessity.
+So filtering by personal reputation has always been a necessity.
 
 For my current field of energy research there are [[https://nworbmot.org/blog/biomass-efficiently.html#changes][very concrete
 problems]] that AI could help solve.
