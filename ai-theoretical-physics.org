@@ -20,7 +20,7 @@ big beasts of the field:
 In 2026 the field has seen a 30% uptick in papers submitted to
 the preprint server arXiv's theoretical physics category hep-th.
 
-As a recovering theoretical physicist, I'm mostly excited to see what
+As a recovering theoretical physicist, I'm excited to see what
 this new tool of discovery brings. I'd be thrilled to read a
 microscopic proof of the [[https://en.wikipedia.org/wiki/AdS/CFT_correspondence][AdS/CFT correspondence]] along the lines
 explored by [[https://arxiv.org/abs/2412.13397][Gopakumar and colleagues]] or [[https://arxiv.org/abs/hep-th/0703282][Berkovits]]. There are several

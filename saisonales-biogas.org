@@ -55,7 +55,7 @@ In einigen Szenarien, auch in unseren [[https://ariadneprojekt.de/publikation/re
 
 Hier ein Beispiel aus den 2024 veröffentlichten [[https://www.agora-energiewende.de/fileadmin/Projekte/2023/2023-30_DE_KNDE_Update/A-EW_349_KNDE_Szenariopfade_WEB.pdf][Agora-Szenarien]]: 20 GW GuD-Kraftwerke mit KWK kommen 2045 auf 2.650 Volllaststunden im Jahr.
 
-[[./graphics/agora-erzeugungstruktur.png]]
+[[./graphics/saisonales-biogas/agora-erzeugungstruktur.png]]
   
 Aber die Gasmotoren in Biogasanlagen haben in der Regel viel niedrigere elektrische Wirkungsgrade als große GuD-Kraftwerke, und stehen oft außerhalb der großen Fernwärmenetze, wo die Wärme am dringendsten in einer Dunkelflaute gebraucht wird.
 
@@ -82,3 +82,68 @@ Ich würde die Förderung von der Stromerzeugung auf die Bereitstellung von nach
 - Keine Biomethanquoten für Gebäudeheizungen: Die Biotreppe und entsprechende Beimischungsquoten im Gebäudemodernisierungsgesetz würde ich durch stärkere Maßnahmen für Wärmepumpen und klimaneutrale Wärmenetze ersetzen. Nachhaltige Biomasse brauchen wir vor allem dort, wo direkte Elektrifizierung kaum möglich ist.
 
 Damit entscheidet der Markt über die Verwendung des Biomethans – innerhalb eines politischen Rahmens, der Elektrifizierung unterstützt und die Versorgung in Engpasszeiten sichert.
+
+* Wie viel Biomethan könnte Deutschland jährlich herstellen?
+  :PROPERTIES:
+  :CUSTOM_ID: volume
+  :END:
+
+Heute wird ungefähr 80 TWh/a Biogas produziert, von denen rund 13 TWh/a zu Biomethan aufbereitet und ins Gasnetz eingespeist wird ([[https://www.dena.de/infocenter/produktion-und-nutzung-von-biomethan-in-deutschland/][dena, 2026]]).
+
+Laut Fachverband Biogas "besteht in Deutschland ein Biogaspotential von 130 TWh von dem 60%
+für eine Aufbereitung zu Biomethan genutzt werden könnte (78 TWh). Zusammen mit dem zusätzlichen Po-
+tential von 72 TWh an synthetischem Methan (Methanisierung von CO2 und H2 aus der Elektrolyse) besteht ein
+nationales Gesamtpotential für Biomethan in Höhe von 150 TWh." ([[https://www.biogas.org/fileadmin/redaktion/dokumente/presse/branchenzahlen/26-03-06_Branchenzahlenreport_2025_final.pdf][Fachverband Biogas, 2026]]).
+
+
+* Sind die heutigen Biogasanlagen in der Nähe des Gasnetzes?
+  :PROPERTIES:
+  :CUSTOM_ID: gasnetz
+  :END:
+
+Die Erschließung von Biogasanlagen ans Gasnetz ist eine wirtschaftliche Frage, die von der Größe und Lage abhängt.
+
+Die Aufbereitung sollte eher auf größerer Skala passieren, und das Biomethan wird dann direkt ins Gasnetz eingespeist. Entweder muss die Biomasse von einem großem Einzugsgebiet eingesammelt werden (die [[https://www.verbio.de/unternehmen/standorte/produktionsstandort-pinnow/][Biogasanlage in Pinnow]] sammelt Stroh von einem Radius von 75 km), oder kleinere Anlagen können für die Aufbereitung in Clustern mit Biogas-Pipelines zusammengeschlossen werden:
+
+#+CAPTION: (Quelle: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/pooling.png]]
+
+Laut einer Studie vom Jahr 2020 können nur 22% der bestehenden Anlagen bis 2030 wirtschaftlich ans Gasnetz angeschlossen werden:
+
+#+CAPTION: 22% biogas (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/22pc_biogas.png]]
+
+#+CAPTION: Paper quote (Source: [[https://doi.org/10.1186/s13705-020-00276-z][Matschoss et al, 2020]])
+[[./graphics/biogas_flex/pressure.png]]
+
+Allerdings ist technisch mit höheren Kosten mehr möglich.
+
+Der Fachverband Biogas schätzt für das künftige Biogaspotential von 130 TWh/a, dass 60%
+für eine Aufbereitung zu Biomethan genutzt werden könnte  ([[https://www.biogas.org/fileadmin/redaktion/dokumente/presse/branchenzahlen/26-03-06_Branchenzahlenreport_2025_final.pdf][Fachverband Biogas, 2026]]).
+
+
+* Was passiert mit den Biogasanlagen weit weg vom Gasnetz oder wenn das Gasnetz zurückgebaut wird?
+  :PROPERTIES:
+  :CUSTOM_ID: ohnegasnetz
+  :END:
+
+Für Anlagen ohne Gasnnetzanschluss kann Flüssigkeiten wir Flüssiggas
+oder Methanol weg transportiert werden. Die Herstellung von Flüssiggas
+wird für Schweden untersucht ([[https://doi.org/10.1080/17597269.2024.2318515][Gustafsson, 2024]]), wo das Gasnetz nur im
+Süden zur Verfügung steht. Methanol kann auch für Anwendungen in der
+Industrie, Schiffs- oder Flugverkehr aus Biogas hergestellt werden
+([[./methanol-faq.html][Brown, 2026]]).
+
+
+* Was kostet nachhaltiges Biomethan?
+  :PROPERTIES:
+  :CUSTOM_ID: kosten
+  :END:
+
+Die Einkaufspreise für nachhaltiges Biomethan aus Abfällen und Reststoffen bewegen sich im Bereich 80-100 EUR/MWh.
+
+Z.B. von [[https://www.dena.de/fileadmin/dena/Publikationen/PDFs/2025/Branchenbarometer_Biomethan_2025_BF.pdf][dena, 2025]]:
+
+[[./graphics/saisonales-biogas/biomethan-preise.png]]
+
+
